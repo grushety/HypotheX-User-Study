@@ -1,0 +1,361 @@
+# Hypothesis Complexity Analysis Results
+
+## 📊 Tool–Task Summary
+
+| task_number | HC_wit | HC_HX |
+|-----------:|------:|------:|
+| 1 | 0.20 | 0.22 |
+| 2 | 0.18 | 0.18 |
+| 3 | 0.21 | 0.23 |
+| 4 | 0.19 | 0.22 |
+
+---
+
+## 📊 Mean per Task
+
+| task_number | HC |
+|-----------:|---:|
+| 1 | 0.21 |
+| 2 | 0.18 |
+| 3 | 0.22 |
+| 4 | 0.21 |
+
+---
+
+## 📊 Mean per Participant
+
+| participant_id | HC_wit | HC_HX |
+|---|---:|---:|
+| P-bcm4tn-12 | – | 0.22 |
+| P-djk2vq-9 | 0.19 | 0.20 |
+| P-ebx8mj-7 | 0.18 | 0.15 |
+| P-hu5tcn-3 | 0.26 | 0.23 |
+| P-kpe1cz-10 | 0.16 | 0.19 |
+| P-mqv4gh-2 | 0.13 | 0.23 |
+| P-pj7twb-5 | 0.26 | 0.18 |
+| P-snt3rw-8 | 0.25 | 0.25 |
+| P-vr9xmd-4 | 0.19 | 0.21 |
+| P-wgr7sa-11 | 0.22 | 0.23 |
+| P-zf6uoq-6 | 0.14 | 0.27 |
+
+---
+
+## 📊 Mean per Tool
+
+| tool_name | HC |
+|---|---:|
+| HypotheX | 0.21 |
+| WhatIf | 0.20 |
+
+---
+
+## 📈 One-way ANOVA per Tool
+
+| Metric Name | F-statistic | Statistical Significance | P-value | P-value Meaning |
+|---|---:|---|---:|---|
+| average_hypothesis_complexity | 1.517073 | no | 0.221763 | no |
+
+---
+
+## 📈 Two-way ANOVA per Tool and Task
+
+| Metric Name | F-statistic | Statistical Significance | P-value | P-value Meaning |
+|---|---:|---|---:|---|
+| average_hypothesis_complexity | 0.201997 | no | 0.894686 | no |
+
+---
+
+## 📈 Two-way ANOVA per Tool and Participant
+
+| Metric Name | F-statistic | Statistical Significance | P-value | P-value Meaning |
+|---|---:|---|---:|---|
+| average_hypothesis_complexity | 2.087488 | yes | 0.039828 | yes |
+
+# Cognitive Strategy & Evidence Metrics
+
+## 📊 Tool–Task Summary
+
+| Task | CII (WIT) | CII (HX) | CSE (WIT) | CSE (HX) | CHAAR (WIT) | CHAAR (HX) | DHAAR (WIT) | DHAAR (HX) | CER (WIT) | CER (HX) |
+|----:|---------:|--------:|---------:|--------:|-----------:|----------:|-----------:|----------:|----------:|---------:|
+| 1 | 0.20 | 0.27 | 0.17 | 0.15 | 0.57 | 0.61 | 0.77 | 0.71 | 0.07 | 0.10 |
+| 2 | 0.21 | 0.33 | 0.19 | 0.00 | 0.61 | 0.55 | 0.73 | 0.67 | 0.01 | 0.08 |
+| 3 | 0.26 | 0.21 | 0.32 | 0.00 | 0.53 | 0.69 | 0.64 | 0.67 | 0.08 | 0.10 |
+| 4 | 0.22 | 0.23 | 0.00 | 0.08 | 0.73 | 0.61 | 0.71 | 0.80 | 0.07 | 0.00 |
+
+---
+
+## 📊 Mean per Participant
+
+| Participant | CII (WIT) | CII (HX) | CSE (WIT) | CSE (HX) | CHAAR (WIT) | CHAAR (HX) | DHAAR (WIT) | DHAAR (HX) | CER (WIT) | CER (HX) |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| P-djk2vq-9 | 0.25 | 0.20 | 0.38 | 0.00 | 0.31 | 0.71 | 0.54 | 0.86 | 0.02 | 0.11 |
+| P-ebx8mj-7 | 0.18 | 0.18 | 0.58 | 0.22 | 0.71 | 0.61 | 0.71 | 0.79 | 0.00 | 0.00 |
+| P-hu5tcn-3 | 0.24 | 0.37 | 0.00 | 0.21 | 0.61 | 0.71 | 0.71 | 0.54 | 0.00 | 0.00 |
+| P-kpe1cz-10 | 0.32 | 0.41 | 0.23 | 0.00 | 0.56 | 0.46 | 0.86 | 0.71 | 0.23 | 0.08 |
+| P-mqv4gh-2 | 0.31 | 0.15 | 0.00 | 0.00 | 0.46 | 0.71 | 0.71 | 0.79 | 0.06 | 0.00 |
+| P-pj7twb-5 | 0.13 | 0.28 | 0.33 | 0.00 | 0.71 | 0.31 | 0.61 | 0.79 | 0.09 | 0.17 |
+| P-snt3rw-8 | 0.24 | 0.22 | 0.18 | 0.00 | 0.61 | 0.81 | 0.71 | 0.71 | 0.00 | 0.12 |
+| P-vr9xmd-4 | 0.18 | 0.24 | 0.00 | 0.00 | 0.71 | 0.61 | 0.79 | 0.71 | 0.06 | 0.00 |
+| P-wgr7sa-11 | 0.15 | 0.34 | 0.00 | 0.00 | 0.81 | 0.61 | 0.79 | 0.48 | 0.08 | 0.28 |
+| P-zf6uoq-6 | 0.24 | 0.24 | 0.00 | 0.16 | 0.61 | 0.61 | 0.71 | 0.71 | 0.00 | 0.00 |
+
+---
+
+## 📊 Mean per Tool
+
+| Tool | CII | CER | CHAAR | DHAAR | CSE |
+|---|---:|---:|---:|---:|---:|
+| HypotheX | 0.26 | 0.07 | 0.61 | 0.71 | 0.06 |
+| WhatIf | 0.22 | 0.06 | 0.61 | 0.71 | 0.17 |
+
+---
+
+## 📈 One-Way ANOVA per Tool
+
+| Metric | F-statistic | Significant | P-value |
+|---|---:|:---:|---:|
+| Contradiction Ignoring Index (CII) | 1.09 | No | 0.299 |
+| Contradictory Evidence Ratio (CER) | 0.17 | No | 0.683 |
+| Confirmed Hypothesis Action Agreement (CHAAR) | 0.01 | No | 0.916 |
+| Disproved Hypothesis Action Agreement (DHAAR) | ~0 | No | 1.000 |
+| Confirmation Strategy Entropy (CSE) | 3.13 | No | 0.081 |
+
+---
+
+## 📈 Two-Way ANOVA (Tool × Task)
+
+| Metric | F-statistic | Significant | P-value |
+|---|---:|:---:|---:|
+| CII | 1.19 | No | 0.320 |
+| CER | 0.69 | No | 0.563 |
+| CHAAR | 1.36 | No | 0.263 |
+| DHAAR | 0.66 | No | 0.578 |
+| CSE | 2.14 | No | 0.103 |
+
+---
+
+## 📈 Two-Way ANOVA (Tool × Participant)
+
+| Metric | F-statistic | Significant | P-value |
+|---|---:|:---:|---:|
+| CII | 0.83 | No | 0.602 |
+| CER | 0.81 | No | 0.616 |
+| CHAAR | **2.09** | **Yes** | **0.0397** |
+| DHAAR | 1.66 | No | 0.111 |
+| CSE | 1.16 | No | 0.335 |
+
+# 📊 Anchoring
+
+---
+
+## 📊 Tool–Task Summary
+
+| Task | MPR (WIT) | MPR (HX) | SubC (WIT) | SubC (HX) | CSE (WIT) | CSE (HX) | MSelE (WIT) | MSelE (HX) | FC (WIT) | FC (HX) | FTB (WIT) | FTB (HX) |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 1 | 0.37 | 0.72 | 0.39 | 0.72 | 0.64 | 0.66 | 0.96 | 0.81 | 0.45 | 0.64 | 2.04 | 1.64 |
+| 2 | 0.30 | 0.70 | 0.38 | 0.64 | 0.36 | 0.46 | 0.76 | 0.86 | 0.54 | 0.70 | 1.05 | 1.08 |
+| 3 | 0.50 | 0.90 | 0.40 | 0.77 | 0.61 | 0.30 | 0.75 | 1.02 | 0.54 | 0.80 | 1.33 | 1.20 |
+| 4 | 0.40 | 0.90 | 0.28 | 0.68 | 0.23 | 0.22 | 0.64 | 0.54 | 0.39 | 0.69 | 1.21 | 1.06 |
+
+---
+
+## 📊 Mean per Participant
+
+| Participant | MPR (WIT) | MPR (HX) | SubC (WIT) | SubC (HX) | CSE (WIT) | CSE (HX) | MSelE (WIT) | MSelE (HX) | FC (WIT) | FC (HX) | FTB (WIT) | FTB (HX) |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| P-bcm4tn-12 | – | 1.00 | – | 0.40 | – | 0.81 | – | 0.83 | – | 0.77 | – | 1.00 |
+| P-djk2vq-9 | 0.00 | 0.75 | 0.20 | 0.56 | 0.50 | 0.45 | 0.59 | 0.66 | 0.21 | 0.55 | 1.19 | 1.32 |
+| P-ebx8mj-7 | 0.05 | 0.94 | 0.37 | 0.97 | 0.41 | 0.00 | 0.68 | 0.95 | 0.33 | 0.89 | 1.51 | 0.96 |
+| P-hu5tcn-3 | 0.25 | 0.50 | 0.30 | 0.52 | 0.95 | 0.86 | 1.08 | 1.03 | 0.59 | 0.75 | 1.44 | 1.26 |
+| P-kpe1cz-10 | 0.75 | 1.00 | 0.60 | 0.95 | 0.16 | 0.44 | 0.35 | 1.06 | 0.65 | 0.86 | 1.35 | 1.36 |
+| P-mqv4gh-2 | 0.25 | 1.00 | 0.31 | 0.95 | 0.20 | 0.62 | 0.48 | 0.79 | 0.38 | 0.96 | 1.21 | 1.30 |
+| P-pj7twb-5 | 0.58 | 0.75 | 0.27 | 0.61 | 0.48 | 0.69 | 1.23 | 0.61 | 0.47 | 0.54 | 1.51 | 1.18 |
+| P-snt3rw-8 | 0.75 | 0.50 | 0.35 | 0.42 | 0.24 | 0.00 | 0.72 | 0.84 | 0.58 | 0.57 | 1.09 | 1.25 |
+| P-vr9xmd-4 | 0.83 | 1.00 | 0.48 | 1.00 | 0.64 | 0.00 | 0.89 | 0.85 | 0.66 | 0.91 | 1.52 | 1.23 |
+| P-wgr7sa-11 | 0.30 | 1.00 | 0.47 | 0.72 | 0.85 | 0.27 | 0.98 | 0.68 | 0.56 | 0.66 | 1.97 | 1.50 |
+| P-zf6uoq-6 | 0.17 | 0.62 | 0.27 | 0.38 | 0.16 | 0.65 | 0.77 | 0.58 | 0.38 | 0.33 | 1.30 | 1.21 |
+
+---
+
+## 📊 Mean per Tool
+
+| Tool | MPR | SubC | CSE | MSelE | FC | FTB |
+|---|---:|---:|---:|---:|---:|---:|
+| HypotheX | 0.81 | 0.70 | 0.41 | 0.81 | 0.71 | 1.24 |
+| WhatIf | 0.39 | 0.36 | 0.46 | 0.78 | 0.48 | 1.41 |
+
+---
+
+## 📈 One-Way ANOVA (Tool Effect)
+
+| Metric | F | p-value | Significant |
+|---|---:|---:|:---:|
+| Class Strategy Entropy | 0.177 | 0.675 | No |
+| Feature Test Balance | 2.108 | 0.151 | No |
+| **Main Profile Reached** | **18.510** | **<0.001** | **Yes** |
+| **Subgroup Coverage** | **36.740** | **<0.001** | **Yes** |
+| Multiclass Selection Entropy | 0.069 | 0.794 | No |
+| **Goal-Class Feature Range Coverage** | **13.860** | **<0.001** | **Yes** |
+
+---
+
+## 📈 Two-Way ANOVA (Tool × Task)
+
+| Metric | F | p-value | Significant |
+|---|---:|---:|:---:|
+| Class Strategy Entropy | 0.649 | 0.586 | No |
+| Feature Test Balance | 0.941 | 0.425 | No |
+| Main Profile Reached | 0.101 | 0.959 | No |
+| Subgroup Coverage | 0.265 | 0.850 | No |
+| Multiclass Selection Entropy | 0.737 | 0.533 | No |
+| Goal-Class Feature Range Coverage | 0.253 | 0.859 | No |
+
+---
+
+## 📈 Two-Way ANOVA (Tool × Participant)
+
+| Metric | F | p-value | Significant |
+|---|---:|---:|:---:|
+| Class Strategy Entropy | 1.518 | 0.156 | No |
+| Feature Test Balance | 0.440 | 0.920 | No |
+| Main Profile Reached | 1.448 | 0.183 | No |
+| Subgroup Coverage | 1.783 | 0.084 | No |
+| Multiclass Selection Entropy | 0.881 | 0.556 | No |
+| Goal-Class Feature Range Coverage | 1.535 | 0.150 | No |
+
+---
+
+### 📝 Notes
+- **HX** = HypotheX, **WIT** = WhatIf
+- Significant results (p < 0.05) indicate **tool-dependent behavioral differences**
+- Strongest tool effects appear for **profile reach** and **coverage metrics**
+
+---
+
+# 📊 Availability Metrics Summary
+
+---
+
+## 📊 Tool–Task Summary
+
+| Task | HC (WIT) | HC (HX) | EEC (WIT) | EEC (HX) | Exploration Complexity (WIT) | Exploration Complexity (HX) | LEC (WIT) | LEC (HX) |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 1 | 0.20 | 0.22 | 0.76 | 0.73 | 10.0 | 5.8 | 0.86 | 0.84 |
+| 2 | 0.18 | 0.18 | 0.78 | 0.66 | 3.8 | 1.3 | 0.89 | 0.80 |
+| 3 | 0.21 | 0.23 | 0.80 | 0.81 | 5.2 | 4.1 | 0.86 | 0.87 |
+| 4 | 0.19 | 0.22 | 0.80 | 0.76 | 4.5 | 1.9 | 0.90 | 0.85 |
+
+---
+
+## 📊 Mean per Participant
+
+| Participant | HC (WIT) | HC (HX) | EEC (WIT) | EEC (HX) | Exploration Complexity (WIT) | Exploration Complexity (HX) | LEC (WIT) | LEC (HX) |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| P-bcm4tn-12 | – | 0.22 | – | 0.76 | – | 1.00 | – | 0.86 |
+| P-djk2vq-9 | 0.19 | 0.20 | 0.63 | 0.88 | 6.00 | 2.00 | 0.93 | 0.90 |
+| P-ebx8mj-7 | 0.18 | 0.15 | 0.76 | 0.82 | 3.75 | 3.00 | 0.86 | 0.89 |
+| P-hu5tcn-3 | 0.26 | 0.23 | 0.76 | 0.63 | 6.75 | 4.25 | 0.86 | 0.68 |
+| P-kpe1cz-10 | 0.16 | 0.19 | 0.92 | 0.63 | 3.50 | 3.50 | 0.89 | 0.71 |
+| P-mqv4gh-2 | 0.13 | 0.23 | 0.76 | 0.82 | 6.50 | 5.50 | 0.86 | 0.93 |
+| P-pj7twb-5 | 0.26 | 0.18 | 0.91 | 0.69 | 6.75 | 3.75 | 0.84 | 0.87 |
+| P-snt3rw-8 | 0.25 | 0.25 | 0.76 | 0.69 | 6.75 | 3.00 | 0.86 | 0.87 |
+| P-vr9xmd-4 | 0.19 | 0.21 | 0.76 | 0.76 | 6.00 | 2.75 | 0.93 | 0.86 |
+| P-wgr7sa-11 | 0.22 | 0.23 | 0.83 | 0.67 | 7.75 | 3.00 | 0.90 | 0.82 |
+| P-zf6uoq-6 | 0.14 | 0.27 | 0.76 | 0.76 | 5.00 | 2.50 | 0.86 | 0.86 |
+
+---
+
+## 📊 Mean per Tool
+
+| Tool | EEC | LEC | HC | Exploration Complexity |
+|---|---:|---:|---:|---:|
+| HypotheX | 0.74 | 0.84 | 0.21 | 3.28 |
+| WhatIf | 0.78 | 0.88 | 0.20 | 5.88 |
+
+---
+
+## 📈 One-Way ANOVA (Tool Effect)
+
+| Metric | F | p-value | Significant |
+|---|---:|---:|:---:|
+| Early Evaluation Consistency (EEC) | 1.451 | 0.232 | No |
+| Late Evaluation Influence (LEC) | 1.443 | 0.233 | No |
+| Average Hypothesis Complexity (HC) | 1.517 | 0.222 | No |
+| **Exploration Complexity** | **16.999** | **< 0.001** | **Yes** |
+
+---
+
+## 📈 Two-Way ANOVA (Tool × Task)
+
+| Metric | F | p-value | Significant |
+|---|---:|---:|:---:|
+| Early Evaluation Consistency (EEC) | 0.526 | 0.666 | No |
+| Late Evaluation Influence (LEC) | 0.354 | 0.786 | No |
+| Average Hypothesis Complexity (HC) | 0.202 | 0.895 | No |
+| Exploration Complexity | 2.266 | 0.088 | No |
+
+---
+
+## 📈 Two-Way ANOVA (Tool × Participant)
+
+| Metric | F | p-value | Significant |
+|---|---:|---:|:---:|
+| Early Evaluation Consistency (EEC) | 1.416 | 0.196 | No |
+| Late Evaluation Influence (LEC) | 0.669 | 0.748 | No |
+| **Average Hypothesis Complexity (HC)** | **2.087** | **0.040** | **Yes** |
+| Exploration Complexity | 0.504 | 0.880 | No |
+
+---
+
+### 📝 Notes
+- **WIT** = WhatIf, **HX** = HypotheX
+- Exploration Complexity shows a **strong tool-level effect**, with WhatIf inducing broader exploration
+- Hypothesis Complexity varies significantly **across participants**, not tasks
+
+---
+# 📊 HSR & IBM_R Summary
+
+---
+
+## 📊 Tool–Task Summary
+
+| Task | HSR (WIT) | HSR (HX) | IBM_R (WIT) | IBM_R (HX) |
+|---:|---:|---:|---:|---:|
+| 1 | 0.49 | 0.64 | 0.60 | 0.79 |
+| 2 | 0.08 | 0.05 | 0.40 | 0.40 |
+| 3 | 0.31 | 0.52 | 0.20 | 0.50 |
+| 4 | 0.49 | 0.25 | 0.40 | 0.30 |
+
+---
+
+## 📊 Mean per Participant
+
+| Participant | HSR (WIT) | HSR (HX) | IBM_R (WIT) | IBM_R (HX) |
+|---|---:|---:|---:|---:|
+| P-bcm4tn-12 | – | 0.00 | – | 0.00 |
+| P-djk2vq-9 | 0.16 | 0.41 | 0.00 | 0.86 |
+| P-ebx8mj-7 | 0.38 | 0.23 | 0.25 | 0.25 |
+| P-hu5tcn-3 | 0.44 | 0.29 | 0.50 | 0.11 |
+| P-kpe1cz-10 | 0.48 | 0.26 | 0.00 | 0.75 |
+| P-mqv4gh-2 | 0.38 | 0.40 | 0.50 | 1.00 |
+| P-pj7twb-5 | 0.37 | 0.28 | 0.50 | 0.25 |
+| P-snt3rw-8 | 0.41 | 0.38 | 1.00 | 0.75 |
+| P-vr9xmd-4 | 0.27 | 0.45 | 0.00 | 0.00 |
+| P-wgr7sa-11 | 0.37 | 0.74 | 0.75 | 0.67 |
+| P-zf6uoq-6 | 0.21 | 0.40 | 0.50 | 0.50 |
+
+---
+
+## 📊 Mean per Tool
+
+| Tool | HSR | IBM_R |
+|---|---:|---:|
+| HypotheX | 0.37 | 0.50 |
+| WhatIf | 0.35 | 0.40 |
+
+---
+
+### 📝 Notes
+- **WIT** = WhatIf, **HX** = HypotheX
+- “–” indicates missing values for that participant/tool.
+---

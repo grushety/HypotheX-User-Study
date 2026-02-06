@@ -1,0 +1,1530 @@
+{
+  "task1": {
+    "hypothex": {
+      "P02": {
+        "importance_order": [
+          "f4",
+          "f1"
+        ],
+        "value_ranges": {
+          "f4": "low",
+          "f1": "low"
+        },
+        "matches_profile": "Low Activity Zarnak",
+        "source_text": "Zarnak should have not very big Box_Collecting and Laser Pointer Chasing, when it was reduced (-10) almost all Bliptors and Quarvians became Zarnak. And the opposite, when they were increased (+10), almost all Zarnak became someone else. So, these values should be less than average to classify Zarnak."
+      },
+      "P03": {
+        "importance_order": [
+          "f5",
+          "f3",
+          "f4"
+        ],
+        "value_ranges": {
+          "f5": "high",
+          "f3": "high",
+          "f4": "low"
+        },
+        "matches_profile": "Balanced Worship + PTP Zarnak",
+        "source_text": "If Tool is 10 (or above), Plant Telepathy is 10 (or above) and Boxes are 5 (or below) it is likely a Z."
+      },
+      "P04": {
+        "importance_order": [
+          "f4",
+          "f1"
+        ],
+        "value_ranges": {
+          "f4": "low-medium",
+          "f1": "low-medium"
+        },
+        "matches_profile": "Low Activity Zarnak",
+        "source_text": "If feature box collecting and feature laser are low (below 10) then it is a Zarnak"
+      },
+      "P05": {
+        "importance_order": [
+          "f5",
+          "f4",
+          "f1"
+        ],
+        "value_ranges": {
+          "f5": "high",
+          "f4": "low",
+          "f1": "low"
+        },
+        "matches_profile": "Tool-Worship Focused Zarnak",
+        "source_text": "Z is likely to spend time on TW, but not too much on BC and LPC (low values)."
+      },
+      "P06": {
+        "importance_order": [
+          "f5",
+          "f2",
+          "f4",
+          "f1",
+          "f3"
+        ],
+        "value_ranges": {
+          "f5": "high",
+          "f2": "medium-high",
+          "f4": "low",
+          "f1": "medium-low",
+          "f3": "medium-low"
+        },
+        "matches_profile": "Tool-Worship + Support Features",
+        "source_text": "T > 10, R > 8, B < 5, L < 7, P < 7"
+      },
+      "P07": {
+        "importance_order": [
+          "f4",
+          "f5",
+          "f1",
+          "f2"
+        ],
+        "value_ranges": {
+          "f4": "low"
+        },
+        "matches_profile": "Weak match only",
+        "source_text": "TV not important for Z, LP not important, RS not, BC important, low"
+      },
+      "P08": {
+        "importance_order": [
+          "f5",
+          "f4"
+        ],
+        "value_ranges": {
+          "f5": "high",
+          "f4": "low"
+        },
+        "matches_profile": "Tool-Worship Focused Zarnak",
+        "source_text": "If TB feature is high and BC is low , it is likely a Z."
+      },
+      "P09": {
+        "importance_order": [
+          "f5",
+          "f3"
+        ],
+        "value_ranges": {
+          "f5": "high",
+          "f3": "high"
+        },
+        "matches_profile": "Balanced Worship + PTP Zarnak",
+        "source_text": "If TB is above 10 (or high) and  PTB is above 10 (or high), it is likely a Zarnack."
+      },
+      "P10": {
+        "importance_order": [
+          "f4",
+          "f1",
+          "f5"
+        ],
+        "value_ranges": {
+          "f4": "low",
+          "f1": "medium-low",
+          "f5": "high"
+        },
+        "matches_profile": "Tool-Worship Focused Zarnak",
+        "source_text": "The most important feature for Z is BC (low range - from 0 to ca. 5). The second most important feature for Z is LPC (wide range - from 0 to 10). Increasing TW values change Q to Z, thus it is important feature for Z. All the others have little impact."
+      },
+      "P11": {
+        "importance_order": [
+          "f4",
+          "f5"
+        ],
+        "value_ranges": {
+          "f4": "low",
+          "f5": "high"
+        },
+        "matches_profile": "Tool-Worship Focused Zarnak",
+        "source_text": "low box coll < 6 , high tool worship > 7"
+      }
+    },
+    "whatif": {
+      "P02": {
+        "source_text": "The duck  runs a lot, does not garden a lot, swims a lot, the art increases the chance to be a duck; the detectives stories increase the chances to be a duck but is not crucial;",
+        "importance_order": [
+          "f1",
+          "f5",
+          "f2",
+          "f3",
+          "f4"
+        ],
+        "value_ranges": {
+          "f1": "high",
+          "f5": "low",
+          "f2": "high",
+          "f3": "high",
+          "f4": "high"
+        },
+        "matching_profile": "Creative Aquatic Duck"
+      },
+      "P03": {
+        "source_text": "If swimming is 5 (or higher), running is 6 (or higher) and gardening is 5 (or below), it is likely a duck.",
+        "importance_order": [
+          "f2",
+          "f1",
+          "f5"
+        ],
+        "value_ranges": {
+          "f2": "medium-high",
+          "f1": "medium-high",
+          "f5": "low"
+        },
+        "matching_profile": "Aquatic Nature Duck"
+      },
+      "P04": {
+        "source_text": "X ART - Y SWIMMING 1. katze wird nicht zu Ente nur durch schwimmen, auch der Art-level muss niedrig sein x art - y running: Punkt Ente, niedriger art + hoher running -> Hund, hohe art + hoher running -> Ente, auch bei hohe art, niedrig running -> Ente x swimming - y running: Punkt Ente, schwimmen niedrig -> Katze, aber auch andere Parameter im Vergleich wichtig x swimming - y detective: wert detektive nicht so wichtig x swimming - y gardening: heres gardening -> hund Fazit : Ente: sehr Schwimmen, kein Gardening, mittel Laufen, Art eher niedrig, Detektive unwichtig Klassifizierung",
+        "importance_order": [
+          "f2",
+          "f5",
+          "f1",
+          "f3",
+          "f4"
+        ],
+        "value_ranges": {
+          "f2": "high",
+          "f5": "low",
+          "f1": "medium",
+          "f3": "low"
+        },
+        "matching_profile": "Creative Aquatic Duck"
+      },
+      "P05": {
+        "source_text": "classes swim&detecive (high values = duck) and gardening (low values=duck)  have a high impact on classification. changes in running and art does not necesserily change class.",
+        "importance_order": [
+          "f2",
+          "f4",
+          "f5"
+        ],
+        "value_ranges": {
+          "f2": "high",
+          "f4": "high",
+          "f5": "low"
+        },
+        "matching_profile": "Creative Aquatic Duck"
+      },
+      "P06": {
+        "source_text": "Swimming (7-9) + Running (6-8)+ Detective (above 12)",
+        "importance_order": [
+          "f2",
+          "f1",
+          "f4"
+        ],
+        "value_ranges": {
+          "f2": "medium",
+          "f1": "medium",
+          "f4": "high"
+        },
+        "matching_profile": "Creative Aquatic Duck"
+      },
+      "P07": {
+        "source_text": "a, r was low important, s was high(import), high(VALUE), D, G, high, mid,",
+        "importance_order": [
+          "f2",
+          "f4",
+          "f5",
+          "f3",
+          "f1"
+        ],
+        "value_ranges": {
+          "f2": "high",
+          "f4": "high",
+          "f5": "medium"
+        },
+        "matching_profile": "Creative Aquatic Duck"
+      },
+      "P08": {
+        "source_text": "If Swimming is above 10 or higher and Running is above 5, it is likely a Duck.",
+        "importance_order": [
+          "f2",
+          "f1"
+        ],
+        "value_ranges": {
+          "f2": "high",
+          "f1": "medium-high"
+        },
+        "matching_profile": "Aquatic Nature Duck"
+      },
+      "P09": {
+        "source_text": "ducks and dogs like swimming and running, but ducks don't like gardening.",
+        "importance_order": [
+          "f2",
+          "f1",
+          "f5"
+        ],
+        "value_ranges": {
+          "f2": "high",
+          "f1": "high",
+          "f5": "low"
+        },
+        "matching_profile": "Aquatic Nature Duck"
+      },
+      "P10": {
+        "source_text": "Gardening is the most important feature, but it needs to be middle for Duck. R is the second most important feature, it needs to be middle for Duck. A does not matter, if it is high or middle. Only low values of this feature turn Duck to Dog. Swimming decreasing values turn Duck to Cat, it must be middle or high. The same importance as an A. Detective Stories has the lowest impact, its values does not change Duck to another animal.",
+        "importance_order": [
+          "f5",
+          "f1",
+          "f3",
+          "f2",
+          "f4"
+        ],
+        "value_ranges": {
+          "f5": "medium",
+          "f1": "medium",
+          "f3": "medium",
+          "f2": "medium-high"
+        },
+        "matching_profile": "Logical Low-Activity Duck"
+      },
+      "p11": {
+        "source_text": "high swimming combined with high running. quite low gardening. other variables not significant",
+        "importance_order": [
+          "f2",
+          "f1",
+          "f5"
+        ],
+        "value_ranges": {
+          "f2": "high",
+          "f1": "high",
+          "f5": "low"
+        },
+        "matches_profile": "Aquatic Nature Duck"
+      }
+    }
+  },
+  "task2": {
+    "whatif": {
+      "P02": {
+        "hypothesis_validation": false,
+        "evidence_base": {
+          "tested_multiple_classes": false,
+          "tried_disconfirming_cases": true,
+          "working_combination_found": false
+        },
+        "source_text": "I don't think Detective stories affect the classification as a cat because increasing it will not change score a lot, and decreasing it will still not affect the score/classification too much.",
+        "hypothesis_validation_labels": [
+          "refutes_hypothesis"
+        ]
+      },
+      "P03": {
+        "hypothesis_validation": false,
+        "evidence_base": {
+          "tested_multiple_classes": true,
+          "tried_disconfirming_cases": false,
+          "working_combination_found": false
+        },
+        "source_text": "No, Detective Stories seems to have only very little importance for the model to determine if it is a cat. I tested how the inference score changes if I change the value of Detective stories for different labels.",
+        "hypothesis_validation_labels": [
+          "refutes_hypothesis",
+          "weak_influence"
+        ]
+      },
+      "P04": {
+        "hypothesis_validation": false,
+        "evidence_base": {
+          "tested_multiple_classes": false,
+          "tried_disconfirming_cases": false,
+          "working_combination_found": false
+        },
+        "source_text": "Die Hypothese ist falsch, andere Werte fur Detektive Stories hatte keinen Effekt gegen Gardening aufgetragen",
+        "hypothesis_validation_labels": [
+          "refutes_hypothesis",
+          "no_effect"
+        ]
+      },
+      "P05": {
+        "hypothesis_validation": false,
+        "evidence_base": {
+          "tested_multiple_classes": true,
+          "tried_disconfirming_cases": true,
+          "working_combination_found": false
+        },
+        "source_text": "refuse. if i change other classes (duck & dog) detective values higher they won't switch to a cat.",
+        "hypothesis_validation_labels": [
+          "refutes_hypothesis"
+        ]
+      },
+      "P06": {
+        "hypothesis_validation": false,
+        "evidence_base": {
+          "tested_multiple_classes": false,
+          "tried_disconfirming_cases": false,
+          "working_combination_found": false
+        },
+        "source_text": "No, if detective stories is high, it could be a cat but not always",
+        "hypothesis_validation_labels": [
+          "refutes_hypothesis",
+          "ambiguous"
+        ]
+      },
+      "P07": {
+        "hypothesis_validation": false,
+        "evidence_base": {
+          "tested_multiple_classes": false,
+          "tried_disconfirming_cases": true,
+          "working_combination_found": false
+        },
+        "source_text": "D, low, reason, changing the value of D did not affect the prediction.",
+        "hypothesis_validation_labels": [
+          "weak_influence"
+        ]
+      },
+      "P08": {
+        "hypothesis_validation": false,
+        "evidence_base": {
+          "tested_multiple_classes": false,
+          "tried_disconfirming_cases": false,
+          "working_combination_found": false
+        },
+        "source_text": "Hypothesis is not hold",
+        "hypothesis_validation_labels": [
+          "refutes_hypothesis"
+        ]
+      },
+      "P09": {
+        "hypothesis_validation": false,
+        "evidence_base": {
+          "tested_multiple_classes": false,
+          "tried_disconfirming_cases": false,
+          "working_combination_found": false
+        },
+        "source_text": "there is a preference for cats to be interested in detective stories. So the proof is negative, as it must not be a cat.",
+        "hypothesis_validation_labels": [
+          "refutes_hypothesis",
+          "weak_influence"
+        ]
+      },
+      "P10": {
+        "hypothesis_validation": false,
+        "evidence_base": {
+          "tested_multiple_classes": true,
+          "tried_disconfirming_cases": false,
+          "working_combination_found": true
+        },
+        "source_text": "DS does not have big impact on defining an object as a cat, because its change does not lead to object class change (only if testing together with S - if S is high and DS low, it must be Duck).",
+        "hypothesis_validation_labels": [
+          "refutes_hypothesis",
+          "weak_influence",
+          "works_in_combination"
+        ]
+      },
+      "P11": {
+        "hypothesis_validation": false,
+        "evidence_base": {
+          "tested_multiple_classes": true,
+          "tried_disconfirming_cases": false,
+          "working_combination_found": true
+        },
+        "source_text": "hypotheses does not hold. low R and S are more significant in determining a cat",
+        "hypothesis_validation_labels": [
+          "refutes_hypothesis",
+          "weak_influence"
+        ]
+      }
+    },
+    "hypothex": {
+      "P02": {
+        "hypothesis_validation": false,
+        "evidence_base": {
+          "tested_multiple_classes": true,
+          "tried_disconfirming_cases": true,
+          "working_combination_found": false
+        },
+        "source_text": "No, even with low Laser Pointer Chasing the Bpiptors remain the same. Also, when this feature is high for Quorvian and Zarnak, they will also mostly remain the same.",
+        "hypothesis_validation_labels": [
+          "refutes_hypothesis",
+          "no_effect"
+        ]
+      },
+      "P03": {
+        "hypothesis_validation": false,
+        "evidence_base": {
+          "tested_multiple_classes": true,
+          "tried_disconfirming_cases": true,
+          "working_combination_found": false
+        },
+        "source_text": "No, because changing lower values of LPC to higher does not increase the likelihood of being Bliptor it rather seems that it is more a feature of Q.. Also if I simualte data with 11-14 LPC and the other feature 0-14 it is roughly 50:50 B. and Q,",
+        "hypothesis_validation_labels": [
+          "refutes_hypothesis",
+          "no_effect"
+        ]
+      },
+      "P04": {
+        "hypothesis_validation": false,
+        "evidence_base": {
+          "tested_multiple_classes": true,
+          "tried_disconfirming_cases": false,
+          "working_combination_found": false
+        },
+        "source_text": "Auch bei sehr niedriegen laserpointer werten bleiben es Bliptor",
+        "hypothesis_validation_labels": [
+          "ambiguous"
+        ]
+      },
+      "P05": {
+        "hypothesis_validation": true,
+        "evidence_base": {
+          "tested_multiple_classes": false,
+          "tried_disconfirming_cases": true,
+          "working_combination_found": true
+        },
+        "source_text": "hypotheses is partially approved. only high LPC is not enough.LPC and TW should be high.",
+        "hypothesis_validation_labels": [
+          "refutes_hypothesis",
+          "works_in_combination",
+          "weak_influence"
+        ]
+      },
+      "P06": {
+        "hypothesis_validation": false,
+        "evidence_base": {
+          "tested_multiple_classes": true,
+          "tried_disconfirming_cases": true,
+          "working_combination_found": false
+        },
+        "source_text": "No, higher L does not mean B. Changing values of Z to high L shift the class to Q not B",
+        "hypothesis_validation_labels": [
+          "refutes_hypothesis"
+        ]
+      },
+      "P07": {
+        "hypothesis_validation": false,
+        "evidence_base": {
+          "tested_multiple_classes": false,
+          "tried_disconfirming_cases": false,
+          "working_combination_found": false
+        },
+        "source_text": "no, midd to high",
+        "hypothesis_validation_labels": [
+          "refutes_hypothesis"
+        ]
+      },
+      "P08": {
+        "hypothesis_validation": false,
+        "evidence_base": {
+          "tested_multiple_classes": false,
+          "tried_disconfirming_cases": true,
+          "working_combination_found": false
+        },
+        "source_text": "False, as we increased the LP values from other races, they have not changed to B.",
+        "hypothesis_validation_labels": [
+          "refutes_hypothesis",
+          "no_effect"
+        ]
+      },
+      "P09": {
+        "hypothesis_validation": false,
+        "evidence_base": {
+          "tested_multiple_classes": false,
+          "tried_disconfirming_cases": false,
+          "working_combination_found": false
+        },
+        "source_text": "No",
+        "hypothesis_validation_labels": [
+          "refutes_hypothesis"
+        ]
+      },
+      "P10": {
+        "hypothesis_validation": false,
+        "evidence_base": {
+          "tested_multiple_classes": true,
+          "tried_disconfirming_cases": true,
+          "working_combination_found": false
+        },
+        "source_text": "The hypothesis is not correct, decreasing LPC value for B does not have any impact on selection. Also it mostly does not change Z and Q to B, if we increase LPC.",
+        "hypothesis_validation_labels": [
+          "refutes_hypothesis",
+          "no_effect"
+        ]
+      },
+      "P11": {
+        "hypothesis_validation": false,
+        "evidence_base": {
+          "tested_multiple_classes": true,
+          "tried_disconfirming_cases": false,
+          "working_combination_found": false
+        },
+        "source_text": "I thought so as well. Changing the values on border groups and manipulating values at high levels of LPC did not have an effect on model predictions. Hypothesis rejected.",
+        "hypothesis_validation_labels": [
+          "refutes_hypothesis",
+          "no_effect"
+        ]
+      }
+    }
+  },
+  "task3": {
+    "whatif": {
+      "P02": {
+        "hypothesis": "Dogs run a lot, if not - it is Cat or Duck. Result: No, even if the dog does not run a lot, it is still predicted as a dog. And if the Cat or Duck runs a lot, they still are predicted as they are. Conclusion: the Run is not crucial to classify whether it is dog or not.",
+        "hypothesis_property": {
+          "number_of_features": 1,
+          "number_of_boundary_values": 0,
+          "number_of_ranges_involved": 1,
+          "number_of_classes": 3
+        },
+        "hypothesis_validation_based_on_ground_true": {
+          "value": "partially_disproved",
+          "comments": "The hypothesis is weakly disproved. Running is indeed supportive for Dog classification, but not sufficient on its own — Dogs can still be classified correctly even with lower Running. For Cats, low Running is actually a strong indicator, but the participant overlooks its discriminative power."
+        },
+        "hypothesis_evaluation_by_participant": {
+          "value": "disproved",
+          "evidence_base": {
+            "tested_multiple_classes": true,
+            "tried_disconfirming_cases": true
+          }
+        },
+        "source_text": "Dogs run a lot, but it is not the sole feature to classify whether it is a Dog. Even if the Cat or Duck runs a lot, they are predicted as their respective class."
+      },
+      "P03": {
+        "hypothesis": "If Art is 6 (or below) and Gardening is 10 (or higher), it must be a dog.",
+        "hypothesis_property": {
+          "number_of_features": 2,
+          "number_of_boundary_values": 2,
+          "number_of_ranges_involved": 0,
+          "number_of_classes": 1
+        },
+        "hypothesis_validation_based_on_ground_true": {
+          "value": "weakly_confirmed",
+          "comments": "The hypothesis is weakly confirmed. High Gardening and low Art is a well-established pattern for Dogs in the model, particularly matching the 'Outdoor/Nature Dog' subgroup. While the phrasing implies a hard rule, this combination is highly predictive for Dog classification."
+        },
+        "hypothesis_evaluation_by_participant": {
+          "value": "weakly_confirmed",
+          "evidence_base": {
+            "tested_multiple_classes": true,
+            "tried_disconfirming_cases": true
+          }
+        },
+        "source_text": "If Art is 6 (or below) and Gardening is 10 (or higher), it must be a dog. The hypothesis is likely but the swimming value of medium-high would be necessary to separate edge cases from cats and ducks. Low Art values seem more important than high gardening for Dog prediction. I tested the lower and upper boundaries."
+      },
+      "P04": {
+        "hypothesis": "Niederiger Art-Wert ist ein Hund",
+        "hypothesis_property": {
+          "number_of_features": 1,
+          "number_of_boundary_values": 0,
+          "number_of_ranges_involved": 1,
+          "number_of_classes": 1
+        },
+        "hypothesis_validation_based_on_ground_true": {
+          "value": "weakly_disproved",
+          "comments": "The hypothesis partially holds: low Art values increase the probability of Dog classification. However, Art alone is not sufficient — other features like Gardening and Running are also needed. The hypothesis lacks multi-class comparison and overstates the predictive power of a single feature."
+        },
+        "hypothesis_evaluation_by_participant": {
+          "value": "confirmed",
+          "evidence_base": {
+            "tested_multiple_classes": false,
+            "tried_disconfirming_cases": false
+          }
+        },
+        "source_text": "Niederiger Art-Wert ist ein Hund, bestätigt (bei art gegen running)"
+      },
+      "P05": {
+        "hypothesis": "Dogs don't like art. --> low values.",
+        "hypothesis_property": {
+          "number_of_features": 1,
+          "number_of_boundary_values": 0,
+          "number_of_ranges_involved": 1,
+          "number_of_classes": 1
+        },
+        "hypothesis_validation_based_on_ground_true": {
+          "value": "weakly_confirmed",
+          "comments": "This hypothesis is true. Low Art favors Dogs but is not sufficient alone."
+        },
+        "hypothesis_evaluation_by_participant": {
+          "value": "weakly_confirmed",
+          "evidence_base": {
+            "tested_multiple_classes": false,
+            "tried_disconfirming_cases": false
+          }
+        },
+        "source_text": "Dogs don't like Art. Low Art values favor Dog classification, but it alone is not sufficient to make a dog class. The dog class depends on other hobby values."
+      },
+      "P06": {
+        "hypothesis": "R(>10) + D(>10) => dog",
+        "hypothesis_property": {
+          "number_of_features": 2,
+          "number_of_boundary_values": 2,
+          "number_of_ranges_involved": 0,
+          "number_of_classes": 1
+        },
+        "hypothesis_validation_based_on_ground_true": {
+          "value": "weakly_disproved",
+          "comments": "Since high Detective Stories suppress Dog prediction, the hypothesis was disproved accurately."
+        },
+        "hypothesis_evaluation_by_participant": {
+          "value": "disproved",
+          "evidence_base": {
+            "tested_multiple_classes": false,
+            "tried_disconfirming_cases": false
+          }
+        },
+        "source_text": "Hypo - R(>10) + D(>10) became wrong. Increasing D of a duck with >10 R did not work."
+      },
+      "P07": {
+        "hypothesis": "G high for Dog.",
+        "hypothesis_property": {
+          "number_of_features": 1,
+          "number_of_boundary_values": 0,
+          "number_of_ranges_involved": 1,
+          "number_of_classes": 1
+        },
+        "hypothesis_validation_based_on_ground_true": {
+          "value": "weakly_confirmed",
+          "comments": "The hypothesis aligns with the core Dog profile. High Gardening is one of the most reliable indicators for Dog classification. Still, it could be not enough if there is a suppressor like Art or Detective Stories."
+        },
+        "hypothesis_evaluation_by_participant": {
+          "value": "confirmed",
+          "evidence_base": {
+            "tested_multiple_classes": false,
+            "tried_disconfirming_cases": false
+          }
+        },
+        "source_text": "G high for Dog, test: correct"
+      },
+      "P08": {
+        "hypothesis": "If Feature G and R are high, most likely it is a Dog.",
+        "hypothesis_property": {
+          "number_of_features": 2,
+          "number_of_boundary_values": 0,
+          "number_of_ranges_involved": 2,
+          "number_of_classes": 1
+        },
+        "hypothesis_validation_based_on_ground_true": {
+          "value": "weakly_confirmed",
+          "comments": "The hypothesis aligns with the core Dog profile. High Gardening and Running together are reliable indicators for Dog classification, especially in the Athletic/Outdoor subgroup. Still, it could not be enough if there is a suppressor like Art or Detective Stories."
+        },
+        "hypothesis_evaluation_by_participant": {
+          "value": "disproved",
+          "evidence_base": {
+            "tested_multiple_classes": false,
+            "tried_disconfirming_cases": false
+          }
+        },
+        "source_text": "If Feature G and R are high, most likely it is a Dog. The hypothesis doesn't hold!!"
+      },
+      "P09": {
+        "hypothesis": "Dogs like running and swimming. Yes",
+        "hypothesis_property": {
+          "number_of_features": 2,
+          "number_of_boundary_values": 0,
+          "number_of_ranges_involved": 2,
+          "number_of_classes": 1
+        },
+        "hypothesis_validation_based_on_ground_true": {
+          "value": "weakly_confirmed",
+          "comments": "The statement is broadly accurate: Dogs are associated with moderate-to-high Running and Swimming. However, the hypothesis lacks specificity or testing — no value thresholds, no counterexamples, and no indication of predictive strength."
+        },
+        "hypothesis_evaluation_by_participant": {
+          "value": "weakly_confirmed",
+          "evidence_base": {
+            "tested_multiple_classes": false,
+            "tried_disconfirming_cases": false
+          }
+        },
+        "source_text": "Dogs like running and swimming. Yes"
+      },
+      "P10": {
+        "hypothesis": "If R is high and A is low, it must be a dog.",
+        "hypothesis_property": {
+          "number_of_features": 2,
+          "number_of_boundary_values": 2,
+          "number_of_ranges_involved": 2,
+          "number_of_classes": 1
+        },
+        "hypothesis_validation_based_on_ground_true": {
+          "value": "weakly_confirmed",
+          "comments": "High Running and low Art together are strong indicators for Dog classification. The hypothesis aligns with this pattern, though the phrase 'must be a Dog' is slightly overconfident (that is why weakly confirmed). The structure and direction of the features are both correct."
+        },
+        "hypothesis_evaluation_by_participant": {
+          "value": "confirmed",
+          "evidence_base": {
+            "tested_multiple_classes": true,
+            "tried_disconfirming_cases": false
+          }
+        },
+        "source_text": "If R is high and A is low, it must be a dog. True."
+      },
+      "P11": {
+        "hypothesis": "low art and high detective suggest this is a dog",
+        "hypothesis_property": {
+          "number_of_features": 2,
+          "number_of_boundary_values": 2,
+          "number_of_ranges_involved": 2,
+          "number_of_classes": 1
+        },
+        "hypothesis_validation_based_on_ground_true": {
+          "value": "weakly_disproved",
+          "comments": "Low Art is a reliable positive signal for Dog, but high Detective Stories is not a stable Dog indicator and can even suppress Dog prediction depending on the other hobbies (often shifting cases toward Duck/Cat). So the hypothesis is weakly disproved: the direction for Art is correct, while the Detective part is context-dependent and not sufficient on its own."
+        },
+        "hypothesis_evaluation_by_participant": {
+          "value": "weakly_confirmed",
+          "evidence_base": {
+            "tested_multiple_classes": true,
+            "tried_disconfirming_cases": false
+          }
+        },
+        "source_text": "hypotheses: low art and high detective suggest this is a dog. hypotheses is initially confirmed by observing the mixed cases. low art interest is important to distinguish dogs from ducks"
+      }
+    },
+    "hypothex": {
+      "P02": {
+        "hypothesis": "Quorvians have average values in hobbies. ",
+        "hypothesis_property": {
+          "number_of_features": 4,
+          "number_of_boundary_values": 0,
+          "number_of_ranges_involved": 4,
+          "number_of_classes": 1
+        },
+        "hypothesis_validation_based_on_ground_true": {
+          "value": "weakly_approved",
+          "comments": "While broad, this hypothesis reflects the true structure: Quorvians tend to have moderate values across several features. It is conceptually valid, but it is just an exploration result and cannot reflect the importance or feature ranges of any of these features."
+        },
+        "hypothesis_evaluation_by_participant": {
+          "value": "weakly_approved",
+          "evidence_base": {
+            "tested_multiple_classes": false,
+            "tried_disconfirming_cases": false
+          }
+        },
+        "source_text": "Quorvians have average values in hobbies, I will try to make more edge values for hobbies to observe if it affects. Tool Worship affects the most the definition of Quorvans."
+      },
+      "P03": {
+        "hypothesis": "If box collecting is medium (5-10) and Laser Pointer Chasing high (9-14), it is a Quorvian.",
+        "hypothesis_property": {
+          "number_of_features": 2,
+          "number_of_boundary_values": 2,
+          "number_of_ranges_involved": 0,
+          "number_of_classes": 1
+        },
+        "hypothesis_validation_based_on_ground_true": {
+          "value": "disproved",
+          "comments": "Box Collecting range is fine, but high Laser Pointer Chasing (>9) typically reduces Quorvian probability. The feature combination does not align with the ground truth."
+        },
+        "hypothesis_evaluation_by_participant": {
+          "value": "disproved",
+          "evidence_base": {
+            "tested_multiple_classes": true,
+            "tried_disconfirming_cases": true
+          }
+        },
+        "source_text": "If box collecting is medium (5-10) and Laser Pointer Chasing high (9-14), it is a Quorvian. Disproven as simulation does give again 50:50 between Quorvian and Bliptor."
+      },
+      "P04": {
+        "hypothesis": "TW and BC in middle range => Q.",
+        "hypothesis_property": {
+          "number_of_features": 2,
+          "number_of_boundary_values": 0,
+          "number_of_ranges_involved": 2,
+          "number_of_classes": 1
+        },
+        "hypothesis_validation_based_on_ground_true": {
+          "value": "weakly_confirmed",
+          "comments": "Moderate values of Tool Worship and Box Collecting are characteristic of Quorvians. This hypothesis aligns well with the decision profile. But this combination not always enough to be classified as Quorvian"
+        },
+        "hypothesis_evaluation_by_participant": {
+          "value": "weakly_confirmed",
+          "evidence_base": {
+            "tested_multiple_classes": true,
+            "tried_disconfirming_cases": true
+          }
+        },
+        "source_text": "TW and BC in middle range => Quorvian. Ich habe eine Brush-auswahl im Mittelbereich von Tool gemacht und die Werte nach unten und oben geändert -> Typ hat sich geändert. Nun Brush-auswahl im Mittelbereich von Box gemacht und die Werte nach unten geändert -> Typ hat sich geändert, nach oben geändert -> nicht so eindeutig. Hypothese eingeschränkt gültig."
+      },
+      "P05": {
+        "hypothesis": "BC and TW are ranging between 3 to 10 --> medium values. ",
+        "hypothesis_property": {
+          "number_of_features": 2,
+          "number_of_boundary_values": 0,
+          "number_of_ranges_involved": 2,
+          "number_of_classes": 1
+        },
+        "hypothesis_validation_based_on_ground_true": {
+          "value": "weakly_confirmed",
+          "comments": "The general range overlaps with Quorvian regions, but the lower and upper bounds include values more typical of Zarnak. This makes the statement partially true but overgeneralized."
+        },
+        "hypothesis_evaluation_by_participant": {
+          "value": "weakly_confirmed",
+          "evidence_base": {
+            "tested_multiple_classes": false,
+            "tried_disconfirming_cases": false
+          }
+        },
+        "source_text": "BC and TW are ranging between 3 to 10 --> medium values. Hypothesis holds but not completely. It is influenced by other hobby values."
+      },
+      "P06": {
+        "hypothesis": "T (5-10), B(5-10)",
+        "hypothesis_property": {
+          "number_of_features": 2,
+          "number_of_boundary_values": 0,
+          "number_of_ranges_involved": 2,
+          "number_of_classes": 1
+        },
+        "hypothesis_validation_based_on_ground_true": {
+          "value": "weakly_confirmed",
+          "comments": "Tool Worship and Box Collecting in the 5–10 range is one of the strongest signals for Quorvian classification. This hypothesis aligns precisely with the model logic. But this combination not always enough to be classified as Quorvian."
+        },
+        "hypothesis_evaluation_by_participant": {
+          "value": "confirmed",
+          "evidence_base": {
+            "tested_multiple_classes": true,
+            "tried_disconfirming_cases": false
+          }
+        },
+        "source_text": "T (5-10), B(5-10) - True. When changed T of Zarnak having B in the range to moderate, Z changed to Q; while changing Z with moderate T in the range to Moderate, same."
+      },
+      "P07": {
+        "hypothesis": "Mid BC not important.",
+        "hypothesis_property": {
+          "number_of_features": 1,
+          "number_of_boundary_values": 0,
+          "number_of_ranges_involved": 1,
+          "number_of_classes": 1
+        },
+        "hypothesis_validation_based_on_ground_true": {
+          "value": "disproved",
+          "comments": "Mid-range Box Collecting is a one of important feature for Quorvian classification."
+        },
+        "hypothesis_evaluation_by_participant": {
+          "value": "disproved",
+          "evidence_base": {
+            "tested_multiple_classes": true,
+            "tried_disconfirming_cases": false
+          }
+        },
+        "source_text": "Mid BC not important, false, moved low to high values."
+      },
+      "P08": {
+        "hypothesis": "If TW and BC are in range of 5 to 10, it is Q.",
+        "hypothesis_property": {
+          "number_of_features": 2,
+          "number_of_boundary_values": 0,
+          "number_of_ranges_involved": 2,
+          "number_of_classes": 1
+        },
+        "hypothesis_validation_based_on_ground_true": {
+          "value": "weakly_confirmed",
+          "comments": "Tool Worship and Box Collecting in the 5–10 range is one of the strongest signals for Quorvian classification. This hypothesis aligns precisely with the model logic. But this combination not always enough to be classified as Quorvian"
+        },
+        "hypothesis_evaluation_by_participant": {
+          "value": "confirmed",
+          "evidence_base": {
+            "tested_multiple_classes": true,
+            "tried_disconfirming_cases": false
+          }
+        },
+        "source_text": "If TW and BC are in range of 5 to 10, it is Q. Hypothesis is True."
+      },
+      "P09": {
+        "hypothesis": "Box collecting might be medium and TWS medium value is of importance.",
+        "hypothesis_property": {
+          "number_of_features": 2,
+          "number_of_boundary_values": 0,
+          "number_of_ranges_involved": 2,
+          "number_of_classes": 1
+        },
+        "hypothesis_validation_based_on_ground_true": {
+          "value": "confirmed",
+          "comments": "Although soft in phrasing, the statement is correct: medium values of Box Collecting and Tool Worship are predictive of Quorvian. More precise formulation would improve clarity."
+        },
+        "hypothesis_evaluation_by_participant": {
+          "value": "confirmed",
+          "evidence_base": {
+            "tested_multiple_classes": false,
+            "tried_disconfirming_cases": false
+          }
+        },
+        "source_text": "Box collecting might be medium and TWS medium value is of importance."
+      },
+      "P10": {
+        "hypothesis": "Middle values of TW have big impact on being Q. True. When we change values of TW to low or to high, Q almost always changes to another alien.",
+        "hypothesis_property": {
+          "number_of_features": 1,
+          "number_of_boundary_values": 0,
+          "number_of_ranges_involved": 1,
+          "number_of_classes": 1
+        },
+        "hypothesis_validation_based_on_ground_true": {
+          "value": "weakly_confirmed",
+          "comments": "Tool Worship in the mid-range (5–9) is indeed an important predictor for Quorvians. But in most cases, it is not as important as Box Collecting and Plant Telepathy Practice."
+        },
+        "hypothesis_evaluation_by_participant": {
+          "value": "confirmed",
+          "evidence_base": {
+            "tested_multiple_classes": true,
+            "tried_disconfirming_cases": false
+          }
+        },
+        "source_text": "Middle values of TW have big impact on being Q. True. When we change values of TW to low or to high, Q almost always changes to another alien."
+      },
+      "P11": {
+        "hypothesis": "Quorvians have median values (5–10) for Tool Worship and Box Collecting.",
+        "hypothesis_property": {
+          "number_of_features": 2,
+          "number_of_boundary_values": 2,
+          "number_of_ranges_involved": 2,
+          "number_of_classes": 1
+        },
+        "hypothesis_validation_based_on_ground_true": {
+          "value": "weakly_confirmed",
+          "comments": "The hypothesis captures an important part of the Quorvian profile: medium Tool Worship is a strong indicator. However, the correction is valid—Box Collecting does not need to be strictly median and can also be high without excluding Quorvian classification. Thus, the original statement was slightly too restrictive but directionally correct."
+        },
+        "hypothesis_evaluation_by_participant": {
+          "value": "weakly_confirmed",
+          "evidence_base": {
+            "tested_multiple_classes": true,
+            "tried_disconfirming_cases": true
+          }
+        },
+        "source_text": "Qs have median values (5-10) for tool w and box c. after testing a correction is made: box c can also be high!"
+      }
+    }
+  },
+  "task4": {
+    "whatif": {
+      "P02": {
+        "hypothesis": "Gardening should be under average and Detective Stories might not affect a lot.",
+        "hypothesis_property": {
+          "number_of_features": 2,
+          "number_of_boundary_values": 0,
+          "number_of_ranges_involved": 1,
+          "number_of_classes": 1
+        },
+        "hypothesis_validation_based_on_ground_true": {
+          "value": "confirmed",
+          "comments": "This is an accurate observation: low Gardening strongly supports Duck, and Detective Stories only play a weak role. The participant’s wording reflects appropriate caution."
+        },
+        "hypothesis_evaluation_by_participant": {
+          "value": "weakly_disproved",
+          "evidence_base": {
+            "tested_multiple_classes": true,
+            "tried_disconfirming_cases": false
+          }
+        },
+        "class_understanding_changed": false,
+        "source_text": "2 Features: Detective Stories and Gardening; Gardening should be under average and Detective Stories might not affect a lot. Result: Lower Gardening reduces the chances to classify Duck, but increasing Gardening with Detective Stories will definitely be classified as Dog. Detective Stories affects the classification of Duck, it should be small."
+      },
+      "P03": {
+        "hypothesis": "High swimming and medium to high running, is a duck.",
+        "hypothesis_property": {
+          "number_of_features": 2,
+          "number_of_boundary_values": 0,
+          "number_of_ranges_involved": 2,
+          "number_of_classes": 1
+        },
+        "hypothesis_validation_based_on_ground_true": {
+          "value": "weakly_confirmed",
+          "comments": "This combination aligns well with the Aquatic Duck profile. Swimming is the strongest positive signal, and moderate Running contributes positively. But the very high swimming affect duck prediction negatively."
+        },
+        "hypothesis_evaluation_by_participant": {
+          "value": "weakly_confirmed",
+          "evidence_base": {
+            "tested_multiple_classes": true,
+            "tried_disconfirming_cases": true
+          }
+        },
+        "class_understanding_changed": true,
+        "source_text": "Running and swimming. High swimming and medium to high running, is a duck. If all other values have the same values (0,7,14) is predict a duck but the score decrease if an increase of other values. So, this combination of swimming and running points towards a duck but the other feature are relevant too especially to determine differences between duck and dog."
+      },
+      "P04": {
+        "hypothesis": "Hypothese: niedriger Gardeningwert ist eher eine Ente.",
+        "hypothesis_property": {
+          "number_of_features": 1,
+          "number_of_boundary_values": 0,
+          "number_of_ranges_involved": 1,
+          "number_of_classes": 1
+        },
+        "hypothesis_validation_based_on_ground_true": {
+          "value": "confirmed",
+          "comments": "Low Gardening is the strongest single predictor for Duck classification. The hypothesis is valid and well grounded."
+        },
+        "hypothesis_evaluation_by_participant": {
+          "value": "confirmed",
+          "evidence_base": {
+            "tested_multiple_classes": true,
+            "tried_disconfirming_cases": false
+          }
+        },
+        "class_understanding_changed": false,
+        "source_text": "Hypthese: niedriger Gardeningwert ist eher eine Ente, trifft zu bei Enten mit niedrigem Gardening-Startwert, aber nicht mit hohem."
+      },
+      "P05": {
+        "hypothesis": "Higher values in detective stories and swim, influence the classification to duck when medium values in art and run exist.",
+        "hypothesis_property": {
+          "number_of_features": 4,
+          "number_of_boundary_values": 0,
+          "number_of_ranges_involved": 4,
+          "number_of_classes": 1
+        },
+        "hypothesis_validation_based_on_ground_true": {
+          "value": "weakly_confirmed",
+          "comments": "This is a composite hypothesis that aligns well with the Creative/Logical Duck profiles. While Detective Stories are not decisive, their support in combination is plausible. But very high Detective Stories (>12) and Swimming (>13) reduce Duck probability."
+        },
+        "hypothesis_evaluation_by_participant": {
+          "value": "confirmed",
+          "evidence_base": {
+            "tested_multiple_classes": true,
+            "tried_disconfirming_cases": false
+          }
+        },
+        "class_understanding_changed": true,
+        "source_text": "Higher values in detective stories and swim, influence the classification to duck when medium values in art and run exist. Hypothesis approved. Understanding of class duck has changed. Class values interact."
+      },
+      "P06": {
+        "hypothesis": "R(above 10) + gardening (1- 5).",
+        "hypothesis_property": {
+          "number_of_features": 2,
+          "number_of_boundary_values": 1,
+          "number_of_ranges_involved": 1,
+          "number_of_classes": 1
+        },
+        "hypothesis_validation_based_on_ground_true": {
+          "value": "partially_disproved",
+          "comments": "While low Gardening supports Duck, Running >10 may reduce Duck probability. Moderate Running is optimal. This hypothesis partially fails due to the excessive Running range."
+        },
+        "hypothesis_evaluation_by_participant": {
+          "value": "confirmed",
+          "evidence_base": {
+            "tested_multiple_classes": false,
+            "tried_disconfirming_cases": false
+          }
+        },
+        "class_understanding_changed": false,
+        "source_text": "R(above 10) + gardening (1- 5). I checked converting one cat with R(0) and G(3) to Duck by changing R to 11."
+      },
+      "P07": {
+        "hypothesis": "High S important for Duck.",
+        "hypothesis_property": {
+          "number_of_features": 1,
+          "number_of_boundary_values": 0,
+          "number_of_ranges_involved": 1,
+          "number_of_classes": 1
+        },
+        "hypothesis_validation_based_on_ground_true": {
+          "value": "weakly_confirmed",
+          "comments": "High Swimming is one of the most important features for Duck classification. But very high values >13 can decrease probability of duck."
+        },
+        "hypothesis_evaluation_by_participant": {
+          "value": "confirmed",
+          "evidence_base": {
+            "tested_multiple_classes": false,
+            "tried_disconfirming_cases": false
+          }
+        },
+        "class_understanding_changed": false,
+        "source_text": "High S important for Duck, test: correct."
+      },
+      "P08": {
+        "hypothesis": "Low G can contribute to be a Duck is significant.",
+        "hypothesis_property": {
+          "number_of_features": 1,
+          "number_of_boundary_values": 1,
+          "number_of_ranges_involved": 1,
+          "number_of_classes": 1
+        },
+        "hypothesis_validation_based_on_ground_true": {
+          "value": "confirmed",
+          "comments": "This is a fully valid observation. Low Gardening is the most reliable predictor for Duck classification."
+        },
+        "hypothesis_evaluation_by_participant": {
+          "value": "confirmed",
+          "evidence_base": {
+            "tested_multiple_classes": true,
+            "tried_disconfirming_cases": false
+          }
+        },
+        "class_understanding_changed": false,
+        "source_text": "Low G can contribute to be a Duck is significant. Switching between Duck and Dog only G has influence."
+      },
+      "P09": {
+        "hypothesis": "Art and detective stories are preferred by ducks.",
+        "hypothesis_property": {
+          "number_of_features": 2,
+          "number_of_boundary_values": 2,
+          "number_of_ranges_involved": 2,
+          "number_of_classes": 1
+        },
+        "hypothesis_validation_based_on_ground_true": {
+          "value": "weakly_confirmed",
+          "comments": "The use of Art and moderate Detective Stories is characteristic of some Duck subgroups. The participant is correct, though Detective Stories play only a minor role."
+        },
+        "hypothesis_evaluation_by_participant": {
+          "value": "weakly_confirmed",
+          "evidence_base": {
+            "tested_multiple_classes": true,
+            "tried_disconfirming_cases": true
+          }
+        },
+        "class_understanding_changed": false,
+        "source_text": "Art and detective stories are preferred by ducks."
+      },
+      "P10": {
+        "hypothesis": "The lower value of S and R are, the lower probability that it is a duck.",
+        "hypothesis_property": {
+          "number_of_features": 2,
+          "number_of_boundary_values": 2,
+          "number_of_ranges_involved": 2,
+          "number_of_classes": 1
+        },
+        "hypothesis_validation_based_on_ground_true": {
+          "value": "confirmed",
+          "comments": "This inverse hypothesis is also correct. Swimming and Running positively contribute to Duck classification, so lower values reduce the likelihood."
+        },
+        "hypothesis_evaluation_by_participant": {
+          "value": "confirmed",
+          "evidence_base": {
+            "tested_multiple_classes": true,
+            "tried_disconfirming_cases": false
+          }
+        },
+        "class_understanding_changed": false,
+        "source_text": "The lower value of S and R are, the lower probability that it is a duck."
+      },
+      "P11": {
+        "hypothesis": "Low Gardening is characteristic of Ducks; Running alone is not very important.",
+        "hypothesis_property": {
+          "number_of_features": 2,
+          "number_of_boundary_values": 1,
+          "number_of_ranges_involved": 1,
+          "number_of_classes": 1
+        },
+        "hypothesis_validation_based_on_ground_true": {
+          "value": "weakly_confirmed",
+          "comments": "The core claim is correct: low Gardening is the strongest single positive signal for Duck, and increasing Gardening generally reduces Duck likelihood. The statement that Running alone is not decisive is also consistent (Running is supportive but not sufficient). The comparative claim 'Swimming higher than Running' captures a common Duck pattern, but it is not a required rule and can fail in edge cases."
+        },
+        "hypothesis_evaluation_by_participant": {
+          "value": "weakly_confirmed",
+          "evidence_base": {
+            "tested_multiple_classes": true,
+            "tried_disconfirming_cases": false
+          }
+        },
+        "class_understanding_changed": false,
+        "source_text": "H low gardening is characteristic to ducks, while running does not play a big role alone. ducks usually have swimming higher then running. effect of relationships -5% probability of classifying as a duck for one point in gardening"
+      }
+    },
+    "hypothex": {
+      "P02": {
+        "hypothesis": "Plant_Telepathy_Practice and Reality_Show_Studies: Changing the hobbies to the lowest or highest values will change Zarnak to someone else.",
+        "hypothesis_property": {
+          "number_of_features": 2,
+          "number_of_boundary_values": 0,
+          "number_of_ranges_involved": 2,
+          "number_of_classes": 1
+        },
+        "hypothesis_validation_based_on_ground_true": {
+          "value": "weakly_disproved",
+          "comments": "This hypothesis correctly identifies that high values of both Plant Telepathy Practice and Reality Show Studies reduce Zarnak probability, and that shifting these values can flip classification. While low PTP is not strongly negative, the overall behavioral effect described is accurate. But it not enough to support 'will change'"
+        },
+        "hypothesis_evaluation_by_participant": {
+          "value": "weakly_disproved",
+          "evidence_base": {
+            "tested_multiple_classes": true,
+            "tried_disconfirming_cases": false
+          }
+        },
+        "class_understanding_changed": false,
+        "source_text": "Plant_Telepathy_Practice and Reality_Show_Studies: Hypothesis: changing the hobbies to the lowest or highest values will change Zarnak to someone else. Result: these hobbies does not affect too much (just a few changed) the Zarnaks when they are together or separately changed."
+      },
+      "P03": {
+        "hypothesis": "Box collecting below 4 indicates Zarnak. RSS studies have no/very little importance for Z.",
+        "hypothesis_property": {
+          "number_of_features": 2,
+          "number_of_boundary_values": 1,
+          "number_of_ranges_involved": 0,
+          "number_of_classes": 1
+        },
+        "hypothesis_validation_based_on_ground_true": {
+          "value": "confirmed",
+          "comments": "Low Box Collecting is one of the most reliable Zarnak predictors. RSS plays only a weak supportive role. This hypothesis correctly reflects both feature importance and direction."
+        },
+        "hypothesis_evaluation_by_participant": {
+          "value": "confirmed",
+          "evidence_base": {
+            "tested_multiple_classes": false,
+            "tried_disconfirming_cases": false
+          }
+        },
+        "class_understanding_changed": false,
+        "source_text": "I explored RSS and box collecting. Box collecting below 4 indicates Zarnak. RSS studies have no/very little importance for Z. but low box collecting is a important indicator for Zarnak especially below 3 with some overlap with Q."
+      },
+      "P04": {
+        "hypothesis": "Wenn die Werte von Palnt UND Reality niedrig sind, ist es kein Zarnak.",
+        "hypothesis_property": {
+          "number_of_features": 2,
+          "number_of_boundary_values": 0,
+          "number_of_ranges_involved": 2,
+          "number_of_classes": 1
+        },
+        "hypothesis_validation_based_on_ground_true": {
+          "value": "disproved",
+          "comments": "Low RSS actually supports Zarnak prediction, not contradicts it. PTP alone is not decisive, so the hypothesis incorrectly rejects Zarnak identity based on supportive features."
+        },
+        "hypothesis_evaluation_by_participant": {
+          "value": "weakly_disproved",
+          "evidence_base": {
+            "tested_multiple_classes": true,
+            "tried_disconfirming_cases": false
+          }
+        },
+        "class_understanding_changed": false,
+        "source_text": "Hypothesis #5: wenn die Werte von Palnt UND Reality niedrig sind, ist es kein Zarnak. Result: nur teilweise bestätigt, nur kleiner Effekt."
+      },
+      "P05": {
+        "hypothesis": "PTP values do not have an impact on the classification of a Z.",
+        "hypothesis_property": {
+          "number_of_features": 1,
+          "number_of_boundary_values": 0,
+          "number_of_ranges_involved": 1,
+          "number_of_classes": 1
+        },
+        "hypothesis_validation_based_on_ground_true": {
+          "value": "weakly_disproved",
+          "comments": "Plant Telepathy Practice is not a major predictor, but moderate values do support Zarnak. The hypothesis undervalues its role."
+        },
+        "hypothesis_evaluation_by_participant": {
+          "value": "weakly_confirmed",
+          "evidence_base": {
+            "tested_multiple_classes": true,
+            "tried_disconfirming_cases": false
+          }
+        },
+        "class_understanding_changed": true,
+        "source_text": "PTP values do not have a impact on the classification of a Z. mostly true. most of the points are still Z even though PTP changes from high values to medium to low."
+      },
+      "P06": {
+        "hypothesis": "moderate (0-7) L for Zarnak.",
+        "hypothesis_property": {
+          "number_of_features": 1,
+          "number_of_boundary_values": 0,
+          "number_of_ranges_involved": 1,
+          "number_of_classes": 1
+        },
+        "hypothesis_validation_based_on_ground_true": {
+          "value": "confirmed",
+          "comments": "This aligns well with model behavior: Laser Pointer Chasing between 0 and 7 contributes positively to Zarnak classification, especially on the lower end."
+        },
+        "hypothesis_evaluation_by_participant": {
+          "value": "disproved",
+          "evidence_base": {
+            "tested_multiple_classes": true,
+            "tried_disconfirming_cases": false
+          }
+        },
+        "class_understanding_changed": false,
+        "source_text": "moderate (0-7) L. It is wrong once tested taking Q with high P and high L."
+      },
+      "P07": {
+        "hypothesis": "PT not important for Zarnak",
+        "hypothesis_property": {
+          "number_of_features": 1,
+          "number_of_boundary_values": 0,
+          "number_of_ranges_involved": 1,
+          "number_of_classes": 1
+        },
+        "hypothesis_validation_based_on_ground_true": {
+          "value": "confirmed",
+          "comments": "PTP plays only a weak supporting role in Zarnak classification. This hypothesis is a fair simplification."
+        },
+        "hypothesis_evaluation_by_participant": {
+          "value": "confirmed",
+          "evidence_base": {
+            "tested_multiple_classes": true,
+            "tried_disconfirming_cases": false
+          }
+        },
+        "class_understanding_changed": false,
+        "source_text": "PT not important, true."
+      },
+      "P08": {
+        "hypothesis": "RSS is higher than 5 and LPC lower than 5, it is Z.",
+        "hypothesis_property": {
+          "number_of_features": 2,
+          "number_of_boundary_values": 2,
+          "number_of_ranges_involved": 0,
+          "number_of_classes": 1
+        },
+        "hypothesis_validation_based_on_ground_true": {
+          "value": "weakly_disproved",
+          "comments": "While LPC < 5 supports Zarnak classification, high RSS does not. In fact, RSS > 8 weakens Zarnak probability. The hypothesis includes a contradictory feature."
+        },
+        "hypothesis_evaluation_by_participant": {
+          "value": "disproved",
+          "evidence_base": {
+            "tested_multiple_classes": true,
+            "tried_disconfirming_cases": true
+          }
+        },
+        "class_understanding_changed": false,
+        "source_text": "RSS is higher than 5 and LPC lower than 5, it is Z. The hypothesis is not correct."
+      },
+      "P09": {
+        "hypothesis": "LPC is of large interest for Z, whereas RSS is ambiguous.",
+        "hypothesis_property": {
+          "number_of_features": 2,
+          "number_of_boundary_values": 0,
+          "number_of_ranges_involved": 2,
+          "number_of_classes": 1
+        },
+        "hypothesis_validation_based_on_ground_true": {
+          "value": "confirmed",
+          "comments": "The feature prioritization here is accurate. LPC plays a moderate role in Zarnak classification, while RSS has only a weak and somewhat ambiguous effect."
+        },
+        "hypothesis_evaluation_by_participant": {
+          "value": "confirmed",
+          "evidence_base": {
+            "tested_multiple_classes": true,
+            "tried_disconfirming_cases": false
+          }
+        },
+        "class_understanding_changed": false,
+        "source_text": "LPC is of large interest for Z, whereas RSS is ambiguous. Yes."
+      },
+      "P10": {
+        "hypothesis": "Decreasing PTP and RSS turn Z to B.",
+        "hypothesis_property": {
+          "number_of_features": 2,
+          "number_of_boundary_values": 2,
+          "number_of_ranges_involved": 2,
+          "number_of_classes": 1
+        },
+        "hypothesis_validation_based_on_ground_true": {
+          "value": "weakly_disproved",
+          "comments": "Not supported: lower Reality Show Studies slightly favors Zarnak rather than pushing it toward Bliptor. PTP has only weak/mixed influence, and Bliptor is primarily characterized by high Box Collecting (with low–moderate Tool Worship), not by low RSS."
+        },
+        "hypothesis_evaluation_by_participant": {
+          "value": "weakly_disproved",
+          "evidence_base": {
+            "tested_multiple_classes": true,
+            "tried_disconfirming_cases": false
+          }
+        },
+        "class_understanding_changed": false,
+        "source_text": "Decreasing PTP and RSS turn Z to B. False. Decreasing values of these features almost has no impact on Z."
+      },
+      "P11": {
+        "hypothesis": "Box Collecting and Laser Pointer Chasing are low for the group.",
+        "hypothesis_property": {
+          "number_of_features": 2,
+          "number_of_boundary_values": 0,
+          "number_of_ranges_involved": 2,
+          "number_of_classes": 1
+        },
+        "hypothesis_validation_based_on_ground_true": {
+          "value": "weakly_confirmed",
+          "comments": "Mostly correct: low Box Collecting is strongly characteristic of Zarnak, and low-to-moderate Laser Pointer Chasing can support Zarnak (e.g., the low-activity subgroup). This pattern is not characteristic for Bliptor or Quorvian."
+        },
+        "hypothesis_evaluation_by_participant": {
+          "value": "confirmed",
+          "evidence_base": {
+            "tested_multiple_classes": false,
+            "tried_disconfirming_cases": false
+          }
+        },
+        "class_understanding_changed": false,
+        "source_text": "box c and lp c are low for the group. incrementing the measurements by 5 changes the model prediction. hence, hypothesis holds. cannot estimate effect by now"
+      }
+    }
+  },
+  "IOED_task": {
+    "whatif": {
+      "P02": {
+        "pre": 5,
+        "post": 2,
+        "accuracy": 0.5
+      },
+      "P03": {
+        "pre": 4,
+        "post": 4,
+        "accuracy": 1
+      },
+      "P04": {
+        "pre": 3,
+        "post": 3,
+        "accuracy": 0.5
+      },
+      "P05": {
+        "pre": 2,
+        "post": 2,
+        "accuracy": 0.5
+      },
+      "P06": {
+        "pre": 4,
+        "post": 4,
+        "accuracy": 0.5
+      },
+      "P07": {
+        "pre": 2,
+        "post": 2,
+        "accuracy": 0.5
+      },
+      "P08": {
+        "pre": 3,
+        "post": 2,
+        "accuracy": 0.5
+      },
+      "P09": {
+        "pre": 3,
+        "post": 4,
+        "accuracy": 0.5
+      },
+      "P10": {
+        "pre": 3,
+        "post": 2,
+        "accuracy": 0.5
+      },
+      "P11": {
+        "pre": 2,
+        "post": 3,
+        "accuracy": 0.5
+      }
+    },
+    "hypothex": {
+      "P02": {
+        "pre": 4,
+        "post": 2,
+        "accuracy": 0.5
+      },
+      "P03": {
+        "pre": 3,
+        "post": 2,
+        "accuracy": 0.5
+      },
+      "P04": {
+        "pre": 3,
+        "post": 3,
+        "accuracy": 0.5
+      },
+      "P05": {
+        "pre": 2,
+        "post": 2,
+        "accuracy": 0.5
+      },
+      "P06": {
+        "pre": 3,
+        "post": 4,
+        "accuracy": 0.5
+      },
+      "P07": {
+        "pre": 3,
+        "post": 3,
+        "accuracy": 1
+      },
+      "P08": {
+        "pre": 3,
+        "post": 2,
+        "accuracy": 0
+      },
+      "P09": {
+        "pre": 4,
+        "post": 4,
+        "accuracy": 1
+      },
+      "P10": {
+        "pre": 4,
+        "post": 2,
+        "accuracy": 0
+      },
+      "P11": {
+        "pre": 3,
+        "post": 4,
+        "accuracy": 1
+      }
+    }
+  }
+}
+

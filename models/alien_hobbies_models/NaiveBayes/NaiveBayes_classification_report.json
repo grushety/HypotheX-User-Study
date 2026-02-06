@@ -1,0 +1,33 @@
+{
+    "Bliptor": {
+        "precision": 1.0,
+        "recall": 0.9259259259259259,
+        "f1-score": 0.9615384615384616,
+        "support": 27.0
+    },
+    "Quorvian": {
+        "precision": 0.875,
+        "recall": 1.0,
+        "f1-score": 0.9333333333333333,
+        "support": 35.0
+    },
+    "Zarnak": {
+        "precision": 1.0,
+        "recall": 0.9210526315789473,
+        "f1-score": 0.958904109589041,
+        "support": 38.0
+    },
+    "accuracy": 0.95,
+    "macro avg": {
+        "precision": 0.9583333333333334,
+        "recall": 0.9489928525016245,
+        "f1-score": 0.9512586348202786,
+        "support": 100.0
+    },
+    "weighted avg": {
+        "precision": 0.95625,
+        "recall": 0.95,
+        "f1-score": 0.9506656129258869,
+        "support": 100.0
+    }
+}

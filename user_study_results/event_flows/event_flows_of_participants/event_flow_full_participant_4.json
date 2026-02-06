@@ -1,0 +1,2008 @@
+[
+  {
+    "id": "T-ma32aqf8-nzzj",
+    "created_at": "2025-04-29T22:11:32.036Z",
+    "task_number": 1,
+    "participant_id": "P-vr9xmd-4",
+    "tool_name": "WhatIf",
+    "events": [
+      {
+        "task_id": "T-ma32aqf8-nzzj",
+        "id": "E-ma32ba7b-yky",
+        "event_class": "DataExploration",
+        "created_at": "2025-04-29T22:11:57.671Z",
+        "type": "Change_Scatterplot_Axis",
+        "point_ids": [],
+        "feature_ids": [
+          "f3",
+          "f4"
+        ],
+        "insight": ""
+      },
+      {
+        "task_id": "T-ma32aqf8-nzzj",
+        "id": "E-ma32bzmw-cy2",
+        "event_class": "DataExploration",
+        "created_at": "2025-04-29T22:12:30.632Z",
+        "type": "Change_Scatterplot_Axis",
+        "point_ids": [],
+        "feature_ids": [
+          "f5",
+          "f4"
+        ],
+        "insight": ""
+      },
+      {
+        "task_id": "T-ma32aqf8-nzzj",
+        "id": "E-ma32cb8q-2vx",
+        "event_class": "DataExploration",
+        "created_at": "2025-04-29T22:12:45.674Z",
+        "type": "Change_Scatterplot_Axis",
+        "point_ids": [],
+        "feature_ids": [
+          "f1",
+          "f4"
+        ],
+        "insight": ""
+      },
+      {
+        "task_id": "T-ma32aqf8-nzzj",
+        "id": "E-ma32cm25-q45",
+        "event_class": "DataExploration",
+        "created_at": "2025-04-29T22:12:59.693Z",
+        "type": "Change_Scatterplot_Axis",
+        "point_ids": [],
+        "feature_ids": [
+          "f2",
+          "f4"
+        ],
+        "insight": "c1 like f2"
+      },
+      {
+        "task_id": "T-ma32aqf8-nzzj",
+        "id": "E-ma32czdo-wht",
+        "event_class": "DataExploration",
+        "created_at": "2025-04-29T22:13:16.956Z",
+        "type": "Change_Scatterplot_Axis",
+        "point_ids": [],
+        "feature_ids": [
+          "f1",
+          "f2"
+        ],
+        "insight": ""
+      },
+      {
+        "task_id": "T-ma32aqf8-nzzj",
+        "id": "E-ma32dvmv-avx",
+        "event_class": "DataExploration",
+        "created_at": "2025-04-29T22:13:58.759Z",
+        "type": "Change_Scatterplot_Axis",
+        "point_ids": [],
+        "feature_ids": [
+          "f4",
+          "f2"
+        ],
+        "insight": ""
+      },
+      {
+        "task_id": "T-ma32aqf8-nzzj",
+        "id": "E-ma32e5um-bs1",
+        "event_class": "DataExploration",
+        "created_at": "2025-04-29T22:14:11.998Z",
+        "type": "Change_Scatterplot_Axis",
+        "point_ids": [],
+        "feature_ids": [
+          "f5",
+          "f2"
+        ],
+        "insight": ""
+      },
+      {
+        "task_id": "T-ma32aqf8-nzzj",
+        "id": "E-ma32ejpx-k00",
+        "event_class": "DataExploration",
+        "created_at": "2025-04-29T22:14:29.973Z",
+        "type": "",
+        "point_ids": [],
+        "feature_ids": [
+          "f3",
+          "f2"
+        ],
+        "insight": ""
+      },
+      {
+        "task_id": "T-ma32aqf8-nzzj",
+        "id": "E-ma32k2tl-2tl",
+        "event_class": "Hypothesis",
+        "created_at": "2025-04-29T22:18:48.009Z",
+        "description": "c1 like swim",
+        "evaluation": "",
+        "conclusion": "",
+        "events": [
+          {
+            "id": "A-ma32kgao-fvr",
+            "task_id": "T-ma32aqf8-nzzj",
+            "hypothesis_id": "E-ma32k2tl-2tl",
+            "created_at": "2025-04-29T22:19:05.472Z",
+            "event_class": "Action",
+            "type": "Modify_Feature_Value",
+            "goal": "confirm",
+            "goal_class": "c1",
+            "class_strategy": "other_to_goal",
+            "selection_strategy": "outlier",
+            "axis_on": [
+              "f3",
+              "f2"
+            ],
+            "point_ids": [
+              "140"
+            ],
+            "operations": [
+              "f2=10",
+              "f2=5"
+            ],
+            "outcome": "changed to c1, => c1",
+            "evaluation": "confirmed",
+            "insight": ""
+          },
+          {
+            "id": "A-ma32mvg3-svx",
+            "task_id": "T-ma32aqf8-nzzj",
+            "hypothesis_id": "E-ma32k2tl-2tl",
+            "created_at": "2025-04-29T22:20:58.419Z",
+            "event_class": "Action",
+            "type": "Modify_Feature_Value",
+            "goal": "confirm",
+            "goal_class": "c1",
+            "class_strategy": "other_to_goal",
+            "selection_strategy": "dense_region",
+            "axis_on": [
+              "f3",
+              "f2"
+            ],
+            "point_ids": [
+              "77"
+            ],
+            "operations": [
+              "f2=7",
+              "f2=12"
+            ],
+            "outcome": "c2 => c2 (c1 up), c2 to c2 (c1 down)",
+            "evaluation": "weakly_disproved",
+            "insight": "depend not only on swimming"
+          },
+          {
+            "id": "A-ma32q5yb-dut",
+            "task_id": "T-ma32aqf8-nzzj",
+            "hypothesis_id": "E-ma32k2tl-2tl",
+            "created_at": "2025-04-29T22:23:32.003Z",
+            "event_class": "Action",
+            "type": "Modify_Feature_Value",
+            "goal": "confirm",
+            "goal_class": "c1",
+            "class_strategy": "goal_to_other",
+            "selection_strategy": "outlier",
+            "axis_on": [
+              "f2",
+              "f3"
+            ],
+            "point_ids": [
+              "48"
+            ],
+            "operations": [
+              "f2=10"
+            ],
+            "outcome": "changed to c1 ",
+            "evaluation": "confirmed",
+            "insight": "low art level can have impact"
+          },
+          {
+            "id": "A-ma32vhg3-64j",
+            "task_id": "T-ma32aqf8-nzzj",
+            "hypothesis_id": "E-ma32k2tl-2tl",
+            "created_at": "2025-04-29T22:27:40.179Z",
+            "event_class": "Action",
+            "type": "Modify_Feature_Value",
+            "goal": "confirm",
+            "goal_class": "c1",
+            "class_strategy": "goal_to_other",
+            "selection_strategy": "outlier",
+            "axis_on": [
+              "f1",
+              "f3"
+            ],
+            "point_ids": [
+              "93"
+            ],
+            "operations": [
+              "f1=1",
+              "f1=16",
+              "f2=10"
+            ],
+            "outcome": "=> c1 (but down); c1 down, => c3 ",
+            "evaluation": "weakly_confirmed",
+            "insight": ""
+          },
+          {
+            "id": "A-ma32zwfh-ufm",
+            "task_id": "T-ma32aqf8-nzzj",
+            "hypothesis_id": "E-ma32k2tl-2tl",
+            "created_at": "2025-04-29T22:31:06.221Z",
+            "event_class": "Action",
+            "type": "Modify_Feature_Value",
+            "goal": "confirm",
+            "goal_class": "c1",
+            "class_strategy": "goal_to_other",
+            "selection_strategy": "based_on_editor",
+            "axis_on": [
+              "f1",
+              "f3"
+            ],
+            "point_ids": [
+              "48"
+            ],
+            "operations": [
+              "f1=10",
+              "f1=14",
+              "f3=13",
+              "f3=1",
+              "f3=15"
+            ],
+            "outcome": "c1 => c3 (46%); => c3, c3=>c1, c1 up, c1 up",
+            "evaluation": "weakly_confirmed",
+            "insight": "low f3 impact c1"
+          }
+        ]
+      },
+      {
+        "task_id": "T-ma32aqf8-nzzj",
+        "id": "E-ma335ulq-rgd",
+        "event_class": "Hypothesis",
+        "created_at": "2025-04-29T22:35:43.790Z",
+        "description": "high f1 high f2 important",
+        "evaluation": "",
+        "conclusion": "",
+        "events": [
+          {
+            "id": "A-ma3378ww-8v1",
+            "task_id": "T-ma32aqf8-nzzj",
+            "hypothesis_id": "E-ma335ulq-rgd",
+            "created_at": "2025-04-29T22:36:48.992Z",
+            "event_class": "Action",
+            "type": "Modify_Feature_Value",
+            "goal": "confirm",
+            "goal_class": "c1",
+            "class_strategy": "goal_to_other",
+            "selection_strategy": "near_class_overlap",
+            "axis_on": [
+              "f1",
+              "f2"
+            ],
+            "point_ids": [
+              "115"
+            ],
+            "operations": [
+              "f=1",
+              "f=14",
+              "f2=1 and f1=1"
+            ],
+            "outcome": "c1 => c2; c2 low prob; c2",
+            "evaluation": "weakly_disproved",
+            "insight": ""
+          },
+          {
+            "id": "A-ma33anut-10h",
+            "task_id": "T-ma32aqf8-nzzj",
+            "hypothesis_id": "E-ma335ulq-rgd",
+            "created_at": "2025-04-29T22:39:28.325Z",
+            "event_class": "Action",
+            "type": "Modify_Feature_Value",
+            "goal": "confirm",
+            "goal_class": "c1",
+            "class_strategy": "goal_to_other",
+            "selection_strategy": "dense_region",
+            "axis_on": [
+              "f1",
+              "f2"
+            ],
+            "point_ids": [
+              "46"
+            ],
+            "operations": [
+              "f2=1"
+            ],
+            "outcome": "no changes",
+            "evaluation": "disproved",
+            "insight": ""
+          },
+          {
+            "id": "A-ma33c7hm-wmj",
+            "task_id": "T-ma32aqf8-nzzj",
+            "hypothesis_id": "E-ma335ulq-rgd",
+            "created_at": "2025-04-29T22:40:40.426Z",
+            "event_class": "Action",
+            "type": "Modify_Feature_Value",
+            "goal": "confirm",
+            "goal_class": "c1",
+            "class_strategy": "other_to_goal",
+            "selection_strategy": "outlier",
+            "axis_on": [
+              "f1",
+              "f2"
+            ],
+            "point_ids": [
+              "25"
+            ],
+            "operations": [
+              "d2=1",
+              "f2=5",
+              "f2=4",
+              "f2 =7"
+            ],
+            "outcome": "c3=>c3; =>c3 (c1 down); =>c3 (c1 down); => c3 up (c1 up)",
+            "evaluation": "disproved",
+            "insight": ""
+          },
+          {
+            "id": "A-ma33jcsc-74o",
+            "task_id": "T-ma32aqf8-nzzj",
+            "hypothesis_id": "E-ma335ulq-rgd",
+            "created_at": "2025-04-29T22:46:13.884Z",
+            "event_class": "Action",
+            "type": "Modify_Feature_Value",
+            "goal": "confirm",
+            "goal_class": "c1",
+            "class_strategy": "goal_to_other",
+            "selection_strategy": "outlier",
+            "axis_on": [
+              "f1",
+              "f2"
+            ],
+            "point_ids": [
+              "95"
+            ],
+            "operations": [
+              "f1=6"
+            ],
+            "outcome": "",
+            "evaluation": "disproved",
+            "insight": "no changes"
+          }
+        ]
+      },
+      {
+        "task_id": "T-ma32aqf8-nzzj",
+        "id": "E-ma33l5kt-r0u",
+        "event_class": "Hypothesis",
+        "created_at": "2025-04-29T22:47:37.853Z",
+        "description": "f4 low impact, f5 could have big impact ",
+        "evaluation": "",
+        "conclusion": "f5 confirmed influence, f4 not significant",
+        "events": [
+          {
+            "id": "A-ma33lx6q-mla",
+            "task_id": "T-ma32aqf8-nzzj",
+            "hypothesis_id": "E-ma33l5kt-r0u",
+            "created_at": "2025-04-29T22:48:13.635Z",
+            "event_class": "Action",
+            "type": "Modify_Feature_Value",
+            "goal": "confirm",
+            "goal_class": "c1",
+            "class_strategy": "other_to_goal",
+            "selection_strategy": "outlier",
+            "axis_on": [
+              "f4",
+              "f5"
+            ],
+            "point_ids": [
+              "95"
+            ],
+            "operations": [
+              "f5=11",
+              "f4=8",
+              "f3=5"
+            ],
+            "outcome": "no changes; c2 => c1; c1",
+            "evaluation": "weakly_confirmed",
+            "insight": ""
+          },
+          {
+            "id": "A-ma33pkn3-h8a",
+            "task_id": "T-ma32aqf8-nzzj",
+            "hypothesis_id": "E-ma33l5kt-r0u",
+            "created_at": "2025-04-29T22:51:03.999Z",
+            "event_class": "Action",
+            "type": "Modify_Feature_Value",
+            "goal": "confirm",
+            "goal_class": "c1",
+            "class_strategy": "goal_to_other",
+            "selection_strategy": "near_class_overlap",
+            "axis_on": [
+              "f4",
+              "f5"
+            ],
+            "point_ids": [
+              "41"
+            ],
+            "operations": [
+              "f4 = 1",
+              "f4 = 5",
+              "f4 = 14",
+              "f4=1"
+            ],
+            "outcome": "c1 down; c1 up; c1 up, c1 down",
+            "evaluation": "weakly_confirmed",
+            "insight": ""
+          },
+          {
+            "id": "A-ma33snz7-83i",
+            "task_id": "T-ma32aqf8-nzzj",
+            "hypothesis_id": "E-ma33l5kt-r0u",
+            "created_at": "2025-04-29T22:53:28.291Z",
+            "event_class": "Action",
+            "type": "Modify_Feature_Value",
+            "goal": "confirm",
+            "goal_class": "c1",
+            "class_strategy": "goal_to_other",
+            "selection_strategy": "outlier",
+            "axis_on": [
+              "f2",
+              "f5"
+            ],
+            "point_ids": [
+              "41"
+            ],
+            "operations": [
+              "f5=14",
+              "f5=10",
+              "f5=7",
+              "f5=5",
+              "f5=3"
+            ],
+            "outcome": "c1 down; => c3; => c3 (c1 up); => c1",
+            "evaluation": "weakly_confirmed",
+            "insight": ""
+          },
+          {
+            "id": "A-ma33wj63-uv9",
+            "task_id": "T-ma32aqf8-nzzj",
+            "hypothesis_id": "E-ma33l5kt-r0u",
+            "created_at": "2025-04-29T22:56:28.683Z",
+            "event_class": "Action",
+            "type": "Modify_Feature_Value",
+            "goal": "confirm",
+            "goal_class": "c1",
+            "class_strategy": "goal_to_other",
+            "selection_strategy": "dense_region",
+            "axis_on": [
+              "f1",
+              "f5"
+            ],
+            "point_ids": [
+              "15"
+            ],
+            "operations": [
+              "f5 = 15",
+              "f5=5",
+              "f5=2"
+            ],
+            "outcome": "=> c3; c3 (c1 up); => c1",
+            "evaluation": "confirmed",
+            "insight": ""
+          }
+        ]
+      }
+    ],
+    "duration": 40
+  },
+  {
+    "id": "T-ma341k6c-21gi",
+    "created_at": "2025-04-29T23:00:23.268Z",
+    "task_number": 2,
+    "participant_id": "P-vr9xmd-4",
+    "tool_name": "WhatIf",
+    "events": [
+      {
+        "task_id": "T-ma341k6c-21gi",
+        "id": "E-ma35u194-5wu",
+        "event_class": "Hypothesis",
+        "created_at": "2025-04-29T23:50:31.384Z",
+        "description": "c2 must have high f4",
+        "evaluation": "disproved",
+        "conclusion": "f4 has no effect on c2",
+        "events": [
+          {
+            "id": "A-ma35uonz-gpu",
+            "task_id": "T-ma341k6c-21gi",
+            "hypothesis_id": "E-ma35u194-5wu",
+            "created_at": "2025-04-29T23:51:01.727Z",
+            "event_class": "Action",
+            "type": "Modify_Feature_Value",
+            "goal": "confirm",
+            "goal_class": "c2",
+            "class_strategy": "goal_to_other",
+            "selection_strategy": "sparse_region",
+            "axis_on": [
+              "f4",
+              "f5"
+            ],
+            "point_ids": [
+              "45"
+            ],
+            "operations": [
+              "f4=4",
+              "f4=1",
+              "f4=12"
+            ],
+            "outcome": "c2 => c2; c2; => c3",
+            "evaluation": "weakly_disproved",
+            "insight": ""
+          },
+          {
+            "id": "A-ma35yilp-s5h",
+            "task_id": "T-ma341k6c-21gi",
+            "hypothesis_id": "E-ma35u194-5wu",
+            "created_at": "2025-04-29T23:54:00.493Z",
+            "event_class": "Action",
+            "type": "Modify_Feature_Value",
+            "goal": "confirm",
+            "goal_class": "c2",
+            "class_strategy": "goal_to_other",
+            "selection_strategy": "near_class_overlap",
+            "axis_on": [
+              "f4",
+              "f5"
+            ],
+            "point_ids": [
+              "92"
+            ],
+            "operations": [
+              "f4=14",
+              "f4=4"
+            ],
+            "outcome": "no changes, no changes (c1 a little bit up)",
+            "evaluation": "disproved",
+            "insight": ""
+          },
+          {
+            "id": "A-ma360z1i-e99",
+            "task_id": "T-ma341k6c-21gi",
+            "hypothesis_id": "E-ma35u194-5wu",
+            "created_at": "2025-04-29T23:55:55.110Z",
+            "event_class": "Action",
+            "type": "Modify_Feature_Value",
+            "goal": "confirm",
+            "goal_class": "c2",
+            "class_strategy": "goal_to_other",
+            "selection_strategy": "dense_region",
+            "axis_on": [
+              "f4",
+              "f5"
+            ],
+            "point_ids": [
+              "14"
+            ],
+            "operations": [
+              "f4=10",
+              "f4=14"
+            ],
+            "outcome": "c2 => c2 (c1 down)",
+            "evaluation": "disproved",
+            "insight": ""
+          }
+        ]
+      }
+    ],
+    "duration": 5
+  },
+  {
+    "id": "T-ma363ieu-92ao",
+    "created_at": "2025-04-29T23:57:53.526Z",
+    "task_number": 3,
+    "participant_id": "P-vr9xmd-4",
+    "tool_name": "WhatIf",
+    "events": [
+      {
+        "task_id": "T-ma363ieu-92ao",
+        "id": "E-ma3667bv-dyj",
+        "event_class": "Hypothesis",
+        "created_at": "2025-04-29T23:59:59.131Z",
+        "description": "low f3 is c3 and f5 could be impactful",
+        "evaluation": "weakly_confirmed",
+        "conclusion": "art could have influence ",
+        "events": [
+          {
+            "id": "A-ma366rj5-wwp",
+            "task_id": "T-ma363ieu-92ao",
+            "hypothesis_id": "E-ma3667bv-dyj",
+            "created_at": "2025-04-30T00:00:25.313Z",
+            "event_class": "Action",
+            "type": "Modify_Feature_Value",
+            "goal": "confirm",
+            "goal_class": "c3",
+            "class_strategy": "goal_to_other",
+            "selection_strategy": "dense_region",
+            "axis_on": [
+              "f4",
+              "f5"
+            ],
+            "point_ids": [
+              "14"
+            ],
+            "operations": [
+              "f5=14",
+              "f5=1"
+            ],
+            "outcome": "c3 down, c3",
+            "evaluation": "disproved",
+            "insight": ""
+          },
+          {
+            "id": "A-ma36bn2d-8kr",
+            "task_id": "T-ma363ieu-92ao",
+            "hypothesis_id": "E-ma3667bv-dyj",
+            "created_at": "2025-04-30T00:04:12.805Z",
+            "event_class": "Action",
+            "type": "Modify_Feature_Value",
+            "goal": "confirm",
+            "goal_class": "c3",
+            "class_strategy": "goal_to_other",
+            "selection_strategy": "near_class_overlap",
+            "axis_on": [
+              "f4",
+              "f5"
+            ],
+            "point_ids": [
+              "35"
+            ],
+            "operations": [
+              "f5=1"
+            ],
+            "outcome": "c3 => c1",
+            "evaluation": "confirmed",
+            "insight": ""
+          },
+          {
+            "id": "A-ma36d9qm-mbt",
+            "task_id": "T-ma363ieu-92ao",
+            "hypothesis_id": "E-ma3667bv-dyj",
+            "created_at": "2025-04-30T00:05:28.846Z",
+            "event_class": "Action",
+            "type": "Modify_Feature_Value",
+            "goal": "confirm",
+            "goal_class": "c3",
+            "class_strategy": "other_to_goal",
+            "selection_strategy": "",
+            "axis_on": [
+              "f4",
+              "f1"
+            ],
+            "point_ids": [
+              "28"
+            ],
+            "operations": [
+              "f4=1",
+              "f4 = 14"
+            ],
+            "outcome": "c1 => c1 (a little bit lower), => c3 (100%)",
+            "evaluation": "weakly_confirmed",
+            "insight": "f4 look not like right choice"
+          },
+          {
+            "id": "A-ma36fned-7oz",
+            "task_id": "T-ma363ieu-92ao",
+            "hypothesis_id": "E-ma3667bv-dyj",
+            "created_at": "2025-04-30T00:07:19.861Z",
+            "event_class": "Action",
+            "type": "Modify_Feature_Value",
+            "goal": "confirm",
+            "goal_class": "c3",
+            "class_strategy": "other_to_goal",
+            "selection_strategy": "outlier",
+            "axis_on": [
+              "f4",
+              "f1"
+            ],
+            "point_ids": [
+              "11"
+            ],
+            "operations": [
+              "f1=11",
+              "f1=1"
+            ],
+            "outcome": "c3=>c1 lower; => c1 (c3 down)",
+            "evaluation": "disproved",
+            "insight": "HYPOTHESIS SHIFT"
+          },
+          {
+            "id": "A-ma36i7sa-zs3",
+            "task_id": "T-ma363ieu-92ao",
+            "hypothesis_id": "E-ma3667bv-dyj",
+            "created_at": "2025-04-30T00:09:19.594Z",
+            "event_class": "Action",
+            "type": "Modify_Feature_Value",
+            "goal": "confirm",
+            "goal_class": "c3",
+            "class_strategy": "goal_to_other",
+            "selection_strategy": "dense_region",
+            "axis_on": [
+              "f4",
+              "f1"
+            ],
+            "point_ids": [
+              "28"
+            ],
+            "operations": [
+              "f1=10",
+              "f1=1"
+            ],
+            "outcome": "c3 up, c3 down",
+            "evaluation": "weakly_confirmed",
+            "insight": ""
+          },
+          {
+            "id": "A-ma36ktd7-ikw",
+            "task_id": "T-ma363ieu-92ao",
+            "hypothesis_id": "E-ma3667bv-dyj",
+            "created_at": "2025-04-30T00:11:20.875Z",
+            "event_class": "Action",
+            "type": "Modify_Feature_Value",
+            "goal": "confirm",
+            "goal_class": "c3",
+            "class_strategy": "goal_to_other",
+            "selection_strategy": "outlier",
+            "axis_on": [
+              "f4",
+              "f1"
+            ],
+            "point_ids": [
+              "75"
+            ],
+            "operations": [
+              "f1=11",
+              "f1=4",
+              "f1=14",
+              "f1 =12"
+            ],
+            "outcome": "c3 up; => c1; => c3, => c1",
+            "evaluation": "weakly_confirmed",
+            "insight": ""
+          },
+          {
+            "id": "A-ma36ofjz-spl",
+            "task_id": "T-ma363ieu-92ao",
+            "hypothesis_id": "E-ma3667bv-dyj",
+            "created_at": "2025-04-30T00:14:09.599Z",
+            "event_class": "Action",
+            "type": "Modify_Feature_Value",
+            "goal": "confirm",
+            "goal_class": "c3",
+            "class_strategy": "goal_to_other",
+            "selection_strategy": "dense_region",
+            "axis_on": [
+              "f4",
+              "f1"
+            ],
+            "point_ids": [
+              "28"
+            ],
+            "operations": [
+              "f1=11",
+              "f3 =15",
+              "f3=0"
+            ],
+            "outcome": "c3 up; c3 down; c3 up",
+            "evaluation": "weakly_confirmed",
+            "insight": "f3 migh have the impact"
+          },
+          {
+            "id": "A-ma36r5z3-mtx",
+            "task_id": "T-ma363ieu-92ao",
+            "hypothesis_id": "E-ma3667bv-dyj",
+            "created_at": "2025-04-30T00:16:17.151Z",
+            "event_class": "Action",
+            "type": "Modify_Feature_Value",
+            "goal": "confirm",
+            "goal_class": "c3",
+            "class_strategy": "goal_to_other",
+            "selection_strategy": "dense_region",
+            "axis_on": [
+              "f4",
+              "f1"
+            ],
+            "point_ids": [
+              "136"
+            ],
+            "operations": [
+              "f3=15",
+              "f3 = 5"
+            ],
+            "outcome": "c3 down, c3 up",
+            "evaluation": "weakly_confirmed",
+            "insight": ""
+          }
+        ]
+      }
+    ],
+    "duration": 16
+  },
+  {
+    "id": "T-ma36t865-ry63",
+    "created_at": "2025-04-30T00:17:53.309Z",
+    "task_number": 4,
+    "participant_id": "P-vr9xmd-4",
+    "tool_name": "WhatIf",
+    "events": [
+      {
+        "task_id": "T-ma36t865-ry63",
+        "id": "E-ma36w4hf-p27",
+        "event_class": "Hypothesis",
+        "created_at": "2025-04-30T00:20:08.499Z",
+        "description": "f5 and f3 can be important for c1",
+        "evaluation": "",
+        "conclusion": "only low values of f5 matter for f5",
+        "events": [
+          {
+            "id": "A-ma36wqhd-oy3",
+            "task_id": "T-ma36t865-ry63",
+            "hypothesis_id": "E-ma36w4hf-p27",
+            "created_at": "2025-04-30T00:20:37.009Z",
+            "event_class": "Action",
+            "type": "Modify_Feature_Value",
+            "goal": "confirm",
+            "goal_class": "c1",
+            "class_strategy": "goal_to_other",
+            "selection_strategy": "dense_region",
+            "axis_on": [
+              "f3",
+              "f5"
+            ],
+            "point_ids": [
+              "13"
+            ],
+            "operations": [
+              "f3 = 15",
+              "f3=10",
+              "f3=7; f3 =4"
+            ],
+            "outcome": "c2 => c1; c1 down, c1 down, => c3",
+            "evaluation": "weakly_confirmed",
+            "insight": ""
+          },
+          {
+            "id": "A-ma370whe-nv5",
+            "task_id": "T-ma36t865-ry63",
+            "hypothesis_id": "E-ma36w4hf-p27",
+            "created_at": "2025-04-30T00:23:51.410Z",
+            "event_class": "Action",
+            "type": "Modify_Feature_Value",
+            "goal": "confirm",
+            "goal_class": "c1",
+            "class_strategy": "other_to_goal",
+            "selection_strategy": "near_class_overlap",
+            "axis_on": [
+              "f3",
+              "f5"
+            ],
+            "point_ids": [
+              "135"
+            ],
+            "operations": [
+              "f3=15",
+              "f3=10",
+              "f3=5",
+              "f3=2"
+            ],
+            "outcome": "c3 => c2 (c1 up); c2 (c1 down); => c1, c1 => c3 ",
+            "evaluation": "weakly_disproved",
+            "insight": ""
+          },
+          {
+            "id": "A-ma374n43-d3k",
+            "task_id": "T-ma36t865-ry63",
+            "hypothesis_id": "E-ma36w4hf-p27",
+            "created_at": "2025-04-30T00:26:45.891Z",
+            "event_class": "Action",
+            "type": "Modify_Feature_Value",
+            "goal": "confirm",
+            "goal_class": "c1",
+            "class_strategy": "other_to_goal",
+            "selection_strategy": "dense_region",
+            "axis_on": [
+              "f3",
+              "f5"
+            ],
+            "point_ids": [
+              "24"
+            ],
+            "operations": [
+              "f1=14",
+              "f1 =4"
+            ],
+            "outcome": "c3=>c1; c1 => c3",
+            "evaluation": "confirmed",
+            "insight": "low f5 is really strong factor for c1"
+          },
+          {
+            "id": "A-ma376qus-ye4",
+            "task_id": "T-ma36t865-ry63",
+            "hypothesis_id": "E-ma36w4hf-p27",
+            "created_at": "2025-04-30T00:28:24.052Z",
+            "event_class": "Action",
+            "type": "Modify_Feature_Value",
+            "goal": "confirm",
+            "goal_class": "c1",
+            "class_strategy": "goal_to_other",
+            "selection_strategy": "dense_region",
+            "axis_on": [
+              "f5",
+              "f3"
+            ],
+            "point_ids": [
+              "73"
+            ],
+            "operations": [
+              "f5=15",
+              "f5=5",
+              "f5=1"
+            ],
+            "outcome": "c1 => c3; c3 (c1 up); => c1",
+            "evaluation": "weakly_disproved",
+            "insight": ""
+          },
+          {
+            "id": "A-ma37blom-v69",
+            "task_id": "T-ma36t865-ry63",
+            "hypothesis_id": "E-ma36w4hf-p27",
+            "created_at": "2025-04-30T00:32:10.630Z",
+            "event_class": "Action",
+            "type": "Modify_Feature_Value",
+            "goal": "confirm",
+            "goal_class": "c1",
+            "class_strategy": "goal_to_other",
+            "selection_strategy": "sparse_region",
+            "axis_on": [
+              "f3",
+              "f5"
+            ],
+            "point_ids": [
+              "129"
+            ],
+            "operations": [
+              "f5=12",
+              "f5=10",
+              "f5=5"
+            ],
+            "outcome": "c1 => c3; c3 (c1 up); => c1",
+            "evaluation": "weakly_disproved",
+            "insight": ""
+          },
+          {
+            "id": "A-ma37eraj-xea",
+            "task_id": "T-ma36t865-ry63",
+            "hypothesis_id": "E-ma36w4hf-p27",
+            "created_at": "2025-04-30T00:34:37.867Z",
+            "event_class": "Action",
+            "type": "Modify_Feature_Value",
+            "goal": "confirm",
+            "goal_class": "c1",
+            "class_strategy": "goal_to_other",
+            "selection_strategy": "outlier",
+            "axis_on": [
+              "f3",
+              "f5"
+            ],
+            "point_ids": [
+              "74"
+            ],
+            "operations": [
+              "f5=1",
+              "f5=15",
+              "f5=9"
+            ],
+            "outcome": "c1 up; c1; c1 ",
+            "evaluation": "disproved",
+            "insight": ""
+          },
+          {
+            "id": "A-ma37gmvj-jk5",
+            "task_id": "T-ma36t865-ry63",
+            "hypothesis_id": "E-ma36w4hf-p27",
+            "created_at": "2025-04-30T00:36:05.455Z",
+            "event_class": "Action",
+            "type": "Modify_Feature_Value",
+            "goal": "confirm",
+            "goal_class": "c1",
+            "class_strategy": "goal_to_other",
+            "selection_strategy": "near_class_overlap",
+            "axis_on": [
+              "f3",
+              "f5"
+            ],
+            "point_ids": [
+              "7"
+            ],
+            "operations": [
+              "f5=15",
+              "f5=5"
+            ],
+            "outcome": "c1 => c3, c3 => c1",
+            "evaluation": "weakly_disproved",
+            "insight": ""
+          }
+        ]
+      }
+    ],
+    "duration": 6
+  },
+  {
+    "id": "T-ma8e9wz0-8htb",
+    "created_at": "2025-05-03T15:45:40.140Z",
+    "task_number": 1,
+    "participant_id": "P-vr9xmd-4",
+    "tool_name": "HypotheX",
+    "events": [
+      {
+        "task_id": "T-ma8e9wz0-8htb",
+        "id": "E-ma8fto2v-mzb",
+        "event_class": "DataExploration",
+        "created_at": "2025-05-03T16:29:01.351Z",
+        "type": "",
+        "point_ids": [],
+        "feature_ids": [
+          "f4",
+          "f2"
+        ],
+        "insight": ""
+      },
+      {
+        "task_id": "T-ma8e9wz0-8htb",
+        "id": "E-ma8fu3lv-e33",
+        "event_class": "Hypothesis",
+        "created_at": "2025-05-03T16:29:21.475Z",
+        "description": "c1 low on f4",
+        "evaluation": "",
+        "conclusion": "",
+        "events": [
+          {
+            "id": "A-ma8fuhkx-j1q",
+            "task_id": "T-ma8e9wz0-8htb",
+            "hypothesis_id": "E-ma8fu3lv-e33",
+            "created_at": "2025-05-03T16:29:39.585Z",
+            "event_class": "Action",
+            "type": "Modify_Feature_Value",
+            "goal": "confirm",
+            "goal_class": "c1",
+            "class_strategy": "goal_to_other",
+            "selection_strategy": "dense_region",
+            "axis_on": [
+              "f4",
+              "f2"
+            ],
+            "point_ids": [
+              "4",
+              "5",
+              "8",
+              "12",
+              "13",
+              "14",
+              "15",
+              "17",
+              "19",
+              "20",
+              "26",
+              "27",
+              "29",
+              "32",
+              "34",
+              "36",
+              "41",
+              "42",
+              "43",
+              "44",
+              "46",
+              "47",
+              "50",
+              "56",
+              "58",
+              "59",
+              "61",
+              "62",
+              "63",
+              "64",
+              "69",
+              "71",
+              "72",
+              "78",
+              "80",
+              "82",
+              "84",
+              "86",
+              "89",
+              "90",
+              "92",
+              "93",
+              "97",
+              "98",
+              "99",
+              "100",
+              "101",
+              "103",
+              "104",
+              "105",
+              "109",
+              "114",
+              "115",
+              "119",
+              "120",
+              "122",
+              "124",
+              "125",
+              "126",
+              "131",
+              "132",
+              "134",
+              "136",
+              "138",
+              "139",
+              "140",
+              "141",
+              "143",
+              "144",
+              "148",
+              "149"
+            ],
+            "operations": [
+              "f4 + 10"
+            ],
+            "outcome": "vast majority changes (most to c2)",
+            "evaluation": "confirmed",
+            "insight": "confirmed, majority changes"
+          }
+        ]
+      },
+      {
+        "task_id": "T-ma8e9wz0-8htb",
+        "id": "E-ma8g18lx-fjc",
+        "event_class": "DataExploration",
+        "created_at": "2025-05-03T16:34:54.549Z",
+        "type": "Change_Scatterplot_Axis",
+        "point_ids": [],
+        "feature_ids": [
+          "f3",
+          "f5"
+        ],
+        "insight": ""
+      },
+      {
+        "task_id": "T-ma8e9wz0-8htb",
+        "id": "E-ma8g1n62-0j9",
+        "event_class": "DataExploration",
+        "created_at": "2025-05-03T16:35:13.418Z",
+        "type": "Change_Scatterplot_Axis",
+        "point_ids": [],
+        "feature_ids": [
+          "f3",
+          "f1"
+        ],
+        "insight": "not nice culstered together"
+      },
+      {
+        "task_id": "T-ma8e9wz0-8htb",
+        "id": "E-ma8g2qk5-1v1",
+        "event_class": "DataExploration",
+        "created_at": "2025-05-03T16:36:04.469Z",
+        "type": "Change_Scatterplot_Axis",
+        "point_ids": [],
+        "feature_ids": [
+          "f2",
+          "f1"
+        ],
+        "insight": ""
+      },
+      {
+        "task_id": "T-ma8e9wz0-8htb",
+        "id": "E-ma8g31oi-zng",
+        "event_class": "DataExploration",
+        "created_at": "2025-05-03T16:36:18.882Z",
+        "type": "",
+        "point_ids": [],
+        "feature_ids": [
+          "f5",
+          "f1"
+        ],
+        "insight": ""
+      },
+      {
+        "task_id": "T-ma8e9wz0-8htb",
+        "id": "E-ma8g3cq3-1m3",
+        "event_class": "DataExploration",
+        "created_at": "2025-05-03T16:36:33.195Z",
+        "type": "Change_Scatterplot_Axis",
+        "point_ids": [],
+        "feature_ids": [
+          "f5",
+          "f1"
+        ],
+        "insight": ""
+      },
+      {
+        "task_id": "T-ma8e9wz0-8htb",
+        "id": "E-ma8g3qk7-3oe",
+        "event_class": "Hypothesis",
+        "created_at": "2025-05-03T16:36:51.127Z",
+        "description": "c1 low on f1",
+        "evaluation": "",
+        "conclusion": "",
+        "events": [
+          {
+            "id": "A-ma8g3zzv-yl4",
+            "task_id": "T-ma8e9wz0-8htb",
+            "hypothesis_id": "E-ma8g3qk7-3oe",
+            "created_at": "2025-05-03T16:37:03.355Z",
+            "event_class": "Action",
+            "type": "Create_Path",
+            "goal": "confirm",
+            "goal_class": "c1",
+            "class_strategy": "goal_to_other",
+            "selection_strategy": "dense_region",
+            "axis_on": [
+              "f5",
+              "f1"
+            ],
+            "point_ids": [
+              "78",
+              "91",
+              "27",
+              "142",
+              "140"
+            ],
+            "operations": [
+              "path"
+            ],
+            "outcome": "c1 with the same f1 can be c1 or c2 depending on f2 and f4",
+            "evaluation": "weakly_confirmed",
+            "insight": "tendenz stimmt but not nicht ganz"
+          },
+          {
+            "id": "A-ma8g6wly-lh1",
+            "task_id": "T-ma8e9wz0-8htb",
+            "hypothesis_id": "E-ma8g3qk7-3oe",
+            "created_at": "2025-05-03T16:39:18.934Z",
+            "event_class": "Action",
+            "type": "Define_Subspace",
+            "goal": "confirm",
+            "goal_class": "c1",
+            "class_strategy": "goal_to_other",
+            "selection_strategy": "dense_region",
+            "axis_on": [
+              "f5",
+              "f1"
+            ],
+            "point_ids": [
+              "14"
+            ],
+            "operations": [
+              "subspace"
+            ],
+            "outcome": "clear border between c1 and c3 at 8-10 f1\n",
+            "evaluation": "confirmed",
+            "insight": ""
+          }
+        ]
+      }
+    ],
+    "duration": 30
+  },
+  {
+    "id": "T-ma8g9btv-xo97",
+    "created_at": "2025-05-03T16:41:11.971Z",
+    "task_number": 2,
+    "participant_id": "P-vr9xmd-4",
+    "tool_name": "HypotheX",
+    "events": [
+      {
+        "task_id": "T-ma8g9btv-xo97",
+        "id": "E-ma8g9u2q-v4m",
+        "event_class": "Hypothesis",
+        "created_at": "2025-05-03T16:41:35.618Z",
+        "description": "if f1 high it must be c2",
+        "evaluation": "",
+        "conclusion": "",
+        "events": [
+          {
+            "id": "A-ma8ga3pv-83u",
+            "task_id": "T-ma8g9btv-xo97",
+            "hypothesis_id": "E-ma8g9u2q-v4m",
+            "created_at": "2025-05-03T16:41:48.115Z",
+            "event_class": "Action",
+            "type": "Modify_Feature_Value",
+            "goal": "confirm",
+            "goal_class": "c2 ",
+            "class_strategy": "goal_to_other",
+            "selection_strategy": "dense_region",
+            "axis_on": [
+              "f1",
+              "f5"
+            ],
+            "point_ids": [
+              "3",
+              "9",
+              "10",
+              "16",
+              "18",
+              "22",
+              "28",
+              "30",
+              "31",
+              "33",
+              "35",
+              "37",
+              "38",
+              "45",
+              "48",
+              "49",
+              "53",
+              "55",
+              "57",
+              "60",
+              "65",
+              "66",
+              "68",
+              "70",
+              "73",
+              "74",
+              "75",
+              "76",
+              "77",
+              "79",
+              "81",
+              "85",
+              "87",
+              "94",
+              "95",
+              "102",
+              "106",
+              "107",
+              "110",
+              "111",
+              "113",
+              "116",
+              "118",
+              "121",
+              "127",
+              "128",
+              "133",
+              "145",
+              "146"
+            ],
+            "operations": [
+              "f1 - 5",
+              "f1 - 5",
+              "f1 - 15",
+              "all c2"
+            ],
+            "outcome": "one changed to c3, rest stays c2, the same, ",
+            "evaluation": "disproved",
+            "insight": ""
+          }
+        ]
+      }
+    ],
+    "duration": 6
+  },
+  {
+    "id": "T-ma8gc52w-se6c",
+    "created_at": "2025-05-03T16:43:23.192Z",
+    "task_number": 3,
+    "participant_id": "P-vr9xmd-4",
+    "tool_name": "HypotheX",
+    "events": [
+      {
+        "task_id": "T-ma8gc52w-se6c",
+        "id": "E-ma8gcls1-wu7",
+        "event_class": "Hypothesis",
+        "created_at": "2025-05-03T16:43:44.833Z",
+        "description": "if f5 and f4 middle => c3",
+        "evaluation": "",
+        "conclusion": "",
+        "events": [
+          {
+            "id": "A-ma8gczfz-bfi",
+            "task_id": "T-ma8gc52w-se6c",
+            "hypothesis_id": "E-ma8gcls1-wu7",
+            "created_at": "2025-05-03T16:44:02.543Z",
+            "event_class": "Action",
+            "type": "Modify_Feature_Value",
+            "goal": "confirm",
+            "goal_class": "c3",
+            "class_strategy": "goal_to_other",
+            "selection_strategy": "dense_region",
+            "axis_on": [
+              "f5",
+              "f4"
+            ],
+            "point_ids": [
+              "0",
+              "1",
+              "2",
+              "3",
+              "6",
+              "7",
+              "11",
+              "16",
+              "17",
+              "19",
+              "21",
+              "23",
+              "24",
+              "25",
+              "26",
+              "32",
+              "33",
+              "39",
+              "40",
+              "43",
+              "44",
+              "45",
+              "47",
+              "48",
+              "49",
+              "51",
+              "52",
+              "55",
+              "58",
+              "62",
+              "63",
+              "67",
+              "70",
+              "74",
+              "78",
+              "83",
+              "87",
+              "88",
+              "90",
+              "91",
+              "92",
+              "93",
+              "96",
+              "97",
+              "101",
+              "103",
+              "107",
+              "108",
+              "114",
+              "116",
+              "117",
+              "119",
+              "123",
+              "126",
+              "129",
+              "130",
+              "131",
+              "132",
+              "133",
+              "134",
+              "135",
+              "136",
+              "137",
+              "142",
+              "144",
+              "147"
+            ],
+            "operations": [
+              "f5 + 10"
+            ],
+            "outcome": "c1 stays, most c3 moved to c1, c2 not changed much",
+            "evaluation": "weakly_confirmed",
+            "insight": ""
+          },
+          {
+            "id": "A-ma8geqr3-cin",
+            "task_id": "T-ma8gc52w-se6c",
+            "hypothesis_id": "E-ma8gcls1-wu7",
+            "created_at": "2025-05-03T16:45:24.591Z",
+            "event_class": "Action",
+            "type": "Modify_Feature_Value",
+            "goal": "confirm",
+            "goal_class": "c3",
+            "class_strategy": "goal_to_other",
+            "selection_strategy": "dense_region",
+            "axis_on": [
+              "f5",
+              "f4"
+            ],
+            "point_ids": [
+              "0",
+              "1",
+              "2",
+              "3",
+              "6",
+              "7",
+              "11",
+              "16",
+              "17",
+              "19",
+              "21",
+              "23",
+              "24",
+              "25",
+              "26",
+              "32",
+              "33",
+              "39",
+              "40",
+              "43",
+              "44",
+              "45",
+              "47",
+              "48",
+              "49",
+              "51",
+              "52",
+              "55",
+              "58",
+              "62",
+              "63",
+              "67",
+              "70",
+              "74",
+              "78",
+              "83",
+              "87",
+              "88",
+              "90",
+              "91",
+              "92",
+              "93",
+              "96",
+              "97",
+              "101",
+              "103",
+              "107",
+              "108",
+              "114",
+              "116",
+              "117",
+              "119",
+              "123",
+              "126",
+              "129",
+              "130",
+              "131",
+              "132",
+              "133",
+              "134",
+              "135",
+              "136",
+              "137",
+              "142",
+              "144",
+              "147"
+            ],
+            "operations": [
+              "f5 - 10"
+            ],
+            "outcome": "most c3 flipped to c2",
+            "evaluation": "confirmed",
+            "insight": ""
+          },
+          {
+            "id": "A-ma8gg1ag-gmw",
+            "task_id": "T-ma8gc52w-se6c",
+            "hypothesis_id": "E-ma8gcls1-wu7",
+            "created_at": "2025-05-03T16:46:24.904Z",
+            "event_class": "Action",
+            "type": "Modify_Feature_Value",
+            "goal": "confirm",
+            "goal_class": "c3",
+            "class_strategy": "goal_to_other",
+            "selection_strategy": "dense_region",
+            "axis_on": [
+              "f4",
+              "f5"
+            ],
+            "point_ids": [
+              "0",
+              "1",
+              "2",
+              "3",
+              "6",
+              "7",
+              "11",
+              "16",
+              "17",
+              "19",
+              "21",
+              "23",
+              "24",
+              "25",
+              "26",
+              "32",
+              "33",
+              "39",
+              "40",
+              "43",
+              "44",
+              "45",
+              "47",
+              "48",
+              "49",
+              "51",
+              "52",
+              "55",
+              "58",
+              "62",
+              "63",
+              "67",
+              "70",
+              "74",
+              "78",
+              "83",
+              "87",
+              "88",
+              "90",
+              "91",
+              "92",
+              "93",
+              "96",
+              "97",
+              "101",
+              "103",
+              "107",
+              "108",
+              "114",
+              "116",
+              "117",
+              "119",
+              "123",
+              "126",
+              "129",
+              "130",
+              "131",
+              "132",
+              "133",
+              "134",
+              "135",
+              "136",
+              "137",
+              "142",
+              "144",
+              "147"
+            ],
+            "operations": [
+              "f4 + 10"
+            ],
+            "outcome": "most c3 stay some fliped to c2",
+            "evaluation": "weakly_disproved",
+            "insight": ""
+          },
+          {
+            "id": "A-ma8ghdoh-24i",
+            "task_id": "T-ma8gc52w-se6c",
+            "hypothesis_id": "E-ma8gcls1-wu7",
+            "created_at": "2025-05-03T16:47:27.617Z",
+            "event_class": "Action",
+            "type": "Modify_Feature_Value",
+            "goal": "confirm",
+            "goal_class": "c3",
+            "class_strategy": "goal_to_other",
+            "selection_strategy": "dense_region",
+            "axis_on": [
+              "f4",
+              "f5"
+            ],
+            "point_ids": [
+              "0",
+              "1",
+              "2",
+              "3",
+              "6",
+              "7",
+              "11",
+              "16",
+              "17",
+              "19",
+              "21",
+              "23",
+              "24",
+              "25",
+              "26",
+              "32",
+              "33",
+              "39",
+              "40",
+              "43",
+              "44",
+              "45",
+              "47",
+              "48",
+              "49",
+              "51",
+              "52",
+              "55",
+              "58",
+              "62",
+              "63",
+              "67",
+              "70",
+              "74",
+              "78",
+              "83",
+              "87",
+              "88",
+              "90",
+              "91",
+              "92",
+              "93",
+              "96",
+              "97",
+              "101",
+              "103",
+              "107",
+              "108",
+              "114",
+              "116",
+              "117",
+              "119",
+              "123",
+              "126",
+              "129",
+              "130",
+              "131",
+              "132",
+              "133",
+              "134",
+              "135",
+              "136",
+              "137",
+              "142",
+              "144",
+              "147"
+            ],
+            "operations": [
+              "f4 - 10"
+            ],
+            "outcome": "almost all filiped to c1",
+            "evaluation": "confirmed",
+            "insight": ""
+          }
+        ]
+      },
+      {
+        "task_id": "T-ma8gc52w-se6c",
+        "id": "E-ma8gtoxo-7ua",
+        "event_class": "DataExploration",
+        "created_at": "2025-05-03T16:57:02.076Z",
+        "type": "Change_Scatterplot_Axis",
+        "point_ids": [],
+        "feature_ids": [
+          "f5",
+          "f2"
+        ],
+        "insight": ""
+      },
+      {
+        "task_id": "T-ma8gc52w-se6c",
+        "id": "E-ma8gu2dd-6ib",
+        "event_class": "DataExploration",
+        "created_at": "2025-05-03T16:57:19.489Z",
+        "type": "Change_Scatterplot_Axis",
+        "point_ids": [],
+        "feature_ids": [],
+        "insight": "f5, f4"
+      }
+    ],
+    "duration": 6.5
+  },
+  {
+    "id": "T-ma8git8k-cizv",
+    "created_at": "2025-05-03T16:48:34.436Z",
+    "task_number": 4,
+    "participant_id": "P-vr9xmd-4",
+    "tool_name": "HypotheX",
+    "events": [
+      {
+        "task_id": "T-ma8git8k-cizv",
+        "id": "E-ma8gj9sj-xgj",
+        "event_class": "Hypothesis",
+        "created_at": "2025-05-03T16:48:55.891Z",
+        "description": "f3 and f2 low => no c1",
+        "evaluation": "",
+        "conclusion": "",
+        "events": [
+          {
+            "id": "A-ma8gjjkq-bbk",
+            "task_id": "T-ma8git8k-cizv",
+            "hypothesis_id": "E-ma8gj9sj-xgj",
+            "created_at": "2025-05-03T16:49:08.570Z",
+            "event_class": "Action",
+            "type": "Modify_Feature_Value",
+            "goal": "confirm",
+            "goal_class": "c1",
+            "class_strategy": "goal_to_other",
+            "selection_strategy": "dense_region",
+            "axis_on": [
+              "f3",
+              "f2"
+            ],
+            "point_ids": [
+              "1",
+              "5",
+              "9",
+              "10",
+              "16",
+              "18",
+              "19",
+              "21",
+              "22",
+              "28",
+              "29",
+              "30",
+              "31",
+              "32",
+              "35",
+              "37",
+              "38",
+              "42",
+              "44",
+              "46",
+              "48",
+              "53",
+              "55",
+              "56",
+              "57",
+              "58",
+              "60",
+              "63",
+              "65",
+              "66",
+              "68",
+              "70",
+              "71",
+              "73",
+              "74",
+              "75",
+              "76",
+              "77",
+              "81",
+              "83",
+              "85",
+              "87",
+              "89",
+              "91",
+              "93",
+              "94",
+              "95",
+              "99",
+              "104",
+              "106",
+              "107",
+              "109",
+              "110",
+              "111",
+              "113",
+              "116",
+              "118",
+              "121",
+              "127",
+              "128",
+              "129",
+              "130",
+              "131",
+              "132",
+              "133",
+              "137",
+              "139",
+              "142",
+              "143",
+              "145",
+              "146",
+              "149"
+            ],
+            "operations": [
+              "f2 + 10",
+              "f5 + 10"
+            ],
+            "outcome": "most didn't change, more changed to c1",
+            "evaluation": "partially_disproved_or_confirmed",
+            "insight": "no clear result"
+          },
+          {
+            "id": "A-ma8gl8x7-dge",
+            "task_id": "T-ma8git8k-cizv",
+            "hypothesis_id": "E-ma8gj9sj-xgj",
+            "created_at": "2025-05-03T16:50:28.075Z",
+            "event_class": "Action",
+            "type": "Modify_Feature_Value",
+            "goal": "confirm",
+            "goal_class": "c1",
+            "class_strategy": "goal_to_other",
+            "selection_strategy": "dense_region",
+            "axis_on": [],
+            "point_ids": [
+              "4",
+              "5",
+              "8",
+              "12",
+              "13",
+              "14",
+              "15",
+              "17",
+              "19",
+              "20",
+              "26",
+              "27",
+              "29",
+              "32",
+              "34",
+              "36",
+              "41",
+              "42",
+              "43",
+              "44",
+              "46",
+              "47",
+              "50",
+              "56",
+              "58",
+              "59",
+              "61",
+              "62",
+              "63",
+              "64",
+              "69",
+              "71",
+              "72",
+              "78",
+              "80",
+              "82",
+              "84",
+              "86",
+              "89",
+              "90",
+              "92",
+              "93",
+              "97",
+              "98",
+              "99",
+              "100",
+              "101",
+              "103",
+              "104",
+              "105",
+              "109",
+              "114",
+              "115",
+              "119",
+              "120",
+              "122",
+              "124",
+              "125",
+              "126",
+              "131",
+              "132",
+              "134",
+              "136",
+              "138",
+              "139",
+              "140",
+              "141",
+              "143",
+              "144",
+              "148",
+              "149"
+            ],
+            "operations": [
+              "f4 - 5"
+            ],
+            "outcome": " all stays c1",
+            "evaluation": "hypothesis_drift",
+            "insight": ""
+          }
+        ]
+      }
+    ],
+    "duration": 7
+  }
+]

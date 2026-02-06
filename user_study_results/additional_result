@@ -1,0 +1,112 @@
+# 📊 Hypothesis Evaluation & Action Alignment
+
+This document summarizes hypothesis evaluation outcomes and action–hypothesis alignment,
+organized **by participant**, then **by task**, and **by tool** (WhatIf vs HypotheX).
+
+---
+
+## 🧑 Participant: P-mqv4gh-2
+
+| Task | Tool | Hypothesis # | Evaluation | Avg. Action Score | Difference |
+|---:|---|---:|---|---:|---:|
+| 1 | WhatIf | 11 | weakly_confirmed | 0.750 | 0.50 |
+| 1 | HypotheX | 5 | confirmed | 0.000 | 0.00 |
+| 4 | HypotheX | 5 | weakly_disproved | 0.850 | 0.10 |
+
+---
+
+## 🧑 Participant: P-hu5tcn-3
+
+| Task | Tool | Hypothesis # | Evaluation | Avg. Action Score | Difference |
+|---:|---|---:|---|---:|---:|
+| 1 | HypotheX | 8 | weakly_confirmed | 0.250 | 0.00 |
+| 2 | HypotheX | 0 | disproved | 0.000 | 1.00 |
+
+---
+
+## 🧑 Participant: P-vr9xmd-4
+
+| Task | Tool | Hypothesis # | Evaluation | Avg. Action Score | Difference |
+|---:|---|---:|---|---:|---:|
+| 2 | WhatIf | 0 | disproved | 0.917 | 0.08 |
+| 3 | WhatIf | 0 | weakly_confirmed | 0.406 | 0.16 |
+
+---
+
+## 🧑 Participant: P-pj7twb-5
+
+| Task | Tool | Hypothesis # | Evaluation | Avg. Action Score | Difference |
+|---:|---|---:|---|---:|---:|
+| 1 | WhatIf | 8 | weakly_disproved | 0.750 | 0.00 |
+| 3 | WhatIf | 11 | weakly_disproved | 0.469 | 0.28 |
+| 4 | WhatIf | 2 | confirmed | 0.000 | 0.00 |
+| 1 | HypotheX | 7 | weakly_confirmed | 0.500 | 0.25 |
+| 2 | HypotheX | 0 | weakly_confirmed | 0.625 | 0.38 |
+| 4 | HypotheX | 0 | weakly_disproved | 1.000 | 0.25 |
+
+---
+
+## 🧑 Participant: P-ebx8mj-7
+
+| Task | Tool | Hypothesis # | Evaluation | Avg. Action Score | Difference |
+|---:|---|---:|---|---:|---:|
+| 1 | WhatIf | 2 | weakly_confirmed | 0.250 | 0.00 |
+| 3 | HypotheX | 3 | disproved | 1.000 | 0.00 |
+
+---
+
+## 🧑 Participant: P-snt3rw-8
+
+| Task | Tool | Hypothesis # | Evaluation | Avg. Action Score | Difference |
+|---:|---|---:|---|---:|---:|
+| 1 | HypotheX | 3 | confirmed | 0.375 | 0.38 |
+| 3 | HypotheX | 1 | confirmed | 0.125 | 0.00 |
+
+---
+
+## 🧑 Participant: P-djk2vq-9
+
+| Task | Tool | Hypothesis # | Evaluation | Avg. Action Score | Difference |
+|---:|---|---:|---|---:|---:|
+| 1 | WhatIf | 16 | weakly_confirmed | 0.500 | 0.25 |
+| 2 | WhatIf | 1 | weakly_disproved | 0.500 | 0.25 |
+| 2 | HypotheX | 2 | weakly_disproved | 0.562 | 0.19 |
+| 3 | HypotheX | 1 | weakly_confirmed | 0.350 | 0.10 |
+| 4 | HypotheX | 1 | weakly_disproved | 1.000 | 0.25 |
+
+---
+
+## 🧑 Participant: P-kpe1cz-10
+
+| Task | Tool | Hypothesis # | Evaluation | Avg. Action Score | Difference |
+|---:|---|---:|---|---:|---:|
+| 1 | WhatIf | 0 | disproved | 0.671 | 0.33 |
+| 2 | WhatIf | 0 | disproved | 0.889 | 0.11 |
+| 3 | WhatIf | 0 | confirmed | 0.500 | 0.50 |
+| 4 | WhatIf | 0 | confirmed | 0.333 | 0.33 |
+| 1 | HypotheX | 5 | confirmed | 0.900 | 0.90 |
+
+---
+
+
+## 🧑 Participant: P-wgr7sa-11
+
+| Task | Tool | Hypothesis # | Evaluation | Avg. Action Score | Difference |
+|---:|---|---:|---|---:|---:|
+| 1 | WhatIf | 7 | confirmed | 0.125 | 0.00 |
+| 1 | WhatIf | 8 | confirmed | 0.000 | 0.00 |
+| 2 | WhatIf | 5 | disproved | 0.833 | 0.17 |
+| 4 | WhatIf | 0 | weakly_confirmed | 0.438 | 0.19 |
+| 3 | HypotheX | 4 | weakly_disproved | 0.208 | 0.54 |
+
+---
+
+## 📝 Notes
+
+- **Difference** reflects divergence between hypothesis evaluation and observed action alignment.
+- Higher values indicate **greater mismatch**.
+- Grouping by participant enables longitudinal and within-subject comparison.
+- Tool differences can be inspected within each participant block.
+
+---
+
