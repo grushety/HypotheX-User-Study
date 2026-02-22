@@ -1,4 +1,4 @@
-# Table of Contents
+﻿# Table of Contents
 
 1. [Questionnaire Answer Evaluation](#questionnaire-answer-evaluation)
 2. [Answer Encoding](#answer-encoding)
@@ -124,9 +124,9 @@ All responses are encoded and evaluated with the **ground truth**. The encoded f
 
 ### **Comparison Table** (HypotheX vs WhatIf)
 
+
 | participant_id | importance_score(WIT) | importance_score(HX)                                      | value_score(WIT) | value_score(HX)                                           | profile_score(WIT) | profile_score(HX)                                         | overall_score (WIT) | overall_score(HX)                                         |
 |----------------|-----------------------|-----------------------------------------------------------|------------------|-----------------------------------------------------------|--------------------|-----------------------------------------------------------|---------------------|-----------------------------------------------------------|
-| P01            | 0.66                  | 0.60 <span style="color:red; font-size: 20px;">↓</span>   | 0.16             | 0.20 <span style="color:green; font-size: 20px;">↑</span> | 1.00               | 1.00 <span style="color:red; font-size: 20px;">↓</span>   | 0.53                | 0.52 <span style="color:red; font-size: 20px;">↓</span>   |
 | P02            | 0.92                  | 0.66 <span style="color:red; font-size: 20px;">↓</span>   | 0.24             | 0.36 <span style="color:green; font-size: 20px;">↑</span> | 0.50               | 0.50 <span style="color:red; font-size: 20px;">↓</span>   | 0.56                | 0.51 <span style="color:red; font-size: 20px;">↓</span>   |
 | P03            | 0.72                  | 0.72 <span style="color:red; font-size: 20px;">↓</span>   | 0.34             | 0.36 <span style="color:green; font-size: 20px;">↑</span> | 0.50               | 0.50 <span style="color:red; font-size: 20px;">↓</span>   | 0.52                | 0.53 <span style="color:green; font-size: 20px;">↑</span> |
 | P04            | 0.96                  | 0.66 <span style="color:red; font-size: 20px;">↓</span>   | 0.32             | 0.00 <span style="color:red; font-size: 20px;">↓</span>   | 0.50               | 0.50 <span style="color:red; font-size: 20px;">↓</span>   | 0.61                | 0.36 <span style="color:red; font-size: 20px;">↓</span>   |
@@ -136,16 +136,16 @@ All responses are encoded and evaluated with the **ground truth**. The encoded f
 | P08            | 0.66                  | 0.70 <span style="color:green; font-size: 20px;">↑</span> | 0.08             | 0.36 <span style="color:green; font-size: 20px;">↑</span> | 0.50               | 1.00 <span style="color:green; font-size: 20px;">↑</span> | 0.40                | 0.62 <span style="color:green; font-size: 20px;">↑</span> |
 | P09            | 0.72                  | 0.64 <span style="color:red; font-size: 20px;">↓</span>   | 0.16             | 0.20 <span style="color:green; font-size: 20px;">↑</span> | 0.50               | 0.50 <span style="color:red; font-size: 20px;">↓</span>   | 0.45                | 0.44 <span style="color:red; font-size: 20px;">↓</span>   |
 | P10            | 0.92                  | 0.72 <span style="color:red; font-size: 20px;">↓</span>   | 0.42             | 0.46 <span style="color:green; font-size: 20px;">↑</span> | 0.50               | 1.00 <span style="color:green; font-size: 20px;">↑</span> | 0.64                | 0.67 <span style="color:green; font-size: 20px;">↑</span> |
-
+| P11            | 0.72                  | 0.66 <span style="color:red; font-size: 20px;">↓</span>   | 0.16             | 0.36 <span style="color:green; font-size: 20px;">↑</span> | 0.00               | 1.00 <span style="color:green; font-size: 20px;">↑</span> | 0.35                | 0.61 <span style="color:green; font-size: 20px;">↑</span> |
 ---
 
 ## Average Scores per Tool:
 
+
 | tool     | importance_score | value_score | profile_score | overall_score |
 |:---------|-----------------:|------------:|--------------:|--------------:|
-| hypothex |            0.728 |       0.318 |           0.6 |         0.538 |
-| whatif   |             0.78 |       0.224 |          0.55 |         0.512 |
-
+| hypothex |            0.734 |       0.334 |          0.60 |         0.547 |
+| whatif   |            0.786 |       0.224 |          0.45 |         0.494 |
 ---
 
 ### Task 2
@@ -210,26 +210,26 @@ The **final score** is a weighted sum of the **correctness score** and **analysi
 
 ### **Comparison Table** (HypotheX vs WhatIf)
 
+
 | participant_id | correctness_score_whatif | correctness_score_hypothex                               | analysis_score_whatif | analysis_score_hypothex                                  | final_score_whatif | final_score_hypothex                                     |
 |----------------|--------------------------|----------------------------------------------------------|-----------------------|----------------------------------------------------------|--------------------|----------------------------------------------------------|
-| P01            | 1.00                     | 1.00 <span style="color:red; font-size: 20px;">↓</span>  | 0.40                  | 0.40 <span style="color:red;font-size: 20px;">↓</span>   | 0.64               | 0.64 <span style="color:red;font-size: 20px;">↓</span>   |
 | P02            | 1.00                     | 0.88 <span style="color:red;font-size: 20px;">↓</span>   | 0.40                  | 0.70 <span style="color:green;font-size: 20px;">↑</span> | 0.64               | 0.77 <span style="color:green;font-size: 20px;">↑</span> |
 | P03            | 1.00                     | 0.88 <span style="color:red;font-size: 20px;">↓</span>   | 0.50                  | 0.70 <span style="color:green;font-size: 20px;">↑</span> | 0.70               | 0.77 <span style="color:green;font-size: 20px;">↑</span> |
 | P04            | 0.88                     | 0.50 <span style="color:red;font-size: 20px;">↓</span>   | 0.00                  | 0.50 <span style="color:green;font-size: 20px;">↑</span> | 0.35               | 0.50 <span style="color:green;font-size: 20px;">↑</span> |
-| P05            | 1.00                     | 1.00 <span style="color:red;font-size: 20px;">↓</span>   | 0.70                  | 0.70 <span style="color:red;font-size: 20px;">↓</span>   | 0.82               | 0.82 <span style="color:red;font-size: 20px;">↓</span>   |
+| P05            | 1.00                     | 1.00 <span style="color:gray;font-size: 20px;">=</span>  | 0.70                  | 0.70 <span style="color:gray;font-size: 20px;">=</span>  | 0.82               | 0.82 <span style="color:gray;font-size: 20px;">=</span>  |
 | P06            | 0.75                     | 1.00 <span style="color:green;font-size: 20px;">↑</span> | 0.00                  | 0.70 <span style="color:green;font-size: 20px;">↑</span> | 0.30               | 0.82 <span style="color:green;font-size: 20px;">↑</span> |
-| P07            | 1.00                     | 1.00 <span style="color:red;font-size: 20px;">↓</span>   | 0.40                  | 0.00 <span style="color:red;font-size: 20px;">↓</span>   | 0.64               | 0.40 <span style="color:red;font-size: 20px;">↓</span>   |
+| P07            | 1.00                     | 1.00 <span style="color:gray;font-size: 20px;">=</span>  | 0.40                  | 0.00 <span style="color:red;font-size: 20px;">↓</span>   | 0.64               | 0.40 <span style="color:red;font-size: 20px;">↓</span>   |
 | P08            | 1.00                     | 0.88 <span style="color:red;font-size: 20px;">↓</span>   | 0.00                  | 0.40 <span style="color:green;font-size: 20px;">↑</span> | 0.40               | 0.59 <span style="color:green;font-size: 20px;">↑</span> |
-| P09            | 1.00                     | 1.00 <span style="color:red;font-size: 20px;">↓</span>   | 0.00                  | 0.00 <span style="color:red;font-size: 20px;">↓</span>   | 0.40               | 0.40 <span style="color:red;font-size: 20px;">↓</span>   |
+| P09            | 1.00                     | 1.00 <span style="color:gray;font-size: 20px;">=</span>  | 0.00                  | 0.00 <span style="color:gray;font-size: 20px;">=</span>  | 0.40               | 0.40 <span style="color:gray;font-size: 20px;">=</span>  |
 | P10            | 1.00                     | 0.88 <span style="color:red;font-size: 20px;">↓</span>   | 0.80                  | 0.70 <span style="color:red;font-size: 20px;">↓</span>   | 0.88               | 0.77 <span style="color:red;font-size: 20px;">↓</span>   |
-
+| P11            | 1.00                     | 0.88 <span style="color:red;font-size: 20px;">↓</span>   | 0.80                  | 0.50 <span style="color:red;font-size: 20px;">↓</span>   | 0.88               | 0.65 <span style="color:red;font-size: 20px;">↓</span>   |
 ## Average Scores per Tool:
+
 
 | tool     | correctness_score | analysis_score | final_score |
 |----------|-------------------|----------------|-------------|
-| hypothex | 0.902             | 0.48           | 0.648       |
-| whatif   | 0.963             | 0.32           | 0.577       |
-
+| hypothex | 0.890             | 0.49           | 0.649       |
+| whatif   | 0.963             | 0.36           | 0.601       |
 ### Task 3
 
 ### **1. Complexity Evaluation**
@@ -301,59 +301,48 @@ The final report includes:
 
 ## Comparison of WIT and HypotheX Scores
 
-| Participant ID | Correctness Score (WIT) | Correctness Score (HypotheX)                             | Complexity Score (WIT) | Complexity Score (HypotheX) | Final Score (WIT) | Final Score (HypotheX) |
-|----------------|-------------------------|----------------------------------------------------------|------------------------|-----------------------------|-------------------|------------------------|
-| P01            | 1.0                     | 1.0                                                      | 0.482456               | 0.482456                    | 0.792982          | 0.792982               |
-| P02            | 0.5                     | 1.0 <span style="color:green; font-size: 20px;">↑</span> | 0.350877               | 0.921052                    | 0.440350          | 0.968421               |
-| P03            | 0.5                     | 1.0 <span style="color:green; font-size: 20px;">↑</span> | 0.570175               | 0.570175                    | 0.528070          | 0.828070               |
-| P04            | 0.25                    | 1.0 <span style="color:green; font-size: 20px;">↑</span> | 0.263158               | 0.482456                    | 0.255263          | 0.792982               |
-| P05            | 1.0                     | 1.0                                                      | 0.263158               | 0.482456                    | 0.705263          | 0.792982               |
-| P06            | 1.0                     | 0.75 <span style="color:red; font-size: 20px;">↓</span>  | 0.570175               | 0.570175                    | 0.828070          | 0.642982               |
-| P07            | 0.75                    | 1.0 <span style="color:green; font-size: 20px;">↑</span> | 0.263158               | 0.263158                    | 0.555263          | 0.705263               |
-| P08            | 1.0                     | 1.0                                                      | 0.482456               | 0.482456                    | 0.792982          | 0.642982               |
-| P09            | 1.0                     | 1.0                                                      | 0.482456               | 0.482456                    | 0.792982          | 0.792982               |
-| P10            | 0.75                    | 0.75                                                     | 0.833333               | 0.263158                    | 0.783333          | 0.555263               |
 
+| participant_id | complexity_score (WIT) | complexity_score (HX)                        | correctness_score (WIT) | correctness_score (HX)                   | overall_score (WIT) | overall_score (HX)                           |
+| -------------- | ---------------------- | -------------------------------------------- | ----------------------- | ---------------------------------------- | ------------------- | -------------------------------------------- |
+| P02            | 0.350877               | 0.921053 <span style="color:green; font-size: 20px;">↑</span> | 0.50                    | 1.00 <span style="color:green; font-size: 20px;">↑</span> | 0.440351            | 0.968421 <span style="color:green; font-size: 20px;">↑</span> |
+| P03            | 0.570175               | 0.570175 <span style="color:gray; font-size: 20px;">=</span>  | 1.00                    | 1.00 <span style="color:gray; font-size: 20px;">=</span>  | 0.828070            | 0.828070 <span style="color:gray; font-size: 20px;">=</span>  |
+| P04            | 0.263158               | 0.482456 <span style="color:green; font-size: 20px;">↑</span> | 0.25                    | 1.00 <span style="color:green; font-size: 20px;">↑</span> | 0.255263            | 0.792982 <span style="color:green; font-size: 20px;">↑</span> |
+| P05            | 0.263158               | 0.482456 <span style="color:green; font-size: 20px;">↑</span> | 1.00                    | 1.00 <span style="color:gray; font-size: 20px;">=</span>  | 0.705263            | 0.792982 <span style="color:green; font-size: 20px;">↑</span> |
+| P06            | 0.570175               | 0.482456 <span style="color:red; font-size: 20px;">↓</span>   | 0.75                    | 0.75 <span style="color:gray; font-size: 20px;">=</span>  | 0.678070            | 0.642982 <span style="color:red; font-size: 20px;">↓</span>   |
+| P07            | 0.263158               | 0.263158 <span style="color:gray; font-size: 20px;">=</span>  | 0.75                    | 1.00 <span style="color:green; font-size: 20px;">↑</span> | 0.555263            | 0.705263 <span style="color:green; font-size: 20px;">↑</span> |
+| P08            | 0.482456               | 0.482456 <span style="color:gray; font-size: 20px;">=</span>  | 0.25                    | 0.75 <span style="color:green; font-size: 20px;">↑</span> | 0.342982            | 0.642982 <span style="color:green; font-size: 20px;">↑</span> |
+| P09            | 0.482456               | 0.482456 <span style="color:gray; font-size: 20px;">=</span>  | 1.00                    | 1.00 <span style="color:gray; font-size: 20px;">=</span>  | 0.792982            | 0.792982 <span style="color:gray; font-size: 20px;">=</span>  |
+| P10            | 0.833333               | 0.263158 <span style="color:red; font-size: 20px;">↓</span>   | 0.75                    | 0.75 <span style="color:gray; font-size: 20px;">=</span>  | 0.783333            | 0.555263 <span style="color:red; font-size: 20px;">↓</span>   |
+| P11            | 0.833333               | 0.833333 <span style="color:gray; font-size: 20px;">=</span>  | 0.50                    | 1.00 <span style="color:green; font-size: 20px;">↑</span> | 0.633333            | 0.933333 <span style="color:green; font-size: 20px;">↑</span> |
 ## Comparison of WIT and HypotheX Scores
 
-| Tool     | Correctness Score | Complexity Score | Final Score |
-|----------|-------------------|------------------|-------------|
-| Hypothex | 0.925             | 0.491228         | 0.751491    |
-| WhatIf   | 0.750             | 0.464912         | 0.635965    |
 
+| Tool         | Correctness Score | Complexity Score | Overall Score |
+| ------------ | ----------------: | ---------------: | ------------: |
+| **HypotheX** |         **0.925** |        **0.526** |     **0.766** |
+| WhatIf       |             0.675 |            0.491 |         0.601 |
 ### Task 4
 
 ## Comparison of WIT and HypotheX Scores (Task 4)
 
-| Participant ID | Tool     | Complexity Score | Correctness Score | Final Score |
-|----------------|----------|------------------|-------------------|-------------|
-| P01            | Hypothex | 0.570175         | 0.75              | 0.678070    |
-| P02            | Hypothex | 0.482456         | 1.00              | 0.792982    |
-| P03            | Hypothex | 0.394737         | 1.00              | 0.757895    |
-| P04            | Hypothex | 0.482456         | 0.75              | 0.642982    |
-| P05            | Hypothex | 0.263158         | 0.50              | 0.405263    |
-| P06            | Hypothex | 0.263158         | 0.00              | 0.105263    |
-| P07            | Hypothex | 0.263158         | 1.00              | 0.705263    |
-| P08            | Hypothex | 0.570175         | 0.75              | 0.678070    |
-| P09            | Hypothex | 0.482456         | 1.00              | 0.792982    |
-| P10            | Hypothex | 0.833333         | 0.50              | 0.633333    |
-| P01            | WhatIf   | 0.570175         | 1.00              | 0.828070    |
-| P02            | WhatIf   | 0.350877         | 1.00              | 0.740351    |
-| P03            | WhatIf   | 0.482456         | 1.00              | 0.792982    |
-| P04            | WhatIf   | 0.263158         | 1.00              | 0.705263    |
-| P05            | WhatIf   | 0.921053         | 0.75              | 0.818421    |
-| P06            | WhatIf   | 0.526316         | 0.50              | 0.510526    |
-| P07            | WhatIf   | 0.263158         | 0.75              | 0.555263    |
-| P08            | WhatIf   | 0.438596         | 1.00              | 0.775439    |
-| P09            | WhatIf   | 0.833333         | 1.00              | 0.933333    |
-| P10            | WhatIf   | 0.833333         | 1.00              | 0.933333    |
-
+| participant_id | complexity_score (WIT) | complexity_score (HX)                        | correctness_score (WIT) | correctness_score (HX)                   | overall_score (WIT) | overall_score (HX)                           |
+| -------------- | ---------------------- | -------------------------------------------- | ----------------------- | ---------------------------------------- | ------------------- | -------------------------------------------- |
+| P02            | 0.350877               | 0.482456 <span style="color:green; font-size: 20px;">↑</span> | 0.25                    | 1.00 <span style="color:green; font-size: 20px;">↑</span> | 0.290351            | 0.792982 <span style="color:green; font-size: 20px;">↑</span> |
+| P03            | 0.482456               | 0.394737 <span style="color:red; font-size: 20px;">↓</span>   | 1.00                    | 1.00 <span style="color:gray; font-size: 20px;">=</span>  | 0.792982            | 0.757895 <span style="color:red; font-size: 20px;">↓</span>   |
+| P04            | 0.263158               | 0.482456 <span style="color:green; font-size: 20px;">↑</span> | 1.00                    | 0.75 <span style="color:red; font-size: 20px;">↓</span>   | 0.705263            | 0.642982 <span style="color:red; font-size: 20px;">↓</span>   |
+| P05            | 0.921053               | 0.263158 <span style="color:red; font-size: 20px;">↓</span>   | 0.75                    | 0.50 <span style="color:red; font-size: 20px;">↓</span>   | 0.818421            | 0.405263 <span style="color:red; font-size: 20px;">↓</span>   |
+| P06            | 0.526316               | 0.263158 <span style="color:red; font-size: 20px;">↓</span>   | 0.50                    | 0.00 <span style="color:red; font-size: 20px;">↓</span>   | 0.510526            | 0.105263 <span style="color:red; font-size: 20px;">↓</span>   |
+| P07            | 0.263158               | 0.263158 <span style="color:gray; font-size: 20px;">=</span>  | 0.75                    | 1.00 <span style="color:green; font-size: 20px;">↑</span> | 0.555263            | 0.705263 <span style="color:green; font-size: 20px;">↑</span> |
+| P08            | 0.438596               | 0.570175 <span style="color:green; font-size: 20px;">↑</span> | 1.00                    | 0.75 <span style="color:red; font-size: 20px;">↓</span>   | 0.775439            | 0.678070 <span style="color:red; font-size: 20px;">↓</span>   |
+| P09            | 0.833333               | 0.482456 <span style="color:red; font-size: 20px;">↓</span>   | 1.00                    | 1.00 <span style="color:gray; font-size: 20px;">=</span>  | 0.933333            | 0.792982 <span style="color:red; font-size: 20px;">↓</span>   |
+| P10            | 0.833333               | 0.833333 <span style="color:gray; font-size: 20px;">=</span>  | 1.00                    | 1.00 <span style="color:gray; font-size: 20px;">=</span>  | 0.933333            | 0.933333 <span style="color:gray; font-size: 20px;">=</span>  |
+| P11            | 0.526316               | 0.482456 <span style="color:red; font-size: 20px;">↓</span>   | 1.00                    | 0.75 <span style="color:red; font-size: 20px;">↓</span>   | 0.810526            | 0.642982 <span style="color:red; font-size: 20px;">↓</span>   |
 ## 📊 Average Scores per Tool (Task 4)
 
-| Tool     | Correctness Score | Complexity Score | Final Score |
-|----------|-------------------|------------------|-------------|
-| Hypothex | 0.725             | 0.460526         | 0.619211    |
-| WhatIf   | 0.900             | 0.548246         | 0.759298    |
+| Tool     | Correctness Score | Complexity Score | Overall Score |
+| -------- | ----------------: | ---------------: | ------------: |
+| HypotheX |             0.775 |            0.452 |         0.646 |
+| WhatIf   |             0.825 |            0.544 |         0.713 |
 
 # Self evaluation block
 
@@ -479,80 +468,51 @@ then computed the following metrics:
 
 ### All IOED Metrics Results
 
-| accuracy | pre_norm | post_norm | Persistence_Score | PreCONFvsACC | PostCONFvsACC | AdjustmentScore | AS_final | tool     | participant_id | label          |
-|----------|----------|-----------|-------------------|--------------|---------------|-----------------|----------|----------|----------------|----------------|
-| 0.5      | 0.75     | 0.25      | 0.50              | 0.25         | -0.25         | 1.00            | 0.250    | hypothex | P02            | reflective     |
-| 0.5      | 0.50     | 0.25      | 0.25              | 0.00         | -0.25         | 0.50            | 0.125    | hypothex | P03            | neutral        |
-| 0.5      | 0.50     | 0.50      | 0.00              | 0.00         | 0.00          | 0.00            | 0.000    | hypothex | P04            | overconfident  |
-| 0.5      | 0.25     | 0.25      | 0.00              | -0.25        | -0.25         | 0.00            | 0.000    | hypothex | P05            | overconfident  |
-| 0.5      | 0.50     | 0.75      | -0.25             | 0.00         | 0.25          | -0.50           | -0.125   | hypothex | P06            | overconfident  |
-| 1.0      | 0.50     | 0.50      | 0.00              | -0.50        | -0.50         | NaN             | 0.000    | hypothex | P07            | calibrated     |
-| 0.0      | 0.50     | 0.25      | 0.25              | 0.50         | 0.25          | 0.25            | 0.000    | hypothex | P08            | overconfident  |
-| 1.0      | 0.75     | 0.75      | 0.00              | -0.25        | -0.25         | NaN             | 0.000    | hypothex | P09            | calibrated     |
-| 0.0      | 0.75     | 0.25      | 0.50              | 0.75         | 0.25          | 0.50            | 0.000    | hypothex | P10            | overconfident  |
-| 1.0      | 0.50     | 0.75      | -0.25             | -0.50        | -0.25         | NaN             | -0.250   | hypothex | P11            | underconfident |
-| 0.5      | 1.00     | 0.25      | 0.75              | 0.50         | -0.25         | 1.50            | 0.375    | whatif   | P02            | reflective     |
-| 1.0      | 0.75     | 0.75      | 0.00              | -0.25        | -0.25         | NaN             | 0.000    | whatif   | P03            | calibrated     |
-| 0.5      | 0.50     | 0.50      | 0.00              | 0.00         | 0.00          | 0.00            | 0.000    | whatif   | P04            | overconfident  |
-| 0.5      | 0.25     | 0.25      | 0.00              | -0.25        | -0.25         | 0.00            | 0.000    | whatif   | P05            | overconfident  |
-| 0.5      | 0.75     | 0.75      | 0.00              | 0.25         | 0.25          | 0.00            | 0.000    | whatif   | P06            | overconfident  |
-| 0.5      | 0.25     | 0.25      | 0.00              | -0.25        | -0.25         | 0.00            | 0.000    | whatif   | P07            | overconfident  |
-| 0.5      | 0.50     | 0.25      | 0.25              | 0.00         | -0.25         | 0.50            | 0.125    | whatif   | P08            | neutral        |
-| 0.5      | 0.50     | 0.75      | -0.25             | 0.00         | 0.25          | -0.50           | -0.125   | whatif   | P09            | overconfident  |
-| 0.5      | 0.50     | 0.25      | 0.25              | 0.00         | -0.25         | 0.50            | 0.125    | whatif   | P10            | neutral        |
-| 0.5      | 0.25     | 0.50      | -0.25             | -0.25        | 0.00          | -0.50           | -0.125   | whatif   | P11            | overconfident  |
 
+| participant_id | IPS (WIT) | IPS (HX) | AS_final (WIT) | AS_final (HX) | Accuracy (WIT) | Accuracy (HX) | IOED Label (WIT) | IOED Label (HX) |
+| -------------- | --------- | -------- | -------------- | ------------- | -------------- | ------------- | ---------------- | --------------- |
+| P02            | 0.75      | 0.50     | 0.38           | 0.25          | 0.50           | 0.50          | Reflective       | Reflective      |
+| P03            | 0.00      | 0.25     | 0.00           | 0.13          | 1.00           | 0.50          | Calibrated       | Neutral         |
+| P04            | 0.00      | 0.00     | 0.00           | 0.00          | 0.50           | 0.50          | Overconfident    | Overconfident   |
+| P05            | 0.00      | 0.00     | 0.00           | 0.00          | 0.50           | 0.50          | Overconfident    | Overconfident   |
+| P06            | 0.00      | âˆ’0.25    | 0.00           | âˆ’0.13         | 0.50           | 0.50          | Overconfident    | Overconfident   |
+| P07            | 0.00      | 0.00     | 0.00           | 0.00          | 0.50           | 1.00          | Overconfident    | Calibrated      |
+| P08            | 0.25      | 0.25     | 0.13           | 0.00          | 0.50           | 0.00          | Neutral          | Overconfident   |
+| P09            | âˆ’0.25     | 0.00     | âˆ’0.13          | 0.00          | 0.50           | 1.00          | Overconfident    | Calibrated      |
+| P10            | 0.25      | 0.50     | 0.13           | 0.00          | 0.50           | 0.00          | Neutral          | Overconfident   |
+| P11            | âˆ’0.25     | âˆ’0.25    | âˆ’0.13          | âˆ’0.25         | 0.50           | 1.00          | Overconfident    | Underconfident  |
 ### Average IOED Metrics Per Tool
 
-| tool     | accuracy | pre_norm | post_norm | Persistence_Score | PreCONFvsACC | PostCONFvsACC | AdjustmentScore | AS_final |
-|----------|----------|----------|-----------|-------------------|--------------|---------------|-----------------|----------|
-| hypothex | 0.55     | 0.550    | 0.450     | 0.100             | 0.000        | -0.100        | 0.250           | 0.000    |
-| whatif   | 0.55     | 0.525    | 0.450     | 0.075             | -0.025       | -0.100        | 0.167           | 0.038    |
 
+| Tool     | Pre | Post | Accuracy | IPS  | Preâ€“UvA | Postâ€“UvA | AS (orig.) | AS-final |
+| -------- | --- | ---- | -------- | ---- | ------- | -------- | ---------- | -------- |
+| HypotheX | 3.2 | 2.8  | 0.55     | 0.10 | 0.00    | âˆ’0.10    | 0.25       | 0.00     |
+| WhatIf   | 3.1 | 2.8  | 0.55     | 0.08 | âˆ’0.03   | âˆ’0.10    | 0.17       | 0.04     |
 ### Average IOED Metrics Per Participant
 
-| participant_id | accuracy | pre_norm | post_norm | Persistence_Score | PreCONFvsACC | PostCONFvsACC | AdjustmentScore | AS_final |
-|----------------|----------|----------|-----------|-------------------|--------------|---------------|-----------------|----------|
-| P02            | 0.50     | 0.875    | 0.250     | 0.625             | 0.375        | -0.250        | 1.250           | 0.312    |
-| P03            | 0.75     | 0.625    | 0.500     | 0.125             | -0.125       | -0.250        | 0.500           | 0.062    |
-| P04            | 0.50     | 0.500    | 0.500     | 0.000             | 0.000        | 0.000         | 0.000           | 0.000    |
-| P05            | 0.50     | 0.250    | 0.250     | 0.000             | -0.250       | -0.250        | 0.000           | 0.000    |
-| P06            | 0.50     | 0.625    | 0.750     | -0.125            | 0.125        | 0.250         | -0.250          | -0.062   |
-| P07            | 0.75     | 0.375    | 0.375     | 0.000             | -0.375       | -0.375        | 0.000           | 0.000    |
-| P08            | 0.25     | 0.500    | 0.250     | 0.250             | 0.250        | 0.000         | 0.375           | 0.062    |
-| P09            | 0.75     | 0.625    | 0.750     | -0.125            | -0.125       | 0.000         | -0.500          | -0.062   |
-| P10            | 0.25     | 0.625    | 0.250     | 0.375             | 0.375        | 0.000         | 0.500           | 0.062    |
-| P11            | 0.75     | 0.375    | 0.625     | -0.250            | -0.375       | -0.125        | -0.500          | -0.188   |
 
+| Participant | Pre | Post | Accuracy | Pre-Norm | Post-Norm |       IPS | Preâ€“UvA | Postâ€“UvA | AS (orig.) |  AS-final |
+| ----------- | --: | ---: | -------: | -------: | --------: | --------: | ------: | -------: | ---------: | --------: |
+| **P02**     | 4.5 |  2.0 |     0.50 |     0.88 |      0.25 |  **0.63** |    0.38 |    âˆ’0.25 |       1.25 |  **0.31** |
+| **P03**     | 3.5 |  3.0 |     0.75 |     0.63 |      0.50 |      0.13 |   âˆ’0.13 |    âˆ’0.25 |       0.50 |      0.06 |
+| **P04**     | 3.0 |  3.0 |     0.50 |     0.50 |      0.50 |      0.00 |    0.00 |     0.00 |       0.00 |      0.00 |
+| **P05**     | 2.0 |  2.0 |     0.50 |     0.25 |      0.25 |      0.00 |   âˆ’0.25 |    âˆ’0.25 |       0.00 |      0.00 |
+| **P06**     | 3.5 |  4.0 |     0.50 |     0.63 |      0.75 |     âˆ’0.13 |    0.13 |     0.25 |      âˆ’0.25 |     âˆ’0.06 |
+| **P07**     | 2.5 |  2.5 |     0.75 |     0.38 |      0.38 |      0.00 |   âˆ’0.38 |    âˆ’0.38 |       0.00 |      0.00 |
+| **P08**     | 3.0 |  2.0 |     0.25 |     0.50 |      0.25 |      0.25 |    0.25 |     0.00 |       0.38 |      0.06 |
+| **P09**     | 3.5 |  4.0 |     0.75 |     0.63 |      0.75 |     âˆ’0.13 |   âˆ’0.13 |     0.00 |      âˆ’0.50 |     âˆ’0.06 |
+| **P10**     | 3.5 |  2.0 |     0.25 |     0.63 |      0.25 |  **0.38** |    0.38 |     0.00 |       0.50 |      0.06 |
+| **P11**     | 2.5 |  3.5 |     0.75 |     0.38 |      0.63 | **âˆ’0.25** |   âˆ’0.38 |    âˆ’0.13 |      âˆ’0.50 | **âˆ’0.19** |
 ### One-Way ANOVA Results for IOED Metrics
 
-Sum of Squares - How much total variance is attributed to this factor (e.g. tool)
-Degrees of Freedom (df) - Number of independent comparisons — usually: number of groups − 1
-F-value -Ratio of between-group variance to within-group (residual) variance
-p-value (PR(>F)) - Probability that the observed group differences happened by chance
 
-#### Grouped by Tool
-
-| Metric            | Sum of Squares | df | F-value | p-value |
-|-------------------|----------------|----|---------|---------|
-| Persistence_Score | 0.003125       | 1  | 0.040   | 0.844   |
-| PreCONFvsACC      | 0.003125       | 1  | 0.027   | 0.870   |
-| PostCONFvsACC     | ~0             | 1  | ~0      | 1.000   |
-| AdjustmentScore   | 0.027344       | 1  | 0.088   | 0.772   |
-| AS_final          | 0.007031       | 1  | 0.367   | 0.552   |
-
----
-
-#### Grouped by Participant
-
-| Metric            | Sum of Squares | df | F-value | p-value |
-|-------------------|----------------|----|---------|---------|
-| Persistence_Score | 1.253125       | 9  | 8.911   | 0.001   |
-| PreCONFvsACC      | 1.465625       | 9  | 2.743   | 0.066   |
-| PostCONFvsACC     | 0.6125         | 9  | 1.556   | 0.250   |
-| AdjustmentScore   | 4.121094       | 9  | 9.769   | 0.0059  |
-| AS_final          | 0.297656       | 9  | 6.048   | 0.0048  |
-
+| Metric              | F(dfâ‚, dfâ‚‚)    | p-value   | Significance      | Interpretation                                         |
+| ------------------- | -------------- | --------- | ----------------- | ------------------------------------------------------ |
+| **IPS**             | F(9,10) = 8.91 | **0.001** | âœ… Significant     | Strong individual differences in illusion reduction    |
+| **PreUvA**          | F(9,10) = 2.74 | 0.066     | âš ï¸ Trend          | Weak differences in pre-task miscalibration            |
+| **PostUvA**         | F(9,10) = 1.56 | 0.250     | âŒ Not significant | Post-task calibration converges                        |
+| **AdjustmentScore** | F(9,6) = 9.77  | **0.006** | âœ… Significant     | Strong individual differences in confidence adjustment |
+| **AS_final**        | F(9,10) = 6.05 | **0.005** | âœ… Significant     | Robust participant-specific adjustment patterns        |
 ### IOED Analysis
 
 The most important value for our analysis is the **PreCONFvsACC**, which reflects the discrepancy between the user's 
@@ -560,19 +520,19 @@ perceived and actual model understanding after using different tool.
 
 ## Individual-Level Interpretation (label based)
 
-| Participant | HypotheX Label | WhatIf Label  | Notes                                            |
-|-------------|----------------|---------------|--------------------------------------------------|
-| P02         | reflective     | reflective    | Consistent reflective behavior                   |
-| P03         | neutral        | calibrated    | Slight shift toward better calibration in WhatIf |
-| P04         | overconfident  | overconfident | Consistently overconfident                       |
-| P05         | overconfident  | overconfident | Consistently overconfident                       |
-| P06         | overconfident  | overconfident | Consistently overconfident                       |
-| P07         | calibrated     | overconfident | Better adjusted confidence in HypotheX           |
-| P08         | overconfident  | neutral       | Better adjusted confidence in WhatIf             |
-| P09         | calibrated     | overconfident | Better adjusted confidence in HypotheX           |
-| P10         | overconfident  | neutral       | Better adjusted confidence in WhatIf             |
-| P11         | underconfident | overconfident | Better adjusted confidence in HypotheX           |
 
+| Participant | HypotheX Label  | WhatIf Label  | Notes                                            |
+|-------------|-----------------|---------------|--------------------------------------------------|
+| P02         | reflective      | reflective    | Consistent reflective behavior                   |
+| P03         | neutral         | calibrated    | Slight shift toward better calibration in WhatIf |
+| P04         | overconfident   | overconfident | Consistently overconfident                       |
+| P05         | overconfident   | overconfident | Consistently overconfident                       |
+| P06         | overconfident   | overconfident | Consistently overconfident                       |
+| P07         | calibrated      | overconfident | Better adjusted confidence in HypotheX           |
+| P08         | overconfident   | neutral       | Better adjusted confidence in WhatIf             |
+| P09         | calibrated      | overconfident | Better adjusted confidence in HypotheX           |
+| P10         | overconfident   | neutral       | Better adjusted confidence in WhatIf             |
+| P11         | underconfident  | overconfident | Shift toward underconfidence in HypotheX         |
 Across participants, **6 out of 10** showed **different confidence adjustment styles depending on the tool**, while only
 **4 participants** behaved consistently across HypotheX and WhatIf.
 
@@ -591,13 +551,13 @@ This reinforces our broader claim that explanation use is shaped by **cognitivel
 
 ## Tool-Level Averages
 
+
 | Metric            | HypotheX | WhatIf | Interpretation                                                  |
 |-------------------|----------|--------|-----------------------------------------------------------------|
 | Accuracy          | 0.55     | 0.55   | Equal explanation task performance                              |
-| PreCONFvsACC      | 0.00     | -0.025 | Slight overconfidence in WhatIf users pre-task                  |
-| Persistence_Score | 0.100    | 0.075  | HypotheX show slightly more tendency to **reflective thinking** |
-| AS_final          | 0.000    | 0.038  |                                                                 |
-
+| PreCONFvsACC      | 0.00     | -0.03  | Slight overconfidence in WhatIf users pre-task                  |
+| Persistence_Score | 0.10     | 0.08   | HypotheX show slightly more tendency to **reflective thinking** |
+| AS_final          | 0.00     | 0.04   |                                                                 |
 **Conclusion**: The two tools led to **broadly similar interpretive patterns** with minor differences.
 
 ---
@@ -748,58 +708,48 @@ So final alignment for clustering : BC, LPC, PTP, TW, RSS
 Feature importance for Zarnak): BC, TW, LPC, RSS, PTP
 
 
-| Tool     | Participant ID | FAMS Visual Alignment | FAMS Model Alignment | FAMS Difference |
-| -------- | -------------- | --------------------- | -------------------- | --------------- |
-| hypothex | P02            | 0.20                  | 0.08                 | -0.12           |
-| hypothex | P03            | 0.47                  | 0.58                 | 0.11            |
-| hypothex | P04            | 0.20                  | 0.08                 | -0.12           |
-| hypothex | P05            | 0.41                  | 0.63                 | 0.22            |
-| hypothex | P06            | 0.80                  | 0.92                 | 0.12            |
-| hypothex | P07            | 0.59                  | 0.68                 | 0.09            |
-| hypothex | P08            | -0.05                 | 0.33                 | 0.38            |
-| hypothex | P09            | 0.20                  | 0.45                 | 0.25            |
-| hypothex | P10            | 0.52                  | 0.41                 | -0.11           |
-| whatif   | P02            | 0.70                  | 0.45                 | -0.25           |
-| whatif   | P03            | 0.47                  | 0.58                 | 0.11            |
-| whatif   | P04            | 0.70                  | 0.45                 | -0.25           |
-| whatif   | P05            | 0.52                  | 0.80                 | 0.28            |
-| whatif   | P06            | 0.76                  | 0.92                 | 0.16            |
-| whatif   | P07            | 0.78                  | 0.84                 | 0.06            |
-| whatif   | P08            | 0.20                  | 0.70                 | 0.50            |
-| whatif   | P09            | 0.20                  | 0.33                 | 0.13            |
-| whatif   | P10            | 0.74                  | 0.58                 | -0.16           |
-
+| participant_id | visual_align (WIT) | visual_align (HX) | model_align (WIT) | model_align (HX) | Î”(modelâˆ’visual) WIT | Î”(modelâˆ’visual) HX |
+| -------------- | -----------------: | ----------------: | ----------------: | ---------------: | ------------------: | -----------------: |
+| P02            |               0.80 |              0.88 |              0.84 |             0.92 |               +0.04 |              +0.04 |
+| P03            |               0.52 |              0.74 |              0.47 |             0.58 |               âˆ’0.05 |              âˆ’0.16 |
+| P04            |               0.76 |              0.92 |              0.84 |             0.96 |               +0.08 |              +0.04 |
+| P05            |               0.47 |              0.58 |              0.52 |             0.47 |               +0.05 |              âˆ’0.11 |
+| P06            |               0.47 |              0.69 |              0.52 |             0.58 |               +0.05 |              âˆ’0.11 |
+| P07            |               0.80 |              0.84 |              0.84 |             0.84 |               +0.04 |               0.00 |
+| P08            |               0.20 |              0.70 |              0.20 |             0.45 |                0.00 |              âˆ’0.25 |
+| P09            |               0.52 |              0.74 |              0.47 |             0.58 |               âˆ’0.05 |              âˆ’0.16 |
+| P10            |               0.84 |              0.88 |              0.88 |             0.92 |               +0.04 |              +0.04 |
+| P11            |               0.52 |              0.74 |              0.47 |             0.58 |               âˆ’0.05 |              âˆ’0.16 |
 ### Average FAMS per tool
-| Tool     | FAMS Visual Alignment | FAMS Model Alignment | FAMS Difference |
-| -------- | --------------------- | -------------------- | --------------- |
-| hypothex | 0.371                 | 0.462                | 0.091           |
-| whatif   | 0.563                 | 0.628                | 0.064           |
 
+
+| Tool     | FAMS Visual Alignment | FAMS Model Alignment | FAMS Difference (Model âˆ’ Visual) |
+| -------- | --------------------: | -------------------: | -------------------------------: |
+| HypotheX |                 0.771 |                0.688 |                           âˆ’0.083 |
+| WhatIf   |                 0.590 |                0.605 |                           +0.015 |
 ### Average FAMS per participant
-| Participant ID | FAMS Visual Alignment | FAMS Model Alignment | FAMS Difference |
-| -------------- | --------------------- | -------------------- | --------------- |
-| P02            | 0.450                 | 0.265                | -0.185          |
-| P03            | 0.470                 | 0.580                | 0.110           |
-| P04            | 0.450                 | 0.265                | -0.185          |
-| P05            | 0.465                 | 0.715                | 0.250           |
-| P06            | 0.780                 | 0.920                | 0.140           |
-| P07            | 0.685                 | 0.760                | 0.075           |
-| P08            | 0.075                 | 0.515                | 0.440           |
-| P09            | 0.200                 | 0.390                | 0.190           |
-| P10            | 0.630                 | 0.495                | -0.135          |
 
+
+| Participant | FAMS Visual Alignment | FAMS Model Alignment | FAMS Difference |
+| ----------- | --------------------: | -------------------: | --------------: |
+| P02         |                 0.840 |                0.880 |          +0.040 |
+| P03         |                 0.630 |                0.525 |          âˆ’0.105 |
+| P04         |                 0.840 |                0.900 |          +0.060 |
+| P05         |                 0.525 |                0.495 |          âˆ’0.030 |
+| P06         |                 0.580 |                0.550 |          âˆ’0.030 |
+| P07         |                 0.820 |                0.840 |          +0.020 |
+| P08         |                 0.450 |                0.325 |          âˆ’0.125 |
+| P09         |                 0.630 |                0.525 |          âˆ’0.105 |
+| P10         |                 0.860 |                0.900 |          +0.040 |
+| P11         |                 0.630 |                0.525 |          âˆ’0.105 |
 ### One-Way ANOVA by Tool
-| Metric               | Sum Sq (Group) | df | F      | p-value |
-| -------------------- | -------------- | -- | ------ | ------- |
-| Visual Alignment     | 0.1663         | 1  | 2.7733 | 0.1153  |
-| Model Alignment      | 0.1233         | 1  | 2.1144 | 0.1653  |
-| Alignment Difference | 0.0032         | 1  | 0.0677 | 0.7980  |
 
-### One-Way ANOVA per Participant
 
-| Metric               | Sum Sq (Group) | df | F       | p-value |
-| -------------------- | -------------- | -- | ------- | ------- |
-| Visual Alignment     | 0.7952         | 8  | 2.7081  | 0.0796  |
-| Model Alignment      | 0.8024         | 8  | 3.5504  | 0.0383  |
-| Alignment Difference | 0.7235         | 8  | 22.8638 | 0.0000  |
-
+| Metric                        | Factor      | F(df)         | p-value | Significant | Interpretation                                                                                  |
+| ----------------------------- | ----------- | ------------- | ------- | ----------- | ----------------------------------------------------------------------------------------------- |
+| **FAMS Visual Alignment**     | Tool        | F(1,18)=6.18  | 0.0229  | âœ… Yes       | Explanation tool significantly affects how strongly users align with the **visual explanation** |
+| **FAMS Model Alignment**      | Tool        | F(1,18)=0.75  | 0.3988  | âŒ No        | Tool choice does **not** significantly affect alignment with **true model importance**          |
+| **FAMS Alignment Difference** | Tool        | F(1,18)=7.15  | 0.0155  | âœ… Yes       | Tool influences whether users align more with **visuals or the model**                          |
+| **FAMS Visual Alignment**     | Participant | F(9,10)=1.79  | 0.1889  | âŒ No        | Visual alignment is **consistent across participants**                                          |
+| **FAMS Model Alignment**      | Participant | F(9,10)=13.98 | 0.0001  | âœ… Yes       | Strong **individual differences** in understanding the model                                    |
+| **FAMS Alignment Difference** | Participant | F(9,10)=1.34  | 0.3267  | âŒ No        | Bias direction does not differ significantly across participants                                |

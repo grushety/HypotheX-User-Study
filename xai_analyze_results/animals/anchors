@@ -1,0 +1,54 @@
+Anchors for class: Cat
+
+Anchor 1 for class Cat:
+  Conditions: ['Swimming <= 2.98', 'Running <= 6.99', 'Art > 7.98']
+  Precision: 1.0
+  Coverage: 0.1992
+
+Anchor 2 for class Cat:
+  Conditions: ['Swimming <= 2.98', 'Art > 7.98', 'Detective Stories > 11.00']
+  Precision: 0.9594594594594594
+  Coverage: 0.1064
+
+Anchor 3 for class Cat:
+  Conditions: ['Swimming <= 6.98', 'Running <= 3.02', 'Art > 11.99']
+  Precision: 0.9766536964980544
+  Coverage: 0.1055
+
+Anchors for class: Dog
+
+Anchor 1 for class Dog:
+  Conditions: ['Gardening > 9.01', 'Art <= 7.98', 'Running > 6.99']
+  Precision: 0.9719101123595506
+  Coverage: 0.0952
+
+Anchor 2 for class Dog:
+  Conditions: ['Gardening > 5.00', 'Art <= 4.02']
+  Precision: 0.9571639586410635
+  Coverage: 0.1956
+
+WARNING:alibi.explainers.anchors.anchor_base:Could not find an anchor satisfying the 0.95 precision constraint. Now returning the best non-eligible result. The desired precision threshold might not be achieved due to the quantile-based discretisation of the numerical features. The resolution of the bins may be too large to find an anchor of required precision. Consider increasing the number of bins in `disc_perc`, but note that for some numerical distribution (e.g. skewed distribution) it may not help.
+
+
+Anchor 3 for class Dog:
+Warning: Could not parse condition: -0.96 < Swimming <= 0.79
+  Conditions: ['Gardening > 2.27', 'Art <= 7.98', 'Running > 6.99', 'Detective Stories <= 11.00']
+  Precision: 0.9039855072463768
+  Coverage: 0.1349
+
+Anchors for class: Duck
+
+Anchor 1 for class Duck:
+  Conditions: ['Gardening <= 2.27', 'Swimming > 6.98']
+  Precision: 0.973421926910299
+  Coverage: 0.1529
+
+Anchor 2 for class Duck:
+  Conditions: ['Gardening <= 5.00', 'Swimming > 10.76', 'Art > 7.98']
+  Precision: 1.0
+  Coverage: 0.0755
+
+Anchor 3 for class Duck:
+  Conditions: ['Gardening <= 2.27', 'Swimming > 10.76']
+  Precision: 0.9804560260586319
+  Coverage: 0.104
