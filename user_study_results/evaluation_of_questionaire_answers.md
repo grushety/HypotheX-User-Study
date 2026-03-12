@@ -753,3 +753,24 @@ Feature importance for Zarnak): BC, TW, LPC, RSS, PTP
 | **FAMS Visual Alignment**     | Participant | F(9,10)=1.79  | 0.1889  | âŒ No        | Visual alignment is **consistent across participants**                                          |
 | **FAMS Model Alignment**      | Participant | F(9,10)=13.98 | 0.0001  | âœ… Yes       | Strong **individual differences** in understanding the model                                    |
 | **FAMS Alignment Difference** | Participant | F(9,10)=1.34  | 0.3267  | âŒ No        | Bias direction does not differ significantly across participants                                |
+
+
+# Metric Summary: Means, Standard Deviations, and Effect Sizes
+
+| Metric | Mean WIT | SD WIT | Mean HX | SD HX | η² | Tool Effect |
+|--------|----------|--------|---------|-------|-----|-------------|
+| MPR | 0.39 | 0.31 | 0.81 | 0.21 | 0.51 | Large |
+| SubC | 0.36 | 0.12 | 0.71 | 0.24 | 0.67 | Large |
+| FRC | 0.48 | 0.15 | 0.70 | 0.21 | 0.44 | Large |
+| EEC | 0.79 | 0.08 | 0.74 | 0.08 | 0.07 | Negligible |
+| LEC | 0.88 | 0.03 | 0.84 | 0.08 | 0.07 | Negligible |
+| HC | 0.20 | 0.05 | 0.22 | 0.03 | 0.07 | Negligible |
+| EC | 5.88 | 1.38 | 3.11 | 1.18 | 0.47 | Large |
+| CHAAR | 0.61 | 0.14 | 0.62 | 0.14 | 0.00 | None |
+| DHAAR | 0.71 | 0.09 | 0.72 | 0.12 | 0.00 | None |
+
+**Notes:**
+- η² computed from one-way ANOVA F-statistics: η² = (F × df_effect) / (F × df_effect + df_error), df_effect = 1
+- η² interpretation: < 0.06 negligible, 0.06–0.14 medium, > 0.14 large (Cohen, 1988)
+- CHAAR and DHAAR show near-zero tool effect but substantial participant-level variance (SD ≈ 0.13–0.14), consistent with individual rather than tool-driven differences in evidence integration
+- EEC/LEC tool means differ by only 0.04, with overlapping SDs, supporting interpretation as tool-invariant recency pattern
