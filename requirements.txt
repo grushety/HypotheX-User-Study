@@ -1,0 +1,32 @@
+# Requirements for reproducing the four ANALYSIS notebooks
+# (XAI_analyse, Event_Flow_Evaluation, Questionaire_Answer_Evaluation,
+#  What_If_Integration). The generation/training notebooks are provenance only and
+# are NOT covered here (xgboost / lightgbm / catboost / seaborn intentionally omitted).
+#
+# Python: 3.10  (witwidget + tensorflow are Python-version sensitive; 3.10 is recommended)
+#
+# IMPORTANT — scikit-learn pin: the provided model/scaler/label_encoder pickles in
+# user_study_materials/model_and_data_used_in_experiment/ were saved with
+# scikit-learn 1.6.1. Use that version to load them without a version warning.
+scikit-learn==1.6.1
+
+# --- Core analysis stack (validated by re-running the 3 sandbox-reproducible
+#     notebooks; versions below reproduced the committed results to 3+ decimals) ---
+numpy==1.26.4
+pandas==2.3.3
+scipy==1.15.3
+statsmodels==0.14.6
+shap==0.49.1
+alibi==0.9.6
+matplotlib==3.10.9
+joblib==1.5.3
+tqdm==4.68.3
+ipython==8.39.0
+
+# --- What-If Tool stack (version-fragile; NOT verified in this pass) ---
+# What_If_Integration.ipynb needs these. Confirm/adjust the exact pins in the project's
+# real environment (e.g. `pip freeze | grep -Ei "witwidget|tensorflow|protobuf"`),
+# then replace the ranges below. The original notebook used protobuf==3.20.3.
+# witwidget==1.8.1
+# tensorflow==2.13.0
+# protobuf==3.20.3

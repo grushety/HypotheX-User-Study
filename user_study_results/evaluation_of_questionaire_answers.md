@@ -1,4 +1,4 @@
-﻿# Table of Contents
+# Table of Contents
 
 1. [Questionnaire Answer Evaluation](#questionnaire-answer-evaluation)
 2. [Answer Encoding](#answer-encoding)
@@ -475,44 +475,44 @@ then computed the following metrics:
 | P03            | 0.00      | 0.25     | 0.00           | 0.13          | 1.00           | 0.50          | Calibrated       | Neutral         |
 | P04            | 0.00      | 0.00     | 0.00           | 0.00          | 0.50           | 0.50          | Overconfident    | Overconfident   |
 | P05            | 0.00      | 0.00     | 0.00           | 0.00          | 0.50           | 0.50          | Overconfident    | Overconfident   |
-| P06            | 0.00      | âˆ’0.25    | 0.00           | âˆ’0.13         | 0.50           | 0.50          | Overconfident    | Overconfident   |
+| P06            | 0.00      | −0.25    | 0.00           | −0.13         | 0.50           | 0.50          | Overconfident    | Overconfident   |
 | P07            | 0.00      | 0.00     | 0.00           | 0.00          | 0.50           | 1.00          | Overconfident    | Calibrated      |
 | P08            | 0.25      | 0.25     | 0.13           | 0.00          | 0.50           | 0.00          | Neutral          | Overconfident   |
-| P09            | âˆ’0.25     | 0.00     | âˆ’0.13          | 0.00          | 0.50           | 1.00          | Overconfident    | Calibrated      |
+| P09            | −0.25     | 0.00     | −0.13          | 0.00          | 0.50           | 1.00          | Overconfident    | Calibrated      |
 | P10            | 0.25      | 0.50     | 0.13           | 0.00          | 0.50           | 0.00          | Neutral          | Overconfident   |
-| P11            | âˆ’0.25     | âˆ’0.25    | âˆ’0.13          | âˆ’0.25         | 0.50           | 1.00          | Overconfident    | Underconfident  |
+| P11            | −0.25     | −0.25    | −0.13          | −0.25         | 0.50           | 1.00          | Overconfident    | Underconfident  |
 ### Average IOED Metrics Per Tool
 
 
-| Tool     | Pre | Post | Accuracy | IPS  | Preâ€“UvA | Postâ€“UvA | AS (orig.) | AS-final |
+| Tool     | Pre | Post | Accuracy | IPS  | Pre–UvA | Post–UvA | AS (orig.) | AS-final |
 | -------- | --- | ---- | -------- | ---- | ------- | -------- | ---------- | -------- |
-| HypotheX | 3.2 | 2.8  | 0.55     | 0.10 | 0.00    | âˆ’0.10    | 0.25       | 0.00     |
-| WhatIf   | 3.1 | 2.8  | 0.55     | 0.08 | âˆ’0.03   | âˆ’0.10    | 0.17       | 0.04     |
+| HypotheX | 3.2 | 2.8  | 0.55     | 0.10 | 0.00    | −0.10    | 0.25       | 0.00     |
+| WhatIf   | 3.1 | 2.8  | 0.55     | 0.08 | −0.03   | −0.10    | 0.17       | 0.04     |
 ### Average IOED Metrics Per Participant
 
 
-| Participant | Pre | Post | Accuracy | Pre-Norm | Post-Norm |       IPS | Preâ€“UvA | Postâ€“UvA | AS (orig.) |  AS-final |
+| Participant | Pre | Post | Accuracy | Pre-Norm | Post-Norm |       IPS | Pre–UvA | Post–UvA | AS (orig.) |  AS-final |
 | ----------- | --: | ---: | -------: | -------: | --------: | --------: | ------: | -------: | ---------: | --------: |
-| **P02**     | 4.5 |  2.0 |     0.50 |     0.88 |      0.25 |  **0.63** |    0.38 |    âˆ’0.25 |       1.25 |  **0.31** |
-| **P03**     | 3.5 |  3.0 |     0.75 |     0.63 |      0.50 |      0.13 |   âˆ’0.13 |    âˆ’0.25 |       0.50 |      0.06 |
+| **P02**     | 4.5 |  2.0 |     0.50 |     0.88 |      0.25 |  **0.63** |    0.38 |    −0.25 |       1.25 |  **0.31** |
+| **P03**     | 3.5 |  3.0 |     0.75 |     0.63 |      0.50 |      0.13 |   −0.13 |    −0.25 |       0.50 |      0.06 |
 | **P04**     | 3.0 |  3.0 |     0.50 |     0.50 |      0.50 |      0.00 |    0.00 |     0.00 |       0.00 |      0.00 |
-| **P05**     | 2.0 |  2.0 |     0.50 |     0.25 |      0.25 |      0.00 |   âˆ’0.25 |    âˆ’0.25 |       0.00 |      0.00 |
-| **P06**     | 3.5 |  4.0 |     0.50 |     0.63 |      0.75 |     âˆ’0.13 |    0.13 |     0.25 |      âˆ’0.25 |     âˆ’0.06 |
-| **P07**     | 2.5 |  2.5 |     0.75 |     0.38 |      0.38 |      0.00 |   âˆ’0.38 |    âˆ’0.38 |       0.00 |      0.00 |
+| **P05**     | 2.0 |  2.0 |     0.50 |     0.25 |      0.25 |      0.00 |   −0.25 |    −0.25 |       0.00 |      0.00 |
+| **P06**     | 3.5 |  4.0 |     0.50 |     0.63 |      0.75 |     −0.13 |    0.13 |     0.25 |      −0.25 |     −0.06 |
+| **P07**     | 2.5 |  2.5 |     0.75 |     0.38 |      0.38 |      0.00 |   −0.38 |    −0.38 |       0.00 |      0.00 |
 | **P08**     | 3.0 |  2.0 |     0.25 |     0.50 |      0.25 |      0.25 |    0.25 |     0.00 |       0.38 |      0.06 |
-| **P09**     | 3.5 |  4.0 |     0.75 |     0.63 |      0.75 |     âˆ’0.13 |   âˆ’0.13 |     0.00 |      âˆ’0.50 |     âˆ’0.06 |
+| **P09**     | 3.5 |  4.0 |     0.75 |     0.63 |      0.75 |     −0.13 |   −0.13 |     0.00 |      −0.50 |     −0.06 |
 | **P10**     | 3.5 |  2.0 |     0.25 |     0.63 |      0.25 |  **0.38** |    0.38 |     0.00 |       0.50 |      0.06 |
-| **P11**     | 2.5 |  3.5 |     0.75 |     0.38 |      0.63 | **âˆ’0.25** |   âˆ’0.38 |    âˆ’0.13 |      âˆ’0.50 | **âˆ’0.19** |
+| **P11**     | 2.5 |  3.5 |     0.75 |     0.38 |      0.63 | **−0.25** |   −0.38 |    −0.13 |      −0.50 | **−0.19** |
 ### One-Way ANOVA Results for IOED Metrics
 
 
-| Metric              | F(dfâ‚, dfâ‚‚)    | p-value   | Significance      | Interpretation                                         |
+| Metric              | F(df₁, df₂)    | p-value   | Significance      | Interpretation                                         |
 | ------------------- | -------------- | --------- | ----------------- | ------------------------------------------------------ |
-| **IPS**             | F(9,10) = 8.91 | **0.001** | âœ… Significant     | Strong individual differences in illusion reduction    |
-| **PreUvA**          | F(9,10) = 2.74 | 0.066     | âš ï¸ Trend          | Weak differences in pre-task miscalibration            |
-| **PostUvA**         | F(9,10) = 1.56 | 0.250     | âŒ Not significant | Post-task calibration converges                        |
-| **AdjustmentScore** | F(9,6) = 9.77  | **0.006** | âœ… Significant     | Strong individual differences in confidence adjustment |
-| **AS_final**        | F(9,10) = 6.05 | **0.005** | âœ… Significant     | Robust participant-specific adjustment patterns        |
+| **IPS**             | F(9,10) = 8.91 | **0.001** | ✅ Significant     | Strong individual differences in illusion reduction    |
+| **PreUvA**          | F(9,10) = 2.74 | 0.066     | ⚠️ Trend          | Weak differences in pre-task miscalibration            |
+| **PostUvA**         | F(9,10) = 1.56 | 0.250     | ❌ Not significant | Post-task calibration converges                        |
+| **AdjustmentScore** | F(9,6) = 9.77  | **0.006** | ✅ Significant     | Strong individual differences in confidence adjustment |
+| **AS_final**        | F(9,10) = 6.05 | **0.005** | ✅ Significant     | Robust participant-specific adjustment patterns        |
 ### IOED Analysis
 
 The most important value for our analysis is the **PreCONFvsACC**, which reflects the discrepancy between the user's 
@@ -708,24 +708,24 @@ So final alignment for clustering : BC, LPC, PTP, TW, RSS
 Feature importance for Zarnak): BC, TW, LPC, RSS, PTP
 
 
-| participant_id | visual_align (WIT) | visual_align (HX) | model_align (WIT) | model_align (HX) | Î”(modelâˆ’visual) WIT | Î”(modelâˆ’visual) HX |
+| participant_id | visual_align (WIT) | visual_align (HX) | model_align (WIT) | model_align (HX) | Δ(model−visual) WIT | Δ(model−visual) HX |
 | -------------- | -----------------: | ----------------: | ----------------: | ---------------: | ------------------: | -----------------: |
 | P02            |               0.80 |              0.88 |              0.84 |             0.92 |               +0.04 |              +0.04 |
-| P03            |               0.52 |              0.74 |              0.47 |             0.58 |               âˆ’0.05 |              âˆ’0.16 |
+| P03            |               0.52 |              0.74 |              0.47 |             0.58 |               −0.05 |              −0.16 |
 | P04            |               0.76 |              0.92 |              0.84 |             0.96 |               +0.08 |              +0.04 |
-| P05            |               0.47 |              0.58 |              0.52 |             0.47 |               +0.05 |              âˆ’0.11 |
-| P06            |               0.47 |              0.69 |              0.52 |             0.58 |               +0.05 |              âˆ’0.11 |
+| P05            |               0.47 |              0.58 |              0.52 |             0.47 |               +0.05 |              −0.11 |
+| P06            |               0.47 |              0.69 |              0.52 |             0.58 |               +0.05 |              −0.11 |
 | P07            |               0.80 |              0.84 |              0.84 |             0.84 |               +0.04 |               0.00 |
-| P08            |               0.20 |              0.70 |              0.20 |             0.45 |                0.00 |              âˆ’0.25 |
-| P09            |               0.52 |              0.74 |              0.47 |             0.58 |               âˆ’0.05 |              âˆ’0.16 |
+| P08            |               0.20 |              0.70 |              0.20 |             0.45 |                0.00 |              −0.25 |
+| P09            |               0.52 |              0.74 |              0.47 |             0.58 |               −0.05 |              −0.16 |
 | P10            |               0.84 |              0.88 |              0.88 |             0.92 |               +0.04 |              +0.04 |
-| P11            |               0.52 |              0.74 |              0.47 |             0.58 |               âˆ’0.05 |              âˆ’0.16 |
+| P11            |               0.52 |              0.74 |              0.47 |             0.58 |               −0.05 |              −0.16 |
 ### Average FAMS per tool
 
 
-| Tool     | FAMS Visual Alignment | FAMS Model Alignment | FAMS Difference (Model âˆ’ Visual) |
+| Tool     | FAMS Visual Alignment | FAMS Model Alignment | FAMS Difference (Model − Visual) |
 | -------- | --------------------: | -------------------: | -------------------------------: |
-| HypotheX |                 0.771 |                0.688 |                           âˆ’0.083 |
+| HypotheX |                 0.771 |                0.688 |                           −0.083 |
 | WhatIf   |                 0.590 |                0.605 |                           +0.015 |
 ### Average FAMS per participant
 
@@ -733,26 +733,26 @@ Feature importance for Zarnak): BC, TW, LPC, RSS, PTP
 | Participant | FAMS Visual Alignment | FAMS Model Alignment | FAMS Difference |
 | ----------- | --------------------: | -------------------: | --------------: |
 | P02         |                 0.840 |                0.880 |          +0.040 |
-| P03         |                 0.630 |                0.525 |          âˆ’0.105 |
+| P03         |                 0.630 |                0.525 |          −0.105 |
 | P04         |                 0.840 |                0.900 |          +0.060 |
-| P05         |                 0.525 |                0.495 |          âˆ’0.030 |
-| P06         |                 0.580 |                0.550 |          âˆ’0.030 |
+| P05         |                 0.525 |                0.495 |          −0.030 |
+| P06         |                 0.580 |                0.550 |          −0.030 |
 | P07         |                 0.820 |                0.840 |          +0.020 |
-| P08         |                 0.450 |                0.325 |          âˆ’0.125 |
-| P09         |                 0.630 |                0.525 |          âˆ’0.105 |
+| P08         |                 0.450 |                0.325 |          −0.125 |
+| P09         |                 0.630 |                0.525 |          −0.105 |
 | P10         |                 0.860 |                0.900 |          +0.040 |
-| P11         |                 0.630 |                0.525 |          âˆ’0.105 |
+| P11         |                 0.630 |                0.525 |          −0.105 |
 ### One-Way ANOVA by Tool
 
 
 | Metric                        | Factor      | F(df)         | p-value | Significant | Interpretation                                                                                  |
 | ----------------------------- | ----------- | ------------- | ------- | ----------- | ----------------------------------------------------------------------------------------------- |
-| **FAMS Visual Alignment**     | Tool        | F(1,18)=6.18  | 0.0229  | âœ… Yes       | Explanation tool significantly affects how strongly users align with the **visual explanation** |
-| **FAMS Model Alignment**      | Tool        | F(1,18)=0.75  | 0.3988  | âŒ No        | Tool choice does **not** significantly affect alignment with **true model importance**          |
-| **FAMS Alignment Difference** | Tool        | F(1,18)=7.15  | 0.0155  | âœ… Yes       | Tool influences whether users align more with **visuals or the model**                          |
-| **FAMS Visual Alignment**     | Participant | F(9,10)=1.79  | 0.1889  | âŒ No        | Visual alignment is **consistent across participants**                                          |
-| **FAMS Model Alignment**      | Participant | F(9,10)=13.98 | 0.0001  | âœ… Yes       | Strong **individual differences** in understanding the model                                    |
-| **FAMS Alignment Difference** | Participant | F(9,10)=1.34  | 0.3267  | âŒ No        | Bias direction does not differ significantly across participants                                |
+| **FAMS Visual Alignment**     | Tool        | F(1,18)=6.18  | 0.0229  | ✅ Yes       | Explanation tool significantly affects how strongly users align with the **visual explanation** |
+| **FAMS Model Alignment**      | Tool        | F(1,18)=0.75  | 0.3988  | ❌ No        | Tool choice does **not** significantly affect alignment with **true model importance**          |
+| **FAMS Alignment Difference** | Tool        | F(1,18)=7.15  | 0.0155  | ✅ Yes       | Tool influences whether users align more with **visuals or the model**                          |
+| **FAMS Visual Alignment**     | Participant | F(9,10)=1.79  | 0.1889  | ❌ No        | Visual alignment is **consistent across participants**                                          |
+| **FAMS Model Alignment**      | Participant | F(9,10)=13.98 | 0.0001  | ✅ Yes       | Strong **individual differences** in understanding the model                                    |
+| **FAMS Alignment Difference** | Participant | F(9,10)=1.34  | 0.3267  | ❌ No        | Bias direction does not differ significantly across participants                                |
 
 
 # Metric Summary: Means, Standard Deviations, and Effect Sizes

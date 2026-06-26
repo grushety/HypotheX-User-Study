@@ -17,7 +17,8 @@ The User Study is structured around the following main components:
 ### 1. Tools
 - **What-If Tool**: A well-known XAI tool developed by Google, offering visualization and manipulation of individual data points to explore model predictions.  
   [Paper: *The What-If Tool: Interactive Probing of Machine Learning Models*](https://arxiv.org/abs/1907.04135)
-- **HypotheX Tool**: A tool developed to enhance structured exploration using hypothetical scenarios. It provides data manipulation capabilities and extended support for the hypothetical scenario exploration methodology.
+- **HypotheX Tool**: A tool developed to enhance structured exploration using hypothetical scenarios. It provides data manipulation capabilities and extended support for the hypothetical scenario exploration methodology.  
+  Available on our clarifAI platform: [https://explainable-ai.gfz.de/clarifAI/](https://explainable-ai.gfz.de/clarifAI/)
 
 
 ### 2. Models and Datasets
@@ -38,7 +39,7 @@ Training material included:
 - Short video tutorials per tool to accelerate familiarization.
 
 
-### 3. Exploration Tasks
+### 4. Exploration Tasks
 Participants are given multiple tasks where they must:
 - Make a preexploration to define their hypothesis
 - Formulate hypotheses regarding model decision-making.
