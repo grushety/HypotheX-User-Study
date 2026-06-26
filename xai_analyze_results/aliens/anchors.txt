@@ -1,0 +1,68 @@
+
+
+
+Running Anchor explanations...
+
+Anchors for class: Bliptor
+
+Anchor 1 for class Bliptor:
+  Conditions: ['Box Collecting > 9.01', 'Tool Worship <= 4.99']
+  Precision: 1.0
+  Coverage: 0.1489
+
+Anchor 2 for class Bliptor:
+  Conditions: ['Box Collecting > 9.01', 'Tool Worship <= 4.99']
+  Precision: 1.0
+  Coverage: 0.1451
+
+WARNING:alibi.explainers.anchors.anchor_base:Could not find an anchor satisfying the 0.95 precision constraint. Now returning the best non-eligible result. The desired precision threshold might not be achieved due to the quantile-based discretisation of the numerical features. The resolution of the bins may be too large to find an anchor of required precision. Consider increasing the number of bins in `disc_perc`, but note that for some numerical distribution (e.g. skewed distribution) it may not help.
+
+
+Anchor 3 for class Bliptor:
+  Conditions: ['Box Collecting > 4.99', 'Tool Worship <= 6.99', 'Plant Telepathy Practice <= 3.00', 'Laser Pointer Chasing > 8.98', 'Reality Show Studies > 9.01']
+  Precision: 0.9498069498069498
+  Coverage: 0.014
+
+Anchors for class: Quorvian
+
+Anchor 1 for class Quorvian:
+Warning: Could not parse condition: -0.41 < Box Collecting <= 0.52
+Warning: Could not parse condition: -0.97 < Tool Worship <= 0.53
+  Conditions: ['Laser Pointer Chasing > 8.98', 'Plant Telepathy Practice > 3.00']
+  Precision: 1.0
+  Coverage: 0.0408
+
+Anchor 2 for class Quorvian:
+Warning: Could not parse condition: -0.87 < Box Collecting <= 0.52
+Warning: Could not parse condition: -0.97 < Tool Worship <= 0.53
+  Conditions: ['Plant Telepathy Practice > 10.01', 'Laser Pointer Chasing > 2.98', 'Reality Show Studies <= 3.99']
+  Precision: 0.968944099378882
+  Coverage: 0.0275
+
+Anchor 3 for class Quorvian:
+Warning: Could not parse condition: -0.97 < Tool Worship <= -0.34
+  Conditions: ['Laser Pointer Chasing > 6.99', 'Plant Telepathy Practice > 10.01', 'Box Collecting <= 9.01', 'Reality Show Studies <= 3.99']
+  Precision: 1.0
+  Coverage: 0.0072
+
+Anchors for class: Zarnak
+
+Anchor 1 for class Zarnak:
+  Conditions: ['Box Collecting <= 3.00']
+  Precision: 1.0
+  Coverage: 0.317
+
+Anchor 2 for class Zarnak:
+  Conditions: ['Box Collecting <= 3.00']
+  Precision: 0.9576271186440678
+  Coverage: 0.3127
+
+WARNING:alibi.explainers.anchors.anchor_base:Could not find an anchor satisfying the 0.95 precision constraint. Now returning the best non-eligible result. The desired precision threshold might not be achieved due to the quantile-based discretisation of the numerical features. The resolution of the bins may be too large to find an anchor of required precision. Consider increasing the number of bins in `disc_perc`, but note that for some numerical distribution (e.g. skewed distribution) it may not help.
+
+
+Anchor 3 for class Zarnak:
+  Conditions: ['Box Collecting <= 4.99', 'Laser Pointer Chasing <= 6.99', 'Tool Worship > 6.99', 'Plant Telepathy Practice <= 10.01']
+  Precision: 0.9467787114845938
+  Coverage: 0.2225
+
+

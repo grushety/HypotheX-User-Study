@@ -1,14 +1,15 @@
 # HypotheX User Study description
 
 ## Goal
-The primary goal of this User Study is to investigate how different XAI tool designs influence users' ability to explore machine learning models with hypothetical scenario approach  (formulate and validate hypotheses about model behavior), and avoid cognitive biases during the exploration process.
+This user study accompanies the paper *Evaluating Interpretation Risks in Interactive What-If Scenarios and Mitigating with HypotheX*. It investigates **bias-related interpretation risks** in Hypothetical Scenario (HS)–based XAI — interactive *what-if* exploration in which users manipulate model inputs and observe the resulting changes in model outputs.
 
-Specifically, the study aims to:
-- **Measure susceptibility to cognitive biases** during the exploration, including identifying which biases users fall into and how severely these biases impact their conclusions.
-- **Evaluate how effectively users explore and understand model behavior** using two different XAI tools: the What-If Tool and the HypotheX Tool.
-- **Assess the impact of tool design features** (e.g., interface elements, exploration strategies suggested) on user performance and resilience to cognitive traps.
-- **Analyze user exploration strategies**, comparing the thoroughness, systematicity, and efficiency of their hypothesis testing approaches across tools.
-- **Identify typical mistakes and problems** in model exploration, such as ignoring evidence, overreliance on visual patterns, irrational assumptions, or loss of focus from initial hypotheses.
+The study takes a human-centered view of explanation: understanding does not follow automatically from an explanation artifact but emerges as users actively form, test, and revise hypotheses about model behavior. This exploratory interaction is not cognitively neutral. Biases such as **anchoring, availability, and salience/overconfidence** shape how users select scenarios, sample inputs, compare outcomes, and sequence their actions. Crucially, these biases surface not as incorrect explanations but as **characteristic interaction patterns** that signal an elevated risk of misinterpretation, even when the underlying explanation is faithful.
+
+The study addresses two research questions:
+1. **How do bias-related interpretation risks manifest** as observable interaction patterns during HS-based exploration?
+2. **To what extent can interface design reduce** their prevalence?
+
+To examine design-level mitigation, the study compares two HS-based tools: the **What-If Tool** as a baseline, and **HypotheX**, an HS-based XAI system that adds interface safeguards intended to discourage bias-prone exploration. Bias-compatible interaction patterns are derived from prior literature and quantified with interaction-based metrics.
 
 ## Components of the User Study
 
@@ -17,7 +18,7 @@ The User Study is structured around the following main components:
 ### 1. Tools
 - **What-If Tool**: A well-known XAI tool developed by Google, offering visualization and manipulation of individual data points to explore model predictions.  
   [Paper: *The What-If Tool: Interactive Probing of Machine Learning Models*](https://arxiv.org/abs/1907.04135)
-- **HypotheX Tool**: A tool developed to enhance structured exploration using hypothetical scenarios. It provides data manipulation capabilities and extended support for the hypothetical scenario exploration methodology.  
+- **HypotheX Tool**: The HS-based XAI system introduced in this work. It supports the hypothetical-scenario exploration methodology and adds interface-level safeguards intended to reduce bias-prone interaction patterns.  
   Available on our clarifAI platform: [https://explainable-ai.gfz.de/clarifAI/](https://explainable-ai.gfz.de/clarifAI/)
 
 
@@ -65,7 +66,7 @@ During the study, we gather rich multimodal data per participant:
 ---
 
 All collected materials allow for:
-- **Quantitative analysis**: Measuring aspects such as the number and type of hypothesis checks, frequency of different types of cognitive bias behaviors, task completion breadth, and the correctness of result interpretation.
+- **Quantitative analysis**: Interaction-based metrics that quantify bias-compatible interaction patterns — e.g., the number and type of hypothesis checks, exploration breadth, and the correctness of result interpretation.
 - **Qualitative analysis**: Assessing the hypothesis check strategies, their diversity, approaches to pre-exploration and reasoning, and hypothesis shifts during the checking process.
 - **Cross-tool and cross-participant comparisons**: Understanding how different tool designs impact exploration effectiveness, cognitive resilience, and strategic behaviors during model investigation.
 

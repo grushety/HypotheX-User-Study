@@ -1,0 +1,5170 @@
+
+### Setting: Light (n_trees=5, threshold=0.3) ###
+
+Class: Bliptor
+
+Simple Rules (Single Trees):
+
+Tree 0 Rules:
+if Tool Worship <= 7.50:
+  if Laser Pointer Chasing <= 10.50:
+    if Laser Pointer Chasing <= 1.50:
+      Predict: Bliptor
+    else (Laser Pointer Chasing > 1.50):
+      if Tool Worship <= 4.50:
+        Predict: Bliptor
+      else (Tool Worship > 4.50):
+        if Plant Telepathy Practice <= 13.50:
+          Predict: Quorvian
+        else (Plant Telepathy Practice > 13.50):
+          if Tool Worship <= 6.50:
+            Predict: Bliptor
+          else (Tool Worship > 6.50):
+            Predict: Quorvian
+  else (Laser Pointer Chasing > 10.50):
+    if Box Collecting <= 7.50:
+      Predict: Quorvian
+    else (Box Collecting > 7.50):
+      Predict: Bliptor
+else (Tool Worship > 7.50):
+  if Tool Worship <= 10.50:
+    if Laser Pointer Chasing <= 7.50:
+      if Reality Show Studies <= 8.00:
+        if Box Collecting <= 5.00:
+          Predict: Zarnak
+        else (Box Collecting > 5.00):
+          Predict: Quorvian
+      else (Reality Show Studies > 8.00):
+        Predict: Zarnak
+    else (Laser Pointer Chasing > 7.50):
+      Predict: Quorvian
+  else (Tool Worship > 10.50):
+    Predict: Zarnak
+
+Tree 1 Rules:
+if Box Collecting <= 9.00:
+  if Box Collecting <= 3.50:
+    Predict: Zarnak
+  else (Box Collecting > 3.50):
+    if Box Collecting <= 4.50:
+      if Tool Worship <= 8.50:
+        Predict: Quorvian
+      else (Tool Worship > 8.50):
+        if Plant Telepathy Practice <= 12.50:
+          if Reality Show Studies <= 7.50:
+            if Plant Telepathy Practice <= 11.50:
+              if Plant Telepathy Practice <= 10.50:
+                if Laser Pointer Chasing <= 7.50:
+                  Predict: Zarnak
+                else (Laser Pointer Chasing > 7.50):
+                  Predict: Quorvian
+              else (Plant Telepathy Practice > 10.50):
+                Predict: Quorvian
+            else (Plant Telepathy Practice > 11.50):
+              if Reality Show Studies <= 4.50:
+                Predict: Zarnak
+              else (Reality Show Studies > 4.50):
+                if Laser Pointer Chasing <= 8.50:
+                  Predict: Zarnak
+                else (Laser Pointer Chasing > 8.50):
+                  Predict: Quorvian
+          else (Reality Show Studies > 7.50):
+            Predict: Zarnak
+        else (Plant Telepathy Practice > 12.50):
+          if Laser Pointer Chasing <= 7.50:
+            Predict: Zarnak
+          else (Laser Pointer Chasing > 7.50):
+            Predict: Quorvian
+    else (Box Collecting > 4.50):
+      if Laser Pointer Chasing <= 1.50:
+        Predict: Bliptor
+      else (Laser Pointer Chasing > 1.50):
+        if Tool Worship <= 4.50:
+          Predict: Bliptor
+        else (Tool Worship > 4.50):
+          if Laser Pointer Chasing <= 3.50:
+            if Plant Telepathy Practice <= 13.50:
+              Predict: Quorvian
+            else (Plant Telepathy Practice > 13.50):
+              if Tool Worship <= 7.50:
+                Predict: Bliptor
+              else (Tool Worship > 7.50):
+                Predict: Quorvian
+          else (Laser Pointer Chasing > 3.50):
+            Predict: Quorvian
+else (Box Collecting > 9.00):
+  Predict: Bliptor
+
+Tree 2 Rules:
+if Box Collecting <= 9.00:
+  if Laser Pointer Chasing <= 7.50:
+    if Tool Worship <= 9.50:
+      if Tool Worship <= 5.50:
+        Predict: Bliptor
+      else (Tool Worship > 5.50):
+        if Tool Worship <= 8.50:
+          if Plant Telepathy Practice <= 13.50:
+            Predict: Quorvian
+          else (Plant Telepathy Practice > 13.50):
+            if Tool Worship <= 6.50:
+              if Laser Pointer Chasing <= 4.00:
+                Predict: Bliptor
+              else (Laser Pointer Chasing > 4.00):
+                Predict: Quorvian
+            else (Tool Worship > 6.50):
+              Predict: Quorvian
+        else (Tool Worship > 8.50):
+          if Plant Telepathy Practice <= 13.50:
+            if Reality Show Studies <= 4.50:
+              Predict: Zarnak
+            else (Reality Show Studies > 4.50):
+              if Laser Pointer Chasing <= 3.50:
+                if Plant Telepathy Practice <= 10.50:
+                  if Reality Show Studies <= 6.50:
+                    if Reality Show Studies <= 5.50:
+                      Predict: Zarnak
+                    else (Reality Show Studies > 5.50):
+                      Predict: Quorvian
+                  else (Reality Show Studies > 6.50):
+                    Predict: Zarnak
+                else (Plant Telepathy Practice > 10.50):
+                  Predict: Quorvian
+              else (Laser Pointer Chasing > 3.50):
+                if Plant Telepathy Practice <= 12.50:
+                  if Box Collecting <= 3.50:
+                    Predict: Zarnak
+                  else (Box Collecting > 3.50):
+                    Predict: Quorvian
+                else (Plant Telepathy Practice > 12.50):
+                  if Reality Show Studies <= 6.00:
+                    if Box Collecting <= 5.00:
+                      Predict: Zarnak
+                    else (Box Collecting > 5.00):
+                      Predict: Quorvian
+                  else (Reality Show Studies > 6.00):
+                    Predict: Quorvian
+          else (Plant Telepathy Practice > 13.50):
+            if Laser Pointer Chasing <= 4.50:
+              Predict: Quorvian
+            else (Laser Pointer Chasing > 4.50):
+              if Box Collecting <= 5.50:
+                Predict: Zarnak
+              else (Box Collecting > 5.50):
+                Predict: Quorvian
+    else (Tool Worship > 9.50):
+      if Box Collecting <= 5.00:
+        Predict: Zarnak
+      else (Box Collecting > 5.00):
+        Predict: Quorvian
+  else (Laser Pointer Chasing > 7.50):
+    Predict: Quorvian
+else (Box Collecting > 9.00):
+  Predict: Bliptor
+
+Tree 3 Rules:
+if Tool Worship <= 7.50:
+  if Tool Worship <= 5.50:
+    Predict: Bliptor
+  else (Tool Worship > 5.50):
+    if Box Collecting <= 9.00:
+      if Reality Show Studies <= 5.50:
+        Predict: Quorvian
+      else (Reality Show Studies > 5.50):
+        if Box Collecting <= 7.50:
+          Predict: Quorvian
+        else (Box Collecting > 7.50):
+          if Laser Pointer Chasing <= 1.50:
+            Predict: Bliptor
+          else (Laser Pointer Chasing > 1.50):
+            Predict: Quorvian
+    else (Box Collecting > 9.00):
+      Predict: Bliptor
+else (Tool Worship > 7.50):
+  if Tool Worship <= 10.50:
+    if Plant Telepathy Practice <= 7.50:
+      Predict: Zarnak
+    else (Plant Telepathy Practice > 7.50):
+      if Laser Pointer Chasing <= 7.50:
+        if Reality Show Studies <= 6.50:
+          if Laser Pointer Chasing <= 4.50:
+            if Box Collecting <= 5.00:
+              Predict: Zarnak
+            else (Box Collecting > 5.00):
+              Predict: Quorvian
+          else (Laser Pointer Chasing > 4.50):
+            if Reality Show Studies <= 5.50:
+              if Reality Show Studies <= 4.50:
+                if Box Collecting <= 4.00:
+                  Predict: Zarnak
+                else (Box Collecting > 4.00):
+                  Predict: Quorvian
+              else (Reality Show Studies > 4.50):
+                Predict: Quorvian
+            else (Reality Show Studies > 5.50):
+              if Box Collecting <= 5.00:
+                Predict: Zarnak
+              else (Box Collecting > 5.00):
+                Predict: Quorvian
+        else (Reality Show Studies > 6.50):
+          if Tool Worship <= 8.50:
+            Predict: Quorvian
+          else (Tool Worship > 8.50):
+            if Plant Telepathy Practice <= 10.50:
+              Predict: Zarnak
+            else (Plant Telepathy Practice > 10.50):
+              if Laser Pointer Chasing <= 4.50:
+                if Box Collecting <= 5.50:
+                  Predict: Zarnak
+                else (Box Collecting > 5.50):
+                  Predict: Quorvian
+              else (Laser Pointer Chasing > 4.50):
+                if Tool Worship <= 9.50:
+                  Predict: Zarnak
+                else (Tool Worship > 9.50):
+                  if Box Collecting <= 3.50:
+                    Predict: Zarnak
+                  else (Box Collecting > 3.50):
+                    Predict: Quorvian
+      else (Laser Pointer Chasing > 7.50):
+        Predict: Quorvian
+  else (Tool Worship > 10.50):
+    Predict: Zarnak
+
+Tree 4 Rules:
+if Box Collecting <= 9.00:
+  if Tool Worship <= 10.50:
+    if Tool Worship <= 8.50:
+      if Laser Pointer Chasing <= 3.50:
+        if Tool Worship <= 5.50:
+          Predict: Bliptor
+        else (Tool Worship > 5.50):
+          if Laser Pointer Chasing <= 1.50:
+            Predict: Bliptor
+          else (Laser Pointer Chasing > 1.50):
+            if Box Collecting <= 7.50:
+              Predict: Quorvian
+            else (Box Collecting > 7.50):
+              if Reality Show Studies <= 5.50:
+                Predict: Bliptor
+              else (Reality Show Studies > 5.50):
+                Predict: Quorvian
+      else (Laser Pointer Chasing > 3.50):
+        Predict: Quorvian
+    else (Tool Worship > 8.50):
+      if Reality Show Studies <= 7.50:
+        if Laser Pointer Chasing <= 7.50:
+          if Reality Show Studies <= 6.50:
+            if Laser Pointer Chasing <= 2.50:
+              if Tool Worship <= 9.50:
+                if Box Collecting <= 4.50:
+                  Predict: Zarnak
+                else (Box Collecting > 4.50):
+                  Predict: Quorvian
+              else (Tool Worship > 9.50):
+                Predict: Zarnak
+            else (Laser Pointer Chasing > 2.50):
+              if Box Collecting <= 5.00:
+                Predict: Zarnak
+              else (Box Collecting > 5.00):
+                Predict: Quorvian
+          else (Reality Show Studies > 6.50):
+            if Tool Worship <= 9.50:
+              if Box Collecting <= 5.50:
+                Predict: Zarnak
+              else (Box Collecting > 5.50):
+                Predict: Quorvian
+            else (Tool Worship > 9.50):
+              Predict: Zarnak
+        else (Laser Pointer Chasing > 7.50):
+          Predict: Quorvian
+      else (Reality Show Studies > 7.50):
+        Predict: Zarnak
+  else (Tool Worship > 10.50):
+    Predict: Zarnak
+else (Box Collecting > 9.00):
+  Predict: Bliptor
+
+Aggregated Rules (Across Forest):
+Tool Worship <= 7.50 appeared in 44.4% of paths.
+Box Collecting <= 9.00 appeared in 50.0% of paths.
+
+Class: Quorvian
+
+Simple Rules (Single Trees):
+
+Tree 0 Rules:
+if Tool Worship <= 7.50:
+  if Laser Pointer Chasing <= 10.50:
+    if Laser Pointer Chasing <= 1.50:
+      Predict: Bliptor
+    else (Laser Pointer Chasing > 1.50):
+      if Tool Worship <= 4.50:
+        Predict: Bliptor
+      else (Tool Worship > 4.50):
+        if Plant Telepathy Practice <= 13.50:
+          Predict: Quorvian
+        else (Plant Telepathy Practice > 13.50):
+          if Tool Worship <= 6.50:
+            Predict: Bliptor
+          else (Tool Worship > 6.50):
+            Predict: Quorvian
+  else (Laser Pointer Chasing > 10.50):
+    if Box Collecting <= 7.50:
+      Predict: Quorvian
+    else (Box Collecting > 7.50):
+      Predict: Bliptor
+else (Tool Worship > 7.50):
+  if Tool Worship <= 10.50:
+    if Laser Pointer Chasing <= 7.50:
+      if Reality Show Studies <= 8.00:
+        if Box Collecting <= 5.00:
+          Predict: Zarnak
+        else (Box Collecting > 5.00):
+          Predict: Quorvian
+      else (Reality Show Studies > 8.00):
+        Predict: Zarnak
+    else (Laser Pointer Chasing > 7.50):
+      Predict: Quorvian
+  else (Tool Worship > 10.50):
+    Predict: Zarnak
+
+Tree 1 Rules:
+if Box Collecting <= 9.00:
+  if Box Collecting <= 3.50:
+    Predict: Zarnak
+  else (Box Collecting > 3.50):
+    if Box Collecting <= 4.50:
+      if Tool Worship <= 8.50:
+        Predict: Quorvian
+      else (Tool Worship > 8.50):
+        if Plant Telepathy Practice <= 12.50:
+          if Reality Show Studies <= 7.50:
+            if Plant Telepathy Practice <= 11.50:
+              if Plant Telepathy Practice <= 10.50:
+                if Laser Pointer Chasing <= 7.50:
+                  Predict: Zarnak
+                else (Laser Pointer Chasing > 7.50):
+                  Predict: Quorvian
+              else (Plant Telepathy Practice > 10.50):
+                Predict: Quorvian
+            else (Plant Telepathy Practice > 11.50):
+              if Reality Show Studies <= 4.50:
+                Predict: Zarnak
+              else (Reality Show Studies > 4.50):
+                if Laser Pointer Chasing <= 8.50:
+                  Predict: Zarnak
+                else (Laser Pointer Chasing > 8.50):
+                  Predict: Quorvian
+          else (Reality Show Studies > 7.50):
+            Predict: Zarnak
+        else (Plant Telepathy Practice > 12.50):
+          if Laser Pointer Chasing <= 7.50:
+            Predict: Zarnak
+          else (Laser Pointer Chasing > 7.50):
+            Predict: Quorvian
+    else (Box Collecting > 4.50):
+      if Laser Pointer Chasing <= 1.50:
+        Predict: Bliptor
+      else (Laser Pointer Chasing > 1.50):
+        if Tool Worship <= 4.50:
+          Predict: Bliptor
+        else (Tool Worship > 4.50):
+          if Laser Pointer Chasing <= 3.50:
+            if Plant Telepathy Practice <= 13.50:
+              Predict: Quorvian
+            else (Plant Telepathy Practice > 13.50):
+              if Tool Worship <= 7.50:
+                Predict: Bliptor
+              else (Tool Worship > 7.50):
+                Predict: Quorvian
+          else (Laser Pointer Chasing > 3.50):
+            Predict: Quorvian
+else (Box Collecting > 9.00):
+  Predict: Bliptor
+
+Tree 2 Rules:
+if Box Collecting <= 9.00:
+  if Laser Pointer Chasing <= 7.50:
+    if Tool Worship <= 9.50:
+      if Tool Worship <= 5.50:
+        Predict: Bliptor
+      else (Tool Worship > 5.50):
+        if Tool Worship <= 8.50:
+          if Plant Telepathy Practice <= 13.50:
+            Predict: Quorvian
+          else (Plant Telepathy Practice > 13.50):
+            if Tool Worship <= 6.50:
+              if Laser Pointer Chasing <= 4.00:
+                Predict: Bliptor
+              else (Laser Pointer Chasing > 4.00):
+                Predict: Quorvian
+            else (Tool Worship > 6.50):
+              Predict: Quorvian
+        else (Tool Worship > 8.50):
+          if Plant Telepathy Practice <= 13.50:
+            if Reality Show Studies <= 4.50:
+              Predict: Zarnak
+            else (Reality Show Studies > 4.50):
+              if Laser Pointer Chasing <= 3.50:
+                if Plant Telepathy Practice <= 10.50:
+                  if Reality Show Studies <= 6.50:
+                    if Reality Show Studies <= 5.50:
+                      Predict: Zarnak
+                    else (Reality Show Studies > 5.50):
+                      Predict: Quorvian
+                  else (Reality Show Studies > 6.50):
+                    Predict: Zarnak
+                else (Plant Telepathy Practice > 10.50):
+                  Predict: Quorvian
+              else (Laser Pointer Chasing > 3.50):
+                if Plant Telepathy Practice <= 12.50:
+                  if Box Collecting <= 3.50:
+                    Predict: Zarnak
+                  else (Box Collecting > 3.50):
+                    Predict: Quorvian
+                else (Plant Telepathy Practice > 12.50):
+                  if Reality Show Studies <= 6.00:
+                    if Box Collecting <= 5.00:
+                      Predict: Zarnak
+                    else (Box Collecting > 5.00):
+                      Predict: Quorvian
+                  else (Reality Show Studies > 6.00):
+                    Predict: Quorvian
+          else (Plant Telepathy Practice > 13.50):
+            if Laser Pointer Chasing <= 4.50:
+              Predict: Quorvian
+            else (Laser Pointer Chasing > 4.50):
+              if Box Collecting <= 5.50:
+                Predict: Zarnak
+              else (Box Collecting > 5.50):
+                Predict: Quorvian
+    else (Tool Worship > 9.50):
+      if Box Collecting <= 5.00:
+        Predict: Zarnak
+      else (Box Collecting > 5.00):
+        Predict: Quorvian
+  else (Laser Pointer Chasing > 7.50):
+    Predict: Quorvian
+else (Box Collecting > 9.00):
+  Predict: Bliptor
+
+Tree 3 Rules:
+if Tool Worship <= 7.50:
+  if Tool Worship <= 5.50:
+    Predict: Bliptor
+  else (Tool Worship > 5.50):
+    if Box Collecting <= 9.00:
+      if Reality Show Studies <= 5.50:
+        Predict: Quorvian
+      else (Reality Show Studies > 5.50):
+        if Box Collecting <= 7.50:
+          Predict: Quorvian
+        else (Box Collecting > 7.50):
+          if Laser Pointer Chasing <= 1.50:
+            Predict: Bliptor
+          else (Laser Pointer Chasing > 1.50):
+            Predict: Quorvian
+    else (Box Collecting > 9.00):
+      Predict: Bliptor
+else (Tool Worship > 7.50):
+  if Tool Worship <= 10.50:
+    if Plant Telepathy Practice <= 7.50:
+      Predict: Zarnak
+    else (Plant Telepathy Practice > 7.50):
+      if Laser Pointer Chasing <= 7.50:
+        if Reality Show Studies <= 6.50:
+          if Laser Pointer Chasing <= 4.50:
+            if Box Collecting <= 5.00:
+              Predict: Zarnak
+            else (Box Collecting > 5.00):
+              Predict: Quorvian
+          else (Laser Pointer Chasing > 4.50):
+            if Reality Show Studies <= 5.50:
+              if Reality Show Studies <= 4.50:
+                if Box Collecting <= 4.00:
+                  Predict: Zarnak
+                else (Box Collecting > 4.00):
+                  Predict: Quorvian
+              else (Reality Show Studies > 4.50):
+                Predict: Quorvian
+            else (Reality Show Studies > 5.50):
+              if Box Collecting <= 5.00:
+                Predict: Zarnak
+              else (Box Collecting > 5.00):
+                Predict: Quorvian
+        else (Reality Show Studies > 6.50):
+          if Tool Worship <= 8.50:
+            Predict: Quorvian
+          else (Tool Worship > 8.50):
+            if Plant Telepathy Practice <= 10.50:
+              Predict: Zarnak
+            else (Plant Telepathy Practice > 10.50):
+              if Laser Pointer Chasing <= 4.50:
+                if Box Collecting <= 5.50:
+                  Predict: Zarnak
+                else (Box Collecting > 5.50):
+                  Predict: Quorvian
+              else (Laser Pointer Chasing > 4.50):
+                if Tool Worship <= 9.50:
+                  Predict: Zarnak
+                else (Tool Worship > 9.50):
+                  if Box Collecting <= 3.50:
+                    Predict: Zarnak
+                  else (Box Collecting > 3.50):
+                    Predict: Quorvian
+      else (Laser Pointer Chasing > 7.50):
+        Predict: Quorvian
+  else (Tool Worship > 10.50):
+    Predict: Zarnak
+
+Tree 4 Rules:
+if Box Collecting <= 9.00:
+  if Tool Worship <= 10.50:
+    if Tool Worship <= 8.50:
+      if Laser Pointer Chasing <= 3.50:
+        if Tool Worship <= 5.50:
+          Predict: Bliptor
+        else (Tool Worship > 5.50):
+          if Laser Pointer Chasing <= 1.50:
+            Predict: Bliptor
+          else (Laser Pointer Chasing > 1.50):
+            if Box Collecting <= 7.50:
+              Predict: Quorvian
+            else (Box Collecting > 7.50):
+              if Reality Show Studies <= 5.50:
+                Predict: Bliptor
+              else (Reality Show Studies > 5.50):
+                Predict: Quorvian
+      else (Laser Pointer Chasing > 3.50):
+        Predict: Quorvian
+    else (Tool Worship > 8.50):
+      if Reality Show Studies <= 7.50:
+        if Laser Pointer Chasing <= 7.50:
+          if Reality Show Studies <= 6.50:
+            if Laser Pointer Chasing <= 2.50:
+              if Tool Worship <= 9.50:
+                if Box Collecting <= 4.50:
+                  Predict: Zarnak
+                else (Box Collecting > 4.50):
+                  Predict: Quorvian
+              else (Tool Worship > 9.50):
+                Predict: Zarnak
+            else (Laser Pointer Chasing > 2.50):
+              if Box Collecting <= 5.00:
+                Predict: Zarnak
+              else (Box Collecting > 5.00):
+                Predict: Quorvian
+          else (Reality Show Studies > 6.50):
+            if Tool Worship <= 9.50:
+              if Box Collecting <= 5.50:
+                Predict: Zarnak
+              else (Box Collecting > 5.50):
+                Predict: Quorvian
+            else (Tool Worship > 9.50):
+              Predict: Zarnak
+        else (Laser Pointer Chasing > 7.50):
+          Predict: Quorvian
+      else (Reality Show Studies > 7.50):
+        Predict: Zarnak
+  else (Tool Worship > 10.50):
+    Predict: Zarnak
+else (Box Collecting > 9.00):
+  Predict: Bliptor
+
+Aggregated Rules (Across Forest):
+Tool Worship <= 10.50 appeared in 39.5% of paths.
+Laser Pointer Chasing <= 7.50 appeared in 51.2% of paths.
+Box Collecting <= 9.00 appeared in 69.8% of paths.
+Tool Worship > 8.50 appeared in 39.5% of paths.
+Tool Worship > 5.50 appeared in 34.9% of paths.
+
+Class: Zarnak
+
+Simple Rules (Single Trees):
+
+Tree 0 Rules:
+if Tool Worship <= 7.50:
+  if Laser Pointer Chasing <= 10.50:
+    if Laser Pointer Chasing <= 1.50:
+      Predict: Bliptor
+    else (Laser Pointer Chasing > 1.50):
+      if Tool Worship <= 4.50:
+        Predict: Bliptor
+      else (Tool Worship > 4.50):
+        if Plant Telepathy Practice <= 13.50:
+          Predict: Quorvian
+        else (Plant Telepathy Practice > 13.50):
+          if Tool Worship <= 6.50:
+            Predict: Bliptor
+          else (Tool Worship > 6.50):
+            Predict: Quorvian
+  else (Laser Pointer Chasing > 10.50):
+    if Box Collecting <= 7.50:
+      Predict: Quorvian
+    else (Box Collecting > 7.50):
+      Predict: Bliptor
+else (Tool Worship > 7.50):
+  if Tool Worship <= 10.50:
+    if Laser Pointer Chasing <= 7.50:
+      if Reality Show Studies <= 8.00:
+        if Box Collecting <= 5.00:
+          Predict: Zarnak
+        else (Box Collecting > 5.00):
+          Predict: Quorvian
+      else (Reality Show Studies > 8.00):
+        Predict: Zarnak
+    else (Laser Pointer Chasing > 7.50):
+      Predict: Quorvian
+  else (Tool Worship > 10.50):
+    Predict: Zarnak
+
+Tree 1 Rules:
+if Box Collecting <= 9.00:
+  if Box Collecting <= 3.50:
+    Predict: Zarnak
+  else (Box Collecting > 3.50):
+    if Box Collecting <= 4.50:
+      if Tool Worship <= 8.50:
+        Predict: Quorvian
+      else (Tool Worship > 8.50):
+        if Plant Telepathy Practice <= 12.50:
+          if Reality Show Studies <= 7.50:
+            if Plant Telepathy Practice <= 11.50:
+              if Plant Telepathy Practice <= 10.50:
+                if Laser Pointer Chasing <= 7.50:
+                  Predict: Zarnak
+                else (Laser Pointer Chasing > 7.50):
+                  Predict: Quorvian
+              else (Plant Telepathy Practice > 10.50):
+                Predict: Quorvian
+            else (Plant Telepathy Practice > 11.50):
+              if Reality Show Studies <= 4.50:
+                Predict: Zarnak
+              else (Reality Show Studies > 4.50):
+                if Laser Pointer Chasing <= 8.50:
+                  Predict: Zarnak
+                else (Laser Pointer Chasing > 8.50):
+                  Predict: Quorvian
+          else (Reality Show Studies > 7.50):
+            Predict: Zarnak
+        else (Plant Telepathy Practice > 12.50):
+          if Laser Pointer Chasing <= 7.50:
+            Predict: Zarnak
+          else (Laser Pointer Chasing > 7.50):
+            Predict: Quorvian
+    else (Box Collecting > 4.50):
+      if Laser Pointer Chasing <= 1.50:
+        Predict: Bliptor
+      else (Laser Pointer Chasing > 1.50):
+        if Tool Worship <= 4.50:
+          Predict: Bliptor
+        else (Tool Worship > 4.50):
+          if Laser Pointer Chasing <= 3.50:
+            if Plant Telepathy Practice <= 13.50:
+              Predict: Quorvian
+            else (Plant Telepathy Practice > 13.50):
+              if Tool Worship <= 7.50:
+                Predict: Bliptor
+              else (Tool Worship > 7.50):
+                Predict: Quorvian
+          else (Laser Pointer Chasing > 3.50):
+            Predict: Quorvian
+else (Box Collecting > 9.00):
+  Predict: Bliptor
+
+Tree 2 Rules:
+if Box Collecting <= 9.00:
+  if Laser Pointer Chasing <= 7.50:
+    if Tool Worship <= 9.50:
+      if Tool Worship <= 5.50:
+        Predict: Bliptor
+      else (Tool Worship > 5.50):
+        if Tool Worship <= 8.50:
+          if Plant Telepathy Practice <= 13.50:
+            Predict: Quorvian
+          else (Plant Telepathy Practice > 13.50):
+            if Tool Worship <= 6.50:
+              if Laser Pointer Chasing <= 4.00:
+                Predict: Bliptor
+              else (Laser Pointer Chasing > 4.00):
+                Predict: Quorvian
+            else (Tool Worship > 6.50):
+              Predict: Quorvian
+        else (Tool Worship > 8.50):
+          if Plant Telepathy Practice <= 13.50:
+            if Reality Show Studies <= 4.50:
+              Predict: Zarnak
+            else (Reality Show Studies > 4.50):
+              if Laser Pointer Chasing <= 3.50:
+                if Plant Telepathy Practice <= 10.50:
+                  if Reality Show Studies <= 6.50:
+                    if Reality Show Studies <= 5.50:
+                      Predict: Zarnak
+                    else (Reality Show Studies > 5.50):
+                      Predict: Quorvian
+                  else (Reality Show Studies > 6.50):
+                    Predict: Zarnak
+                else (Plant Telepathy Practice > 10.50):
+                  Predict: Quorvian
+              else (Laser Pointer Chasing > 3.50):
+                if Plant Telepathy Practice <= 12.50:
+                  if Box Collecting <= 3.50:
+                    Predict: Zarnak
+                  else (Box Collecting > 3.50):
+                    Predict: Quorvian
+                else (Plant Telepathy Practice > 12.50):
+                  if Reality Show Studies <= 6.00:
+                    if Box Collecting <= 5.00:
+                      Predict: Zarnak
+                    else (Box Collecting > 5.00):
+                      Predict: Quorvian
+                  else (Reality Show Studies > 6.00):
+                    Predict: Quorvian
+          else (Plant Telepathy Practice > 13.50):
+            if Laser Pointer Chasing <= 4.50:
+              Predict: Quorvian
+            else (Laser Pointer Chasing > 4.50):
+              if Box Collecting <= 5.50:
+                Predict: Zarnak
+              else (Box Collecting > 5.50):
+                Predict: Quorvian
+    else (Tool Worship > 9.50):
+      if Box Collecting <= 5.00:
+        Predict: Zarnak
+      else (Box Collecting > 5.00):
+        Predict: Quorvian
+  else (Laser Pointer Chasing > 7.50):
+    Predict: Quorvian
+else (Box Collecting > 9.00):
+  Predict: Bliptor
+
+Tree 3 Rules:
+if Tool Worship <= 7.50:
+  if Tool Worship <= 5.50:
+    Predict: Bliptor
+  else (Tool Worship > 5.50):
+    if Box Collecting <= 9.00:
+      if Reality Show Studies <= 5.50:
+        Predict: Quorvian
+      else (Reality Show Studies > 5.50):
+        if Box Collecting <= 7.50:
+          Predict: Quorvian
+        else (Box Collecting > 7.50):
+          if Laser Pointer Chasing <= 1.50:
+            Predict: Bliptor
+          else (Laser Pointer Chasing > 1.50):
+            Predict: Quorvian
+    else (Box Collecting > 9.00):
+      Predict: Bliptor
+else (Tool Worship > 7.50):
+  if Tool Worship <= 10.50:
+    if Plant Telepathy Practice <= 7.50:
+      Predict: Zarnak
+    else (Plant Telepathy Practice > 7.50):
+      if Laser Pointer Chasing <= 7.50:
+        if Reality Show Studies <= 6.50:
+          if Laser Pointer Chasing <= 4.50:
+            if Box Collecting <= 5.00:
+              Predict: Zarnak
+            else (Box Collecting > 5.00):
+              Predict: Quorvian
+          else (Laser Pointer Chasing > 4.50):
+            if Reality Show Studies <= 5.50:
+              if Reality Show Studies <= 4.50:
+                if Box Collecting <= 4.00:
+                  Predict: Zarnak
+                else (Box Collecting > 4.00):
+                  Predict: Quorvian
+              else (Reality Show Studies > 4.50):
+                Predict: Quorvian
+            else (Reality Show Studies > 5.50):
+              if Box Collecting <= 5.00:
+                Predict: Zarnak
+              else (Box Collecting > 5.00):
+                Predict: Quorvian
+        else (Reality Show Studies > 6.50):
+          if Tool Worship <= 8.50:
+            Predict: Quorvian
+          else (Tool Worship > 8.50):
+            if Plant Telepathy Practice <= 10.50:
+              Predict: Zarnak
+            else (Plant Telepathy Practice > 10.50):
+              if Laser Pointer Chasing <= 4.50:
+                if Box Collecting <= 5.50:
+                  Predict: Zarnak
+                else (Box Collecting > 5.50):
+                  Predict: Quorvian
+              else (Laser Pointer Chasing > 4.50):
+                if Tool Worship <= 9.50:
+                  Predict: Zarnak
+                else (Tool Worship > 9.50):
+                  if Box Collecting <= 3.50:
+                    Predict: Zarnak
+                  else (Box Collecting > 3.50):
+                    Predict: Quorvian
+      else (Laser Pointer Chasing > 7.50):
+        Predict: Quorvian
+  else (Tool Worship > 10.50):
+    Predict: Zarnak
+
+Tree 4 Rules:
+if Box Collecting <= 9.00:
+  if Tool Worship <= 10.50:
+    if Tool Worship <= 8.50:
+      if Laser Pointer Chasing <= 3.50:
+        if Tool Worship <= 5.50:
+          Predict: Bliptor
+        else (Tool Worship > 5.50):
+          if Laser Pointer Chasing <= 1.50:
+            Predict: Bliptor
+          else (Laser Pointer Chasing > 1.50):
+            if Box Collecting <= 7.50:
+              Predict: Quorvian
+            else (Box Collecting > 7.50):
+              if Reality Show Studies <= 5.50:
+                Predict: Bliptor
+              else (Reality Show Studies > 5.50):
+                Predict: Quorvian
+      else (Laser Pointer Chasing > 3.50):
+        Predict: Quorvian
+    else (Tool Worship > 8.50):
+      if Reality Show Studies <= 7.50:
+        if Laser Pointer Chasing <= 7.50:
+          if Reality Show Studies <= 6.50:
+            if Laser Pointer Chasing <= 2.50:
+              if Tool Worship <= 9.50:
+                if Box Collecting <= 4.50:
+                  Predict: Zarnak
+                else (Box Collecting > 4.50):
+                  Predict: Quorvian
+              else (Tool Worship > 9.50):
+                Predict: Zarnak
+            else (Laser Pointer Chasing > 2.50):
+              if Box Collecting <= 5.00:
+                Predict: Zarnak
+              else (Box Collecting > 5.00):
+                Predict: Quorvian
+          else (Reality Show Studies > 6.50):
+            if Tool Worship <= 9.50:
+              if Box Collecting <= 5.50:
+                Predict: Zarnak
+              else (Box Collecting > 5.50):
+                Predict: Quorvian
+            else (Tool Worship > 9.50):
+              Predict: Zarnak
+        else (Laser Pointer Chasing > 7.50):
+          Predict: Quorvian
+      else (Reality Show Studies > 7.50):
+        Predict: Zarnak
+  else (Tool Worship > 10.50):
+    Predict: Zarnak
+else (Box Collecting > 9.00):
+  Predict: Bliptor
+
+Aggregated Rules (Across Forest):
+Tool Worship > 7.50 appeared in 37.5% of paths.
+Tool Worship <= 10.50 appeared in 50.0% of paths.
+Laser Pointer Chasing <= 7.50 appeared in 71.9% of paths.
+Box Collecting <= 9.00 appeared in 62.5% of paths.
+Tool Worship > 8.50 appeared in 65.6% of paths.
+
+### Setting: Medium (n_trees=10, threshold=0.5) ###
+
+Class: Bliptor
+
+Simple Rules (Single Trees):
+
+Tree 0 Rules:
+if Tool Worship <= 7.50:
+  if Laser Pointer Chasing <= 10.50:
+    if Laser Pointer Chasing <= 1.50:
+      Predict: Bliptor
+    else (Laser Pointer Chasing > 1.50):
+      if Tool Worship <= 4.50:
+        Predict: Bliptor
+      else (Tool Worship > 4.50):
+        if Plant Telepathy Practice <= 13.50:
+          Predict: Quorvian
+        else (Plant Telepathy Practice > 13.50):
+          if Tool Worship <= 6.50:
+            Predict: Bliptor
+          else (Tool Worship > 6.50):
+            Predict: Quorvian
+  else (Laser Pointer Chasing > 10.50):
+    if Box Collecting <= 7.50:
+      Predict: Quorvian
+    else (Box Collecting > 7.50):
+      Predict: Bliptor
+else (Tool Worship > 7.50):
+  if Tool Worship <= 10.50:
+    if Laser Pointer Chasing <= 7.50:
+      if Reality Show Studies <= 8.00:
+        if Box Collecting <= 5.00:
+          Predict: Zarnak
+        else (Box Collecting > 5.00):
+          Predict: Quorvian
+      else (Reality Show Studies > 8.00):
+        Predict: Zarnak
+    else (Laser Pointer Chasing > 7.50):
+      Predict: Quorvian
+  else (Tool Worship > 10.50):
+    Predict: Zarnak
+
+Tree 1 Rules:
+if Box Collecting <= 9.00:
+  if Box Collecting <= 3.50:
+    Predict: Zarnak
+  else (Box Collecting > 3.50):
+    if Box Collecting <= 4.50:
+      if Tool Worship <= 8.50:
+        Predict: Quorvian
+      else (Tool Worship > 8.50):
+        if Plant Telepathy Practice <= 12.50:
+          if Reality Show Studies <= 7.50:
+            if Plant Telepathy Practice <= 11.50:
+              if Plant Telepathy Practice <= 10.50:
+                if Laser Pointer Chasing <= 7.50:
+                  Predict: Zarnak
+                else (Laser Pointer Chasing > 7.50):
+                  Predict: Quorvian
+              else (Plant Telepathy Practice > 10.50):
+                Predict: Quorvian
+            else (Plant Telepathy Practice > 11.50):
+              if Reality Show Studies <= 4.50:
+                Predict: Zarnak
+              else (Reality Show Studies > 4.50):
+                if Laser Pointer Chasing <= 8.50:
+                  Predict: Zarnak
+                else (Laser Pointer Chasing > 8.50):
+                  Predict: Quorvian
+          else (Reality Show Studies > 7.50):
+            Predict: Zarnak
+        else (Plant Telepathy Practice > 12.50):
+          if Laser Pointer Chasing <= 7.50:
+            Predict: Zarnak
+          else (Laser Pointer Chasing > 7.50):
+            Predict: Quorvian
+    else (Box Collecting > 4.50):
+      if Laser Pointer Chasing <= 1.50:
+        Predict: Bliptor
+      else (Laser Pointer Chasing > 1.50):
+        if Tool Worship <= 4.50:
+          Predict: Bliptor
+        else (Tool Worship > 4.50):
+          if Laser Pointer Chasing <= 3.50:
+            if Plant Telepathy Practice <= 13.50:
+              Predict: Quorvian
+            else (Plant Telepathy Practice > 13.50):
+              if Tool Worship <= 7.50:
+                Predict: Bliptor
+              else (Tool Worship > 7.50):
+                Predict: Quorvian
+          else (Laser Pointer Chasing > 3.50):
+            Predict: Quorvian
+else (Box Collecting > 9.00):
+  Predict: Bliptor
+
+Tree 2 Rules:
+if Box Collecting <= 9.00:
+  if Laser Pointer Chasing <= 7.50:
+    if Tool Worship <= 9.50:
+      if Tool Worship <= 5.50:
+        Predict: Bliptor
+      else (Tool Worship > 5.50):
+        if Tool Worship <= 8.50:
+          if Plant Telepathy Practice <= 13.50:
+            Predict: Quorvian
+          else (Plant Telepathy Practice > 13.50):
+            if Tool Worship <= 6.50:
+              if Laser Pointer Chasing <= 4.00:
+                Predict: Bliptor
+              else (Laser Pointer Chasing > 4.00):
+                Predict: Quorvian
+            else (Tool Worship > 6.50):
+              Predict: Quorvian
+        else (Tool Worship > 8.50):
+          if Plant Telepathy Practice <= 13.50:
+            if Reality Show Studies <= 4.50:
+              Predict: Zarnak
+            else (Reality Show Studies > 4.50):
+              if Laser Pointer Chasing <= 3.50:
+                if Plant Telepathy Practice <= 10.50:
+                  if Reality Show Studies <= 6.50:
+                    if Reality Show Studies <= 5.50:
+                      Predict: Zarnak
+                    else (Reality Show Studies > 5.50):
+                      Predict: Quorvian
+                  else (Reality Show Studies > 6.50):
+                    Predict: Zarnak
+                else (Plant Telepathy Practice > 10.50):
+                  Predict: Quorvian
+              else (Laser Pointer Chasing > 3.50):
+                if Plant Telepathy Practice <= 12.50:
+                  if Box Collecting <= 3.50:
+                    Predict: Zarnak
+                  else (Box Collecting > 3.50):
+                    Predict: Quorvian
+                else (Plant Telepathy Practice > 12.50):
+                  if Reality Show Studies <= 6.00:
+                    if Box Collecting <= 5.00:
+                      Predict: Zarnak
+                    else (Box Collecting > 5.00):
+                      Predict: Quorvian
+                  else (Reality Show Studies > 6.00):
+                    Predict: Quorvian
+          else (Plant Telepathy Practice > 13.50):
+            if Laser Pointer Chasing <= 4.50:
+              Predict: Quorvian
+            else (Laser Pointer Chasing > 4.50):
+              if Box Collecting <= 5.50:
+                Predict: Zarnak
+              else (Box Collecting > 5.50):
+                Predict: Quorvian
+    else (Tool Worship > 9.50):
+      if Box Collecting <= 5.00:
+        Predict: Zarnak
+      else (Box Collecting > 5.00):
+        Predict: Quorvian
+  else (Laser Pointer Chasing > 7.50):
+    Predict: Quorvian
+else (Box Collecting > 9.00):
+  Predict: Bliptor
+
+Tree 3 Rules:
+if Tool Worship <= 7.50:
+  if Tool Worship <= 5.50:
+    Predict: Bliptor
+  else (Tool Worship > 5.50):
+    if Box Collecting <= 9.00:
+      if Reality Show Studies <= 5.50:
+        Predict: Quorvian
+      else (Reality Show Studies > 5.50):
+        if Box Collecting <= 7.50:
+          Predict: Quorvian
+        else (Box Collecting > 7.50):
+          if Laser Pointer Chasing <= 1.50:
+            Predict: Bliptor
+          else (Laser Pointer Chasing > 1.50):
+            Predict: Quorvian
+    else (Box Collecting > 9.00):
+      Predict: Bliptor
+else (Tool Worship > 7.50):
+  if Tool Worship <= 10.50:
+    if Plant Telepathy Practice <= 7.50:
+      Predict: Zarnak
+    else (Plant Telepathy Practice > 7.50):
+      if Laser Pointer Chasing <= 7.50:
+        if Reality Show Studies <= 6.50:
+          if Laser Pointer Chasing <= 4.50:
+            if Box Collecting <= 5.00:
+              Predict: Zarnak
+            else (Box Collecting > 5.00):
+              Predict: Quorvian
+          else (Laser Pointer Chasing > 4.50):
+            if Reality Show Studies <= 5.50:
+              if Reality Show Studies <= 4.50:
+                if Box Collecting <= 4.00:
+                  Predict: Zarnak
+                else (Box Collecting > 4.00):
+                  Predict: Quorvian
+              else (Reality Show Studies > 4.50):
+                Predict: Quorvian
+            else (Reality Show Studies > 5.50):
+              if Box Collecting <= 5.00:
+                Predict: Zarnak
+              else (Box Collecting > 5.00):
+                Predict: Quorvian
+        else (Reality Show Studies > 6.50):
+          if Tool Worship <= 8.50:
+            Predict: Quorvian
+          else (Tool Worship > 8.50):
+            if Plant Telepathy Practice <= 10.50:
+              Predict: Zarnak
+            else (Plant Telepathy Practice > 10.50):
+              if Laser Pointer Chasing <= 4.50:
+                if Box Collecting <= 5.50:
+                  Predict: Zarnak
+                else (Box Collecting > 5.50):
+                  Predict: Quorvian
+              else (Laser Pointer Chasing > 4.50):
+                if Tool Worship <= 9.50:
+                  Predict: Zarnak
+                else (Tool Worship > 9.50):
+                  if Box Collecting <= 3.50:
+                    Predict: Zarnak
+                  else (Box Collecting > 3.50):
+                    Predict: Quorvian
+      else (Laser Pointer Chasing > 7.50):
+        Predict: Quorvian
+  else (Tool Worship > 10.50):
+    Predict: Zarnak
+
+Tree 4 Rules:
+if Box Collecting <= 9.00:
+  if Tool Worship <= 10.50:
+    if Tool Worship <= 8.50:
+      if Laser Pointer Chasing <= 3.50:
+        if Tool Worship <= 5.50:
+          Predict: Bliptor
+        else (Tool Worship > 5.50):
+          if Laser Pointer Chasing <= 1.50:
+            Predict: Bliptor
+          else (Laser Pointer Chasing > 1.50):
+            if Box Collecting <= 7.50:
+              Predict: Quorvian
+            else (Box Collecting > 7.50):
+              if Reality Show Studies <= 5.50:
+                Predict: Bliptor
+              else (Reality Show Studies > 5.50):
+                Predict: Quorvian
+      else (Laser Pointer Chasing > 3.50):
+        Predict: Quorvian
+    else (Tool Worship > 8.50):
+      if Reality Show Studies <= 7.50:
+        if Laser Pointer Chasing <= 7.50:
+          if Reality Show Studies <= 6.50:
+            if Laser Pointer Chasing <= 2.50:
+              if Tool Worship <= 9.50:
+                if Box Collecting <= 4.50:
+                  Predict: Zarnak
+                else (Box Collecting > 4.50):
+                  Predict: Quorvian
+              else (Tool Worship > 9.50):
+                Predict: Zarnak
+            else (Laser Pointer Chasing > 2.50):
+              if Box Collecting <= 5.00:
+                Predict: Zarnak
+              else (Box Collecting > 5.00):
+                Predict: Quorvian
+          else (Reality Show Studies > 6.50):
+            if Tool Worship <= 9.50:
+              if Box Collecting <= 5.50:
+                Predict: Zarnak
+              else (Box Collecting > 5.50):
+                Predict: Quorvian
+            else (Tool Worship > 9.50):
+              Predict: Zarnak
+        else (Laser Pointer Chasing > 7.50):
+          Predict: Quorvian
+      else (Reality Show Studies > 7.50):
+        Predict: Zarnak
+  else (Tool Worship > 10.50):
+    Predict: Zarnak
+else (Box Collecting > 9.00):
+  Predict: Bliptor
+
+Tree 5 Rules:
+if Tool Worship <= 6.50:
+  if Box Collecting <= 9.00:
+    if Laser Pointer Chasing <= 2.50:
+      Predict: Bliptor
+    else (Laser Pointer Chasing > 2.50):
+      if Box Collecting <= 7.50:
+        Predict: Quorvian
+      else (Box Collecting > 7.50):
+        if Laser Pointer Chasing <= 3.50:
+          if Reality Show Studies <= 6.00:
+            Predict: Bliptor
+          else (Reality Show Studies > 6.00):
+            Predict: Quorvian
+        else (Laser Pointer Chasing > 3.50):
+          Predict: Quorvian
+  else (Box Collecting > 9.00):
+    Predict: Bliptor
+else (Tool Worship > 6.50):
+  if Plant Telepathy Practice <= 7.50:
+    if Laser Pointer Chasing <= 8.00:
+      Predict: Zarnak
+    else (Laser Pointer Chasing > 8.00):
+      Predict: Bliptor
+  else (Plant Telepathy Practice > 7.50):
+    if Plant Telepathy Practice <= 13.50:
+      if Tool Worship <= 10.50:
+        if Box Collecting <= 3.50:
+          Predict: Zarnak
+        else (Box Collecting > 3.50):
+          if Tool Worship <= 8.50:
+            Predict: Quorvian
+          else (Tool Worship > 8.50):
+            if Laser Pointer Chasing <= 4.50:
+              if Reality Show Studies <= 6.50:
+                if Box Collecting <= 5.00:
+                  Predict: Zarnak
+                else (Box Collecting > 5.00):
+                  Predict: Quorvian
+              else (Reality Show Studies > 6.50):
+                if Plant Telepathy Practice <= 11.00:
+                  Predict: Zarnak
+                else (Plant Telepathy Practice > 11.00):
+                  if Laser Pointer Chasing <= 3.50:
+                    Predict: Zarnak
+                  else (Laser Pointer Chasing > 3.50):
+                    Predict: Quorvian
+            else (Laser Pointer Chasing > 4.50):
+              if Laser Pointer Chasing <= 7.50:
+                if Tool Worship <= 9.50:
+                  if Box Collecting <= 5.00:
+                    Predict: Zarnak
+                  else (Box Collecting > 5.00):
+                    Predict: Quorvian
+                else (Tool Worship > 9.50):
+                  Predict: Quorvian
+              else (Laser Pointer Chasing > 7.50):
+                Predict: Quorvian
+      else (Tool Worship > 10.50):
+        Predict: Zarnak
+    else (Plant Telepathy Practice > 13.50):
+      if Tool Worship <= 11.50:
+        if Box Collecting <= 3.50:
+          Predict: Zarnak
+        else (Box Collecting > 3.50):
+          if Laser Pointer Chasing <= 3.00:
+            if Box Collecting <= 6.00:
+              Predict: Zarnak
+            else (Box Collecting > 6.00):
+              Predict: Quorvian
+          else (Laser Pointer Chasing > 3.00):
+            if Box Collecting <= 5.00:
+              if Laser Pointer Chasing <= 7.50:
+                Predict: Zarnak
+              else (Laser Pointer Chasing > 7.50):
+                Predict: Quorvian
+            else (Box Collecting > 5.00):
+              Predict: Quorvian
+      else (Tool Worship > 11.50):
+        Predict: Zarnak
+
+Tree 6 Rules:
+if Plant Telepathy Practice <= 3.50:
+  if Laser Pointer Chasing <= 8.00:
+    Predict: Zarnak
+  else (Laser Pointer Chasing > 8.00):
+    Predict: Bliptor
+else (Plant Telepathy Practice > 3.50):
+  if Tool Worship <= 10.50:
+    if Laser Pointer Chasing <= 7.50:
+      if Box Collecting <= 4.50:
+        Predict: Zarnak
+      else (Box Collecting > 4.50):
+        if Tool Worship <= 5.50:
+          Predict: Bliptor
+        else (Tool Worship > 5.50):
+          if Laser Pointer Chasing <= 1.50:
+            Predict: Bliptor
+          else (Laser Pointer Chasing > 1.50):
+            Predict: Quorvian
+    else (Laser Pointer Chasing > 7.50):
+      Predict: Quorvian
+  else (Tool Worship > 10.50):
+    Predict: Zarnak
+
+Tree 7 Rules:
+if Tool Worship <= 7.50:
+  if Plant Telepathy Practice <= 6.50:
+    Predict: Bliptor
+  else (Plant Telepathy Practice > 6.50):
+    if Laser Pointer Chasing <= 1.50:
+      Predict: Bliptor
+    else (Laser Pointer Chasing > 1.50):
+      Predict: Quorvian
+else (Tool Worship > 7.50):
+  if Box Collecting <= 4.50:
+    if Laser Pointer Chasing <= 7.50:
+      Predict: Zarnak
+    else (Laser Pointer Chasing > 7.50):
+      Predict: Quorvian
+  else (Box Collecting > 4.50):
+    Predict: Quorvian
+
+Tree 8 Rules:
+if Box Collecting <= 9.00:
+  if Reality Show Studies <= 7.50:
+    if Box Collecting <= 3.50:
+      Predict: Zarnak
+    else (Box Collecting > 3.50):
+      if Laser Pointer Chasing <= 1.50:
+        Predict: Bliptor
+      else (Laser Pointer Chasing > 1.50):
+        if Box Collecting <= 4.50:
+          if Reality Show Studies <= 4.50:
+            if Laser Pointer Chasing <= 7.50:
+              Predict: Zarnak
+            else (Laser Pointer Chasing > 7.50):
+              Predict: Quorvian
+          else (Reality Show Studies > 4.50):
+            if Reality Show Studies <= 6.50:
+              if Laser Pointer Chasing <= 7.50:
+                Predict: Zarnak
+              else (Laser Pointer Chasing > 7.50):
+                Predict: Quorvian
+            else (Reality Show Studies > 6.50):
+              if Tool Worship <= 11.50:
+                if Laser Pointer Chasing <= 7.50:
+                  Predict: Zarnak
+                else (Laser Pointer Chasing > 7.50):
+                  Predict: Quorvian
+              else (Tool Worship > 11.50):
+                Predict: Zarnak
+        else (Box Collecting > 4.50):
+          if Tool Worship <= 4.50:
+            Predict: Bliptor
+          else (Tool Worship > 4.50):
+            if Tool Worship <= 6.50:
+              if Plant Telepathy Practice <= 13.50:
+                Predict: Quorvian
+              else (Plant Telepathy Practice > 13.50):
+                if Laser Pointer Chasing <= 7.50:
+                  Predict: Bliptor
+                else (Laser Pointer Chasing > 7.50):
+                  Predict: Quorvian
+            else (Tool Worship > 6.50):
+              Predict: Quorvian
+  else (Reality Show Studies > 7.50):
+    Predict: Zarnak
+else (Box Collecting > 9.00):
+  Predict: Bliptor
+
+Tree 9 Rules:
+if Tool Worship <= 7.50:
+  if Tool Worship <= 5.50:
+    Predict: Bliptor
+  else (Tool Worship > 5.50):
+    if Plant Telepathy Practice <= 6.50:
+      Predict: Bliptor
+    else (Plant Telepathy Practice > 6.50):
+      if Plant Telepathy Practice <= 13.50:
+        Predict: Quorvian
+      else (Plant Telepathy Practice > 13.50):
+        if Reality Show Studies <= 5.50:
+          if Laser Pointer Chasing <= 4.00:
+            Predict: Bliptor
+          else (Laser Pointer Chasing > 4.00):
+            Predict: Quorvian
+        else (Reality Show Studies > 5.50):
+          Predict: Quorvian
+else (Tool Worship > 7.50):
+  if Tool Worship <= 10.50:
+    if Plant Telepathy Practice <= 7.50:
+      Predict: Zarnak
+    else (Plant Telepathy Practice > 7.50):
+      if Box Collecting <= 3.50:
+        Predict: Zarnak
+      else (Box Collecting > 3.50):
+        if Box Collecting <= 4.50:
+          if Laser Pointer Chasing <= 7.50:
+            Predict: Zarnak
+          else (Laser Pointer Chasing > 7.50):
+            Predict: Quorvian
+        else (Box Collecting > 4.50):
+          Predict: Quorvian
+  else (Tool Worship > 10.50):
+    Predict: Zarnak
+
+Aggregated Rules (Across Forest):
+
+Class: Quorvian
+
+Simple Rules (Single Trees):
+
+Tree 0 Rules:
+if Tool Worship <= 7.50:
+  if Laser Pointer Chasing <= 10.50:
+    if Laser Pointer Chasing <= 1.50:
+      Predict: Bliptor
+    else (Laser Pointer Chasing > 1.50):
+      if Tool Worship <= 4.50:
+        Predict: Bliptor
+      else (Tool Worship > 4.50):
+        if Plant Telepathy Practice <= 13.50:
+          Predict: Quorvian
+        else (Plant Telepathy Practice > 13.50):
+          if Tool Worship <= 6.50:
+            Predict: Bliptor
+          else (Tool Worship > 6.50):
+            Predict: Quorvian
+  else (Laser Pointer Chasing > 10.50):
+    if Box Collecting <= 7.50:
+      Predict: Quorvian
+    else (Box Collecting > 7.50):
+      Predict: Bliptor
+else (Tool Worship > 7.50):
+  if Tool Worship <= 10.50:
+    if Laser Pointer Chasing <= 7.50:
+      if Reality Show Studies <= 8.00:
+        if Box Collecting <= 5.00:
+          Predict: Zarnak
+        else (Box Collecting > 5.00):
+          Predict: Quorvian
+      else (Reality Show Studies > 8.00):
+        Predict: Zarnak
+    else (Laser Pointer Chasing > 7.50):
+      Predict: Quorvian
+  else (Tool Worship > 10.50):
+    Predict: Zarnak
+
+Tree 1 Rules:
+if Box Collecting <= 9.00:
+  if Box Collecting <= 3.50:
+    Predict: Zarnak
+  else (Box Collecting > 3.50):
+    if Box Collecting <= 4.50:
+      if Tool Worship <= 8.50:
+        Predict: Quorvian
+      else (Tool Worship > 8.50):
+        if Plant Telepathy Practice <= 12.50:
+          if Reality Show Studies <= 7.50:
+            if Plant Telepathy Practice <= 11.50:
+              if Plant Telepathy Practice <= 10.50:
+                if Laser Pointer Chasing <= 7.50:
+                  Predict: Zarnak
+                else (Laser Pointer Chasing > 7.50):
+                  Predict: Quorvian
+              else (Plant Telepathy Practice > 10.50):
+                Predict: Quorvian
+            else (Plant Telepathy Practice > 11.50):
+              if Reality Show Studies <= 4.50:
+                Predict: Zarnak
+              else (Reality Show Studies > 4.50):
+                if Laser Pointer Chasing <= 8.50:
+                  Predict: Zarnak
+                else (Laser Pointer Chasing > 8.50):
+                  Predict: Quorvian
+          else (Reality Show Studies > 7.50):
+            Predict: Zarnak
+        else (Plant Telepathy Practice > 12.50):
+          if Laser Pointer Chasing <= 7.50:
+            Predict: Zarnak
+          else (Laser Pointer Chasing > 7.50):
+            Predict: Quorvian
+    else (Box Collecting > 4.50):
+      if Laser Pointer Chasing <= 1.50:
+        Predict: Bliptor
+      else (Laser Pointer Chasing > 1.50):
+        if Tool Worship <= 4.50:
+          Predict: Bliptor
+        else (Tool Worship > 4.50):
+          if Laser Pointer Chasing <= 3.50:
+            if Plant Telepathy Practice <= 13.50:
+              Predict: Quorvian
+            else (Plant Telepathy Practice > 13.50):
+              if Tool Worship <= 7.50:
+                Predict: Bliptor
+              else (Tool Worship > 7.50):
+                Predict: Quorvian
+          else (Laser Pointer Chasing > 3.50):
+            Predict: Quorvian
+else (Box Collecting > 9.00):
+  Predict: Bliptor
+
+Tree 2 Rules:
+if Box Collecting <= 9.00:
+  if Laser Pointer Chasing <= 7.50:
+    if Tool Worship <= 9.50:
+      if Tool Worship <= 5.50:
+        Predict: Bliptor
+      else (Tool Worship > 5.50):
+        if Tool Worship <= 8.50:
+          if Plant Telepathy Practice <= 13.50:
+            Predict: Quorvian
+          else (Plant Telepathy Practice > 13.50):
+            if Tool Worship <= 6.50:
+              if Laser Pointer Chasing <= 4.00:
+                Predict: Bliptor
+              else (Laser Pointer Chasing > 4.00):
+                Predict: Quorvian
+            else (Tool Worship > 6.50):
+              Predict: Quorvian
+        else (Tool Worship > 8.50):
+          if Plant Telepathy Practice <= 13.50:
+            if Reality Show Studies <= 4.50:
+              Predict: Zarnak
+            else (Reality Show Studies > 4.50):
+              if Laser Pointer Chasing <= 3.50:
+                if Plant Telepathy Practice <= 10.50:
+                  if Reality Show Studies <= 6.50:
+                    if Reality Show Studies <= 5.50:
+                      Predict: Zarnak
+                    else (Reality Show Studies > 5.50):
+                      Predict: Quorvian
+                  else (Reality Show Studies > 6.50):
+                    Predict: Zarnak
+                else (Plant Telepathy Practice > 10.50):
+                  Predict: Quorvian
+              else (Laser Pointer Chasing > 3.50):
+                if Plant Telepathy Practice <= 12.50:
+                  if Box Collecting <= 3.50:
+                    Predict: Zarnak
+                  else (Box Collecting > 3.50):
+                    Predict: Quorvian
+                else (Plant Telepathy Practice > 12.50):
+                  if Reality Show Studies <= 6.00:
+                    if Box Collecting <= 5.00:
+                      Predict: Zarnak
+                    else (Box Collecting > 5.00):
+                      Predict: Quorvian
+                  else (Reality Show Studies > 6.00):
+                    Predict: Quorvian
+          else (Plant Telepathy Practice > 13.50):
+            if Laser Pointer Chasing <= 4.50:
+              Predict: Quorvian
+            else (Laser Pointer Chasing > 4.50):
+              if Box Collecting <= 5.50:
+                Predict: Zarnak
+              else (Box Collecting > 5.50):
+                Predict: Quorvian
+    else (Tool Worship > 9.50):
+      if Box Collecting <= 5.00:
+        Predict: Zarnak
+      else (Box Collecting > 5.00):
+        Predict: Quorvian
+  else (Laser Pointer Chasing > 7.50):
+    Predict: Quorvian
+else (Box Collecting > 9.00):
+  Predict: Bliptor
+
+Tree 3 Rules:
+if Tool Worship <= 7.50:
+  if Tool Worship <= 5.50:
+    Predict: Bliptor
+  else (Tool Worship > 5.50):
+    if Box Collecting <= 9.00:
+      if Reality Show Studies <= 5.50:
+        Predict: Quorvian
+      else (Reality Show Studies > 5.50):
+        if Box Collecting <= 7.50:
+          Predict: Quorvian
+        else (Box Collecting > 7.50):
+          if Laser Pointer Chasing <= 1.50:
+            Predict: Bliptor
+          else (Laser Pointer Chasing > 1.50):
+            Predict: Quorvian
+    else (Box Collecting > 9.00):
+      Predict: Bliptor
+else (Tool Worship > 7.50):
+  if Tool Worship <= 10.50:
+    if Plant Telepathy Practice <= 7.50:
+      Predict: Zarnak
+    else (Plant Telepathy Practice > 7.50):
+      if Laser Pointer Chasing <= 7.50:
+        if Reality Show Studies <= 6.50:
+          if Laser Pointer Chasing <= 4.50:
+            if Box Collecting <= 5.00:
+              Predict: Zarnak
+            else (Box Collecting > 5.00):
+              Predict: Quorvian
+          else (Laser Pointer Chasing > 4.50):
+            if Reality Show Studies <= 5.50:
+              if Reality Show Studies <= 4.50:
+                if Box Collecting <= 4.00:
+                  Predict: Zarnak
+                else (Box Collecting > 4.00):
+                  Predict: Quorvian
+              else (Reality Show Studies > 4.50):
+                Predict: Quorvian
+            else (Reality Show Studies > 5.50):
+              if Box Collecting <= 5.00:
+                Predict: Zarnak
+              else (Box Collecting > 5.00):
+                Predict: Quorvian
+        else (Reality Show Studies > 6.50):
+          if Tool Worship <= 8.50:
+            Predict: Quorvian
+          else (Tool Worship > 8.50):
+            if Plant Telepathy Practice <= 10.50:
+              Predict: Zarnak
+            else (Plant Telepathy Practice > 10.50):
+              if Laser Pointer Chasing <= 4.50:
+                if Box Collecting <= 5.50:
+                  Predict: Zarnak
+                else (Box Collecting > 5.50):
+                  Predict: Quorvian
+              else (Laser Pointer Chasing > 4.50):
+                if Tool Worship <= 9.50:
+                  Predict: Zarnak
+                else (Tool Worship > 9.50):
+                  if Box Collecting <= 3.50:
+                    Predict: Zarnak
+                  else (Box Collecting > 3.50):
+                    Predict: Quorvian
+      else (Laser Pointer Chasing > 7.50):
+        Predict: Quorvian
+  else (Tool Worship > 10.50):
+    Predict: Zarnak
+
+Tree 4 Rules:
+if Box Collecting <= 9.00:
+  if Tool Worship <= 10.50:
+    if Tool Worship <= 8.50:
+      if Laser Pointer Chasing <= 3.50:
+        if Tool Worship <= 5.50:
+          Predict: Bliptor
+        else (Tool Worship > 5.50):
+          if Laser Pointer Chasing <= 1.50:
+            Predict: Bliptor
+          else (Laser Pointer Chasing > 1.50):
+            if Box Collecting <= 7.50:
+              Predict: Quorvian
+            else (Box Collecting > 7.50):
+              if Reality Show Studies <= 5.50:
+                Predict: Bliptor
+              else (Reality Show Studies > 5.50):
+                Predict: Quorvian
+      else (Laser Pointer Chasing > 3.50):
+        Predict: Quorvian
+    else (Tool Worship > 8.50):
+      if Reality Show Studies <= 7.50:
+        if Laser Pointer Chasing <= 7.50:
+          if Reality Show Studies <= 6.50:
+            if Laser Pointer Chasing <= 2.50:
+              if Tool Worship <= 9.50:
+                if Box Collecting <= 4.50:
+                  Predict: Zarnak
+                else (Box Collecting > 4.50):
+                  Predict: Quorvian
+              else (Tool Worship > 9.50):
+                Predict: Zarnak
+            else (Laser Pointer Chasing > 2.50):
+              if Box Collecting <= 5.00:
+                Predict: Zarnak
+              else (Box Collecting > 5.00):
+                Predict: Quorvian
+          else (Reality Show Studies > 6.50):
+            if Tool Worship <= 9.50:
+              if Box Collecting <= 5.50:
+                Predict: Zarnak
+              else (Box Collecting > 5.50):
+                Predict: Quorvian
+            else (Tool Worship > 9.50):
+              Predict: Zarnak
+        else (Laser Pointer Chasing > 7.50):
+          Predict: Quorvian
+      else (Reality Show Studies > 7.50):
+        Predict: Zarnak
+  else (Tool Worship > 10.50):
+    Predict: Zarnak
+else (Box Collecting > 9.00):
+  Predict: Bliptor
+
+Tree 5 Rules:
+if Tool Worship <= 6.50:
+  if Box Collecting <= 9.00:
+    if Laser Pointer Chasing <= 2.50:
+      Predict: Bliptor
+    else (Laser Pointer Chasing > 2.50):
+      if Box Collecting <= 7.50:
+        Predict: Quorvian
+      else (Box Collecting > 7.50):
+        if Laser Pointer Chasing <= 3.50:
+          if Reality Show Studies <= 6.00:
+            Predict: Bliptor
+          else (Reality Show Studies > 6.00):
+            Predict: Quorvian
+        else (Laser Pointer Chasing > 3.50):
+          Predict: Quorvian
+  else (Box Collecting > 9.00):
+    Predict: Bliptor
+else (Tool Worship > 6.50):
+  if Plant Telepathy Practice <= 7.50:
+    if Laser Pointer Chasing <= 8.00:
+      Predict: Zarnak
+    else (Laser Pointer Chasing > 8.00):
+      Predict: Bliptor
+  else (Plant Telepathy Practice > 7.50):
+    if Plant Telepathy Practice <= 13.50:
+      if Tool Worship <= 10.50:
+        if Box Collecting <= 3.50:
+          Predict: Zarnak
+        else (Box Collecting > 3.50):
+          if Tool Worship <= 8.50:
+            Predict: Quorvian
+          else (Tool Worship > 8.50):
+            if Laser Pointer Chasing <= 4.50:
+              if Reality Show Studies <= 6.50:
+                if Box Collecting <= 5.00:
+                  Predict: Zarnak
+                else (Box Collecting > 5.00):
+                  Predict: Quorvian
+              else (Reality Show Studies > 6.50):
+                if Plant Telepathy Practice <= 11.00:
+                  Predict: Zarnak
+                else (Plant Telepathy Practice > 11.00):
+                  if Laser Pointer Chasing <= 3.50:
+                    Predict: Zarnak
+                  else (Laser Pointer Chasing > 3.50):
+                    Predict: Quorvian
+            else (Laser Pointer Chasing > 4.50):
+              if Laser Pointer Chasing <= 7.50:
+                if Tool Worship <= 9.50:
+                  if Box Collecting <= 5.00:
+                    Predict: Zarnak
+                  else (Box Collecting > 5.00):
+                    Predict: Quorvian
+                else (Tool Worship > 9.50):
+                  Predict: Quorvian
+              else (Laser Pointer Chasing > 7.50):
+                Predict: Quorvian
+      else (Tool Worship > 10.50):
+        Predict: Zarnak
+    else (Plant Telepathy Practice > 13.50):
+      if Tool Worship <= 11.50:
+        if Box Collecting <= 3.50:
+          Predict: Zarnak
+        else (Box Collecting > 3.50):
+          if Laser Pointer Chasing <= 3.00:
+            if Box Collecting <= 6.00:
+              Predict: Zarnak
+            else (Box Collecting > 6.00):
+              Predict: Quorvian
+          else (Laser Pointer Chasing > 3.00):
+            if Box Collecting <= 5.00:
+              if Laser Pointer Chasing <= 7.50:
+                Predict: Zarnak
+              else (Laser Pointer Chasing > 7.50):
+                Predict: Quorvian
+            else (Box Collecting > 5.00):
+              Predict: Quorvian
+      else (Tool Worship > 11.50):
+        Predict: Zarnak
+
+Tree 6 Rules:
+if Plant Telepathy Practice <= 3.50:
+  if Laser Pointer Chasing <= 8.00:
+    Predict: Zarnak
+  else (Laser Pointer Chasing > 8.00):
+    Predict: Bliptor
+else (Plant Telepathy Practice > 3.50):
+  if Tool Worship <= 10.50:
+    if Laser Pointer Chasing <= 7.50:
+      if Box Collecting <= 4.50:
+        Predict: Zarnak
+      else (Box Collecting > 4.50):
+        if Tool Worship <= 5.50:
+          Predict: Bliptor
+        else (Tool Worship > 5.50):
+          if Laser Pointer Chasing <= 1.50:
+            Predict: Bliptor
+          else (Laser Pointer Chasing > 1.50):
+            Predict: Quorvian
+    else (Laser Pointer Chasing > 7.50):
+      Predict: Quorvian
+  else (Tool Worship > 10.50):
+    Predict: Zarnak
+
+Tree 7 Rules:
+if Tool Worship <= 7.50:
+  if Plant Telepathy Practice <= 6.50:
+    Predict: Bliptor
+  else (Plant Telepathy Practice > 6.50):
+    if Laser Pointer Chasing <= 1.50:
+      Predict: Bliptor
+    else (Laser Pointer Chasing > 1.50):
+      Predict: Quorvian
+else (Tool Worship > 7.50):
+  if Box Collecting <= 4.50:
+    if Laser Pointer Chasing <= 7.50:
+      Predict: Zarnak
+    else (Laser Pointer Chasing > 7.50):
+      Predict: Quorvian
+  else (Box Collecting > 4.50):
+    Predict: Quorvian
+
+Tree 8 Rules:
+if Box Collecting <= 9.00:
+  if Reality Show Studies <= 7.50:
+    if Box Collecting <= 3.50:
+      Predict: Zarnak
+    else (Box Collecting > 3.50):
+      if Laser Pointer Chasing <= 1.50:
+        Predict: Bliptor
+      else (Laser Pointer Chasing > 1.50):
+        if Box Collecting <= 4.50:
+          if Reality Show Studies <= 4.50:
+            if Laser Pointer Chasing <= 7.50:
+              Predict: Zarnak
+            else (Laser Pointer Chasing > 7.50):
+              Predict: Quorvian
+          else (Reality Show Studies > 4.50):
+            if Reality Show Studies <= 6.50:
+              if Laser Pointer Chasing <= 7.50:
+                Predict: Zarnak
+              else (Laser Pointer Chasing > 7.50):
+                Predict: Quorvian
+            else (Reality Show Studies > 6.50):
+              if Tool Worship <= 11.50:
+                if Laser Pointer Chasing <= 7.50:
+                  Predict: Zarnak
+                else (Laser Pointer Chasing > 7.50):
+                  Predict: Quorvian
+              else (Tool Worship > 11.50):
+                Predict: Zarnak
+        else (Box Collecting > 4.50):
+          if Tool Worship <= 4.50:
+            Predict: Bliptor
+          else (Tool Worship > 4.50):
+            if Tool Worship <= 6.50:
+              if Plant Telepathy Practice <= 13.50:
+                Predict: Quorvian
+              else (Plant Telepathy Practice > 13.50):
+                if Laser Pointer Chasing <= 7.50:
+                  Predict: Bliptor
+                else (Laser Pointer Chasing > 7.50):
+                  Predict: Quorvian
+            else (Tool Worship > 6.50):
+              Predict: Quorvian
+  else (Reality Show Studies > 7.50):
+    Predict: Zarnak
+else (Box Collecting > 9.00):
+  Predict: Bliptor
+
+Tree 9 Rules:
+if Tool Worship <= 7.50:
+  if Tool Worship <= 5.50:
+    Predict: Bliptor
+  else (Tool Worship > 5.50):
+    if Plant Telepathy Practice <= 6.50:
+      Predict: Bliptor
+    else (Plant Telepathy Practice > 6.50):
+      if Plant Telepathy Practice <= 13.50:
+        Predict: Quorvian
+      else (Plant Telepathy Practice > 13.50):
+        if Reality Show Studies <= 5.50:
+          if Laser Pointer Chasing <= 4.00:
+            Predict: Bliptor
+          else (Laser Pointer Chasing > 4.00):
+            Predict: Quorvian
+        else (Reality Show Studies > 5.50):
+          Predict: Quorvian
+else (Tool Worship > 7.50):
+  if Tool Worship <= 10.50:
+    if Plant Telepathy Practice <= 7.50:
+      Predict: Zarnak
+    else (Plant Telepathy Practice > 7.50):
+      if Box Collecting <= 3.50:
+        Predict: Zarnak
+      else (Box Collecting > 3.50):
+        if Box Collecting <= 4.50:
+          if Laser Pointer Chasing <= 7.50:
+            Predict: Zarnak
+          else (Laser Pointer Chasing > 7.50):
+            Predict: Quorvian
+        else (Box Collecting > 4.50):
+          Predict: Quorvian
+  else (Tool Worship > 10.50):
+    Predict: Zarnak
+
+Aggregated Rules (Across Forest):
+Box Collecting <= 9.00 appeared in 54.9% of paths.
+
+Class: Zarnak
+
+Simple Rules (Single Trees):
+
+Tree 0 Rules:
+if Tool Worship <= 7.50:
+  if Laser Pointer Chasing <= 10.50:
+    if Laser Pointer Chasing <= 1.50:
+      Predict: Bliptor
+    else (Laser Pointer Chasing > 1.50):
+      if Tool Worship <= 4.50:
+        Predict: Bliptor
+      else (Tool Worship > 4.50):
+        if Plant Telepathy Practice <= 13.50:
+          Predict: Quorvian
+        else (Plant Telepathy Practice > 13.50):
+          if Tool Worship <= 6.50:
+            Predict: Bliptor
+          else (Tool Worship > 6.50):
+            Predict: Quorvian
+  else (Laser Pointer Chasing > 10.50):
+    if Box Collecting <= 7.50:
+      Predict: Quorvian
+    else (Box Collecting > 7.50):
+      Predict: Bliptor
+else (Tool Worship > 7.50):
+  if Tool Worship <= 10.50:
+    if Laser Pointer Chasing <= 7.50:
+      if Reality Show Studies <= 8.00:
+        if Box Collecting <= 5.00:
+          Predict: Zarnak
+        else (Box Collecting > 5.00):
+          Predict: Quorvian
+      else (Reality Show Studies > 8.00):
+        Predict: Zarnak
+    else (Laser Pointer Chasing > 7.50):
+      Predict: Quorvian
+  else (Tool Worship > 10.50):
+    Predict: Zarnak
+
+Tree 1 Rules:
+if Box Collecting <= 9.00:
+  if Box Collecting <= 3.50:
+    Predict: Zarnak
+  else (Box Collecting > 3.50):
+    if Box Collecting <= 4.50:
+      if Tool Worship <= 8.50:
+        Predict: Quorvian
+      else (Tool Worship > 8.50):
+        if Plant Telepathy Practice <= 12.50:
+          if Reality Show Studies <= 7.50:
+            if Plant Telepathy Practice <= 11.50:
+              if Plant Telepathy Practice <= 10.50:
+                if Laser Pointer Chasing <= 7.50:
+                  Predict: Zarnak
+                else (Laser Pointer Chasing > 7.50):
+                  Predict: Quorvian
+              else (Plant Telepathy Practice > 10.50):
+                Predict: Quorvian
+            else (Plant Telepathy Practice > 11.50):
+              if Reality Show Studies <= 4.50:
+                Predict: Zarnak
+              else (Reality Show Studies > 4.50):
+                if Laser Pointer Chasing <= 8.50:
+                  Predict: Zarnak
+                else (Laser Pointer Chasing > 8.50):
+                  Predict: Quorvian
+          else (Reality Show Studies > 7.50):
+            Predict: Zarnak
+        else (Plant Telepathy Practice > 12.50):
+          if Laser Pointer Chasing <= 7.50:
+            Predict: Zarnak
+          else (Laser Pointer Chasing > 7.50):
+            Predict: Quorvian
+    else (Box Collecting > 4.50):
+      if Laser Pointer Chasing <= 1.50:
+        Predict: Bliptor
+      else (Laser Pointer Chasing > 1.50):
+        if Tool Worship <= 4.50:
+          Predict: Bliptor
+        else (Tool Worship > 4.50):
+          if Laser Pointer Chasing <= 3.50:
+            if Plant Telepathy Practice <= 13.50:
+              Predict: Quorvian
+            else (Plant Telepathy Practice > 13.50):
+              if Tool Worship <= 7.50:
+                Predict: Bliptor
+              else (Tool Worship > 7.50):
+                Predict: Quorvian
+          else (Laser Pointer Chasing > 3.50):
+            Predict: Quorvian
+else (Box Collecting > 9.00):
+  Predict: Bliptor
+
+Tree 2 Rules:
+if Box Collecting <= 9.00:
+  if Laser Pointer Chasing <= 7.50:
+    if Tool Worship <= 9.50:
+      if Tool Worship <= 5.50:
+        Predict: Bliptor
+      else (Tool Worship > 5.50):
+        if Tool Worship <= 8.50:
+          if Plant Telepathy Practice <= 13.50:
+            Predict: Quorvian
+          else (Plant Telepathy Practice > 13.50):
+            if Tool Worship <= 6.50:
+              if Laser Pointer Chasing <= 4.00:
+                Predict: Bliptor
+              else (Laser Pointer Chasing > 4.00):
+                Predict: Quorvian
+            else (Tool Worship > 6.50):
+              Predict: Quorvian
+        else (Tool Worship > 8.50):
+          if Plant Telepathy Practice <= 13.50:
+            if Reality Show Studies <= 4.50:
+              Predict: Zarnak
+            else (Reality Show Studies > 4.50):
+              if Laser Pointer Chasing <= 3.50:
+                if Plant Telepathy Practice <= 10.50:
+                  if Reality Show Studies <= 6.50:
+                    if Reality Show Studies <= 5.50:
+                      Predict: Zarnak
+                    else (Reality Show Studies > 5.50):
+                      Predict: Quorvian
+                  else (Reality Show Studies > 6.50):
+                    Predict: Zarnak
+                else (Plant Telepathy Practice > 10.50):
+                  Predict: Quorvian
+              else (Laser Pointer Chasing > 3.50):
+                if Plant Telepathy Practice <= 12.50:
+                  if Box Collecting <= 3.50:
+                    Predict: Zarnak
+                  else (Box Collecting > 3.50):
+                    Predict: Quorvian
+                else (Plant Telepathy Practice > 12.50):
+                  if Reality Show Studies <= 6.00:
+                    if Box Collecting <= 5.00:
+                      Predict: Zarnak
+                    else (Box Collecting > 5.00):
+                      Predict: Quorvian
+                  else (Reality Show Studies > 6.00):
+                    Predict: Quorvian
+          else (Plant Telepathy Practice > 13.50):
+            if Laser Pointer Chasing <= 4.50:
+              Predict: Quorvian
+            else (Laser Pointer Chasing > 4.50):
+              if Box Collecting <= 5.50:
+                Predict: Zarnak
+              else (Box Collecting > 5.50):
+                Predict: Quorvian
+    else (Tool Worship > 9.50):
+      if Box Collecting <= 5.00:
+        Predict: Zarnak
+      else (Box Collecting > 5.00):
+        Predict: Quorvian
+  else (Laser Pointer Chasing > 7.50):
+    Predict: Quorvian
+else (Box Collecting > 9.00):
+  Predict: Bliptor
+
+Tree 3 Rules:
+if Tool Worship <= 7.50:
+  if Tool Worship <= 5.50:
+    Predict: Bliptor
+  else (Tool Worship > 5.50):
+    if Box Collecting <= 9.00:
+      if Reality Show Studies <= 5.50:
+        Predict: Quorvian
+      else (Reality Show Studies > 5.50):
+        if Box Collecting <= 7.50:
+          Predict: Quorvian
+        else (Box Collecting > 7.50):
+          if Laser Pointer Chasing <= 1.50:
+            Predict: Bliptor
+          else (Laser Pointer Chasing > 1.50):
+            Predict: Quorvian
+    else (Box Collecting > 9.00):
+      Predict: Bliptor
+else (Tool Worship > 7.50):
+  if Tool Worship <= 10.50:
+    if Plant Telepathy Practice <= 7.50:
+      Predict: Zarnak
+    else (Plant Telepathy Practice > 7.50):
+      if Laser Pointer Chasing <= 7.50:
+        if Reality Show Studies <= 6.50:
+          if Laser Pointer Chasing <= 4.50:
+            if Box Collecting <= 5.00:
+              Predict: Zarnak
+            else (Box Collecting > 5.00):
+              Predict: Quorvian
+          else (Laser Pointer Chasing > 4.50):
+            if Reality Show Studies <= 5.50:
+              if Reality Show Studies <= 4.50:
+                if Box Collecting <= 4.00:
+                  Predict: Zarnak
+                else (Box Collecting > 4.00):
+                  Predict: Quorvian
+              else (Reality Show Studies > 4.50):
+                Predict: Quorvian
+            else (Reality Show Studies > 5.50):
+              if Box Collecting <= 5.00:
+                Predict: Zarnak
+              else (Box Collecting > 5.00):
+                Predict: Quorvian
+        else (Reality Show Studies > 6.50):
+          if Tool Worship <= 8.50:
+            Predict: Quorvian
+          else (Tool Worship > 8.50):
+            if Plant Telepathy Practice <= 10.50:
+              Predict: Zarnak
+            else (Plant Telepathy Practice > 10.50):
+              if Laser Pointer Chasing <= 4.50:
+                if Box Collecting <= 5.50:
+                  Predict: Zarnak
+                else (Box Collecting > 5.50):
+                  Predict: Quorvian
+              else (Laser Pointer Chasing > 4.50):
+                if Tool Worship <= 9.50:
+                  Predict: Zarnak
+                else (Tool Worship > 9.50):
+                  if Box Collecting <= 3.50:
+                    Predict: Zarnak
+                  else (Box Collecting > 3.50):
+                    Predict: Quorvian
+      else (Laser Pointer Chasing > 7.50):
+        Predict: Quorvian
+  else (Tool Worship > 10.50):
+    Predict: Zarnak
+
+Tree 4 Rules:
+if Box Collecting <= 9.00:
+  if Tool Worship <= 10.50:
+    if Tool Worship <= 8.50:
+      if Laser Pointer Chasing <= 3.50:
+        if Tool Worship <= 5.50:
+          Predict: Bliptor
+        else (Tool Worship > 5.50):
+          if Laser Pointer Chasing <= 1.50:
+            Predict: Bliptor
+          else (Laser Pointer Chasing > 1.50):
+            if Box Collecting <= 7.50:
+              Predict: Quorvian
+            else (Box Collecting > 7.50):
+              if Reality Show Studies <= 5.50:
+                Predict: Bliptor
+              else (Reality Show Studies > 5.50):
+                Predict: Quorvian
+      else (Laser Pointer Chasing > 3.50):
+        Predict: Quorvian
+    else (Tool Worship > 8.50):
+      if Reality Show Studies <= 7.50:
+        if Laser Pointer Chasing <= 7.50:
+          if Reality Show Studies <= 6.50:
+            if Laser Pointer Chasing <= 2.50:
+              if Tool Worship <= 9.50:
+                if Box Collecting <= 4.50:
+                  Predict: Zarnak
+                else (Box Collecting > 4.50):
+                  Predict: Quorvian
+              else (Tool Worship > 9.50):
+                Predict: Zarnak
+            else (Laser Pointer Chasing > 2.50):
+              if Box Collecting <= 5.00:
+                Predict: Zarnak
+              else (Box Collecting > 5.00):
+                Predict: Quorvian
+          else (Reality Show Studies > 6.50):
+            if Tool Worship <= 9.50:
+              if Box Collecting <= 5.50:
+                Predict: Zarnak
+              else (Box Collecting > 5.50):
+                Predict: Quorvian
+            else (Tool Worship > 9.50):
+              Predict: Zarnak
+        else (Laser Pointer Chasing > 7.50):
+          Predict: Quorvian
+      else (Reality Show Studies > 7.50):
+        Predict: Zarnak
+  else (Tool Worship > 10.50):
+    Predict: Zarnak
+else (Box Collecting > 9.00):
+  Predict: Bliptor
+
+Tree 5 Rules:
+if Tool Worship <= 6.50:
+  if Box Collecting <= 9.00:
+    if Laser Pointer Chasing <= 2.50:
+      Predict: Bliptor
+    else (Laser Pointer Chasing > 2.50):
+      if Box Collecting <= 7.50:
+        Predict: Quorvian
+      else (Box Collecting > 7.50):
+        if Laser Pointer Chasing <= 3.50:
+          if Reality Show Studies <= 6.00:
+            Predict: Bliptor
+          else (Reality Show Studies > 6.00):
+            Predict: Quorvian
+        else (Laser Pointer Chasing > 3.50):
+          Predict: Quorvian
+  else (Box Collecting > 9.00):
+    Predict: Bliptor
+else (Tool Worship > 6.50):
+  if Plant Telepathy Practice <= 7.50:
+    if Laser Pointer Chasing <= 8.00:
+      Predict: Zarnak
+    else (Laser Pointer Chasing > 8.00):
+      Predict: Bliptor
+  else (Plant Telepathy Practice > 7.50):
+    if Plant Telepathy Practice <= 13.50:
+      if Tool Worship <= 10.50:
+        if Box Collecting <= 3.50:
+          Predict: Zarnak
+        else (Box Collecting > 3.50):
+          if Tool Worship <= 8.50:
+            Predict: Quorvian
+          else (Tool Worship > 8.50):
+            if Laser Pointer Chasing <= 4.50:
+              if Reality Show Studies <= 6.50:
+                if Box Collecting <= 5.00:
+                  Predict: Zarnak
+                else (Box Collecting > 5.00):
+                  Predict: Quorvian
+              else (Reality Show Studies > 6.50):
+                if Plant Telepathy Practice <= 11.00:
+                  Predict: Zarnak
+                else (Plant Telepathy Practice > 11.00):
+                  if Laser Pointer Chasing <= 3.50:
+                    Predict: Zarnak
+                  else (Laser Pointer Chasing > 3.50):
+                    Predict: Quorvian
+            else (Laser Pointer Chasing > 4.50):
+              if Laser Pointer Chasing <= 7.50:
+                if Tool Worship <= 9.50:
+                  if Box Collecting <= 5.00:
+                    Predict: Zarnak
+                  else (Box Collecting > 5.00):
+                    Predict: Quorvian
+                else (Tool Worship > 9.50):
+                  Predict: Quorvian
+              else (Laser Pointer Chasing > 7.50):
+                Predict: Quorvian
+      else (Tool Worship > 10.50):
+        Predict: Zarnak
+    else (Plant Telepathy Practice > 13.50):
+      if Tool Worship <= 11.50:
+        if Box Collecting <= 3.50:
+          Predict: Zarnak
+        else (Box Collecting > 3.50):
+          if Laser Pointer Chasing <= 3.00:
+            if Box Collecting <= 6.00:
+              Predict: Zarnak
+            else (Box Collecting > 6.00):
+              Predict: Quorvian
+          else (Laser Pointer Chasing > 3.00):
+            if Box Collecting <= 5.00:
+              if Laser Pointer Chasing <= 7.50:
+                Predict: Zarnak
+              else (Laser Pointer Chasing > 7.50):
+                Predict: Quorvian
+            else (Box Collecting > 5.00):
+              Predict: Quorvian
+      else (Tool Worship > 11.50):
+        Predict: Zarnak
+
+Tree 6 Rules:
+if Plant Telepathy Practice <= 3.50:
+  if Laser Pointer Chasing <= 8.00:
+    Predict: Zarnak
+  else (Laser Pointer Chasing > 8.00):
+    Predict: Bliptor
+else (Plant Telepathy Practice > 3.50):
+  if Tool Worship <= 10.50:
+    if Laser Pointer Chasing <= 7.50:
+      if Box Collecting <= 4.50:
+        Predict: Zarnak
+      else (Box Collecting > 4.50):
+        if Tool Worship <= 5.50:
+          Predict: Bliptor
+        else (Tool Worship > 5.50):
+          if Laser Pointer Chasing <= 1.50:
+            Predict: Bliptor
+          else (Laser Pointer Chasing > 1.50):
+            Predict: Quorvian
+    else (Laser Pointer Chasing > 7.50):
+      Predict: Quorvian
+  else (Tool Worship > 10.50):
+    Predict: Zarnak
+
+Tree 7 Rules:
+if Tool Worship <= 7.50:
+  if Plant Telepathy Practice <= 6.50:
+    Predict: Bliptor
+  else (Plant Telepathy Practice > 6.50):
+    if Laser Pointer Chasing <= 1.50:
+      Predict: Bliptor
+    else (Laser Pointer Chasing > 1.50):
+      Predict: Quorvian
+else (Tool Worship > 7.50):
+  if Box Collecting <= 4.50:
+    if Laser Pointer Chasing <= 7.50:
+      Predict: Zarnak
+    else (Laser Pointer Chasing > 7.50):
+      Predict: Quorvian
+  else (Box Collecting > 4.50):
+    Predict: Quorvian
+
+Tree 8 Rules:
+if Box Collecting <= 9.00:
+  if Reality Show Studies <= 7.50:
+    if Box Collecting <= 3.50:
+      Predict: Zarnak
+    else (Box Collecting > 3.50):
+      if Laser Pointer Chasing <= 1.50:
+        Predict: Bliptor
+      else (Laser Pointer Chasing > 1.50):
+        if Box Collecting <= 4.50:
+          if Reality Show Studies <= 4.50:
+            if Laser Pointer Chasing <= 7.50:
+              Predict: Zarnak
+            else (Laser Pointer Chasing > 7.50):
+              Predict: Quorvian
+          else (Reality Show Studies > 4.50):
+            if Reality Show Studies <= 6.50:
+              if Laser Pointer Chasing <= 7.50:
+                Predict: Zarnak
+              else (Laser Pointer Chasing > 7.50):
+                Predict: Quorvian
+            else (Reality Show Studies > 6.50):
+              if Tool Worship <= 11.50:
+                if Laser Pointer Chasing <= 7.50:
+                  Predict: Zarnak
+                else (Laser Pointer Chasing > 7.50):
+                  Predict: Quorvian
+              else (Tool Worship > 11.50):
+                Predict: Zarnak
+        else (Box Collecting > 4.50):
+          if Tool Worship <= 4.50:
+            Predict: Bliptor
+          else (Tool Worship > 4.50):
+            if Tool Worship <= 6.50:
+              if Plant Telepathy Practice <= 13.50:
+                Predict: Quorvian
+              else (Plant Telepathy Practice > 13.50):
+                if Laser Pointer Chasing <= 7.50:
+                  Predict: Bliptor
+                else (Laser Pointer Chasing > 7.50):
+                  Predict: Quorvian
+            else (Tool Worship > 6.50):
+              Predict: Quorvian
+  else (Reality Show Studies > 7.50):
+    Predict: Zarnak
+else (Box Collecting > 9.00):
+  Predict: Bliptor
+
+Tree 9 Rules:
+if Tool Worship <= 7.50:
+  if Tool Worship <= 5.50:
+    Predict: Bliptor
+  else (Tool Worship > 5.50):
+    if Plant Telepathy Practice <= 6.50:
+      Predict: Bliptor
+    else (Plant Telepathy Practice > 6.50):
+      if Plant Telepathy Practice <= 13.50:
+        Predict: Quorvian
+      else (Plant Telepathy Practice > 13.50):
+        if Reality Show Studies <= 5.50:
+          if Laser Pointer Chasing <= 4.00:
+            Predict: Bliptor
+          else (Laser Pointer Chasing > 4.00):
+            Predict: Quorvian
+        else (Reality Show Studies > 5.50):
+          Predict: Quorvian
+else (Tool Worship > 7.50):
+  if Tool Worship <= 10.50:
+    if Plant Telepathy Practice <= 7.50:
+      Predict: Zarnak
+    else (Plant Telepathy Practice > 7.50):
+      if Box Collecting <= 3.50:
+        Predict: Zarnak
+      else (Box Collecting > 3.50):
+        if Box Collecting <= 4.50:
+          if Laser Pointer Chasing <= 7.50:
+            Predict: Zarnak
+          else (Laser Pointer Chasing > 7.50):
+            Predict: Quorvian
+        else (Box Collecting > 4.50):
+          Predict: Quorvian
+  else (Tool Worship > 10.50):
+    Predict: Zarnak
+
+Aggregated Rules (Across Forest):
+Laser Pointer Chasing <= 7.50 appeared in 54.4% of paths.
+
+### Setting: Strict (n_trees=20, threshold=0.7) ###
+
+Class: Bliptor
+
+Simple Rules (Single Trees):
+
+Tree 0 Rules:
+if Tool Worship <= 7.50:
+  if Laser Pointer Chasing <= 10.50:
+    if Laser Pointer Chasing <= 1.50:
+      Predict: Bliptor
+    else (Laser Pointer Chasing > 1.50):
+      if Tool Worship <= 4.50:
+        Predict: Bliptor
+      else (Tool Worship > 4.50):
+        if Plant Telepathy Practice <= 13.50:
+          Predict: Quorvian
+        else (Plant Telepathy Practice > 13.50):
+          if Tool Worship <= 6.50:
+            Predict: Bliptor
+          else (Tool Worship > 6.50):
+            Predict: Quorvian
+  else (Laser Pointer Chasing > 10.50):
+    if Box Collecting <= 7.50:
+      Predict: Quorvian
+    else (Box Collecting > 7.50):
+      Predict: Bliptor
+else (Tool Worship > 7.50):
+  if Tool Worship <= 10.50:
+    if Laser Pointer Chasing <= 7.50:
+      if Reality Show Studies <= 8.00:
+        if Box Collecting <= 5.00:
+          Predict: Zarnak
+        else (Box Collecting > 5.00):
+          Predict: Quorvian
+      else (Reality Show Studies > 8.00):
+        Predict: Zarnak
+    else (Laser Pointer Chasing > 7.50):
+      Predict: Quorvian
+  else (Tool Worship > 10.50):
+    Predict: Zarnak
+
+Tree 1 Rules:
+if Box Collecting <= 9.00:
+  if Box Collecting <= 3.50:
+    Predict: Zarnak
+  else (Box Collecting > 3.50):
+    if Box Collecting <= 4.50:
+      if Tool Worship <= 8.50:
+        Predict: Quorvian
+      else (Tool Worship > 8.50):
+        if Plant Telepathy Practice <= 12.50:
+          if Reality Show Studies <= 7.50:
+            if Plant Telepathy Practice <= 11.50:
+              if Plant Telepathy Practice <= 10.50:
+                if Laser Pointer Chasing <= 7.50:
+                  Predict: Zarnak
+                else (Laser Pointer Chasing > 7.50):
+                  Predict: Quorvian
+              else (Plant Telepathy Practice > 10.50):
+                Predict: Quorvian
+            else (Plant Telepathy Practice > 11.50):
+              if Reality Show Studies <= 4.50:
+                Predict: Zarnak
+              else (Reality Show Studies > 4.50):
+                if Laser Pointer Chasing <= 8.50:
+                  Predict: Zarnak
+                else (Laser Pointer Chasing > 8.50):
+                  Predict: Quorvian
+          else (Reality Show Studies > 7.50):
+            Predict: Zarnak
+        else (Plant Telepathy Practice > 12.50):
+          if Laser Pointer Chasing <= 7.50:
+            Predict: Zarnak
+          else (Laser Pointer Chasing > 7.50):
+            Predict: Quorvian
+    else (Box Collecting > 4.50):
+      if Laser Pointer Chasing <= 1.50:
+        Predict: Bliptor
+      else (Laser Pointer Chasing > 1.50):
+        if Tool Worship <= 4.50:
+          Predict: Bliptor
+        else (Tool Worship > 4.50):
+          if Laser Pointer Chasing <= 3.50:
+            if Plant Telepathy Practice <= 13.50:
+              Predict: Quorvian
+            else (Plant Telepathy Practice > 13.50):
+              if Tool Worship <= 7.50:
+                Predict: Bliptor
+              else (Tool Worship > 7.50):
+                Predict: Quorvian
+          else (Laser Pointer Chasing > 3.50):
+            Predict: Quorvian
+else (Box Collecting > 9.00):
+  Predict: Bliptor
+
+Tree 2 Rules:
+if Box Collecting <= 9.00:
+  if Laser Pointer Chasing <= 7.50:
+    if Tool Worship <= 9.50:
+      if Tool Worship <= 5.50:
+        Predict: Bliptor
+      else (Tool Worship > 5.50):
+        if Tool Worship <= 8.50:
+          if Plant Telepathy Practice <= 13.50:
+            Predict: Quorvian
+          else (Plant Telepathy Practice > 13.50):
+            if Tool Worship <= 6.50:
+              if Laser Pointer Chasing <= 4.00:
+                Predict: Bliptor
+              else (Laser Pointer Chasing > 4.00):
+                Predict: Quorvian
+            else (Tool Worship > 6.50):
+              Predict: Quorvian
+        else (Tool Worship > 8.50):
+          if Plant Telepathy Practice <= 13.50:
+            if Reality Show Studies <= 4.50:
+              Predict: Zarnak
+            else (Reality Show Studies > 4.50):
+              if Laser Pointer Chasing <= 3.50:
+                if Plant Telepathy Practice <= 10.50:
+                  if Reality Show Studies <= 6.50:
+                    if Reality Show Studies <= 5.50:
+                      Predict: Zarnak
+                    else (Reality Show Studies > 5.50):
+                      Predict: Quorvian
+                  else (Reality Show Studies > 6.50):
+                    Predict: Zarnak
+                else (Plant Telepathy Practice > 10.50):
+                  Predict: Quorvian
+              else (Laser Pointer Chasing > 3.50):
+                if Plant Telepathy Practice <= 12.50:
+                  if Box Collecting <= 3.50:
+                    Predict: Zarnak
+                  else (Box Collecting > 3.50):
+                    Predict: Quorvian
+                else (Plant Telepathy Practice > 12.50):
+                  if Reality Show Studies <= 6.00:
+                    if Box Collecting <= 5.00:
+                      Predict: Zarnak
+                    else (Box Collecting > 5.00):
+                      Predict: Quorvian
+                  else (Reality Show Studies > 6.00):
+                    Predict: Quorvian
+          else (Plant Telepathy Practice > 13.50):
+            if Laser Pointer Chasing <= 4.50:
+              Predict: Quorvian
+            else (Laser Pointer Chasing > 4.50):
+              if Box Collecting <= 5.50:
+                Predict: Zarnak
+              else (Box Collecting > 5.50):
+                Predict: Quorvian
+    else (Tool Worship > 9.50):
+      if Box Collecting <= 5.00:
+        Predict: Zarnak
+      else (Box Collecting > 5.00):
+        Predict: Quorvian
+  else (Laser Pointer Chasing > 7.50):
+    Predict: Quorvian
+else (Box Collecting > 9.00):
+  Predict: Bliptor
+
+Tree 3 Rules:
+if Tool Worship <= 7.50:
+  if Tool Worship <= 5.50:
+    Predict: Bliptor
+  else (Tool Worship > 5.50):
+    if Box Collecting <= 9.00:
+      if Reality Show Studies <= 5.50:
+        Predict: Quorvian
+      else (Reality Show Studies > 5.50):
+        if Box Collecting <= 7.50:
+          Predict: Quorvian
+        else (Box Collecting > 7.50):
+          if Laser Pointer Chasing <= 1.50:
+            Predict: Bliptor
+          else (Laser Pointer Chasing > 1.50):
+            Predict: Quorvian
+    else (Box Collecting > 9.00):
+      Predict: Bliptor
+else (Tool Worship > 7.50):
+  if Tool Worship <= 10.50:
+    if Plant Telepathy Practice <= 7.50:
+      Predict: Zarnak
+    else (Plant Telepathy Practice > 7.50):
+      if Laser Pointer Chasing <= 7.50:
+        if Reality Show Studies <= 6.50:
+          if Laser Pointer Chasing <= 4.50:
+            if Box Collecting <= 5.00:
+              Predict: Zarnak
+            else (Box Collecting > 5.00):
+              Predict: Quorvian
+          else (Laser Pointer Chasing > 4.50):
+            if Reality Show Studies <= 5.50:
+              if Reality Show Studies <= 4.50:
+                if Box Collecting <= 4.00:
+                  Predict: Zarnak
+                else (Box Collecting > 4.00):
+                  Predict: Quorvian
+              else (Reality Show Studies > 4.50):
+                Predict: Quorvian
+            else (Reality Show Studies > 5.50):
+              if Box Collecting <= 5.00:
+                Predict: Zarnak
+              else (Box Collecting > 5.00):
+                Predict: Quorvian
+        else (Reality Show Studies > 6.50):
+          if Tool Worship <= 8.50:
+            Predict: Quorvian
+          else (Tool Worship > 8.50):
+            if Plant Telepathy Practice <= 10.50:
+              Predict: Zarnak
+            else (Plant Telepathy Practice > 10.50):
+              if Laser Pointer Chasing <= 4.50:
+                if Box Collecting <= 5.50:
+                  Predict: Zarnak
+                else (Box Collecting > 5.50):
+                  Predict: Quorvian
+              else (Laser Pointer Chasing > 4.50):
+                if Tool Worship <= 9.50:
+                  Predict: Zarnak
+                else (Tool Worship > 9.50):
+                  if Box Collecting <= 3.50:
+                    Predict: Zarnak
+                  else (Box Collecting > 3.50):
+                    Predict: Quorvian
+      else (Laser Pointer Chasing > 7.50):
+        Predict: Quorvian
+  else (Tool Worship > 10.50):
+    Predict: Zarnak
+
+Tree 4 Rules:
+if Box Collecting <= 9.00:
+  if Tool Worship <= 10.50:
+    if Tool Worship <= 8.50:
+      if Laser Pointer Chasing <= 3.50:
+        if Tool Worship <= 5.50:
+          Predict: Bliptor
+        else (Tool Worship > 5.50):
+          if Laser Pointer Chasing <= 1.50:
+            Predict: Bliptor
+          else (Laser Pointer Chasing > 1.50):
+            if Box Collecting <= 7.50:
+              Predict: Quorvian
+            else (Box Collecting > 7.50):
+              if Reality Show Studies <= 5.50:
+                Predict: Bliptor
+              else (Reality Show Studies > 5.50):
+                Predict: Quorvian
+      else (Laser Pointer Chasing > 3.50):
+        Predict: Quorvian
+    else (Tool Worship > 8.50):
+      if Reality Show Studies <= 7.50:
+        if Laser Pointer Chasing <= 7.50:
+          if Reality Show Studies <= 6.50:
+            if Laser Pointer Chasing <= 2.50:
+              if Tool Worship <= 9.50:
+                if Box Collecting <= 4.50:
+                  Predict: Zarnak
+                else (Box Collecting > 4.50):
+                  Predict: Quorvian
+              else (Tool Worship > 9.50):
+                Predict: Zarnak
+            else (Laser Pointer Chasing > 2.50):
+              if Box Collecting <= 5.00:
+                Predict: Zarnak
+              else (Box Collecting > 5.00):
+                Predict: Quorvian
+          else (Reality Show Studies > 6.50):
+            if Tool Worship <= 9.50:
+              if Box Collecting <= 5.50:
+                Predict: Zarnak
+              else (Box Collecting > 5.50):
+                Predict: Quorvian
+            else (Tool Worship > 9.50):
+              Predict: Zarnak
+        else (Laser Pointer Chasing > 7.50):
+          Predict: Quorvian
+      else (Reality Show Studies > 7.50):
+        Predict: Zarnak
+  else (Tool Worship > 10.50):
+    Predict: Zarnak
+else (Box Collecting > 9.00):
+  Predict: Bliptor
+
+Tree 5 Rules:
+if Tool Worship <= 6.50:
+  if Box Collecting <= 9.00:
+    if Laser Pointer Chasing <= 2.50:
+      Predict: Bliptor
+    else (Laser Pointer Chasing > 2.50):
+      if Box Collecting <= 7.50:
+        Predict: Quorvian
+      else (Box Collecting > 7.50):
+        if Laser Pointer Chasing <= 3.50:
+          if Reality Show Studies <= 6.00:
+            Predict: Bliptor
+          else (Reality Show Studies > 6.00):
+            Predict: Quorvian
+        else (Laser Pointer Chasing > 3.50):
+          Predict: Quorvian
+  else (Box Collecting > 9.00):
+    Predict: Bliptor
+else (Tool Worship > 6.50):
+  if Plant Telepathy Practice <= 7.50:
+    if Laser Pointer Chasing <= 8.00:
+      Predict: Zarnak
+    else (Laser Pointer Chasing > 8.00):
+      Predict: Bliptor
+  else (Plant Telepathy Practice > 7.50):
+    if Plant Telepathy Practice <= 13.50:
+      if Tool Worship <= 10.50:
+        if Box Collecting <= 3.50:
+          Predict: Zarnak
+        else (Box Collecting > 3.50):
+          if Tool Worship <= 8.50:
+            Predict: Quorvian
+          else (Tool Worship > 8.50):
+            if Laser Pointer Chasing <= 4.50:
+              if Reality Show Studies <= 6.50:
+                if Box Collecting <= 5.00:
+                  Predict: Zarnak
+                else (Box Collecting > 5.00):
+                  Predict: Quorvian
+              else (Reality Show Studies > 6.50):
+                if Plant Telepathy Practice <= 11.00:
+                  Predict: Zarnak
+                else (Plant Telepathy Practice > 11.00):
+                  if Laser Pointer Chasing <= 3.50:
+                    Predict: Zarnak
+                  else (Laser Pointer Chasing > 3.50):
+                    Predict: Quorvian
+            else (Laser Pointer Chasing > 4.50):
+              if Laser Pointer Chasing <= 7.50:
+                if Tool Worship <= 9.50:
+                  if Box Collecting <= 5.00:
+                    Predict: Zarnak
+                  else (Box Collecting > 5.00):
+                    Predict: Quorvian
+                else (Tool Worship > 9.50):
+                  Predict: Quorvian
+              else (Laser Pointer Chasing > 7.50):
+                Predict: Quorvian
+      else (Tool Worship > 10.50):
+        Predict: Zarnak
+    else (Plant Telepathy Practice > 13.50):
+      if Tool Worship <= 11.50:
+        if Box Collecting <= 3.50:
+          Predict: Zarnak
+        else (Box Collecting > 3.50):
+          if Laser Pointer Chasing <= 3.00:
+            if Box Collecting <= 6.00:
+              Predict: Zarnak
+            else (Box Collecting > 6.00):
+              Predict: Quorvian
+          else (Laser Pointer Chasing > 3.00):
+            if Box Collecting <= 5.00:
+              if Laser Pointer Chasing <= 7.50:
+                Predict: Zarnak
+              else (Laser Pointer Chasing > 7.50):
+                Predict: Quorvian
+            else (Box Collecting > 5.00):
+              Predict: Quorvian
+      else (Tool Worship > 11.50):
+        Predict: Zarnak
+
+Tree 6 Rules:
+if Plant Telepathy Practice <= 3.50:
+  if Laser Pointer Chasing <= 8.00:
+    Predict: Zarnak
+  else (Laser Pointer Chasing > 8.00):
+    Predict: Bliptor
+else (Plant Telepathy Practice > 3.50):
+  if Tool Worship <= 10.50:
+    if Laser Pointer Chasing <= 7.50:
+      if Box Collecting <= 4.50:
+        Predict: Zarnak
+      else (Box Collecting > 4.50):
+        if Tool Worship <= 5.50:
+          Predict: Bliptor
+        else (Tool Worship > 5.50):
+          if Laser Pointer Chasing <= 1.50:
+            Predict: Bliptor
+          else (Laser Pointer Chasing > 1.50):
+            Predict: Quorvian
+    else (Laser Pointer Chasing > 7.50):
+      Predict: Quorvian
+  else (Tool Worship > 10.50):
+    Predict: Zarnak
+
+Tree 7 Rules:
+if Tool Worship <= 7.50:
+  if Plant Telepathy Practice <= 6.50:
+    Predict: Bliptor
+  else (Plant Telepathy Practice > 6.50):
+    if Laser Pointer Chasing <= 1.50:
+      Predict: Bliptor
+    else (Laser Pointer Chasing > 1.50):
+      Predict: Quorvian
+else (Tool Worship > 7.50):
+  if Box Collecting <= 4.50:
+    if Laser Pointer Chasing <= 7.50:
+      Predict: Zarnak
+    else (Laser Pointer Chasing > 7.50):
+      Predict: Quorvian
+  else (Box Collecting > 4.50):
+    Predict: Quorvian
+
+Tree 8 Rules:
+if Box Collecting <= 9.00:
+  if Reality Show Studies <= 7.50:
+    if Box Collecting <= 3.50:
+      Predict: Zarnak
+    else (Box Collecting > 3.50):
+      if Laser Pointer Chasing <= 1.50:
+        Predict: Bliptor
+      else (Laser Pointer Chasing > 1.50):
+        if Box Collecting <= 4.50:
+          if Reality Show Studies <= 4.50:
+            if Laser Pointer Chasing <= 7.50:
+              Predict: Zarnak
+            else (Laser Pointer Chasing > 7.50):
+              Predict: Quorvian
+          else (Reality Show Studies > 4.50):
+            if Reality Show Studies <= 6.50:
+              if Laser Pointer Chasing <= 7.50:
+                Predict: Zarnak
+              else (Laser Pointer Chasing > 7.50):
+                Predict: Quorvian
+            else (Reality Show Studies > 6.50):
+              if Tool Worship <= 11.50:
+                if Laser Pointer Chasing <= 7.50:
+                  Predict: Zarnak
+                else (Laser Pointer Chasing > 7.50):
+                  Predict: Quorvian
+              else (Tool Worship > 11.50):
+                Predict: Zarnak
+        else (Box Collecting > 4.50):
+          if Tool Worship <= 4.50:
+            Predict: Bliptor
+          else (Tool Worship > 4.50):
+            if Tool Worship <= 6.50:
+              if Plant Telepathy Practice <= 13.50:
+                Predict: Quorvian
+              else (Plant Telepathy Practice > 13.50):
+                if Laser Pointer Chasing <= 7.50:
+                  Predict: Bliptor
+                else (Laser Pointer Chasing > 7.50):
+                  Predict: Quorvian
+            else (Tool Worship > 6.50):
+              Predict: Quorvian
+  else (Reality Show Studies > 7.50):
+    Predict: Zarnak
+else (Box Collecting > 9.00):
+  Predict: Bliptor
+
+Tree 9 Rules:
+if Tool Worship <= 7.50:
+  if Tool Worship <= 5.50:
+    Predict: Bliptor
+  else (Tool Worship > 5.50):
+    if Plant Telepathy Practice <= 6.50:
+      Predict: Bliptor
+    else (Plant Telepathy Practice > 6.50):
+      if Plant Telepathy Practice <= 13.50:
+        Predict: Quorvian
+      else (Plant Telepathy Practice > 13.50):
+        if Reality Show Studies <= 5.50:
+          if Laser Pointer Chasing <= 4.00:
+            Predict: Bliptor
+          else (Laser Pointer Chasing > 4.00):
+            Predict: Quorvian
+        else (Reality Show Studies > 5.50):
+          Predict: Quorvian
+else (Tool Worship > 7.50):
+  if Tool Worship <= 10.50:
+    if Plant Telepathy Practice <= 7.50:
+      Predict: Zarnak
+    else (Plant Telepathy Practice > 7.50):
+      if Box Collecting <= 3.50:
+        Predict: Zarnak
+      else (Box Collecting > 3.50):
+        if Box Collecting <= 4.50:
+          if Laser Pointer Chasing <= 7.50:
+            Predict: Zarnak
+          else (Laser Pointer Chasing > 7.50):
+            Predict: Quorvian
+        else (Box Collecting > 4.50):
+          Predict: Quorvian
+  else (Tool Worship > 10.50):
+    Predict: Zarnak
+
+Tree 10 Rules:
+if Tool Worship <= 7.50:
+  if Laser Pointer Chasing <= 10.50:
+    if Laser Pointer Chasing <= 1.50:
+      Predict: Bliptor
+    else (Laser Pointer Chasing > 1.50):
+      if Tool Worship <= 4.50:
+        Predict: Bliptor
+      else (Tool Worship > 4.50):
+        Predict: Quorvian
+  else (Laser Pointer Chasing > 10.50):
+    if Box Collecting <= 7.50:
+      Predict: Quorvian
+    else (Box Collecting > 7.50):
+      Predict: Bliptor
+else (Tool Worship > 7.50):
+  if Tool Worship <= 10.50:
+    if Laser Pointer Chasing <= 7.50:
+      if Box Collecting <= 5.00:
+        Predict: Zarnak
+      else (Box Collecting > 5.00):
+        Predict: Quorvian
+    else (Laser Pointer Chasing > 7.50):
+      Predict: Quorvian
+  else (Tool Worship > 10.50):
+    Predict: Zarnak
+
+Tree 11 Rules:
+if Plant Telepathy Practice <= 3.50:
+  if Tool Worship <= 8.50:
+    Predict: Bliptor
+  else (Tool Worship > 8.50):
+    Predict: Zarnak
+else (Plant Telepathy Practice > 3.50):
+  if Reality Show Studies <= 7.50:
+    if Reality Show Studies <= 6.50:
+      if Box Collecting <= 3.50:
+        Predict: Zarnak
+      else (Box Collecting > 3.50):
+        if Box Collecting <= 4.50:
+          if Tool Worship <= 9.50:
+            if Plant Telepathy Practice <= 12.50:
+              Predict: Quorvian
+            else (Plant Telepathy Practice > 12.50):
+              if Tool Worship <= 8.00:
+                Predict: Quorvian
+              else (Tool Worship > 8.00):
+                Predict: Zarnak
+          else (Tool Worship > 9.50):
+            if Tool Worship <= 11.00:
+              if Laser Pointer Chasing <= 8.00:
+                Predict: Zarnak
+              else (Laser Pointer Chasing > 8.00):
+                Predict: Quorvian
+            else (Tool Worship > 11.00):
+              Predict: Zarnak
+        else (Box Collecting > 4.50):
+          if Plant Telepathy Practice <= 12.50:
+            Predict: Quorvian
+          else (Plant Telepathy Practice > 12.50):
+            if Reality Show Studies <= 4.50:
+              Predict: Quorvian
+            else (Reality Show Studies > 4.50):
+              if Box Collecting <= 5.50:
+                if Tool Worship <= 5.50:
+                  Predict: Bliptor
+                else (Tool Worship > 5.50):
+                  Predict: Quorvian
+              else (Box Collecting > 5.50):
+                if Box Collecting <= 7.50:
+                  Predict: Quorvian
+                else (Box Collecting > 7.50):
+                  if Reality Show Studies <= 5.50:
+                    if Plant Telepathy Practice <= 13.50:
+                      Predict: Quorvian
+                    else (Plant Telepathy Practice > 13.50):
+                      if Laser Pointer Chasing <= 3.50:
+                        Predict: Bliptor
+                      else (Laser Pointer Chasing > 3.50):
+                        Predict: Quorvian
+                  else (Reality Show Studies > 5.50):
+                    Predict: Quorvian
+    else (Reality Show Studies > 6.50):
+      if Box Collecting <= 3.50:
+        Predict: Zarnak
+      else (Box Collecting > 3.50):
+        if Tool Worship <= 5.50:
+          Predict: Bliptor
+        else (Tool Worship > 5.50):
+          if Plant Telepathy Practice <= 10.50:
+            if Box Collecting <= 5.50:
+              Predict: Zarnak
+            else (Box Collecting > 5.50):
+              Predict: Quorvian
+          else (Plant Telepathy Practice > 10.50):
+            Predict: Quorvian
+  else (Reality Show Studies > 7.50):
+    Predict: Zarnak
+
+Tree 12 Rules:
+if Laser Pointer Chasing <= 10.50:
+  if Plant Telepathy Practice <= 7.50:
+    Predict: Zarnak
+  else (Plant Telepathy Practice > 7.50):
+    if Box Collecting <= 4.50:
+      if Plant Telepathy Practice <= 10.50:
+        if Reality Show Studies <= 5.50:
+          if Box Collecting <= 2.00:
+            Predict: Zarnak
+          else (Box Collecting > 2.00):
+            if Laser Pointer Chasing <= 7.50:
+              Predict: Zarnak
+            else (Laser Pointer Chasing > 7.50):
+              Predict: Quorvian
+        else (Reality Show Studies > 5.50):
+          Predict: Zarnak
+      else (Plant Telepathy Practice > 10.50):
+        if Tool Worship <= 8.00:
+          Predict: Quorvian
+        else (Tool Worship > 8.00):
+          Predict: Zarnak
+    else (Box Collecting > 4.50):
+      if Reality Show Studies <= 6.50:
+        if Laser Pointer Chasing <= 1.50:
+          Predict: Bliptor
+        else (Laser Pointer Chasing > 1.50):
+          if Tool Worship <= 4.50:
+            Predict: Bliptor
+          else (Tool Worship > 4.50):
+            if Tool Worship <= 6.50:
+              if Laser Pointer Chasing <= 3.50:
+                Predict: Bliptor
+              else (Laser Pointer Chasing > 3.50):
+                Predict: Quorvian
+            else (Tool Worship > 6.50):
+              Predict: Quorvian
+      else (Reality Show Studies > 6.50):
+        if Plant Telepathy Practice <= 13.50:
+          Predict: Quorvian
+        else (Plant Telepathy Practice > 13.50):
+          if Box Collecting <= 6.50:
+            Predict: Bliptor
+          else (Box Collecting > 6.50):
+            Predict: Quorvian
+else (Laser Pointer Chasing > 10.50):
+  if Tool Worship <= 7.50:
+    if Tool Worship <= 5.50:
+      Predict: Bliptor
+    else (Tool Worship > 5.50):
+      if Box Collecting <= 7.50:
+        Predict: Quorvian
+      else (Box Collecting > 7.50):
+        Predict: Bliptor
+  else (Tool Worship > 7.50):
+    Predict: Quorvian
+
+Tree 13 Rules:
+if Tool Worship <= 8.50:
+  if Box Collecting <= 9.00:
+    if Laser Pointer Chasing <= 1.50:
+      Predict: Bliptor
+    else (Laser Pointer Chasing > 1.50):
+      if Tool Worship <= 4.50:
+        Predict: Bliptor
+      else (Tool Worship > 4.50):
+        if Plant Telepathy Practice <= 13.50:
+          Predict: Quorvian
+        else (Plant Telepathy Practice > 13.50):
+          if Box Collecting <= 7.50:
+            Predict: Quorvian
+          else (Box Collecting > 7.50):
+            if Reality Show Studies <= 5.50:
+              if Laser Pointer Chasing <= 3.50:
+                Predict: Bliptor
+              else (Laser Pointer Chasing > 3.50):
+                Predict: Quorvian
+            else (Reality Show Studies > 5.50):
+              Predict: Quorvian
+  else (Box Collecting > 9.00):
+    Predict: Bliptor
+else (Tool Worship > 8.50):
+  if Reality Show Studies <= 7.50:
+    if Laser Pointer Chasing <= 7.50:
+      if Plant Telepathy Practice <= 10.50:
+        if Tool Worship <= 11.00:
+          if Laser Pointer Chasing <= 3.00:
+            if Tool Worship <= 9.50:
+              Predict: Quorvian
+            else (Tool Worship > 9.50):
+              if Reality Show Studies <= 6.50:
+                Predict: Zarnak
+              else (Reality Show Studies > 6.50):
+                Predict: Quorvian
+          else (Laser Pointer Chasing > 3.00):
+            Predict: Quorvian
+        else (Tool Worship > 11.00):
+          Predict: Zarnak
+      else (Plant Telepathy Practice > 10.50):
+        if Tool Worship <= 10.50:
+          if Box Collecting <= 5.00:
+            Predict: Zarnak
+          else (Box Collecting > 5.00):
+            Predict: Quorvian
+        else (Tool Worship > 10.50):
+          Predict: Zarnak
+    else (Laser Pointer Chasing > 7.50):
+      Predict: Quorvian
+  else (Reality Show Studies > 7.50):
+    Predict: Zarnak
+
+Tree 14 Rules:
+if Laser Pointer Chasing <= 10.50:
+  if Box Collecting <= 4.50:
+    if Box Collecting <= 3.50:
+      Predict: Zarnak
+    else (Box Collecting > 3.50):
+      if Reality Show Studies <= 7.50:
+        if Plant Telepathy Practice <= 11.50:
+          if Tool Worship <= 8.50:
+            Predict: Quorvian
+          else (Tool Worship > 8.50):
+            Predict: Zarnak
+        else (Plant Telepathy Practice > 11.50):
+          if Laser Pointer Chasing <= 7.50:
+            Predict: Zarnak
+          else (Laser Pointer Chasing > 7.50):
+            Predict: Quorvian
+      else (Reality Show Studies > 7.50):
+        Predict: Zarnak
+  else (Box Collecting > 4.50):
+    if Plant Telepathy Practice <= 11.50:
+      if Laser Pointer Chasing <= 1.00:
+        Predict: Bliptor
+      else (Laser Pointer Chasing > 1.00):
+        Predict: Quorvian
+    else (Plant Telepathy Practice > 11.50):
+      if Tool Worship <= 5.50:
+        Predict: Bliptor
+      else (Tool Worship > 5.50):
+        if Laser Pointer Chasing <= 1.50:
+          Predict: Bliptor
+        else (Laser Pointer Chasing > 1.50):
+          if Tool Worship <= 6.50:
+            if Reality Show Studies <= 5.50:
+              if Box Collecting <= 7.00:
+                Predict: Quorvian
+              else (Box Collecting > 7.00):
+                Predict: Bliptor
+            else (Reality Show Studies > 5.50):
+              Predict: Quorvian
+          else (Tool Worship > 6.50):
+            Predict: Quorvian
+else (Laser Pointer Chasing > 10.50):
+  if Box Collecting <= 7.50:
+    Predict: Quorvian
+  else (Box Collecting > 7.50):
+    Predict: Bliptor
+
+Tree 15 Rules:
+if Box Collecting <= 9.00:
+  if Box Collecting <= 4.50:
+    if Laser Pointer Chasing <= 7.50:
+      Predict: Zarnak
+    else (Laser Pointer Chasing > 7.50):
+      Predict: Quorvian
+  else (Box Collecting > 4.50):
+    if Tool Worship <= 5.00:
+      Predict: Bliptor
+    else (Tool Worship > 5.00):
+      if Plant Telepathy Practice <= 13.50:
+        Predict: Quorvian
+      else (Plant Telepathy Practice > 13.50):
+        if Laser Pointer Chasing <= 3.50:
+          if Tool Worship <= 7.50:
+            Predict: Bliptor
+          else (Tool Worship > 7.50):
+            Predict: Quorvian
+        else (Laser Pointer Chasing > 3.50):
+          Predict: Quorvian
+else (Box Collecting > 9.00):
+  Predict: Bliptor
+
+Tree 16 Rules:
+if Box Collecting <= 9.00:
+  if Tool Worship <= 10.50:
+    if Reality Show Studies <= 7.50:
+      if Box Collecting <= 3.50:
+        Predict: Zarnak
+      else (Box Collecting > 3.50):
+        if Tool Worship <= 5.50:
+          Predict: Bliptor
+        else (Tool Worship > 5.50):
+          if Tool Worship <= 6.50:
+            if Reality Show Studies <= 6.50:
+              if Box Collecting <= 7.50:
+                Predict: Quorvian
+              else (Box Collecting > 7.50):
+                if Reality Show Studies <= 5.50:
+                  Predict: Bliptor
+                else (Reality Show Studies > 5.50):
+                  if Plant Telepathy Practice <= 12.50:
+                    Predict: Bliptor
+                  else (Plant Telepathy Practice > 12.50):
+                    Predict: Quorvian
+            else (Reality Show Studies > 6.50):
+              Predict: Quorvian
+          else (Tool Worship > 6.50):
+            if Box Collecting <= 4.50:
+              if Laser Pointer Chasing <= 7.50:
+                Predict: Zarnak
+              else (Laser Pointer Chasing > 7.50):
+                Predict: Quorvian
+            else (Box Collecting > 4.50):
+              Predict: Quorvian
+    else (Reality Show Studies > 7.50):
+      Predict: Zarnak
+  else (Tool Worship > 10.50):
+    Predict: Zarnak
+else (Box Collecting > 9.00):
+  Predict: Bliptor
+
+Tree 17 Rules:
+if Box Collecting <= 9.00:
+  if Tool Worship <= 10.50:
+    if Box Collecting <= 3.50:
+      Predict: Zarnak
+    else (Box Collecting > 3.50):
+      if Laser Pointer Chasing <= 3.50:
+        if Box Collecting <= 4.50:
+          Predict: Zarnak
+        else (Box Collecting > 4.50):
+          if Laser Pointer Chasing <= 1.50:
+            Predict: Bliptor
+          else (Laser Pointer Chasing > 1.50):
+            if Plant Telepathy Practice <= 12.50:
+              Predict: Quorvian
+            else (Plant Telepathy Practice > 12.50):
+              if Reality Show Studies <= 5.50:
+                if Tool Worship <= 6.00:
+                  Predict: Bliptor
+                else (Tool Worship > 6.00):
+                  Predict: Quorvian
+              else (Reality Show Studies > 5.50):
+                if Reality Show Studies <= 6.50:
+                  if Box Collecting <= 6.50:
+                    Predict: Bliptor
+                  else (Box Collecting > 6.50):
+                    Predict: Quorvian
+                else (Reality Show Studies > 6.50):
+                  Predict: Quorvian
+      else (Laser Pointer Chasing > 3.50):
+        if Box Collecting <= 4.50:
+          if Reality Show Studies <= 4.50:
+            Predict: Quorvian
+          else (Reality Show Studies > 4.50):
+            if Reality Show Studies <= 6.50:
+              if Laser Pointer Chasing <= 7.50:
+                Predict: Zarnak
+              else (Laser Pointer Chasing > 7.50):
+                Predict: Quorvian
+            else (Reality Show Studies > 6.50):
+              Predict: Quorvian
+        else (Box Collecting > 4.50):
+          Predict: Quorvian
+  else (Tool Worship > 10.50):
+    Predict: Zarnak
+else (Box Collecting > 9.00):
+  Predict: Bliptor
+
+Tree 18 Rules:
+if Laser Pointer Chasing <= 10.50:
+  if Tool Worship <= 9.50:
+    if Tool Worship <= 5.50:
+      Predict: Bliptor
+    else (Tool Worship > 5.50):
+      if Box Collecting <= 4.50:
+        if Laser Pointer Chasing <= 7.50:
+          Predict: Zarnak
+        else (Laser Pointer Chasing > 7.50):
+          Predict: Quorvian
+      else (Box Collecting > 4.50):
+        if Tool Worship <= 6.50:
+          if Box Collecting <= 7.00:
+            Predict: Quorvian
+          else (Box Collecting > 7.00):
+            if Laser Pointer Chasing <= 1.50:
+              Predict: Bliptor
+            else (Laser Pointer Chasing > 1.50):
+              if Laser Pointer Chasing <= 2.50:
+                Predict: Quorvian
+              else (Laser Pointer Chasing > 2.50):
+                if Reality Show Studies <= 5.50:
+                  Predict: Bliptor
+                else (Reality Show Studies > 5.50):
+                  Predict: Quorvian
+        else (Tool Worship > 6.50):
+          Predict: Quorvian
+  else (Tool Worship > 9.50):
+    if Plant Telepathy Practice <= 7.50:
+      Predict: Zarnak
+    else (Plant Telepathy Practice > 7.50):
+      if Tool Worship <= 10.50:
+        if Laser Pointer Chasing <= 7.50:
+          if Box Collecting <= 5.00:
+            Predict: Zarnak
+          else (Box Collecting > 5.00):
+            Predict: Quorvian
+        else (Laser Pointer Chasing > 7.50):
+          Predict: Quorvian
+      else (Tool Worship > 10.50):
+        Predict: Zarnak
+else (Laser Pointer Chasing > 10.50):
+  if Box Collecting <= 7.50:
+    Predict: Quorvian
+  else (Box Collecting > 7.50):
+    Predict: Bliptor
+
+Tree 19 Rules:
+if Laser Pointer Chasing <= 10.50:
+  if Box Collecting <= 4.50:
+    if Laser Pointer Chasing <= 7.50:
+      Predict: Zarnak
+    else (Laser Pointer Chasing > 7.50):
+      Predict: Quorvian
+  else (Box Collecting > 4.50):
+    if Tool Worship <= 5.50:
+      Predict: Bliptor
+    else (Tool Worship > 5.50):
+      if Box Collecting <= 7.50:
+        Predict: Quorvian
+      else (Box Collecting > 7.50):
+        if Tool Worship <= 6.50:
+          if Laser Pointer Chasing <= 1.50:
+            Predict: Bliptor
+          else (Laser Pointer Chasing > 1.50):
+            if Reality Show Studies <= 5.50:
+              Predict: Bliptor
+            else (Reality Show Studies > 5.50):
+              Predict: Quorvian
+        else (Tool Worship > 6.50):
+          Predict: Quorvian
+else (Laser Pointer Chasing > 10.50):
+  if Plant Telepathy Practice <= 6.50:
+    Predict: Bliptor
+  else (Plant Telepathy Practice > 6.50):
+    Predict: Quorvian
+
+Aggregated Rules (Across Forest):
+
+Class: Quorvian
+
+Simple Rules (Single Trees):
+
+Tree 0 Rules:
+if Tool Worship <= 7.50:
+  if Laser Pointer Chasing <= 10.50:
+    if Laser Pointer Chasing <= 1.50:
+      Predict: Bliptor
+    else (Laser Pointer Chasing > 1.50):
+      if Tool Worship <= 4.50:
+        Predict: Bliptor
+      else (Tool Worship > 4.50):
+        if Plant Telepathy Practice <= 13.50:
+          Predict: Quorvian
+        else (Plant Telepathy Practice > 13.50):
+          if Tool Worship <= 6.50:
+            Predict: Bliptor
+          else (Tool Worship > 6.50):
+            Predict: Quorvian
+  else (Laser Pointer Chasing > 10.50):
+    if Box Collecting <= 7.50:
+      Predict: Quorvian
+    else (Box Collecting > 7.50):
+      Predict: Bliptor
+else (Tool Worship > 7.50):
+  if Tool Worship <= 10.50:
+    if Laser Pointer Chasing <= 7.50:
+      if Reality Show Studies <= 8.00:
+        if Box Collecting <= 5.00:
+          Predict: Zarnak
+        else (Box Collecting > 5.00):
+          Predict: Quorvian
+      else (Reality Show Studies > 8.00):
+        Predict: Zarnak
+    else (Laser Pointer Chasing > 7.50):
+      Predict: Quorvian
+  else (Tool Worship > 10.50):
+    Predict: Zarnak
+
+Tree 1 Rules:
+if Box Collecting <= 9.00:
+  if Box Collecting <= 3.50:
+    Predict: Zarnak
+  else (Box Collecting > 3.50):
+    if Box Collecting <= 4.50:
+      if Tool Worship <= 8.50:
+        Predict: Quorvian
+      else (Tool Worship > 8.50):
+        if Plant Telepathy Practice <= 12.50:
+          if Reality Show Studies <= 7.50:
+            if Plant Telepathy Practice <= 11.50:
+              if Plant Telepathy Practice <= 10.50:
+                if Laser Pointer Chasing <= 7.50:
+                  Predict: Zarnak
+                else (Laser Pointer Chasing > 7.50):
+                  Predict: Quorvian
+              else (Plant Telepathy Practice > 10.50):
+                Predict: Quorvian
+            else (Plant Telepathy Practice > 11.50):
+              if Reality Show Studies <= 4.50:
+                Predict: Zarnak
+              else (Reality Show Studies > 4.50):
+                if Laser Pointer Chasing <= 8.50:
+                  Predict: Zarnak
+                else (Laser Pointer Chasing > 8.50):
+                  Predict: Quorvian
+          else (Reality Show Studies > 7.50):
+            Predict: Zarnak
+        else (Plant Telepathy Practice > 12.50):
+          if Laser Pointer Chasing <= 7.50:
+            Predict: Zarnak
+          else (Laser Pointer Chasing > 7.50):
+            Predict: Quorvian
+    else (Box Collecting > 4.50):
+      if Laser Pointer Chasing <= 1.50:
+        Predict: Bliptor
+      else (Laser Pointer Chasing > 1.50):
+        if Tool Worship <= 4.50:
+          Predict: Bliptor
+        else (Tool Worship > 4.50):
+          if Laser Pointer Chasing <= 3.50:
+            if Plant Telepathy Practice <= 13.50:
+              Predict: Quorvian
+            else (Plant Telepathy Practice > 13.50):
+              if Tool Worship <= 7.50:
+                Predict: Bliptor
+              else (Tool Worship > 7.50):
+                Predict: Quorvian
+          else (Laser Pointer Chasing > 3.50):
+            Predict: Quorvian
+else (Box Collecting > 9.00):
+  Predict: Bliptor
+
+Tree 2 Rules:
+if Box Collecting <= 9.00:
+  if Laser Pointer Chasing <= 7.50:
+    if Tool Worship <= 9.50:
+      if Tool Worship <= 5.50:
+        Predict: Bliptor
+      else (Tool Worship > 5.50):
+        if Tool Worship <= 8.50:
+          if Plant Telepathy Practice <= 13.50:
+            Predict: Quorvian
+          else (Plant Telepathy Practice > 13.50):
+            if Tool Worship <= 6.50:
+              if Laser Pointer Chasing <= 4.00:
+                Predict: Bliptor
+              else (Laser Pointer Chasing > 4.00):
+                Predict: Quorvian
+            else (Tool Worship > 6.50):
+              Predict: Quorvian
+        else (Tool Worship > 8.50):
+          if Plant Telepathy Practice <= 13.50:
+            if Reality Show Studies <= 4.50:
+              Predict: Zarnak
+            else (Reality Show Studies > 4.50):
+              if Laser Pointer Chasing <= 3.50:
+                if Plant Telepathy Practice <= 10.50:
+                  if Reality Show Studies <= 6.50:
+                    if Reality Show Studies <= 5.50:
+                      Predict: Zarnak
+                    else (Reality Show Studies > 5.50):
+                      Predict: Quorvian
+                  else (Reality Show Studies > 6.50):
+                    Predict: Zarnak
+                else (Plant Telepathy Practice > 10.50):
+                  Predict: Quorvian
+              else (Laser Pointer Chasing > 3.50):
+                if Plant Telepathy Practice <= 12.50:
+                  if Box Collecting <= 3.50:
+                    Predict: Zarnak
+                  else (Box Collecting > 3.50):
+                    Predict: Quorvian
+                else (Plant Telepathy Practice > 12.50):
+                  if Reality Show Studies <= 6.00:
+                    if Box Collecting <= 5.00:
+                      Predict: Zarnak
+                    else (Box Collecting > 5.00):
+                      Predict: Quorvian
+                  else (Reality Show Studies > 6.00):
+                    Predict: Quorvian
+          else (Plant Telepathy Practice > 13.50):
+            if Laser Pointer Chasing <= 4.50:
+              Predict: Quorvian
+            else (Laser Pointer Chasing > 4.50):
+              if Box Collecting <= 5.50:
+                Predict: Zarnak
+              else (Box Collecting > 5.50):
+                Predict: Quorvian
+    else (Tool Worship > 9.50):
+      if Box Collecting <= 5.00:
+        Predict: Zarnak
+      else (Box Collecting > 5.00):
+        Predict: Quorvian
+  else (Laser Pointer Chasing > 7.50):
+    Predict: Quorvian
+else (Box Collecting > 9.00):
+  Predict: Bliptor
+
+Tree 3 Rules:
+if Tool Worship <= 7.50:
+  if Tool Worship <= 5.50:
+    Predict: Bliptor
+  else (Tool Worship > 5.50):
+    if Box Collecting <= 9.00:
+      if Reality Show Studies <= 5.50:
+        Predict: Quorvian
+      else (Reality Show Studies > 5.50):
+        if Box Collecting <= 7.50:
+          Predict: Quorvian
+        else (Box Collecting > 7.50):
+          if Laser Pointer Chasing <= 1.50:
+            Predict: Bliptor
+          else (Laser Pointer Chasing > 1.50):
+            Predict: Quorvian
+    else (Box Collecting > 9.00):
+      Predict: Bliptor
+else (Tool Worship > 7.50):
+  if Tool Worship <= 10.50:
+    if Plant Telepathy Practice <= 7.50:
+      Predict: Zarnak
+    else (Plant Telepathy Practice > 7.50):
+      if Laser Pointer Chasing <= 7.50:
+        if Reality Show Studies <= 6.50:
+          if Laser Pointer Chasing <= 4.50:
+            if Box Collecting <= 5.00:
+              Predict: Zarnak
+            else (Box Collecting > 5.00):
+              Predict: Quorvian
+          else (Laser Pointer Chasing > 4.50):
+            if Reality Show Studies <= 5.50:
+              if Reality Show Studies <= 4.50:
+                if Box Collecting <= 4.00:
+                  Predict: Zarnak
+                else (Box Collecting > 4.00):
+                  Predict: Quorvian
+              else (Reality Show Studies > 4.50):
+                Predict: Quorvian
+            else (Reality Show Studies > 5.50):
+              if Box Collecting <= 5.00:
+                Predict: Zarnak
+              else (Box Collecting > 5.00):
+                Predict: Quorvian
+        else (Reality Show Studies > 6.50):
+          if Tool Worship <= 8.50:
+            Predict: Quorvian
+          else (Tool Worship > 8.50):
+            if Plant Telepathy Practice <= 10.50:
+              Predict: Zarnak
+            else (Plant Telepathy Practice > 10.50):
+              if Laser Pointer Chasing <= 4.50:
+                if Box Collecting <= 5.50:
+                  Predict: Zarnak
+                else (Box Collecting > 5.50):
+                  Predict: Quorvian
+              else (Laser Pointer Chasing > 4.50):
+                if Tool Worship <= 9.50:
+                  Predict: Zarnak
+                else (Tool Worship > 9.50):
+                  if Box Collecting <= 3.50:
+                    Predict: Zarnak
+                  else (Box Collecting > 3.50):
+                    Predict: Quorvian
+      else (Laser Pointer Chasing > 7.50):
+        Predict: Quorvian
+  else (Tool Worship > 10.50):
+    Predict: Zarnak
+
+Tree 4 Rules:
+if Box Collecting <= 9.00:
+  if Tool Worship <= 10.50:
+    if Tool Worship <= 8.50:
+      if Laser Pointer Chasing <= 3.50:
+        if Tool Worship <= 5.50:
+          Predict: Bliptor
+        else (Tool Worship > 5.50):
+          if Laser Pointer Chasing <= 1.50:
+            Predict: Bliptor
+          else (Laser Pointer Chasing > 1.50):
+            if Box Collecting <= 7.50:
+              Predict: Quorvian
+            else (Box Collecting > 7.50):
+              if Reality Show Studies <= 5.50:
+                Predict: Bliptor
+              else (Reality Show Studies > 5.50):
+                Predict: Quorvian
+      else (Laser Pointer Chasing > 3.50):
+        Predict: Quorvian
+    else (Tool Worship > 8.50):
+      if Reality Show Studies <= 7.50:
+        if Laser Pointer Chasing <= 7.50:
+          if Reality Show Studies <= 6.50:
+            if Laser Pointer Chasing <= 2.50:
+              if Tool Worship <= 9.50:
+                if Box Collecting <= 4.50:
+                  Predict: Zarnak
+                else (Box Collecting > 4.50):
+                  Predict: Quorvian
+              else (Tool Worship > 9.50):
+                Predict: Zarnak
+            else (Laser Pointer Chasing > 2.50):
+              if Box Collecting <= 5.00:
+                Predict: Zarnak
+              else (Box Collecting > 5.00):
+                Predict: Quorvian
+          else (Reality Show Studies > 6.50):
+            if Tool Worship <= 9.50:
+              if Box Collecting <= 5.50:
+                Predict: Zarnak
+              else (Box Collecting > 5.50):
+                Predict: Quorvian
+            else (Tool Worship > 9.50):
+              Predict: Zarnak
+        else (Laser Pointer Chasing > 7.50):
+          Predict: Quorvian
+      else (Reality Show Studies > 7.50):
+        Predict: Zarnak
+  else (Tool Worship > 10.50):
+    Predict: Zarnak
+else (Box Collecting > 9.00):
+  Predict: Bliptor
+
+Tree 5 Rules:
+if Tool Worship <= 6.50:
+  if Box Collecting <= 9.00:
+    if Laser Pointer Chasing <= 2.50:
+      Predict: Bliptor
+    else (Laser Pointer Chasing > 2.50):
+      if Box Collecting <= 7.50:
+        Predict: Quorvian
+      else (Box Collecting > 7.50):
+        if Laser Pointer Chasing <= 3.50:
+          if Reality Show Studies <= 6.00:
+            Predict: Bliptor
+          else (Reality Show Studies > 6.00):
+            Predict: Quorvian
+        else (Laser Pointer Chasing > 3.50):
+          Predict: Quorvian
+  else (Box Collecting > 9.00):
+    Predict: Bliptor
+else (Tool Worship > 6.50):
+  if Plant Telepathy Practice <= 7.50:
+    if Laser Pointer Chasing <= 8.00:
+      Predict: Zarnak
+    else (Laser Pointer Chasing > 8.00):
+      Predict: Bliptor
+  else (Plant Telepathy Practice > 7.50):
+    if Plant Telepathy Practice <= 13.50:
+      if Tool Worship <= 10.50:
+        if Box Collecting <= 3.50:
+          Predict: Zarnak
+        else (Box Collecting > 3.50):
+          if Tool Worship <= 8.50:
+            Predict: Quorvian
+          else (Tool Worship > 8.50):
+            if Laser Pointer Chasing <= 4.50:
+              if Reality Show Studies <= 6.50:
+                if Box Collecting <= 5.00:
+                  Predict: Zarnak
+                else (Box Collecting > 5.00):
+                  Predict: Quorvian
+              else (Reality Show Studies > 6.50):
+                if Plant Telepathy Practice <= 11.00:
+                  Predict: Zarnak
+                else (Plant Telepathy Practice > 11.00):
+                  if Laser Pointer Chasing <= 3.50:
+                    Predict: Zarnak
+                  else (Laser Pointer Chasing > 3.50):
+                    Predict: Quorvian
+            else (Laser Pointer Chasing > 4.50):
+              if Laser Pointer Chasing <= 7.50:
+                if Tool Worship <= 9.50:
+                  if Box Collecting <= 5.00:
+                    Predict: Zarnak
+                  else (Box Collecting > 5.00):
+                    Predict: Quorvian
+                else (Tool Worship > 9.50):
+                  Predict: Quorvian
+              else (Laser Pointer Chasing > 7.50):
+                Predict: Quorvian
+      else (Tool Worship > 10.50):
+        Predict: Zarnak
+    else (Plant Telepathy Practice > 13.50):
+      if Tool Worship <= 11.50:
+        if Box Collecting <= 3.50:
+          Predict: Zarnak
+        else (Box Collecting > 3.50):
+          if Laser Pointer Chasing <= 3.00:
+            if Box Collecting <= 6.00:
+              Predict: Zarnak
+            else (Box Collecting > 6.00):
+              Predict: Quorvian
+          else (Laser Pointer Chasing > 3.00):
+            if Box Collecting <= 5.00:
+              if Laser Pointer Chasing <= 7.50:
+                Predict: Zarnak
+              else (Laser Pointer Chasing > 7.50):
+                Predict: Quorvian
+            else (Box Collecting > 5.00):
+              Predict: Quorvian
+      else (Tool Worship > 11.50):
+        Predict: Zarnak
+
+Tree 6 Rules:
+if Plant Telepathy Practice <= 3.50:
+  if Laser Pointer Chasing <= 8.00:
+    Predict: Zarnak
+  else (Laser Pointer Chasing > 8.00):
+    Predict: Bliptor
+else (Plant Telepathy Practice > 3.50):
+  if Tool Worship <= 10.50:
+    if Laser Pointer Chasing <= 7.50:
+      if Box Collecting <= 4.50:
+        Predict: Zarnak
+      else (Box Collecting > 4.50):
+        if Tool Worship <= 5.50:
+          Predict: Bliptor
+        else (Tool Worship > 5.50):
+          if Laser Pointer Chasing <= 1.50:
+            Predict: Bliptor
+          else (Laser Pointer Chasing > 1.50):
+            Predict: Quorvian
+    else (Laser Pointer Chasing > 7.50):
+      Predict: Quorvian
+  else (Tool Worship > 10.50):
+    Predict: Zarnak
+
+Tree 7 Rules:
+if Tool Worship <= 7.50:
+  if Plant Telepathy Practice <= 6.50:
+    Predict: Bliptor
+  else (Plant Telepathy Practice > 6.50):
+    if Laser Pointer Chasing <= 1.50:
+      Predict: Bliptor
+    else (Laser Pointer Chasing > 1.50):
+      Predict: Quorvian
+else (Tool Worship > 7.50):
+  if Box Collecting <= 4.50:
+    if Laser Pointer Chasing <= 7.50:
+      Predict: Zarnak
+    else (Laser Pointer Chasing > 7.50):
+      Predict: Quorvian
+  else (Box Collecting > 4.50):
+    Predict: Quorvian
+
+Tree 8 Rules:
+if Box Collecting <= 9.00:
+  if Reality Show Studies <= 7.50:
+    if Box Collecting <= 3.50:
+      Predict: Zarnak
+    else (Box Collecting > 3.50):
+      if Laser Pointer Chasing <= 1.50:
+        Predict: Bliptor
+      else (Laser Pointer Chasing > 1.50):
+        if Box Collecting <= 4.50:
+          if Reality Show Studies <= 4.50:
+            if Laser Pointer Chasing <= 7.50:
+              Predict: Zarnak
+            else (Laser Pointer Chasing > 7.50):
+              Predict: Quorvian
+          else (Reality Show Studies > 4.50):
+            if Reality Show Studies <= 6.50:
+              if Laser Pointer Chasing <= 7.50:
+                Predict: Zarnak
+              else (Laser Pointer Chasing > 7.50):
+                Predict: Quorvian
+            else (Reality Show Studies > 6.50):
+              if Tool Worship <= 11.50:
+                if Laser Pointer Chasing <= 7.50:
+                  Predict: Zarnak
+                else (Laser Pointer Chasing > 7.50):
+                  Predict: Quorvian
+              else (Tool Worship > 11.50):
+                Predict: Zarnak
+        else (Box Collecting > 4.50):
+          if Tool Worship <= 4.50:
+            Predict: Bliptor
+          else (Tool Worship > 4.50):
+            if Tool Worship <= 6.50:
+              if Plant Telepathy Practice <= 13.50:
+                Predict: Quorvian
+              else (Plant Telepathy Practice > 13.50):
+                if Laser Pointer Chasing <= 7.50:
+                  Predict: Bliptor
+                else (Laser Pointer Chasing > 7.50):
+                  Predict: Quorvian
+            else (Tool Worship > 6.50):
+              Predict: Quorvian
+  else (Reality Show Studies > 7.50):
+    Predict: Zarnak
+else (Box Collecting > 9.00):
+  Predict: Bliptor
+
+Tree 9 Rules:
+if Tool Worship <= 7.50:
+  if Tool Worship <= 5.50:
+    Predict: Bliptor
+  else (Tool Worship > 5.50):
+    if Plant Telepathy Practice <= 6.50:
+      Predict: Bliptor
+    else (Plant Telepathy Practice > 6.50):
+      if Plant Telepathy Practice <= 13.50:
+        Predict: Quorvian
+      else (Plant Telepathy Practice > 13.50):
+        if Reality Show Studies <= 5.50:
+          if Laser Pointer Chasing <= 4.00:
+            Predict: Bliptor
+          else (Laser Pointer Chasing > 4.00):
+            Predict: Quorvian
+        else (Reality Show Studies > 5.50):
+          Predict: Quorvian
+else (Tool Worship > 7.50):
+  if Tool Worship <= 10.50:
+    if Plant Telepathy Practice <= 7.50:
+      Predict: Zarnak
+    else (Plant Telepathy Practice > 7.50):
+      if Box Collecting <= 3.50:
+        Predict: Zarnak
+      else (Box Collecting > 3.50):
+        if Box Collecting <= 4.50:
+          if Laser Pointer Chasing <= 7.50:
+            Predict: Zarnak
+          else (Laser Pointer Chasing > 7.50):
+            Predict: Quorvian
+        else (Box Collecting > 4.50):
+          Predict: Quorvian
+  else (Tool Worship > 10.50):
+    Predict: Zarnak
+
+Tree 10 Rules:
+if Tool Worship <= 7.50:
+  if Laser Pointer Chasing <= 10.50:
+    if Laser Pointer Chasing <= 1.50:
+      Predict: Bliptor
+    else (Laser Pointer Chasing > 1.50):
+      if Tool Worship <= 4.50:
+        Predict: Bliptor
+      else (Tool Worship > 4.50):
+        Predict: Quorvian
+  else (Laser Pointer Chasing > 10.50):
+    if Box Collecting <= 7.50:
+      Predict: Quorvian
+    else (Box Collecting > 7.50):
+      Predict: Bliptor
+else (Tool Worship > 7.50):
+  if Tool Worship <= 10.50:
+    if Laser Pointer Chasing <= 7.50:
+      if Box Collecting <= 5.00:
+        Predict: Zarnak
+      else (Box Collecting > 5.00):
+        Predict: Quorvian
+    else (Laser Pointer Chasing > 7.50):
+      Predict: Quorvian
+  else (Tool Worship > 10.50):
+    Predict: Zarnak
+
+Tree 11 Rules:
+if Plant Telepathy Practice <= 3.50:
+  if Tool Worship <= 8.50:
+    Predict: Bliptor
+  else (Tool Worship > 8.50):
+    Predict: Zarnak
+else (Plant Telepathy Practice > 3.50):
+  if Reality Show Studies <= 7.50:
+    if Reality Show Studies <= 6.50:
+      if Box Collecting <= 3.50:
+        Predict: Zarnak
+      else (Box Collecting > 3.50):
+        if Box Collecting <= 4.50:
+          if Tool Worship <= 9.50:
+            if Plant Telepathy Practice <= 12.50:
+              Predict: Quorvian
+            else (Plant Telepathy Practice > 12.50):
+              if Tool Worship <= 8.00:
+                Predict: Quorvian
+              else (Tool Worship > 8.00):
+                Predict: Zarnak
+          else (Tool Worship > 9.50):
+            if Tool Worship <= 11.00:
+              if Laser Pointer Chasing <= 8.00:
+                Predict: Zarnak
+              else (Laser Pointer Chasing > 8.00):
+                Predict: Quorvian
+            else (Tool Worship > 11.00):
+              Predict: Zarnak
+        else (Box Collecting > 4.50):
+          if Plant Telepathy Practice <= 12.50:
+            Predict: Quorvian
+          else (Plant Telepathy Practice > 12.50):
+            if Reality Show Studies <= 4.50:
+              Predict: Quorvian
+            else (Reality Show Studies > 4.50):
+              if Box Collecting <= 5.50:
+                if Tool Worship <= 5.50:
+                  Predict: Bliptor
+                else (Tool Worship > 5.50):
+                  Predict: Quorvian
+              else (Box Collecting > 5.50):
+                if Box Collecting <= 7.50:
+                  Predict: Quorvian
+                else (Box Collecting > 7.50):
+                  if Reality Show Studies <= 5.50:
+                    if Plant Telepathy Practice <= 13.50:
+                      Predict: Quorvian
+                    else (Plant Telepathy Practice > 13.50):
+                      if Laser Pointer Chasing <= 3.50:
+                        Predict: Bliptor
+                      else (Laser Pointer Chasing > 3.50):
+                        Predict: Quorvian
+                  else (Reality Show Studies > 5.50):
+                    Predict: Quorvian
+    else (Reality Show Studies > 6.50):
+      if Box Collecting <= 3.50:
+        Predict: Zarnak
+      else (Box Collecting > 3.50):
+        if Tool Worship <= 5.50:
+          Predict: Bliptor
+        else (Tool Worship > 5.50):
+          if Plant Telepathy Practice <= 10.50:
+            if Box Collecting <= 5.50:
+              Predict: Zarnak
+            else (Box Collecting > 5.50):
+              Predict: Quorvian
+          else (Plant Telepathy Practice > 10.50):
+            Predict: Quorvian
+  else (Reality Show Studies > 7.50):
+    Predict: Zarnak
+
+Tree 12 Rules:
+if Laser Pointer Chasing <= 10.50:
+  if Plant Telepathy Practice <= 7.50:
+    Predict: Zarnak
+  else (Plant Telepathy Practice > 7.50):
+    if Box Collecting <= 4.50:
+      if Plant Telepathy Practice <= 10.50:
+        if Reality Show Studies <= 5.50:
+          if Box Collecting <= 2.00:
+            Predict: Zarnak
+          else (Box Collecting > 2.00):
+            if Laser Pointer Chasing <= 7.50:
+              Predict: Zarnak
+            else (Laser Pointer Chasing > 7.50):
+              Predict: Quorvian
+        else (Reality Show Studies > 5.50):
+          Predict: Zarnak
+      else (Plant Telepathy Practice > 10.50):
+        if Tool Worship <= 8.00:
+          Predict: Quorvian
+        else (Tool Worship > 8.00):
+          Predict: Zarnak
+    else (Box Collecting > 4.50):
+      if Reality Show Studies <= 6.50:
+        if Laser Pointer Chasing <= 1.50:
+          Predict: Bliptor
+        else (Laser Pointer Chasing > 1.50):
+          if Tool Worship <= 4.50:
+            Predict: Bliptor
+          else (Tool Worship > 4.50):
+            if Tool Worship <= 6.50:
+              if Laser Pointer Chasing <= 3.50:
+                Predict: Bliptor
+              else (Laser Pointer Chasing > 3.50):
+                Predict: Quorvian
+            else (Tool Worship > 6.50):
+              Predict: Quorvian
+      else (Reality Show Studies > 6.50):
+        if Plant Telepathy Practice <= 13.50:
+          Predict: Quorvian
+        else (Plant Telepathy Practice > 13.50):
+          if Box Collecting <= 6.50:
+            Predict: Bliptor
+          else (Box Collecting > 6.50):
+            Predict: Quorvian
+else (Laser Pointer Chasing > 10.50):
+  if Tool Worship <= 7.50:
+    if Tool Worship <= 5.50:
+      Predict: Bliptor
+    else (Tool Worship > 5.50):
+      if Box Collecting <= 7.50:
+        Predict: Quorvian
+      else (Box Collecting > 7.50):
+        Predict: Bliptor
+  else (Tool Worship > 7.50):
+    Predict: Quorvian
+
+Tree 13 Rules:
+if Tool Worship <= 8.50:
+  if Box Collecting <= 9.00:
+    if Laser Pointer Chasing <= 1.50:
+      Predict: Bliptor
+    else (Laser Pointer Chasing > 1.50):
+      if Tool Worship <= 4.50:
+        Predict: Bliptor
+      else (Tool Worship > 4.50):
+        if Plant Telepathy Practice <= 13.50:
+          Predict: Quorvian
+        else (Plant Telepathy Practice > 13.50):
+          if Box Collecting <= 7.50:
+            Predict: Quorvian
+          else (Box Collecting > 7.50):
+            if Reality Show Studies <= 5.50:
+              if Laser Pointer Chasing <= 3.50:
+                Predict: Bliptor
+              else (Laser Pointer Chasing > 3.50):
+                Predict: Quorvian
+            else (Reality Show Studies > 5.50):
+              Predict: Quorvian
+  else (Box Collecting > 9.00):
+    Predict: Bliptor
+else (Tool Worship > 8.50):
+  if Reality Show Studies <= 7.50:
+    if Laser Pointer Chasing <= 7.50:
+      if Plant Telepathy Practice <= 10.50:
+        if Tool Worship <= 11.00:
+          if Laser Pointer Chasing <= 3.00:
+            if Tool Worship <= 9.50:
+              Predict: Quorvian
+            else (Tool Worship > 9.50):
+              if Reality Show Studies <= 6.50:
+                Predict: Zarnak
+              else (Reality Show Studies > 6.50):
+                Predict: Quorvian
+          else (Laser Pointer Chasing > 3.00):
+            Predict: Quorvian
+        else (Tool Worship > 11.00):
+          Predict: Zarnak
+      else (Plant Telepathy Practice > 10.50):
+        if Tool Worship <= 10.50:
+          if Box Collecting <= 5.00:
+            Predict: Zarnak
+          else (Box Collecting > 5.00):
+            Predict: Quorvian
+        else (Tool Worship > 10.50):
+          Predict: Zarnak
+    else (Laser Pointer Chasing > 7.50):
+      Predict: Quorvian
+  else (Reality Show Studies > 7.50):
+    Predict: Zarnak
+
+Tree 14 Rules:
+if Laser Pointer Chasing <= 10.50:
+  if Box Collecting <= 4.50:
+    if Box Collecting <= 3.50:
+      Predict: Zarnak
+    else (Box Collecting > 3.50):
+      if Reality Show Studies <= 7.50:
+        if Plant Telepathy Practice <= 11.50:
+          if Tool Worship <= 8.50:
+            Predict: Quorvian
+          else (Tool Worship > 8.50):
+            Predict: Zarnak
+        else (Plant Telepathy Practice > 11.50):
+          if Laser Pointer Chasing <= 7.50:
+            Predict: Zarnak
+          else (Laser Pointer Chasing > 7.50):
+            Predict: Quorvian
+      else (Reality Show Studies > 7.50):
+        Predict: Zarnak
+  else (Box Collecting > 4.50):
+    if Plant Telepathy Practice <= 11.50:
+      if Laser Pointer Chasing <= 1.00:
+        Predict: Bliptor
+      else (Laser Pointer Chasing > 1.00):
+        Predict: Quorvian
+    else (Plant Telepathy Practice > 11.50):
+      if Tool Worship <= 5.50:
+        Predict: Bliptor
+      else (Tool Worship > 5.50):
+        if Laser Pointer Chasing <= 1.50:
+          Predict: Bliptor
+        else (Laser Pointer Chasing > 1.50):
+          if Tool Worship <= 6.50:
+            if Reality Show Studies <= 5.50:
+              if Box Collecting <= 7.00:
+                Predict: Quorvian
+              else (Box Collecting > 7.00):
+                Predict: Bliptor
+            else (Reality Show Studies > 5.50):
+              Predict: Quorvian
+          else (Tool Worship > 6.50):
+            Predict: Quorvian
+else (Laser Pointer Chasing > 10.50):
+  if Box Collecting <= 7.50:
+    Predict: Quorvian
+  else (Box Collecting > 7.50):
+    Predict: Bliptor
+
+Tree 15 Rules:
+if Box Collecting <= 9.00:
+  if Box Collecting <= 4.50:
+    if Laser Pointer Chasing <= 7.50:
+      Predict: Zarnak
+    else (Laser Pointer Chasing > 7.50):
+      Predict: Quorvian
+  else (Box Collecting > 4.50):
+    if Tool Worship <= 5.00:
+      Predict: Bliptor
+    else (Tool Worship > 5.00):
+      if Plant Telepathy Practice <= 13.50:
+        Predict: Quorvian
+      else (Plant Telepathy Practice > 13.50):
+        if Laser Pointer Chasing <= 3.50:
+          if Tool Worship <= 7.50:
+            Predict: Bliptor
+          else (Tool Worship > 7.50):
+            Predict: Quorvian
+        else (Laser Pointer Chasing > 3.50):
+          Predict: Quorvian
+else (Box Collecting > 9.00):
+  Predict: Bliptor
+
+Tree 16 Rules:
+if Box Collecting <= 9.00:
+  if Tool Worship <= 10.50:
+    if Reality Show Studies <= 7.50:
+      if Box Collecting <= 3.50:
+        Predict: Zarnak
+      else (Box Collecting > 3.50):
+        if Tool Worship <= 5.50:
+          Predict: Bliptor
+        else (Tool Worship > 5.50):
+          if Tool Worship <= 6.50:
+            if Reality Show Studies <= 6.50:
+              if Box Collecting <= 7.50:
+                Predict: Quorvian
+              else (Box Collecting > 7.50):
+                if Reality Show Studies <= 5.50:
+                  Predict: Bliptor
+                else (Reality Show Studies > 5.50):
+                  if Plant Telepathy Practice <= 12.50:
+                    Predict: Bliptor
+                  else (Plant Telepathy Practice > 12.50):
+                    Predict: Quorvian
+            else (Reality Show Studies > 6.50):
+              Predict: Quorvian
+          else (Tool Worship > 6.50):
+            if Box Collecting <= 4.50:
+              if Laser Pointer Chasing <= 7.50:
+                Predict: Zarnak
+              else (Laser Pointer Chasing > 7.50):
+                Predict: Quorvian
+            else (Box Collecting > 4.50):
+              Predict: Quorvian
+    else (Reality Show Studies > 7.50):
+      Predict: Zarnak
+  else (Tool Worship > 10.50):
+    Predict: Zarnak
+else (Box Collecting > 9.00):
+  Predict: Bliptor
+
+Tree 17 Rules:
+if Box Collecting <= 9.00:
+  if Tool Worship <= 10.50:
+    if Box Collecting <= 3.50:
+      Predict: Zarnak
+    else (Box Collecting > 3.50):
+      if Laser Pointer Chasing <= 3.50:
+        if Box Collecting <= 4.50:
+          Predict: Zarnak
+        else (Box Collecting > 4.50):
+          if Laser Pointer Chasing <= 1.50:
+            Predict: Bliptor
+          else (Laser Pointer Chasing > 1.50):
+            if Plant Telepathy Practice <= 12.50:
+              Predict: Quorvian
+            else (Plant Telepathy Practice > 12.50):
+              if Reality Show Studies <= 5.50:
+                if Tool Worship <= 6.00:
+                  Predict: Bliptor
+                else (Tool Worship > 6.00):
+                  Predict: Quorvian
+              else (Reality Show Studies > 5.50):
+                if Reality Show Studies <= 6.50:
+                  if Box Collecting <= 6.50:
+                    Predict: Bliptor
+                  else (Box Collecting > 6.50):
+                    Predict: Quorvian
+                else (Reality Show Studies > 6.50):
+                  Predict: Quorvian
+      else (Laser Pointer Chasing > 3.50):
+        if Box Collecting <= 4.50:
+          if Reality Show Studies <= 4.50:
+            Predict: Quorvian
+          else (Reality Show Studies > 4.50):
+            if Reality Show Studies <= 6.50:
+              if Laser Pointer Chasing <= 7.50:
+                Predict: Zarnak
+              else (Laser Pointer Chasing > 7.50):
+                Predict: Quorvian
+            else (Reality Show Studies > 6.50):
+              Predict: Quorvian
+        else (Box Collecting > 4.50):
+          Predict: Quorvian
+  else (Tool Worship > 10.50):
+    Predict: Zarnak
+else (Box Collecting > 9.00):
+  Predict: Bliptor
+
+Tree 18 Rules:
+if Laser Pointer Chasing <= 10.50:
+  if Tool Worship <= 9.50:
+    if Tool Worship <= 5.50:
+      Predict: Bliptor
+    else (Tool Worship > 5.50):
+      if Box Collecting <= 4.50:
+        if Laser Pointer Chasing <= 7.50:
+          Predict: Zarnak
+        else (Laser Pointer Chasing > 7.50):
+          Predict: Quorvian
+      else (Box Collecting > 4.50):
+        if Tool Worship <= 6.50:
+          if Box Collecting <= 7.00:
+            Predict: Quorvian
+          else (Box Collecting > 7.00):
+            if Laser Pointer Chasing <= 1.50:
+              Predict: Bliptor
+            else (Laser Pointer Chasing > 1.50):
+              if Laser Pointer Chasing <= 2.50:
+                Predict: Quorvian
+              else (Laser Pointer Chasing > 2.50):
+                if Reality Show Studies <= 5.50:
+                  Predict: Bliptor
+                else (Reality Show Studies > 5.50):
+                  Predict: Quorvian
+        else (Tool Worship > 6.50):
+          Predict: Quorvian
+  else (Tool Worship > 9.50):
+    if Plant Telepathy Practice <= 7.50:
+      Predict: Zarnak
+    else (Plant Telepathy Practice > 7.50):
+      if Tool Worship <= 10.50:
+        if Laser Pointer Chasing <= 7.50:
+          if Box Collecting <= 5.00:
+            Predict: Zarnak
+          else (Box Collecting > 5.00):
+            Predict: Quorvian
+        else (Laser Pointer Chasing > 7.50):
+          Predict: Quorvian
+      else (Tool Worship > 10.50):
+        Predict: Zarnak
+else (Laser Pointer Chasing > 10.50):
+  if Box Collecting <= 7.50:
+    Predict: Quorvian
+  else (Box Collecting > 7.50):
+    Predict: Bliptor
+
+Tree 19 Rules:
+if Laser Pointer Chasing <= 10.50:
+  if Box Collecting <= 4.50:
+    if Laser Pointer Chasing <= 7.50:
+      Predict: Zarnak
+    else (Laser Pointer Chasing > 7.50):
+      Predict: Quorvian
+  else (Box Collecting > 4.50):
+    if Tool Worship <= 5.50:
+      Predict: Bliptor
+    else (Tool Worship > 5.50):
+      if Box Collecting <= 7.50:
+        Predict: Quorvian
+      else (Box Collecting > 7.50):
+        if Tool Worship <= 6.50:
+          if Laser Pointer Chasing <= 1.50:
+            Predict: Bliptor
+          else (Laser Pointer Chasing > 1.50):
+            if Reality Show Studies <= 5.50:
+              Predict: Bliptor
+            else (Reality Show Studies > 5.50):
+              Predict: Quorvian
+        else (Tool Worship > 6.50):
+          Predict: Quorvian
+else (Laser Pointer Chasing > 10.50):
+  if Plant Telepathy Practice <= 6.50:
+    Predict: Bliptor
+  else (Plant Telepathy Practice > 6.50):
+    Predict: Quorvian
+
+Aggregated Rules (Across Forest):
+
+Class: Zarnak
+
+Simple Rules (Single Trees):
+
+Tree 0 Rules:
+if Tool Worship <= 7.50:
+  if Laser Pointer Chasing <= 10.50:
+    if Laser Pointer Chasing <= 1.50:
+      Predict: Bliptor
+    else (Laser Pointer Chasing > 1.50):
+      if Tool Worship <= 4.50:
+        Predict: Bliptor
+      else (Tool Worship > 4.50):
+        if Plant Telepathy Practice <= 13.50:
+          Predict: Quorvian
+        else (Plant Telepathy Practice > 13.50):
+          if Tool Worship <= 6.50:
+            Predict: Bliptor
+          else (Tool Worship > 6.50):
+            Predict: Quorvian
+  else (Laser Pointer Chasing > 10.50):
+    if Box Collecting <= 7.50:
+      Predict: Quorvian
+    else (Box Collecting > 7.50):
+      Predict: Bliptor
+else (Tool Worship > 7.50):
+  if Tool Worship <= 10.50:
+    if Laser Pointer Chasing <= 7.50:
+      if Reality Show Studies <= 8.00:
+        if Box Collecting <= 5.00:
+          Predict: Zarnak
+        else (Box Collecting > 5.00):
+          Predict: Quorvian
+      else (Reality Show Studies > 8.00):
+        Predict: Zarnak
+    else (Laser Pointer Chasing > 7.50):
+      Predict: Quorvian
+  else (Tool Worship > 10.50):
+    Predict: Zarnak
+
+Tree 1 Rules:
+if Box Collecting <= 9.00:
+  if Box Collecting <= 3.50:
+    Predict: Zarnak
+  else (Box Collecting > 3.50):
+    if Box Collecting <= 4.50:
+      if Tool Worship <= 8.50:
+        Predict: Quorvian
+      else (Tool Worship > 8.50):
+        if Plant Telepathy Practice <= 12.50:
+          if Reality Show Studies <= 7.50:
+            if Plant Telepathy Practice <= 11.50:
+              if Plant Telepathy Practice <= 10.50:
+                if Laser Pointer Chasing <= 7.50:
+                  Predict: Zarnak
+                else (Laser Pointer Chasing > 7.50):
+                  Predict: Quorvian
+              else (Plant Telepathy Practice > 10.50):
+                Predict: Quorvian
+            else (Plant Telepathy Practice > 11.50):
+              if Reality Show Studies <= 4.50:
+                Predict: Zarnak
+              else (Reality Show Studies > 4.50):
+                if Laser Pointer Chasing <= 8.50:
+                  Predict: Zarnak
+                else (Laser Pointer Chasing > 8.50):
+                  Predict: Quorvian
+          else (Reality Show Studies > 7.50):
+            Predict: Zarnak
+        else (Plant Telepathy Practice > 12.50):
+          if Laser Pointer Chasing <= 7.50:
+            Predict: Zarnak
+          else (Laser Pointer Chasing > 7.50):
+            Predict: Quorvian
+    else (Box Collecting > 4.50):
+      if Laser Pointer Chasing <= 1.50:
+        Predict: Bliptor
+      else (Laser Pointer Chasing > 1.50):
+        if Tool Worship <= 4.50:
+          Predict: Bliptor
+        else (Tool Worship > 4.50):
+          if Laser Pointer Chasing <= 3.50:
+            if Plant Telepathy Practice <= 13.50:
+              Predict: Quorvian
+            else (Plant Telepathy Practice > 13.50):
+              if Tool Worship <= 7.50:
+                Predict: Bliptor
+              else (Tool Worship > 7.50):
+                Predict: Quorvian
+          else (Laser Pointer Chasing > 3.50):
+            Predict: Quorvian
+else (Box Collecting > 9.00):
+  Predict: Bliptor
+
+Tree 2 Rules:
+if Box Collecting <= 9.00:
+  if Laser Pointer Chasing <= 7.50:
+    if Tool Worship <= 9.50:
+      if Tool Worship <= 5.50:
+        Predict: Bliptor
+      else (Tool Worship > 5.50):
+        if Tool Worship <= 8.50:
+          if Plant Telepathy Practice <= 13.50:
+            Predict: Quorvian
+          else (Plant Telepathy Practice > 13.50):
+            if Tool Worship <= 6.50:
+              if Laser Pointer Chasing <= 4.00:
+                Predict: Bliptor
+              else (Laser Pointer Chasing > 4.00):
+                Predict: Quorvian
+            else (Tool Worship > 6.50):
+              Predict: Quorvian
+        else (Tool Worship > 8.50):
+          if Plant Telepathy Practice <= 13.50:
+            if Reality Show Studies <= 4.50:
+              Predict: Zarnak
+            else (Reality Show Studies > 4.50):
+              if Laser Pointer Chasing <= 3.50:
+                if Plant Telepathy Practice <= 10.50:
+                  if Reality Show Studies <= 6.50:
+                    if Reality Show Studies <= 5.50:
+                      Predict: Zarnak
+                    else (Reality Show Studies > 5.50):
+                      Predict: Quorvian
+                  else (Reality Show Studies > 6.50):
+                    Predict: Zarnak
+                else (Plant Telepathy Practice > 10.50):
+                  Predict: Quorvian
+              else (Laser Pointer Chasing > 3.50):
+                if Plant Telepathy Practice <= 12.50:
+                  if Box Collecting <= 3.50:
+                    Predict: Zarnak
+                  else (Box Collecting > 3.50):
+                    Predict: Quorvian
+                else (Plant Telepathy Practice > 12.50):
+                  if Reality Show Studies <= 6.00:
+                    if Box Collecting <= 5.00:
+                      Predict: Zarnak
+                    else (Box Collecting > 5.00):
+                      Predict: Quorvian
+                  else (Reality Show Studies > 6.00):
+                    Predict: Quorvian
+          else (Plant Telepathy Practice > 13.50):
+            if Laser Pointer Chasing <= 4.50:
+              Predict: Quorvian
+            else (Laser Pointer Chasing > 4.50):
+              if Box Collecting <= 5.50:
+                Predict: Zarnak
+              else (Box Collecting > 5.50):
+                Predict: Quorvian
+    else (Tool Worship > 9.50):
+      if Box Collecting <= 5.00:
+        Predict: Zarnak
+      else (Box Collecting > 5.00):
+        Predict: Quorvian
+  else (Laser Pointer Chasing > 7.50):
+    Predict: Quorvian
+else (Box Collecting > 9.00):
+  Predict: Bliptor
+
+Tree 3 Rules:
+if Tool Worship <= 7.50:
+  if Tool Worship <= 5.50:
+    Predict: Bliptor
+  else (Tool Worship > 5.50):
+    if Box Collecting <= 9.00:
+      if Reality Show Studies <= 5.50:
+        Predict: Quorvian
+      else (Reality Show Studies > 5.50):
+        if Box Collecting <= 7.50:
+          Predict: Quorvian
+        else (Box Collecting > 7.50):
+          if Laser Pointer Chasing <= 1.50:
+            Predict: Bliptor
+          else (Laser Pointer Chasing > 1.50):
+            Predict: Quorvian
+    else (Box Collecting > 9.00):
+      Predict: Bliptor
+else (Tool Worship > 7.50):
+  if Tool Worship <= 10.50:
+    if Plant Telepathy Practice <= 7.50:
+      Predict: Zarnak
+    else (Plant Telepathy Practice > 7.50):
+      if Laser Pointer Chasing <= 7.50:
+        if Reality Show Studies <= 6.50:
+          if Laser Pointer Chasing <= 4.50:
+            if Box Collecting <= 5.00:
+              Predict: Zarnak
+            else (Box Collecting > 5.00):
+              Predict: Quorvian
+          else (Laser Pointer Chasing > 4.50):
+            if Reality Show Studies <= 5.50:
+              if Reality Show Studies <= 4.50:
+                if Box Collecting <= 4.00:
+                  Predict: Zarnak
+                else (Box Collecting > 4.00):
+                  Predict: Quorvian
+              else (Reality Show Studies > 4.50):
+                Predict: Quorvian
+            else (Reality Show Studies > 5.50):
+              if Box Collecting <= 5.00:
+                Predict: Zarnak
+              else (Box Collecting > 5.00):
+                Predict: Quorvian
+        else (Reality Show Studies > 6.50):
+          if Tool Worship <= 8.50:
+            Predict: Quorvian
+          else (Tool Worship > 8.50):
+            if Plant Telepathy Practice <= 10.50:
+              Predict: Zarnak
+            else (Plant Telepathy Practice > 10.50):
+              if Laser Pointer Chasing <= 4.50:
+                if Box Collecting <= 5.50:
+                  Predict: Zarnak
+                else (Box Collecting > 5.50):
+                  Predict: Quorvian
+              else (Laser Pointer Chasing > 4.50):
+                if Tool Worship <= 9.50:
+                  Predict: Zarnak
+                else (Tool Worship > 9.50):
+                  if Box Collecting <= 3.50:
+                    Predict: Zarnak
+                  else (Box Collecting > 3.50):
+                    Predict: Quorvian
+      else (Laser Pointer Chasing > 7.50):
+        Predict: Quorvian
+  else (Tool Worship > 10.50):
+    Predict: Zarnak
+
+Tree 4 Rules:
+if Box Collecting <= 9.00:
+  if Tool Worship <= 10.50:
+    if Tool Worship <= 8.50:
+      if Laser Pointer Chasing <= 3.50:
+        if Tool Worship <= 5.50:
+          Predict: Bliptor
+        else (Tool Worship > 5.50):
+          if Laser Pointer Chasing <= 1.50:
+            Predict: Bliptor
+          else (Laser Pointer Chasing > 1.50):
+            if Box Collecting <= 7.50:
+              Predict: Quorvian
+            else (Box Collecting > 7.50):
+              if Reality Show Studies <= 5.50:
+                Predict: Bliptor
+              else (Reality Show Studies > 5.50):
+                Predict: Quorvian
+      else (Laser Pointer Chasing > 3.50):
+        Predict: Quorvian
+    else (Tool Worship > 8.50):
+      if Reality Show Studies <= 7.50:
+        if Laser Pointer Chasing <= 7.50:
+          if Reality Show Studies <= 6.50:
+            if Laser Pointer Chasing <= 2.50:
+              if Tool Worship <= 9.50:
+                if Box Collecting <= 4.50:
+                  Predict: Zarnak
+                else (Box Collecting > 4.50):
+                  Predict: Quorvian
+              else (Tool Worship > 9.50):
+                Predict: Zarnak
+            else (Laser Pointer Chasing > 2.50):
+              if Box Collecting <= 5.00:
+                Predict: Zarnak
+              else (Box Collecting > 5.00):
+                Predict: Quorvian
+          else (Reality Show Studies > 6.50):
+            if Tool Worship <= 9.50:
+              if Box Collecting <= 5.50:
+                Predict: Zarnak
+              else (Box Collecting > 5.50):
+                Predict: Quorvian
+            else (Tool Worship > 9.50):
+              Predict: Zarnak
+        else (Laser Pointer Chasing > 7.50):
+          Predict: Quorvian
+      else (Reality Show Studies > 7.50):
+        Predict: Zarnak
+  else (Tool Worship > 10.50):
+    Predict: Zarnak
+else (Box Collecting > 9.00):
+  Predict: Bliptor
+
+Tree 5 Rules:
+if Tool Worship <= 6.50:
+  if Box Collecting <= 9.00:
+    if Laser Pointer Chasing <= 2.50:
+      Predict: Bliptor
+    else (Laser Pointer Chasing > 2.50):
+      if Box Collecting <= 7.50:
+        Predict: Quorvian
+      else (Box Collecting > 7.50):
+        if Laser Pointer Chasing <= 3.50:
+          if Reality Show Studies <= 6.00:
+            Predict: Bliptor
+          else (Reality Show Studies > 6.00):
+            Predict: Quorvian
+        else (Laser Pointer Chasing > 3.50):
+          Predict: Quorvian
+  else (Box Collecting > 9.00):
+    Predict: Bliptor
+else (Tool Worship > 6.50):
+  if Plant Telepathy Practice <= 7.50:
+    if Laser Pointer Chasing <= 8.00:
+      Predict: Zarnak
+    else (Laser Pointer Chasing > 8.00):
+      Predict: Bliptor
+  else (Plant Telepathy Practice > 7.50):
+    if Plant Telepathy Practice <= 13.50:
+      if Tool Worship <= 10.50:
+        if Box Collecting <= 3.50:
+          Predict: Zarnak
+        else (Box Collecting > 3.50):
+          if Tool Worship <= 8.50:
+            Predict: Quorvian
+          else (Tool Worship > 8.50):
+            if Laser Pointer Chasing <= 4.50:
+              if Reality Show Studies <= 6.50:
+                if Box Collecting <= 5.00:
+                  Predict: Zarnak
+                else (Box Collecting > 5.00):
+                  Predict: Quorvian
+              else (Reality Show Studies > 6.50):
+                if Plant Telepathy Practice <= 11.00:
+                  Predict: Zarnak
+                else (Plant Telepathy Practice > 11.00):
+                  if Laser Pointer Chasing <= 3.50:
+                    Predict: Zarnak
+                  else (Laser Pointer Chasing > 3.50):
+                    Predict: Quorvian
+            else (Laser Pointer Chasing > 4.50):
+              if Laser Pointer Chasing <= 7.50:
+                if Tool Worship <= 9.50:
+                  if Box Collecting <= 5.00:
+                    Predict: Zarnak
+                  else (Box Collecting > 5.00):
+                    Predict: Quorvian
+                else (Tool Worship > 9.50):
+                  Predict: Quorvian
+              else (Laser Pointer Chasing > 7.50):
+                Predict: Quorvian
+      else (Tool Worship > 10.50):
+        Predict: Zarnak
+    else (Plant Telepathy Practice > 13.50):
+      if Tool Worship <= 11.50:
+        if Box Collecting <= 3.50:
+          Predict: Zarnak
+        else (Box Collecting > 3.50):
+          if Laser Pointer Chasing <= 3.00:
+            if Box Collecting <= 6.00:
+              Predict: Zarnak
+            else (Box Collecting > 6.00):
+              Predict: Quorvian
+          else (Laser Pointer Chasing > 3.00):
+            if Box Collecting <= 5.00:
+              if Laser Pointer Chasing <= 7.50:
+                Predict: Zarnak
+              else (Laser Pointer Chasing > 7.50):
+                Predict: Quorvian
+            else (Box Collecting > 5.00):
+              Predict: Quorvian
+      else (Tool Worship > 11.50):
+        Predict: Zarnak
+
+Tree 6 Rules:
+if Plant Telepathy Practice <= 3.50:
+  if Laser Pointer Chasing <= 8.00:
+    Predict: Zarnak
+  else (Laser Pointer Chasing > 8.00):
+    Predict: Bliptor
+else (Plant Telepathy Practice > 3.50):
+  if Tool Worship <= 10.50:
+    if Laser Pointer Chasing <= 7.50:
+      if Box Collecting <= 4.50:
+        Predict: Zarnak
+      else (Box Collecting > 4.50):
+        if Tool Worship <= 5.50:
+          Predict: Bliptor
+        else (Tool Worship > 5.50):
+          if Laser Pointer Chasing <= 1.50:
+            Predict: Bliptor
+          else (Laser Pointer Chasing > 1.50):
+            Predict: Quorvian
+    else (Laser Pointer Chasing > 7.50):
+      Predict: Quorvian
+  else (Tool Worship > 10.50):
+    Predict: Zarnak
+
+Tree 7 Rules:
+if Tool Worship <= 7.50:
+  if Plant Telepathy Practice <= 6.50:
+    Predict: Bliptor
+  else (Plant Telepathy Practice > 6.50):
+    if Laser Pointer Chasing <= 1.50:
+      Predict: Bliptor
+    else (Laser Pointer Chasing > 1.50):
+      Predict: Quorvian
+else (Tool Worship > 7.50):
+  if Box Collecting <= 4.50:
+    if Laser Pointer Chasing <= 7.50:
+      Predict: Zarnak
+    else (Laser Pointer Chasing > 7.50):
+      Predict: Quorvian
+  else (Box Collecting > 4.50):
+    Predict: Quorvian
+
+Tree 8 Rules:
+if Box Collecting <= 9.00:
+  if Reality Show Studies <= 7.50:
+    if Box Collecting <= 3.50:
+      Predict: Zarnak
+    else (Box Collecting > 3.50):
+      if Laser Pointer Chasing <= 1.50:
+        Predict: Bliptor
+      else (Laser Pointer Chasing > 1.50):
+        if Box Collecting <= 4.50:
+          if Reality Show Studies <= 4.50:
+            if Laser Pointer Chasing <= 7.50:
+              Predict: Zarnak
+            else (Laser Pointer Chasing > 7.50):
+              Predict: Quorvian
+          else (Reality Show Studies > 4.50):
+            if Reality Show Studies <= 6.50:
+              if Laser Pointer Chasing <= 7.50:
+                Predict: Zarnak
+              else (Laser Pointer Chasing > 7.50):
+                Predict: Quorvian
+            else (Reality Show Studies > 6.50):
+              if Tool Worship <= 11.50:
+                if Laser Pointer Chasing <= 7.50:
+                  Predict: Zarnak
+                else (Laser Pointer Chasing > 7.50):
+                  Predict: Quorvian
+              else (Tool Worship > 11.50):
+                Predict: Zarnak
+        else (Box Collecting > 4.50):
+          if Tool Worship <= 4.50:
+            Predict: Bliptor
+          else (Tool Worship > 4.50):
+            if Tool Worship <= 6.50:
+              if Plant Telepathy Practice <= 13.50:
+                Predict: Quorvian
+              else (Plant Telepathy Practice > 13.50):
+                if Laser Pointer Chasing <= 7.50:
+                  Predict: Bliptor
+                else (Laser Pointer Chasing > 7.50):
+                  Predict: Quorvian
+            else (Tool Worship > 6.50):
+              Predict: Quorvian
+  else (Reality Show Studies > 7.50):
+    Predict: Zarnak
+else (Box Collecting > 9.00):
+  Predict: Bliptor
+
+Tree 9 Rules:
+if Tool Worship <= 7.50:
+  if Tool Worship <= 5.50:
+    Predict: Bliptor
+  else (Tool Worship > 5.50):
+    if Plant Telepathy Practice <= 6.50:
+      Predict: Bliptor
+    else (Plant Telepathy Practice > 6.50):
+      if Plant Telepathy Practice <= 13.50:
+        Predict: Quorvian
+      else (Plant Telepathy Practice > 13.50):
+        if Reality Show Studies <= 5.50:
+          if Laser Pointer Chasing <= 4.00:
+            Predict: Bliptor
+          else (Laser Pointer Chasing > 4.00):
+            Predict: Quorvian
+        else (Reality Show Studies > 5.50):
+          Predict: Quorvian
+else (Tool Worship > 7.50):
+  if Tool Worship <= 10.50:
+    if Plant Telepathy Practice <= 7.50:
+      Predict: Zarnak
+    else (Plant Telepathy Practice > 7.50):
+      if Box Collecting <= 3.50:
+        Predict: Zarnak
+      else (Box Collecting > 3.50):
+        if Box Collecting <= 4.50:
+          if Laser Pointer Chasing <= 7.50:
+            Predict: Zarnak
+          else (Laser Pointer Chasing > 7.50):
+            Predict: Quorvian
+        else (Box Collecting > 4.50):
+          Predict: Quorvian
+  else (Tool Worship > 10.50):
+    Predict: Zarnak
+
+Tree 10 Rules:
+if Tool Worship <= 7.50:
+  if Laser Pointer Chasing <= 10.50:
+    if Laser Pointer Chasing <= 1.50:
+      Predict: Bliptor
+    else (Laser Pointer Chasing > 1.50):
+      if Tool Worship <= 4.50:
+        Predict: Bliptor
+      else (Tool Worship > 4.50):
+        Predict: Quorvian
+  else (Laser Pointer Chasing > 10.50):
+    if Box Collecting <= 7.50:
+      Predict: Quorvian
+    else (Box Collecting > 7.50):
+      Predict: Bliptor
+else (Tool Worship > 7.50):
+  if Tool Worship <= 10.50:
+    if Laser Pointer Chasing <= 7.50:
+      if Box Collecting <= 5.00:
+        Predict: Zarnak
+      else (Box Collecting > 5.00):
+        Predict: Quorvian
+    else (Laser Pointer Chasing > 7.50):
+      Predict: Quorvian
+  else (Tool Worship > 10.50):
+    Predict: Zarnak
+
+Tree 11 Rules:
+if Plant Telepathy Practice <= 3.50:
+  if Tool Worship <= 8.50:
+    Predict: Bliptor
+  else (Tool Worship > 8.50):
+    Predict: Zarnak
+else (Plant Telepathy Practice > 3.50):
+  if Reality Show Studies <= 7.50:
+    if Reality Show Studies <= 6.50:
+      if Box Collecting <= 3.50:
+        Predict: Zarnak
+      else (Box Collecting > 3.50):
+        if Box Collecting <= 4.50:
+          if Tool Worship <= 9.50:
+            if Plant Telepathy Practice <= 12.50:
+              Predict: Quorvian
+            else (Plant Telepathy Practice > 12.50):
+              if Tool Worship <= 8.00:
+                Predict: Quorvian
+              else (Tool Worship > 8.00):
+                Predict: Zarnak
+          else (Tool Worship > 9.50):
+            if Tool Worship <= 11.00:
+              if Laser Pointer Chasing <= 8.00:
+                Predict: Zarnak
+              else (Laser Pointer Chasing > 8.00):
+                Predict: Quorvian
+            else (Tool Worship > 11.00):
+              Predict: Zarnak
+        else (Box Collecting > 4.50):
+          if Plant Telepathy Practice <= 12.50:
+            Predict: Quorvian
+          else (Plant Telepathy Practice > 12.50):
+            if Reality Show Studies <= 4.50:
+              Predict: Quorvian
+            else (Reality Show Studies > 4.50):
+              if Box Collecting <= 5.50:
+                if Tool Worship <= 5.50:
+                  Predict: Bliptor
+                else (Tool Worship > 5.50):
+                  Predict: Quorvian
+              else (Box Collecting > 5.50):
+                if Box Collecting <= 7.50:
+                  Predict: Quorvian
+                else (Box Collecting > 7.50):
+                  if Reality Show Studies <= 5.50:
+                    if Plant Telepathy Practice <= 13.50:
+                      Predict: Quorvian
+                    else (Plant Telepathy Practice > 13.50):
+                      if Laser Pointer Chasing <= 3.50:
+                        Predict: Bliptor
+                      else (Laser Pointer Chasing > 3.50):
+                        Predict: Quorvian
+                  else (Reality Show Studies > 5.50):
+                    Predict: Quorvian
+    else (Reality Show Studies > 6.50):
+      if Box Collecting <= 3.50:
+        Predict: Zarnak
+      else (Box Collecting > 3.50):
+        if Tool Worship <= 5.50:
+          Predict: Bliptor
+        else (Tool Worship > 5.50):
+          if Plant Telepathy Practice <= 10.50:
+            if Box Collecting <= 5.50:
+              Predict: Zarnak
+            else (Box Collecting > 5.50):
+              Predict: Quorvian
+          else (Plant Telepathy Practice > 10.50):
+            Predict: Quorvian
+  else (Reality Show Studies > 7.50):
+    Predict: Zarnak
+
+Tree 12 Rules:
+if Laser Pointer Chasing <= 10.50:
+  if Plant Telepathy Practice <= 7.50:
+    Predict: Zarnak
+  else (Plant Telepathy Practice > 7.50):
+    if Box Collecting <= 4.50:
+      if Plant Telepathy Practice <= 10.50:
+        if Reality Show Studies <= 5.50:
+          if Box Collecting <= 2.00:
+            Predict: Zarnak
+          else (Box Collecting > 2.00):
+            if Laser Pointer Chasing <= 7.50:
+              Predict: Zarnak
+            else (Laser Pointer Chasing > 7.50):
+              Predict: Quorvian
+        else (Reality Show Studies > 5.50):
+          Predict: Zarnak
+      else (Plant Telepathy Practice > 10.50):
+        if Tool Worship <= 8.00:
+          Predict: Quorvian
+        else (Tool Worship > 8.00):
+          Predict: Zarnak
+    else (Box Collecting > 4.50):
+      if Reality Show Studies <= 6.50:
+        if Laser Pointer Chasing <= 1.50:
+          Predict: Bliptor
+        else (Laser Pointer Chasing > 1.50):
+          if Tool Worship <= 4.50:
+            Predict: Bliptor
+          else (Tool Worship > 4.50):
+            if Tool Worship <= 6.50:
+              if Laser Pointer Chasing <= 3.50:
+                Predict: Bliptor
+              else (Laser Pointer Chasing > 3.50):
+                Predict: Quorvian
+            else (Tool Worship > 6.50):
+              Predict: Quorvian
+      else (Reality Show Studies > 6.50):
+        if Plant Telepathy Practice <= 13.50:
+          Predict: Quorvian
+        else (Plant Telepathy Practice > 13.50):
+          if Box Collecting <= 6.50:
+            Predict: Bliptor
+          else (Box Collecting > 6.50):
+            Predict: Quorvian
+else (Laser Pointer Chasing > 10.50):
+  if Tool Worship <= 7.50:
+    if Tool Worship <= 5.50:
+      Predict: Bliptor
+    else (Tool Worship > 5.50):
+      if Box Collecting <= 7.50:
+        Predict: Quorvian
+      else (Box Collecting > 7.50):
+        Predict: Bliptor
+  else (Tool Worship > 7.50):
+    Predict: Quorvian
+
+Tree 13 Rules:
+if Tool Worship <= 8.50:
+  if Box Collecting <= 9.00:
+    if Laser Pointer Chasing <= 1.50:
+      Predict: Bliptor
+    else (Laser Pointer Chasing > 1.50):
+      if Tool Worship <= 4.50:
+        Predict: Bliptor
+      else (Tool Worship > 4.50):
+        if Plant Telepathy Practice <= 13.50:
+          Predict: Quorvian
+        else (Plant Telepathy Practice > 13.50):
+          if Box Collecting <= 7.50:
+            Predict: Quorvian
+          else (Box Collecting > 7.50):
+            if Reality Show Studies <= 5.50:
+              if Laser Pointer Chasing <= 3.50:
+                Predict: Bliptor
+              else (Laser Pointer Chasing > 3.50):
+                Predict: Quorvian
+            else (Reality Show Studies > 5.50):
+              Predict: Quorvian
+  else (Box Collecting > 9.00):
+    Predict: Bliptor
+else (Tool Worship > 8.50):
+  if Reality Show Studies <= 7.50:
+    if Laser Pointer Chasing <= 7.50:
+      if Plant Telepathy Practice <= 10.50:
+        if Tool Worship <= 11.00:
+          if Laser Pointer Chasing <= 3.00:
+            if Tool Worship <= 9.50:
+              Predict: Quorvian
+            else (Tool Worship > 9.50):
+              if Reality Show Studies <= 6.50:
+                Predict: Zarnak
+              else (Reality Show Studies > 6.50):
+                Predict: Quorvian
+          else (Laser Pointer Chasing > 3.00):
+            Predict: Quorvian
+        else (Tool Worship > 11.00):
+          Predict: Zarnak
+      else (Plant Telepathy Practice > 10.50):
+        if Tool Worship <= 10.50:
+          if Box Collecting <= 5.00:
+            Predict: Zarnak
+          else (Box Collecting > 5.00):
+            Predict: Quorvian
+        else (Tool Worship > 10.50):
+          Predict: Zarnak
+    else (Laser Pointer Chasing > 7.50):
+      Predict: Quorvian
+  else (Reality Show Studies > 7.50):
+    Predict: Zarnak
+
+Tree 14 Rules:
+if Laser Pointer Chasing <= 10.50:
+  if Box Collecting <= 4.50:
+    if Box Collecting <= 3.50:
+      Predict: Zarnak
+    else (Box Collecting > 3.50):
+      if Reality Show Studies <= 7.50:
+        if Plant Telepathy Practice <= 11.50:
+          if Tool Worship <= 8.50:
+            Predict: Quorvian
+          else (Tool Worship > 8.50):
+            Predict: Zarnak
+        else (Plant Telepathy Practice > 11.50):
+          if Laser Pointer Chasing <= 7.50:
+            Predict: Zarnak
+          else (Laser Pointer Chasing > 7.50):
+            Predict: Quorvian
+      else (Reality Show Studies > 7.50):
+        Predict: Zarnak
+  else (Box Collecting > 4.50):
+    if Plant Telepathy Practice <= 11.50:
+      if Laser Pointer Chasing <= 1.00:
+        Predict: Bliptor
+      else (Laser Pointer Chasing > 1.00):
+        Predict: Quorvian
+    else (Plant Telepathy Practice > 11.50):
+      if Tool Worship <= 5.50:
+        Predict: Bliptor
+      else (Tool Worship > 5.50):
+        if Laser Pointer Chasing <= 1.50:
+          Predict: Bliptor
+        else (Laser Pointer Chasing > 1.50):
+          if Tool Worship <= 6.50:
+            if Reality Show Studies <= 5.50:
+              if Box Collecting <= 7.00:
+                Predict: Quorvian
+              else (Box Collecting > 7.00):
+                Predict: Bliptor
+            else (Reality Show Studies > 5.50):
+              Predict: Quorvian
+          else (Tool Worship > 6.50):
+            Predict: Quorvian
+else (Laser Pointer Chasing > 10.50):
+  if Box Collecting <= 7.50:
+    Predict: Quorvian
+  else (Box Collecting > 7.50):
+    Predict: Bliptor
+
+Tree 15 Rules:
+if Box Collecting <= 9.00:
+  if Box Collecting <= 4.50:
+    if Laser Pointer Chasing <= 7.50:
+      Predict: Zarnak
+    else (Laser Pointer Chasing > 7.50):
+      Predict: Quorvian
+  else (Box Collecting > 4.50):
+    if Tool Worship <= 5.00:
+      Predict: Bliptor
+    else (Tool Worship > 5.00):
+      if Plant Telepathy Practice <= 13.50:
+        Predict: Quorvian
+      else (Plant Telepathy Practice > 13.50):
+        if Laser Pointer Chasing <= 3.50:
+          if Tool Worship <= 7.50:
+            Predict: Bliptor
+          else (Tool Worship > 7.50):
+            Predict: Quorvian
+        else (Laser Pointer Chasing > 3.50):
+          Predict: Quorvian
+else (Box Collecting > 9.00):
+  Predict: Bliptor
+
+Tree 16 Rules:
+if Box Collecting <= 9.00:
+  if Tool Worship <= 10.50:
+    if Reality Show Studies <= 7.50:
+      if Box Collecting <= 3.50:
+        Predict: Zarnak
+      else (Box Collecting > 3.50):
+        if Tool Worship <= 5.50:
+          Predict: Bliptor
+        else (Tool Worship > 5.50):
+          if Tool Worship <= 6.50:
+            if Reality Show Studies <= 6.50:
+              if Box Collecting <= 7.50:
+                Predict: Quorvian
+              else (Box Collecting > 7.50):
+                if Reality Show Studies <= 5.50:
+                  Predict: Bliptor
+                else (Reality Show Studies > 5.50):
+                  if Plant Telepathy Practice <= 12.50:
+                    Predict: Bliptor
+                  else (Plant Telepathy Practice > 12.50):
+                    Predict: Quorvian
+            else (Reality Show Studies > 6.50):
+              Predict: Quorvian
+          else (Tool Worship > 6.50):
+            if Box Collecting <= 4.50:
+              if Laser Pointer Chasing <= 7.50:
+                Predict: Zarnak
+              else (Laser Pointer Chasing > 7.50):
+                Predict: Quorvian
+            else (Box Collecting > 4.50):
+              Predict: Quorvian
+    else (Reality Show Studies > 7.50):
+      Predict: Zarnak
+  else (Tool Worship > 10.50):
+    Predict: Zarnak
+else (Box Collecting > 9.00):
+  Predict: Bliptor
+
+Tree 17 Rules:
+if Box Collecting <= 9.00:
+  if Tool Worship <= 10.50:
+    if Box Collecting <= 3.50:
+      Predict: Zarnak
+    else (Box Collecting > 3.50):
+      if Laser Pointer Chasing <= 3.50:
+        if Box Collecting <= 4.50:
+          Predict: Zarnak
+        else (Box Collecting > 4.50):
+          if Laser Pointer Chasing <= 1.50:
+            Predict: Bliptor
+          else (Laser Pointer Chasing > 1.50):
+            if Plant Telepathy Practice <= 12.50:
+              Predict: Quorvian
+            else (Plant Telepathy Practice > 12.50):
+              if Reality Show Studies <= 5.50:
+                if Tool Worship <= 6.00:
+                  Predict: Bliptor
+                else (Tool Worship > 6.00):
+                  Predict: Quorvian
+              else (Reality Show Studies > 5.50):
+                if Reality Show Studies <= 6.50:
+                  if Box Collecting <= 6.50:
+                    Predict: Bliptor
+                  else (Box Collecting > 6.50):
+                    Predict: Quorvian
+                else (Reality Show Studies > 6.50):
+                  Predict: Quorvian
+      else (Laser Pointer Chasing > 3.50):
+        if Box Collecting <= 4.50:
+          if Reality Show Studies <= 4.50:
+            Predict: Quorvian
+          else (Reality Show Studies > 4.50):
+            if Reality Show Studies <= 6.50:
+              if Laser Pointer Chasing <= 7.50:
+                Predict: Zarnak
+              else (Laser Pointer Chasing > 7.50):
+                Predict: Quorvian
+            else (Reality Show Studies > 6.50):
+              Predict: Quorvian
+        else (Box Collecting > 4.50):
+          Predict: Quorvian
+  else (Tool Worship > 10.50):
+    Predict: Zarnak
+else (Box Collecting > 9.00):
+  Predict: Bliptor
+
+Tree 18 Rules:
+if Laser Pointer Chasing <= 10.50:
+  if Tool Worship <= 9.50:
+    if Tool Worship <= 5.50:
+      Predict: Bliptor
+    else (Tool Worship > 5.50):
+      if Box Collecting <= 4.50:
+        if Laser Pointer Chasing <= 7.50:
+          Predict: Zarnak
+        else (Laser Pointer Chasing > 7.50):
+          Predict: Quorvian
+      else (Box Collecting > 4.50):
+        if Tool Worship <= 6.50:
+          if Box Collecting <= 7.00:
+            Predict: Quorvian
+          else (Box Collecting > 7.00):
+            if Laser Pointer Chasing <= 1.50:
+              Predict: Bliptor
+            else (Laser Pointer Chasing > 1.50):
+              if Laser Pointer Chasing <= 2.50:
+                Predict: Quorvian
+              else (Laser Pointer Chasing > 2.50):
+                if Reality Show Studies <= 5.50:
+                  Predict: Bliptor
+                else (Reality Show Studies > 5.50):
+                  Predict: Quorvian
+        else (Tool Worship > 6.50):
+          Predict: Quorvian
+  else (Tool Worship > 9.50):
+    if Plant Telepathy Practice <= 7.50:
+      Predict: Zarnak
+    else (Plant Telepathy Practice > 7.50):
+      if Tool Worship <= 10.50:
+        if Laser Pointer Chasing <= 7.50:
+          if Box Collecting <= 5.00:
+            Predict: Zarnak
+          else (Box Collecting > 5.00):
+            Predict: Quorvian
+        else (Laser Pointer Chasing > 7.50):
+          Predict: Quorvian
+      else (Tool Worship > 10.50):
+        Predict: Zarnak
+else (Laser Pointer Chasing > 10.50):
+  if Box Collecting <= 7.50:
+    Predict: Quorvian
+  else (Box Collecting > 7.50):
+    Predict: Bliptor
+
+Tree 19 Rules:
+if Laser Pointer Chasing <= 10.50:
+  if Box Collecting <= 4.50:
+    if Laser Pointer Chasing <= 7.50:
+      Predict: Zarnak
+    else (Laser Pointer Chasing > 7.50):
+      Predict: Quorvian
+  else (Box Collecting > 4.50):
+    if Tool Worship <= 5.50:
+      Predict: Bliptor
+    else (Tool Worship > 5.50):
+      if Box Collecting <= 7.50:
+        Predict: Quorvian
+      else (Box Collecting > 7.50):
+        if Tool Worship <= 6.50:
+          if Laser Pointer Chasing <= 1.50:
+            Predict: Bliptor
+          else (Laser Pointer Chasing > 1.50):
+            if Reality Show Studies <= 5.50:
+              Predict: Bliptor
+            else (Reality Show Studies > 5.50):
+              Predict: Quorvian
+        else (Tool Worship > 6.50):
+          Predict: Quorvian
+else (Laser Pointer Chasing > 10.50):
+  if Plant Telepathy Practice <= 6.50:
+    Predict: Bliptor
+  else (Plant Telepathy Practice > 6.50):
+    Predict: Quorvian
+
+Aggregated Rules (Across Forest):
+
+Finished rule extraction. Output saved to 'extracted_rules.txt'.

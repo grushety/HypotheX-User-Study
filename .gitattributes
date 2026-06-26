@@ -1,0 +1,19 @@
+# Enforce consistent LF line endings in the repository.
+# Prevents Windows editors (e.g. PyCharm) from re-saving tracked text files
+# with CRLF and producing spurious whole-file diffs.
+* text=auto eol=lf
+
+# Explicit text types
+*.py    text eol=lf
+*.ipynb text eol=lf
+*.md    text eol=lf
+*.json  text eol=lf
+*.csv   text eol=lf
+*.txt   text eol=lf
+
+# Binary assets — never normalize or diff as text
+*.pkl  binary
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.pdf  binary
