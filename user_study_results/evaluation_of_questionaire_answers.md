@@ -765,7 +765,7 @@ Feature importance for Zarnak): BC, TW, LPC, RSS, PTP
 | EEC | 0.79 | 0.08 | 0.74 | 0.08 | 0.07 | Negligible |
 | LEC | 0.88 | 0.03 | 0.84 | 0.08 | 0.07 | Negligible |
 | HC | 0.20 | 0.05 | 0.22 | 0.03 | 0.07 | Negligible |
-| EC | 5.88 | 1.38 | 3.11 | 1.18 | 0.47 | Large |
+| EC | 5.88 | 1.38 | 3.28 | 1.18 | 0.47 | Large |
 | CHAAR | 0.61 | 0.14 | 0.62 | 0.14 | 0.00 | None |
 | DHAAR | 0.71 | 0.09 | 0.72 | 0.12 | 0.00 | None |
 

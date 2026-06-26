@@ -37,7 +37,7 @@ Participants are instructed to follow a four-step exploration methodology:
 
 Training material included:
 - Tip sheets and strategic exploration guides.
-- Short video tutorials per tool to accelerate familiarization.
+- Short video tutorials per tool to accelerate familiarization: [HypotheX](https://www.youtube.com/watch?v=-Cjlhmf-BxY) · [What-If Tool](https://www.youtube.com/watch?v=VpL8lX2T4fI&t=1s)
 
 
 ### 4. Exploration Tasks
